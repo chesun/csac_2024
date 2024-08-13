@@ -122,6 +122,8 @@ label var coll_app_challenges "Q26: challenges applying to college/trade school"
 rename q26_10_text coll_app_challenges_other
 label var coll_app_challenges_other "Q26: Free response for Other in college application challenges"
 
+order coll_factor_other colleges_applied coll_app_challenges coll_app_challenges_other, after(coll_factor_extra)
+
 label define attend_coll_lab 0 "No" 1 "Yes" -1 "I don't know"
 encode q27, generate(attend_coll) label(attend_coll_lab)
 label var attend_coll "Q27: plan to attend college in the fall"
@@ -145,6 +147,9 @@ label var why_no_coll_other "Q30: why won't attend college this fall: other"
 rename q32 coll_decision_inf
 label var coll_decision_inf "Q32: which might influence decision to attend college"
 
+
+order fall_plan - coll_decision_inf, after(attend_coll)
+
 ******** If yes to attend college ***********
 encode q34, generate(where_attend_coll) label(where_attend_coll_lab)
 label var where_attend_coll "Q34: where are you mostly likely to attend college this fall"
@@ -152,6 +157,8 @@ drop q34
 
 rename q35 which_coll
 label var which_coll "Q35: Which specific college are you mostly likely to attend"
+
+order which_coll, after(where_attend_coll)
 
 encode q36, generate(which_uc_campus) label(which_uc_campus_lab)
 label var which_uc_campus "Q36: which campus are you most likely to attend (if UC)"
@@ -200,6 +207,8 @@ label var social_platform "Q47: which social media platform did you use"
 rename q47_7_text social_platform_other
 label var social_platform_other "Q47: free response for which social media platform: other"
 
+order social_platform social_platform_other, after(helpful_source_private)
+
 gen social_reddit = (strpos(social_platform, "Reddit") !=0)
 gen social_fb = (strpos(social_platform, "Facebook") != 0)
 gen social_yt = (strpos(social_platform, "YouTube")!=0)
@@ -211,6 +220,8 @@ gen social_other = (strpos(social_platform, "Other (please list):") != 0)
 rename q49 help
 label var help "Q49: Who helped fill out college app"
 
+order help, after(social_other)
+
 gen help_parent = (strpos(help, "Parent(s)") != 0)
 gen help_family = (strpos(help, "Family members other than a parent") != 0)
 gen help_teacher = (strpos(help, "Teacher") != 0)
@@ -220,11 +231,20 @@ gen help_hscounselor = (strpos(help, "High school counselor") != 0)
 gen help_other = (strpos(help, "Other members of my community") != 0)
 gen help_self = (strpos(help, "I did it myself") != 0)
 
-
+label var help_parent "Q49: Parents"
+label var help_family "Q49: family other than parent"
+label var help_teacher "Q49: teacher"
+label var help_collstsaff "Q49: staff at future college"
+label var help_privcounselor "Q49: private counselor"
+label var help_hscounselor "Q49: HS counselor"
+label var help_other "Q49: other member of community"
+label var help_self "Q49: did it myself"
 
 
 rename q50 resrc
 label var resrc "Q50: Resources used when planning for college"
+
+order resrc, after(help_self)
 
 gen resrc_finaidtool = (strpos(resrc, "Financial aid tools") != 0)
 gen resrc_website = (strpos(resrc, "College websites") != 0)
@@ -242,10 +262,13 @@ label var resrc_other_text "Q50: free response for resources when planning for c
 rename q51 what_make_app_easier
 label var what_make_app_easier "Q51: what would have made coll app easier"
 
+order resrc_other_text what_make_app_easier, after(resrc_other)
 
 *********** College experience expectation ***********
 rename q54 how_to_pay
 label var how_to_pay "Q54: how do you plan to pay college tuition and fees"
+
+order how_to_pay, after(what_make_app_easier)
 
 encode q55, generate(major) label(major_lab) 
 label var major "Q55: what are you most likely to study in college"
@@ -261,6 +284,8 @@ foreach var of varlist tuition-support {
     encode `var', generate(coll_worry_`var') label(coll_worry_lab)
     label var coll_worry_`var' "Q58: worry about college"
 }
+
+order tuition-support, after(highest_degree)
 
 *********** High School Experience ************
 encode q61, generate(hs_type) label(hs_type_lab)
@@ -299,6 +324,7 @@ encode q69, g(transcript_atog) l(transcript_atog_lab)
 label var transcript_atog "Q69: how difficult to add DE coursework to transcript"
 drop q69
 
+order why_no_atog-why_dual_enr_other, after(track_atog)
 
 ************ Demographics *************
 
@@ -326,30 +352,38 @@ gen white = 1 if strpos(race_raw, "White/Non-Hispanic") !=0
 replace white = 0 if strpos(race_raw, "White/Non-Hispanic") ==0 & !mi(race_raw)
 
 // count as other race only if no predefined option was selected
-gen other_race = 1 if strpos(race_raw, "Other (Please specify):") !=0 ///
-     & (black == 0) & (native == 0) & (asian == 0) & (filipino == 0)  ///
-     & (hispanic == 0) & (islander == 0) & (white == 0)
-replace other_race = 0 if strpos(race_raw, "Other (Please specify):") ==0 & !mi(race_raw)
+gen other_race = (strpos(race_raw, "Other (Please specify):") !=0 ///
+     & (black == 0) & (native == 0) & (asian == 0) & (filipino == 0) ///
+     & (hispanic == 0) & (islander == 0) & (white == 0))
 
 rename q72_8_text other_race_text
 label var other_race_text "Q72: free response for race/ethnicity: other"
 
 // limit mutlirace to people who chose two or more from predefined options 
-gen multirace = 1 if strpos(race_raw, ",") !=0
-replace multirace = 0 if strpos(race_raw, ",") == 0 & !mi(race_raw) & other_race != 1
+gen numrace = 0
+foreach v of varlist black-white {
+    replace numrace = numrace + `v'
+}
+gen multirace = (numrace >= 2)
 
 label define race_lab 1 "Black" 2 "Native" 3 "Asian" 4 "Filipino" 5 "Hispanic" 6 "Pacific Islander" 7 "White" 8 "Other Race" 9 "Multiracial"
-gen race = 1 if black == 1 & multirace == 0
+gen race = .
+
+replace race = 8 if other_race == 1 & multirace == 0 
+
+replace race = 1 if black == 1 & multirace == 0
 replace race = 2 if native == 1 & multirace == 0
 replace race = 3 if asian == 1 & multirace == 0
 replace race = 4 if filipino == 1 & multirace == 0
 replace race = 5 if hispanic == 1 & multirace == 0
 replace race = 6 if islander == 1 & multirace == 0
 replace race = 7 if white == 1 & multirace == 0
-replace race = 8 if other_race == 1 & multirace == 0 
+
 replace race = 9 if multirace == 1
 label values race race_lab
-label var race "cleaned race"
+label var race "cleaned race, this is a partition"
+
+order race_raw other_race_text black-other_race numrace multirace race, after(transcript_atog)
 
 // parent education
 label define parent_edu_lab 0 "Don't know"
@@ -364,6 +398,8 @@ drop q76
 
 rename q78 home_lang_other
 label var home_lang_other "Q78: what language was primarily spoken at home"
+
+order home_lang_other, after(home_lang_eng)
 
 label define has_job_lab 0 "No" 1 "Yes"
 encode q80, g(has_job) l(has_job_lab)
@@ -393,12 +429,16 @@ rename q87 interview_email
 replace interview_email = strlower(strtrim(interview_email))
 label var interview_email "Q87: email for future interview"
 
+order gender_raw gender_other gender interview interview_email, after(hours_perweek)
+
 ************* open ended college expectations ***************
 rename q90 coll_excite
 label var coll_excite "Q90: what excites you most about college"
 
 rename q92 coll_challenge 
 label var coll_challenge "Q92: biggest challenge you will face in college"
+
+order coll_excite coll_challenge, after(interview_email)
 
 compress 
 save $projdir/dta/csac_2024_initial_clean.dta, replace 

@@ -2,3 +2,7 @@
 
 cd "/home/research/ca_ed_lab/projects/csac_survey2024"
 do do/settings.do
+
+
+do $projdir/do/clean/clean_qualtrics_download.do
+do $projdir/do/explore/explore_sample_char.do
