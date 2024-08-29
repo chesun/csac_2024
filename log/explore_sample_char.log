@@ -3,7 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/expl
 > ore_sample_char.smcl
   log type:  smcl
- opened on:  28 Aug 2024, 17:48:07
+ opened on:   7 Aug 2024, 13:30:26
 
 . 
 . graph drop _all
@@ -66,22 +66,18 @@ race
 . 
 . tab race if hs_senior==1 
 
-   race narrowly |
-         defined |
-       (mutually |
-      exclusive) |      Freq.     Percent        Cum.
+    cleaned race |      Freq.     Percent        Cum.
 -----------------+-----------------------------------
-           Black |        396        4.63        4.63
-          Native |         31        0.36        4.99
-           Asian |      1,001       11.69       16.68
-        Filipino |        133        1.55       18.23
-        Hispanic |      4,458       52.07       70.31
-Pacific Islander |         24        0.28       70.59
-           White |      1,350       15.77       86.36
-      Other Race |        180        2.10       88.46
-     Multiracial |        988       11.54      100.00
+           Black |        388        4.54        4.54
+          Native |         29        0.34        4.88
+           Asian |        968       11.33       16.22
+        Filipino |        132        1.55       17.76
+        Hispanic |      4,430       51.87       69.64
+Pacific Islander |         24        0.28       69.92
+           White |      1,319       15.44       85.36
+     Multiracial |      1,250       14.64      100.00
 -----------------+-----------------------------------
-           Total |      8,561      100.00
+           Total |      8,540      100.00
 
 . 
 . 
@@ -94,12 +90,12 @@ parent education
           Q73: highest parent education |      Freq.     Percent        Cum.
 ----------------------------------------+-----------------------------------
                              Don't know |        507        5.80        5.80
-           Did not complete high school |      1,813       20.75       26.55
-                    High school diploma |      2,389       27.34       53.89
-        Some college, no college degree |      1,133       12.97       66.86
-                       Associate degree |        452        5.17       72.03
-                      Bachelor's degree |      1,277       14.61       86.64
-Graduate/Professional degree beyond Bac |      1,167       13.36      100.00
+                       Associate degree |        452        5.17       10.98
+                      Bachelor's degree |      1,277       14.61       25.59
+           Did not complete high school |      1,813       20.75       46.34
+Graduate/Professional degree beyond Bac |      1,167       13.36       59.69
+                    High school diploma |      2,389       27.34       87.03
+        Some college, no college degree |      1,133       12.97      100.00
 ----------------------------------------+-----------------------------------
                                   Total |      8,738      100.00
 
@@ -250,7 +246,7 @@ social_red~t |     11,642    .0514516    .2209266          0          1
    social_fb |     11,642    .0125408    .1112861          0          1
    social_yt |     11,642    .1249785    .3307088          0          1
 social_tik~k |     11,642    .1764302    .3812021          0          1
-social_insta |     11,642     .202972    .4022291          0          1
+socila_insta |     11,642     .202972    .4022291          0          1
 -------------+---------------------------------------------------------
 social_twi~r |     11,642    .0144305    .1192623          0          1
 social_other |     11,642    .0401993    .1964347          0          1
@@ -288,7 +284,7 @@ resrc_agtool |     11,642           0           0          0          0
 resrc_appt~l |     11,642    .2223845    .4158659          0          1
 -------------+---------------------------------------------------------
 resrc_essa~l |     11,642    .1016148    .3021541          0          1
-resrc_coun~r |     11,642    .0623604    .2418194          0          1
+resrc_priv~r |     11,642    .0623604    .2418194          0          1
  resrc_other |     11,642    .0209586    .1432519          0          1
 
 . 
@@ -297,5 +293,5 @@ resrc_coun~r |     11,642    .0623604    .2418194          0          1
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/expl
 > ore_sample_char.smcl
   log type:  smcl
- closed on:  28 Aug 2024, 17:48:07
+ closed on:   7 Aug 2024, 13:30:26
 -------------------------------------------------------------------------------

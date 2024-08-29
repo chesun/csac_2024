@@ -47,12 +47,25 @@ drop q8
 
 *********** FAFSA*********
 
-rename q11 why_fafsa 
-label var why_fafsa "W11: Reason for completing FAFSA or CADAA"
+// Q11: wy did you complete FAFSA or CADAA? select all that apply
+rename q11 why_fafsa_raw
+label var why_fafsa_raw "W11: Reason for completing FAFSA or CADAA"
 
-rename q11_5_text why_fafsa_other
-replace why_fafsa_other = strlower(strtrim(why_fafsa_other))
-label var why_fafsa_other "W11: Free response for why completed FAFSA or CADAA"
+gen why_fafsa_requirement = (strpos(why_fafsa_raw, "It was a requirement for graduation")!=0)
+gen why_fafsa_assignment = (strpos(why_fafsa_raw, "It was part of an assignment for a class")!=0)
+gen why_fafsa_eligible = (strpos(why_fafsa_raw, "I wanted to see if I was eligible for financial aid")!=0)
+gen why_fafsa_expected = (strpos(why_fafsa_raw, "It was an expectation at my school")!=0)
+gen why_fafsa_other = (strpos(why_fafsa_raw, "Other (Please describe)")!=0)
+
+label var why_fafsa_requirement "why fafsa: requirement for graduation"
+label var why_fafsa_assignment "why fafsa: assignment for class"
+label var why_fafsa_eligible "why fafsa: check eligibility for financial aid"
+label var why_fafsa_expected "why fafsa: expected at school"
+label var why_fafsa_other "why fafsa: other"
+
+rename q11_5_text why_fafsa_other_text
+replace why_fafsa_other_text = strlower(strtrim(why_fafsa_other_text))
+label var why_fafsa_other_text "W11: Free response for why completed FAFSA or CADAA"
 
 encode q12, generate(when_heard_fafsa) label(when_heard_fafsa_lab)
 label var when_heard_fafsa "W12: When did you first hear about FAFSA or CADAA"
@@ -62,17 +75,65 @@ encode q14, generate(difficulty_apply_finaid) label(difficulty_apply_finaid_lab)
 label var difficulty_apply_finaid "Q14: How difficult was applying for financial aid"
 drop q14
 
-rename q15 apply_finaid_challenge
-label var apply_finaid_challenge "Q15: challenges you faced applying to FAFSA/CADAA"
+// Q15: what challenges did you face in applying for financial aid 
+    // via FAFSA or CADAA? select all that apply
+rename q15 finaid_challenge_raw
+label var finaid_challenge_raw "Q15: challenges you faced applying to FAFSA/CADAA"
 
-rename q15_9_text apply_finaid_challenge_other 
-replace apply_finaid_challenge_other = strlower(strtrim(apply_finaid_challenge_other))
-label var apply_finaid_challenge_other "Q15: Free response for challenges faced applying to FAFSA/CADAA"
+gen finaid_challenge_tech = (strpos(finaid_challenge_raw, "I had technical difficulties with the application")!=0)
+gen finaid_challenge_none = (strpos(finaid_challenge_raw, "I had no difficulties with the application") !=0)
+gen finaid_challenge_doc = (strpos(finaid_challenge_raw, "I had issues with the required documents") !=0)
+gen finaid_challenge_invite = (strpos(finaid_challenge_raw, "I had issues inviting financial contributors to FAFSA") !=0)
+gen finaid_challenge_multi = (strpos(finaid_challenge_raw, "It took me multiple attempts to submit the application") !=0)
+gen finaid_challenge_confusing = (strpos(finaid_challenge_raw, "The application was confusing") !=0)
+gen finaid_challenge_nohelp = (strpos(finaid_challenge_raw, "I could not find someone to help me complete the application") !=0)
+gen finaid_challenge_info = (strpos(finaid_challenge_raw, "I was concerned about sharing my family's information") !=0)
+gen finaid_challenge_whichapp = (strpos(finaid_challenge_raw, "I did not know which application to complete") !=0)
+gen finaid_challenge_other = (strpos(finaid_challenge_raw, "Other: (please explain)") !=0)
 
-rename q16 support_received
-label var support_received "Q16: Support received when applying for FAFSA/CADAA"
+label var finaid_challenge_tech "FAFSA challenges: technical difficulties"
+label var finaid_challenge_none "FAFSA challenges: no difficulties"
+label var finaid_challenge_doc "FAFSA challenges: issues with required documents"
+label var finaid_challenge_invite "FAFSA challenges: issues inviting financial contributors"
+label var finaid_challenge_multi "FAFSA challenges: took multiple attempts to submit"
+label var finaid_challenge_confusing "FAFSA challenges: application was confusing"
+label var finaid_challenge_nohelp "FAFSA challenges: could not find someone to help"
+label var finaid_challenge_info "FAFSA challenges: concerned about sharing family information"
+label var finaid_challenge_whichapp "FAFSA challenges: didn't know which applicationt o complete"
+label var finaid_challenge_other "FAFSA challenges: other/eplain"
 
-order why_fafsa why_fafsa_other when_heard_fafsa difficulty_apply_finaid apply_finaid_challenge apply_finaid_challenge_other support_received, after(hs_senior)
+
+rename q15_9_text finaid_challenge_other_text 
+replace finaid_challenge_other_text  = strlower(strtrim(finaid_challenge_other_text ))
+label var finaid_challenge_other_text  "Q15: Free response for challenges faced applying to FAFSA/CADAA"
+
+
+/* Q16: tell us about the support your received in completing FAFSA/CADAA. 
+    select all that apply */
+rename q16 support_received_raw
+label var support_received_raw "Q16: Support received when applying for FAFSA/CADAA"
+
+gen support_received_counselor = (strpos(support_received_raw, "High school counselor") !=0)
+gen support_received_teacher = (strpos(support_received_raw, "Teacher") !=0)
+gen support_received_hsworkshop = (strpos(support_received_raw, "FAFSA/CADAA workshop or training at your high school") !=0)
+gen support_received_cmworkshop = (strpos(support_received_raw, "FAFSA/CADAA workshop at community location outside of high school") !=0)
+gen support_received_parent = (strpos(support_received_raw, "Parent") !=0)
+gen support_received_family = (strpos(support_received_raw, "Family member other than parent") !=0)
+gen support_received_friend = (strpos(support_received_raw, "Friend") !=0)
+gen support_received_online = (strpos(support_received_raw, "Online resources") !=0)
+gen support_received_nobody = (strpos(support_received_raw, "Nobody (I completed it on my own)") !=0)
+
+lab var support_received_counselor "Q16 FAFSA support: HS counselor"
+lab var support_received_teacher "Q16 FAFSA support: teacher"
+lab var support_received_hsworkshop "Q16 FAFSA support: HS workshop"
+lab var support_received_cmworkshop "Q16 FAFSA support: community workshop"
+lab var support_received_parent "Q16 FAFSA support: parent"
+lab var support_received_family "Q16 FAFSA support: family other than parent"
+lab var support_received_friend "Q16 FAFSA support: friend"
+lab var support_received_online "Q16 FAFSA support: Online resources"
+lab var support_received_nobody "Q16 FAFSA support: Nobody, completed on my own"
+
+order why_fafsa_* when_heard_fafsa difficulty_apply_finaid finaid_challenge_* support_received_*, after(hs_senior)
 
 ********** College Attitudes ************
 label define coll_att_3pt_lab -1 "Disagree" 0 "Somewhat agree" 1 "Strongly agree"
@@ -93,6 +154,8 @@ foreach scale in 3pt 5pt {
 }
 drop q18_? q19_?
 
+order coll_att*, after(support_received_nobody)
+
 
 
 ********** College Applications *************
@@ -110,50 +173,131 @@ label var coll_factor_service "Q21: how should community service factor in coll 
 label var coll_factor_firstgen "Q21: how should being firstgen factor in coll app"
 label var coll_factor_extra "Q21: how should extracurricular activites factor in coll app"
 
-rename q22 coll_factor_other 
-label var coll_factor_other "Q22: what other factors should be considered in coll app"
+rename q22 coll_factor_other_text 
+label var coll_factor_other_text "Q22: what other factors should be considered in coll app"
 
-rename q25 colleges_applied
-label var colleges_applied "Q25: What colleges or universities did you apply to"
+/* Q25: did you apply to any colleges and universities? select all that apply */
+rename q25 coll_applied_raw
+label var coll_applied_raw "Q25: What colleges or universities did you apply to"
 
-rename q26 coll_app_challenges
-label var coll_app_challenges "Q26: challenges applying to college/trade school"
+gen coll_applied_ccc = (strpos(coll_applied_raw, "California Community College (CCC)") !=0)
+gen coll_applied_csu = (strpos(coll_applied_raw, "California State University (CSU)") !=0)
+gen coll_applied_uc = (strpos(coll_applied_raw, "University of California (UC)") !=0)
+gen coll_applied_priv4yr = (strpos(coll_applied_raw, "Private four-year college/university in California") !=0)
+gen coll_applied_vocation = (strpos(coll_applied_raw, "Vocational, technical, or career college in California") !=0)
+gen coll_applied_outside = (strpos(coll_applied_raw, "College or university outside of California") !=0)
+gen coll_applied_notsure = (strpos(coll_applied_raw, "I'm not sure") !=0)
+gen coll_applied_none = (strpos(coll_applied_raw, "I did not apply to a college") !=0)
 
-rename q26_10_text coll_app_challenges_other
-label var coll_app_challenges_other "Q26: Free response for Other in college application challenges"
+label var coll_applied_ccc "Q25: applied to CCC"
+label var coll_applied_csu "Q25: applied to CSU"
+label var coll_applied_uc "Q25: applied to UC"
+label var coll_applied_priv4yr "Q25: applied to private 4 year in CA"
+label var coll_applied_vocation "Q25: applied to vocational college in CA"
+label var coll_applied_outside "Q25: applied to college outside CA"
+label var coll_applied_notsure "Q25: not sure"
+label var coll_applied_none "Q25: did not apply to college"
 
-order coll_factor_other colleges_applied coll_app_challenges coll_app_challenges_other, after(coll_factor_extra)
+/* Q26: what challenges did you face when applying to college or trade school? select all that apply */
+rename q26 collapp_chall_raw
+label var collapp_chall_raw "Q26: challenges applying to college/trade school"
+
+gen collapp_chall_dna = (strpos(collapp_chall_raw, "I did not apply to a college or a trade school") !=0)
+gen collapp_chall_none = (strpos(collapp_chall_raw, "I did not face any challenges during the application process") !=0)
+gen collapp_chall_noinfo = (strpos(collapp_chall_raw, "I did not have enough information about how to apply") !=0)
+gen collapp_chall_dnu = (strpos(collapp_chall_raw, "I did not understand some of the questions on the application") !=0)
+gen collapp_chall_course = (strpos(collapp_chall_raw, "I had trouble entering in my high school coursework") !=0)
+gen collapp_chall_miss = (strpos(collapp_chall_raw, "I was missing necessary coursework for eligibility") !=0)
+gen collapp_chall_fee = (strpos(collapp_chall_raw, "I could not afford the application fees") !=0)
+gen collapp_chall_deadline = (strpos(collapp_chall_raw, "I missed an application deadline") !=0)
+gen collapp_chall_notready = (strpos(collapp_chall_raw, "I do not feel academically ready for college") !=0)
+gen collapp_chall_submit = (strpos(collapp_chall_raw, "I had difficulty submitting other required items (transcripts, essays, test scores, etc.)") !=0)
+gen collapp_chall_other = (strpos(collapp_chall_raw, "Other (please specify)") !=0)
+
+lab var collapp_chall_dna "Q26: did not apply to college"
+lab var collapp_chall_none "Q26: did not face challenges"
+lab var collapp_chall_noinfo "Q26: did nothave enough info"
+lab var collapp_chall_dnu "Q26: did not understand questions on application"
+lab var collapp_chall_course "Q26: trouble entering HS coursework"
+lab var collapp_chall_miss "Q26: missing necessary coursework for eligibility"
+lab var collapp_chall_fee "Q26: could not afford application fees"
+lab var collapp_chall_deadline "Q26: missed application deadline"
+lab var collapp_chall_notready "Q26: not academically ready for college"
+lab var collapp_chall_submit "Q26: difficulty submitting other required items"
+lab var collapp_chall_other "Q26: other (please specify)"
+
+rename q26_10_text collapp_chall_other_text
+label var collapp_chall_other_text "Q26: Free response for Other in college application challenges"
 
 label define attend_coll_lab 0 "No" 1 "Yes" -1 "I don't know"
 encode q27, generate(attend_coll) label(attend_coll_lab)
 label var attend_coll "Q27: plan to attend college in the fall"
 drop q27 
 
+order coll_applied* collapp_chall* attend_coll, after(coll_factor_extra)
+
 
 ********** If not attending college ************
-rename q29 fall_plan
-label var fall_plan "Q29: plans for coming fall"
+// Q29: what are your plans for this coming fall? select all that apply
+rename q29 fall_plan_raw
+label var fall_plan_raw "Q29: plans for coming fall"
 
-rename q29_5_text fall_plan_other
-label var fall_plan_other "Q29: free response for fall plans: other"
+gen fall_plan_workpt = (strpos(fall_plan_raw, "Work part-time") !=0)
+gen fall_plan_workft = (strpos(fall_plan_raw, "Work full-time") !=0)
+gen fall_plan_family = (strpos(fall_plan_raw, "Family obligations") !=0)
+gen fall_plan_military = (strpos(fall_plan_raw, "Military") !=0)
+gen fall_plan_other = (strpos(fall_plan_raw, "Other (please tell us):") !=0)
 
-rename q30 why_no_coll
-label var why_no_coll "Q30: why won't you attend college this fall"
+lab var fall_plan_workpt "Q29: work part time"
+lab var fall_plan_workft "Q29: work full time"
+lab var fall_plan_family "Q29: family obligations"
+lab var fall_plan_military "Q29: military"
+lab var fall_plan_other "Q29: other"
 
-rename q30_9_text why_no_coll_other 
-label var why_no_coll_other "Q30: why won't attend college this fall: other"
+rename q29_5_text fall_plan_other_text
+label var fall_plan_other_text "Q29: free response for fall plans: other"
+
+
+// Q30: why won't you be attending college this fall? select all that apply
+rename q30 why_no_coll_raw
+label var why_no_coll_raw "Q30: why won't you attend college this fall"
+
+gen why_no_coll_notforme = (strpos(why_no_coll_raw, "College is not for me") !=0)
+gen why_no_coll_expensive = (strpos(why_no_coll_raw, "College is too expensive, even with financial aid") !=0)
+gen why_no_coll_notworth = (strpos(why_no_coll_raw, "Going to college is not worth the cost") !=0)
+gen why_no_coll_gapyear = (strpos(why_no_coll_raw, "Gap year/break before college") !=0)
+gen why_no_coll_military = (strpos(why_no_coll_raw, "Military") !=0)
+gen why_no_coll_health = (strpos(why_no_coll_raw, "Health reasons") !=0)
+gen why_no_coll_work = (strpos(why_no_coll_raw, "I need to work") !=0)
+gen why_no_coll_training = (strpos(why_no_coll_raw, "In another education or training program") !=0)
+gen why_no_coll_other = (strpos(why_no_coll_raw, "Other (Please list)") !=0)
+
+rename q30_9_text why_no_coll_other_text
+label var why_no_coll_other_text "Q30: why won't attend college this fall: other"
 
 ********* If IDK college ***********
-rename q32 coll_decision_inf
-label var coll_decision_inf "Q32: which might influence decision to attend college"
 
+// Q32: which of the following might influence your decision of whether or not to attend college? select all that apply
+rename q32 coll_decision_raw
+label var coll_decision_raw "Q32: which might influence decision to attend college"
 
-order fall_plan - coll_decision_inf, after(attend_coll)
+gen coll_decision_financial = (strpos(coll_decision_raw, "Financial support") !=0)
+lab var coll_decision_financial "Q32: financial support"
+gen coll_decision_academic = (strpos(coll_decision_raw, "Academic support") !=0)
+lab var coll_decision_academic "Q32: academic support"
+gen coll_decision_family = (strpos(coll_decision_raw, "Family or other support") !=0)
+lab var coll_decision_family "Q32: family or other support"
+
+order fall_plan_raw fall_plan_workpt - fall_plan_other fall_plan_other_text ///
+    why_no_coll_raw why_no_coll_notforme - why_no_coll_other why_no_coll_other_text ///
+    coll_decision_raw coll_decision_financial - coll_decision_family, after(attend_coll)
 
 ******** If yes to attend college ***********
 encode q34, generate(where_attend_coll) label(where_attend_coll_lab)
 label var where_attend_coll "Q34: where are you mostly likely to attend college this fall"
 drop q34 
+label def where_attend_coll_lab 1 "CCC" 2 "CSU" 3 "UC" 4 "Priv 4yr" 5 "Vocational" 6 "Outside CA" 7 "None of these" 8 "Not sure", modify
+lab val where_attend_coll where_attend_coll_lab
 
 rename q35 which_coll
 label var which_coll "Q35: Which specific college are you mostly likely to attend"
@@ -177,9 +321,19 @@ encode q40, generate(coll_contact) label(coll_contact_lab)
 label var coll_contact "Q40: has any college contacted you about finaid"
 drop q40
 
-encode q42, generate(coll_contact_subject) label(coll_contact_subject_lab)
-label var coll_contact_subject "Q42: what did the colleges contact you about regarding your finaid"
-drop q42 
+// Q42: what did the colleges contact you about regarding your financial aid offer? select all that apply
+rename q42 coll_contact_subject_raw
+label var coll_contact_subject_raw "Q42: what did the colleges contact you about regarding your finaid"
+
+gen coll_contact_subject_doc = (strpos(coll_contact_subject_raw, "FAFSA/CADAA verification or additional documentation needed to process financial aid") !=0)
+gen coll_contact_subject_work = (strpos(coll_contact_subject_raw, "Eligibility for work study") !=0)
+gen coll_contact_subject_grant = (strpos(coll_contact_subject_raw, "Grants or scholarships") !=0)
+gen coll_contact_subject_loan = (strpos(coll_contact_subject_raw, "Information about loans") !=0)
+
+lab var coll_contact_subject_doc "Q42: FAFSA/CADAA verification or additional documentation"
+lab var coll_contact_subject_work "Q42: eligibility for work study"
+lab var coll_contact_subject_grant "Q42: grants or scholarships"
+lab var coll_contact_subject_loan "Q42: information about loans"
 
 ************ tools and factors in college selection ***********
 
@@ -200,36 +354,45 @@ encode q45_7, generate(helpful_source_private) label(helpful_source_lab)
 label var helpful_source_private "Q45: how helpful was private college counselor"
 drop q45_?
 
+// Q47: Which of these social media platforms did you use to find college or financial aid information? (Select all that apply)
+rename q47 social_raw
+label var social_raw "Q47: which social media platform did you use"
 
-rename q47 social_platform
-label var social_platform "Q47: which social media platform did you use"
+rename q47_7_text social_other_text
+label var social_other_text "Q47: free response for which social media platform: other"
 
-rename q47_7_text social_platform_other
-label var social_platform_other "Q47: free response for which social media platform: other"
+order social_raw social_other_text, after(helpful_source_private)
 
-order social_platform social_platform_other, after(helpful_source_private)
+gen social_reddit = (strpos(social_raw, "Reddit") !=0)
+gen social_fb = (strpos(social_raw, "Facebook") != 0)
+gen social_yt = (strpos(social_raw, "YouTube")!=0)
+gen social_tiktok = (strpos(social_raw, "TikTok") != 0)
+gen social_insta = (strpos(social_raw, "Instagram") != 0)
+gen social_twitter = (strpos(social_raw, "Twitter/X") != 0)
+gen social_other = (strpos(social_raw, "Other (please list):") != 0)
 
-gen social_reddit = (strpos(social_platform, "Reddit") !=0)
-gen social_fb = (strpos(social_platform, "Facebook") != 0)
-gen social_yt = (strpos(social_platform, "YouTube")!=0)
-gen social_tiktok = (strpos(social_platform, "TikTok") != 0)
-gen socila_insta = (strpos(social_platform, "Instagram") != 0)
-gen social_twitter = (strpos(social_platform, "Twitter/X") != 0)
-gen social_other = (strpos(social_platform, "Other (please list):") != 0)
+lab var social_reddit "Q47: Reddit"
+lab var social_fb "Q47: Facebook"
+lab var social_yt "Q47: YouTube"
+lab var social_tiktok "Q47: TikTok"
+lab var social_insta "Q47: Instagram"
+lab var social_twitter "Q47: Twitter"
+lab var social_other "Q47: Other (please list)"
 
-rename q49 help
-label var help "Q49: Who helped fill out college app"
+// Q49: Who helped you fill out your college application(s)? (Select all that apply)
+rename q49 help_raw
+label var help_raw "Q49: Who helped fill out college app"
 
-order help, after(social_other)
+order help_raw, after(social_other)
 
-gen help_parent = (strpos(help, "Parent(s)") != 0)
-gen help_family = (strpos(help, "Family members other than a parent") != 0)
-gen help_teacher = (strpos(help, "Teacher") != 0)
-gen help_collstsaff = (strpos(help, "Staff at my future college") != 0)
-gen help_privcounselor = (strpos(help, "College counselor or consultant hired by my family") != 0)
-gen help_hscounselor = (strpos(help, "High school counselor") != 0)
-gen help_other = (strpos(help, "Other members of my community") != 0)
-gen help_self = (strpos(help, "I did it myself") != 0)
+gen help_parent = (strpos(help_raw, "Parent(s)") != 0)
+gen help_family = (strpos(help_raw, "Family members other than a parent") != 0)
+gen help_teacher = (strpos(help_raw, "Teacher") != 0)
+gen help_collstsaff = (strpos(help_raw, "Staff at my future college") != 0)
+gen help_privcounselor = (strpos(help_raw, "College counselor or consultant hired by my family") != 0)
+gen help_hscounselor = (strpos(help_raw, "High school counselor") != 0)
+gen help_other = (strpos(help_raw, "Other members of my community") != 0)
+gen help_self = (strpos(help_raw, "I did it myself") != 0)
 
 label var help_parent "Q49: Parents"
 label var help_family "Q49: family other than parent"
@@ -240,21 +403,29 @@ label var help_hscounselor "Q49: HS counselor"
 label var help_other "Q49: other member of community"
 label var help_self "Q49: did it myself"
 
+// Q50: Which of the following resources did you use when planning for college? (Select all that apply)
+rename q50 resrc_raw
+label var resrc_raw "Q50: Resources used when planning for college"
 
-rename q50 resrc
-label var resrc "Q50: Resources used when planning for college"
+order resrc_raw, after(help_self)
 
-order resrc, after(help_self)
+gen resrc_finaidtool = (strpos(resrc_raw, "Financial aid tools") != 0)
+gen resrc_website = (strpos(resrc_raw, "College websites") != 0)
+gen resrc_comptool = (strpos(resrc_raw, "College comparison tools") != 0)
+gen resrc_agtool = (strpos(resrc_raw, "a-g course eligibility tools") != 0)
+gen resrc_apptool = (strpos(resrc_raw, "College application tools") != 0)
+gen resrc_essaytool = (strpos(resrc_raw, "College essay writing tools") != 0)
+gen resrc_counselor = (strpos(resrc_raw, "Private college counselor/consultant") != 0)
+gen resrc_other = (strpos(resrc_raw, "Other (please specify)") != 0)
 
-gen resrc_finaidtool = (strpos(resrc, "Financial aid tools") != 0)
-gen resrc_website = (strpos(resrc, "College websites") != 0)
-gen resrc_comptool = (strpos(resrc, "College comparison tools") != 0)
-gen resrc_agtool = (strpos(resrc, "a-g course eligibility tools") != 0)
-gen resrc_apptool = (strpos(resrc, "College application tools") != 0)
-gen resrc_essaytool = (strpos(resrc, "College essay writing tools") != 0)
-gen resrc_privcounselor = (strpos(resrc, "Private college counselor/consultant") != 0)
-gen resrc_other = (strpos(resrc, "Other (please specify)") != 0)
-
+lab var resrc_finaidtool "Q50: financial aid tools"
+lab var resrc_website "Q50: college website"
+lab var resrc_comptool "Q50: college comparison tools"
+lab var resrc_agtool "Q50: a-g course eligibility tools"
+lab var resrc_apptool "Q50: college application tools"
+lab var resrc_essaytool "Q50: college essay writing tools"
+lab var resrc_counselor "Q50: private college counselor"
+lab var resrc_other "Q50: other, please specify"
 
 rename q50_8_text resrc_other_text
 label var resrc_other_text "Q50: free response for resources when planning for college: other"
@@ -265,14 +436,65 @@ label var what_make_app_easier "Q51: what would have made coll app easier"
 order resrc_other_text what_make_app_easier, after(resrc_other)
 
 *********** College experience expectation ***********
-rename q54 how_to_pay
-label var how_to_pay "Q54: how do you plan to pay college tuition and fees"
+rename q54 pay_plan_raw
+label var pay_plan_raw "Q54: how do you plan to pay college tuition and fees"
 
-order how_to_pay, after(what_make_app_easier)
+order pay_plan_raw, after(what_make_app_easier)
 
+gen pay_plan_scholarship = (strpos(pay_plan_raw, "Scholarships") !=0)
+gen pay_plan_grant = (strpos(pay_plan_raw, "Grants (e.g., Pell Grant, Cal Grant)") !=0)
+gen pay_plan_saving = (strpos(pay_plan_raw, "My own savings") !=0)
+gen pay_plan_work = (strpos(pay_plan_raw, "Working while enrolled") !=0)
+gen pay_plan_otherppl = (strpos(pay_plan_raw, "Money from other people (e.g., parents, family, and friends)") !=0)
+gen pay_plan_loan = (strpos(pay_plan_raw, "Student loans") !=0)
+gen pay_plan_va = (strpos(pay_plan_raw, "Military/VA benefits") !=0)
+gen pay_plan_credit = (strpos(pay_plan_raw, "Credit card(s)") !=0)
+
+lab var pay_plan_scholarship "Q54: scholarships"
+lab var pay_plan_grant "Q54: grants"
+lab var pay_plan_saving "Q54: my own savings"
+lab var pay_plan_work "Q54: working while enrolled"
+lab var pay_plan_otherppl "Q54: money from other people"
+lab var pay_plan_loan "Q54: student loans"
+lab var pay_plan_va "Q54: military/VA benefits"
+lab var pay_plan_credit "Q54: credit cards"
+
+order pay_plan_raw, before(pay_plan_scholarship)
+
+// Q55: what are you most likely to study in college? this is select all that apply
+/* 
 encode q55, generate(major) label(major_lab) 
 label var major "Q55: what are you most likely to study in college"
-drop q55
+drop q55 */
+
+
+rename q55 major_raw 
+lab var major_raw "Q55: what are you most likely to study in college"
+
+gen major_business = (strpos(major_raw, "Business") !=0)
+gen major_engineering = (strpos(major_raw, "Engineering") !=0)
+gen major_science = (strpos(major_raw, "Natural sciences (e.g., biology, chemistry, physics)") !=0)
+gen major_social = (strpos(major_raw, "Social sciences (e.g., psychology, sociology, economics)") !=0)
+gen major_humanity = (strpos(major_raw, "Humanities & Arts (e.g., English, History, Arts)") !=0)
+gen major_health = (strpos(major_raw, "Health sciences") !=0)
+gen major_education = (strpos(major_raw, "Education") !=0)
+gen major_applied = (strpos(major_raw, "Applied sciences (e.g., automotive repair, HVAC, construction)") !=0)
+gen major_service = (strpos(major_raw, "Public service (e.g., criminal justice, fire science)") !=0)
+gen major_undecided = (strpos(major_raw, "Undecided") !=0)
+
+
+lab var major_business "Q55: Business"
+lab var major_engineering "Q55: Engineering"
+lab var major_science "Q55: Natural Scinces"
+lab var major_social "Q55: Social Sciences"
+lab var major_humanity "Q55: Humanities and Arts"
+lab var major_health "Q55: Health Sciences"
+lab var major_education "Q55: Education"
+lab var major_applied "Q55: Applied Sciences"
+lab var major_service "Q55: Public Service"
+lab var major_undecided "Q55: Undecided"
+
+order major_raw, before(major_business)
 
 encode q56, generate(highest_degree) label(highest_degree_lab)
 label var highest_degree "Q56: highest degree you hope to earn"
@@ -285,7 +507,7 @@ foreach var of varlist tuition-support {
     label var coll_worry_`var' "Q58: worry about college"
 }
 
-order tuition-support, after(highest_degree)
+order coll_worry_tuition-coll_worry_support, after(highest_degree)
 
 *********** High School Experience ************
 encode q61, generate(hs_type) label(hs_type_lab)
@@ -301,30 +523,63 @@ encode q63, generate(track_atog) label(track_atog_lab)
 label var track_atog "Q63: how difficult was it to keep track of a-g progress"
 drop q63 
 
-rename q64 why_no_atog
-label var why_no_atog "Q64: why not on track to complete a-g"
+// Q64: Why are you not on track to complete a-g? select all that apply 
+rename q64 why_no_atog_raw
+label var why_no_atog_raw "Q64: why not on track to complete a-g"
 
-label define dual_enr_lab -1 "Not sure" 0 "No" 1 "Yes"
-encode q66, generate(dual_enr) label(dual_enr_lab)
-label var dual_enr "Q66: did you take college courses in HS"
+gen why_no_atog_notrequired = (strpos(why_no_atog_raw, "They were not required for the college I plan to attend") !=0)
+gen why_no_atog_unknown = (strpos(why_no_atog_raw, "I did not know about the requirements") !=0)
+gen why_no_atog_nocourse = (strpos(why_no_atog_raw, "My high school did not offer the necessary courses") !=0)
+gen why_no_atog_lowgrade = (strpos(why_no_atog_raw, "My grades were too low in some of the required courses") !=0)
+gen why_no_atog_nocollege = (strpos(why_no_atog_raw, "I am not planning on attending college") !=0)
+gen why_no_atog_other = (strpos(why_no_atog_raw, "Other (please specify):") !=0)
+
+lab var why_no_atog_notrequired "Q64: not required for the college I plan to attend"
+lab var why_no_atog_unknown "Q64: didn't know about the requirements"
+lab var why_no_atog_nocourse "Q64: my HS didn't offer necessary courses"
+lab var why_no_atog_lowgrade "Q64: My grades were too low in some required courses"
+lab var why_no_atog_nocollege "Q64: I am not planning to attend college"
+lab var why_no_atog_other "Q64: Other"
+
+rename q64_6_text why_no_atog_other_text
+
+order why_no_atog_raw why_no_atog_other_text, after(why_no_atog_other)
+
+label define de_lab -1 "Not sure" 0 "No" 1 "Yes"
+encode q66, generate(de) label(de_lab)
+label var de "Q66: did you take college courses in HS"
 drop q66 
 
-rename q67 why_dual_enr 
-label var why_dual_enr "Q67: why did you take dual enrollment courses"
+// Q67: Why did you take these dual enrollment courses? (Select all that apply)
+rename q67 why_de_raw
+label var why_de_raw "Q67: why did you take dual enrollment courses"
 
-rename q67_5_text why_dual_enr_other
-label var why_dual_enr_other "Q67: why did you take dual enrollment: other"
+gen why_de_class = (strpos(why_de_raw, "To take classes not offered by my school") !=0)
+gen why_de_college = (strpos(why_de_raw, "To improve my chances of getting in a more selective college") !=0)
+gen why_de_reduce = (strpos(why_de_raw, "To reduce the number of courses I need to take in college") !=0)
+gen why_de_trade = (strpos(why_de_raw, "To be ready for a trade or job after high school") !=0)
+gen why_de_other = (strpos(why_de_raw, "Other (please explain)") !=0)
 
-label define dual_enr_atog_lab -1 "Not sure" 0 "No" 1 "Yes"
-encode q68, g(dual_enr_atog) l(dual_enr_atog_lab)
-label var dual_enr_atog "Q68: did you use any dual enroll courses to satisfy a-g for CSU/UC"
+lab var why_de_class "Q67: take classes not offered by my school"
+lab var why_de_college "Q67: improve chance of getting into selective college"
+lab var why_de_reduce "Q67: reduce number of courses needed in college"
+lab var why_de_trade "Q67: to be ready for a trade or job after HS"
+lab var why_de_other "Q67: other"
+
+rename q67_5_text why_de_other_text
+label var why_de_other_text "Q67: why did you take dual enrollment: other"
+
+order why_de_raw why_de_other_text, after(why_de_other)
+
+label define de_atog_lab -1 "Not sure" 0 "No" 1 "Yes"
+encode q68, g(de_atog) l(de_atog_lab)
+label var de_atog "Q68: did you use any dual enroll courses to satisfy a-g for CSU/UC"
 drop q68 
 
 encode q69, g(transcript_atog) l(transcript_atog_lab)
 label var transcript_atog "Q69: how difficult to add DE coursework to transcript"
 drop q69
 
-order why_no_atog-why_dual_enr_other, after(track_atog)
 
 ************ Demographics *************
 
@@ -332,61 +587,84 @@ order why_no_atog-why_dual_enr_other, after(track_atog)
 rename q72 race_raw
 gen black = 1 if strpos(race_raw, "Black/African American") !=0
 replace black = 0 if strpos(race_raw, "Black/African American") ==0 & !mi(race_raw)
+label var black "Black"
 
 gen native = 1 if strpos(race_raw, "American Indian/Alaskan Native") != 0
 replace native = 0 if strpos(race_raw, "American Indian/Alaskan Native") == 0 & !mi(race_raw)
+label var native "American Indian/Alaskan Native"
 
 gen asian = 1 if strpos(race_raw, "Asian") != 0
 replace asian = 0 if strpos(race_raw, "Asian") ==0 & !mi(race_raw)
+label var asian "Asian"
 
 gen filipino = 1 if strpos(race_raw, "Filipino") !=0
 replace filipino = 0 if strpos(race_raw, "Filipino") == 0 & !mi(race_raw)
+label var filipino "Filipino"
 
 gen hispanic = 1 if strpos(race_raw, "Hispanic/Latinx") != 0
 replace hispanic = 0 if strpos(race_raw, "Hispanic/Latinx") == 0 & !mi(race_raw)
+label var hispanic "Hispanic"
 
 gen islander = 1 if strpos(race_raw, "Pacific Islander") !=0
 replace islander = 0 if strpos(race_raw, "Pacific Islander") ==0 & !mi(race_raw)
+label var islander "Pacific Islander"
 
 gen white = 1 if strpos(race_raw, "White/Non-Hispanic") !=0
 replace white = 0 if strpos(race_raw, "White/Non-Hispanic") ==0 & !mi(race_raw)
+label var white "White/Non-Hispanic"
 
-// count as other race only if no predefined option was selected
-gen other_race = (strpos(race_raw, "Other (Please specify):") !=0 ///
-     & (black == 0) & (native == 0) & (asian == 0) & (filipino == 0) ///
-     & (hispanic == 0) & (islander == 0) & (white == 0))
+// if other race was selected 
+gen other_race = 1 if strpos(race_raw, "Other (Please specify):") !=0 
+replace other_race = 0 if strpos(race_raw, "Other (Please specify):") ==0 & !mi(race_raw)
+     /* & (black == 0) & (native == 0) & (asian == 0) & (filipino == 0) ///
+     & (hispanic == 0) & (islander == 0) & (white == 0)) */
+label var other_race "Other race was selected"
 
 rename q72_8_text other_race_text
 label var other_race_text "Q72: free response for race/ethnicity: other"
 
 // limit mutlirace to people who chose two or more from predefined options 
 gen numrace = 0
-foreach v of varlist black-white {
+foreach v of varlist black-other_race {
     replace numrace = numrace + `v'
 }
-gen multirace = (numrace >= 2)
 
-label define race_lab 1 "Black" 2 "Native" 3 "Asian" 4 "Filipino" 5 "Hispanic" 6 "Pacific Islander" 7 "White" 8 "Other Race" 9 "Multiracial"
+label define race_lab 1 "Black" 2 "Native" 3 "Asian" 4 "Filipino" ///
+    5 "Hispanic" 6 "Pacific Islander" 7 "White" 8 "Other Race" ///
+    9 "Multiracial" 
 gen race = .
 
-replace race = 8 if other_race == 1 & multirace == 0 
-
-replace race = 1 if black == 1 & multirace == 0
-replace race = 2 if native == 1 & multirace == 0
-replace race = 3 if asian == 1 & multirace == 0
-replace race = 4 if filipino == 1 & multirace == 0
-replace race = 5 if hispanic == 1 & multirace == 0
-replace race = 6 if islander == 1 & multirace == 0
-replace race = 7 if white == 1 & multirace == 0
-
-replace race = 9 if multirace == 1
+// select only black, native, etc. 
+replace race = 1 if black == 1 & numrace == 1
+replace race = 2 if native == 1 & numrace == 1
+replace race = 3 if asian == 1 & numrace == 1
+replace race = 4 if filipino == 1 & numrace == 1
+replace race = 5 if hispanic == 1 & numrace == 1
+replace race = 6 if islander == 1 & numrace == 1
+replace race = 7 if white == 1 & numrace == 1
+replace race = 8 if other_race == 1 & numrace == 1
+// select 1 predefined and other race
+replace race = 1 if black == 1 & other_race == 1 & numrace == 2 
+replace race = 2 if native == 1 & other_race == 1 & numrace == 2 
+replace race = 3 if asian == 1 & other_race == 1 & numrace == 2 
+replace race = 4 if filipino == 1 & other_race == 1 & numrace == 2 
+replace race = 5 if hispanic == 1 & other_race == 1 & numrace == 2 
+replace race = 6 if islander == 1 & other_race == 1 & numrace == 2 
+replace race = 7 if white == 1 & other_race == 1 & numrace == 2 
+// multiracial
+// select 2 or more predefined options 
+replace race = 9 if (numrace == 2 & other_race == 0) ///
+    | (numrace >= 3 & other_race == 1)
 label values race race_lab
-label var race "cleaned race, this is a partition"
+label var race "race narrowly defined (mutually exclusive)"
 
-order race_raw other_race_text black-other_race numrace multirace race, after(transcript_atog)
+order race_raw other_race_text black-other_race numrace race, after(transcript_atog)
 
 // parent education
-label define parent_edu_lab 0 "Don't know"
+label define parent_edu_lab 1 "Don't know" 2 "Did not complete high school" ///
+    3 "High school diploma" 4 "Some college, no college degree" ///
+    5 "Associate degree" 6 "Bachelor's degree" ///
+    7 "Graduate/Professional degree beyond Bachelor's degree (Master's, PhD, JD, MD, etc.)"
 encode q73, g(parent_edu) l(parent_edu_lab)
 label var parent_edu "Q73: highest parent education"
 drop q73 
@@ -417,8 +695,8 @@ rename q83 gender_raw
 label define gender_lab 0 "Man" 1 "Woman" 2 "Non-binary" 3 "Prefer not to say" 4 "Other (please feel free to specify)"
 encode gender_raw, g(gender) l(gender_lab)
 
-rename q83_5_text gender_other 
-label var gender_other "Free response for gender: other"
+rename q83_5_text gender_other_text
+label var gender_other_text "Free response for gender: other"
 
 label define interview_lab 0 "No" 1 "Yes"
 encode q85, g(interview) l(interview_lab)
@@ -429,7 +707,7 @@ rename q87 interview_email
 replace interview_email = strlower(strtrim(interview_email))
 label var interview_email "Q87: email for future interview"
 
-order gender_raw gender_other gender interview interview_email, after(hours_perweek)
+order gender_raw gender_other_text gender interview interview_email, after(hours_perweek)
 
 ************* open ended college expectations ***************
 rename q90 coll_excite

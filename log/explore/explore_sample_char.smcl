@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/explore_sample_char.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 7 Aug 2024, 13:30:26
+ {txt}opened on:  {res}28 Aug 2024, 17:48:07
 {txt}
 {com}. 
 . graph drop _all
@@ -66,18 +66,22 @@ I don't know {c |}{res}        417        4.16        4.16
 {com}. 
 . tab race if hs_senior==1 
 
-    {txt}cleaned race {c |}      Freq.     Percent        Cum.
+   {txt}race narrowly {c |}
+         defined {c |}
+       (mutually {c |}
+      exclusive) {c |}      Freq.     Percent        Cum.
 {hline 17}{c +}{hline 35}
-           Black {c |}{res}        388        4.54        4.54
-{txt}          Native {c |}{res}         29        0.34        4.88
-{txt}           Asian {c |}{res}        968       11.33       16.22
-{txt}        Filipino {c |}{res}        132        1.55       17.76
-{txt}        Hispanic {c |}{res}      4,430       51.87       69.64
-{txt}Pacific Islander {c |}{res}         24        0.28       69.92
-{txt}           White {c |}{res}      1,319       15.44       85.36
-{txt}     Multiracial {c |}{res}      1,250       14.64      100.00
+           Black {c |}{res}        396        4.63        4.63
+{txt}          Native {c |}{res}         31        0.36        4.99
+{txt}           Asian {c |}{res}      1,001       11.69       16.68
+{txt}        Filipino {c |}{res}        133        1.55       18.23
+{txt}        Hispanic {c |}{res}      4,458       52.07       70.31
+{txt}Pacific Islander {c |}{res}         24        0.28       70.59
+{txt}           White {c |}{res}      1,350       15.77       86.36
+{txt}      Other Race {c |}{res}        180        2.10       88.46
+{txt}     Multiracial {c |}{res}        988       11.54      100.00
 {txt}{hline 17}{c +}{hline 35}
-           Total {c |}{res}      8,540      100.00
+           Total {c |}{res}      8,561      100.00
 {txt}
 {com}. 
 . 
@@ -90,12 +94,12 @@ I don't know {c |}{res}        417        4.16        4.16
           {txt}Q73: highest parent education {c |}      Freq.     Percent        Cum.
 {hline 40}{c +}{hline 35}
                              Don't know {c |}{res}        507        5.80        5.80
-{txt}                       Associate degree {c |}{res}        452        5.17       10.98
-{txt}                      Bachelor's degree {c |}{res}      1,277       14.61       25.59
-{txt}           Did not complete high school {c |}{res}      1,813       20.75       46.34
-{txt}Graduate/Professional degree beyond Bac {c |}{res}      1,167       13.36       59.69
-{txt}                    High school diploma {c |}{res}      2,389       27.34       87.03
-{txt}        Some college, no college degree {c |}{res}      1,133       12.97      100.00
+{txt}           Did not complete high school {c |}{res}      1,813       20.75       26.55
+{txt}                    High school diploma {c |}{res}      2,389       27.34       53.89
+{txt}        Some college, no college degree {c |}{res}      1,133       12.97       66.86
+{txt}                       Associate degree {c |}{res}        452        5.17       72.03
+{txt}                      Bachelor's degree {c |}{res}      1,277       14.61       86.64
+{txt}Graduate/Professional degree beyond Bac {c |}{res}      1,167       13.36      100.00
 {txt}{hline 40}{c +}{hline 35}
                                   Total {c |}{res}      8,738      100.00
 {txt}
@@ -246,7 +250,7 @@ social_red~t {c |}{res}     11,642    .0514516    .2209266          0          1
 {txt}{space 3}social_fb {c |}{res}     11,642    .0125408    .1112861          0          1
 {txt}{space 3}social_yt {c |}{res}     11,642    .1249785    .3307088          0          1
 {txt}social_tik~k {c |}{res}     11,642    .1764302    .3812021          0          1
-{txt}socila_insta {c |}{res}     11,642     .202972    .4022291          0          1
+{txt}social_insta {c |}{res}     11,642     .202972    .4022291          0          1
 {txt}{hline 13}{c +}{hline 57}
 social_twi~r {c |}{res}     11,642    .0144305    .1192623          0          1
 {txt}social_other {c |}{res}     11,642    .0401993    .1964347          0          1
@@ -284,7 +288,7 @@ resrc_fina~l {c |}{res}     11,642    .3031266    .4596292          0          1
 {txt}resrc_appt~l {c |}{res}     11,642    .2223845    .4158659          0          1
 {txt}{hline 13}{c +}{hline 57}
 resrc_essa~l {c |}{res}     11,642    .1016148    .3021541          0          1
-{txt}resrc_priv~r {c |}{res}     11,642    .0623604    .2418194          0          1
+{txt}resrc_coun~r {c |}{res}     11,642    .0623604    .2418194          0          1
 {txt}{space 1}resrc_other {c |}{res}     11,642    .0209586    .1432519          0          1
 {txt}
 {com}. 
@@ -292,7 +296,7 @@ resrc_essa~l {c |}{res}     11,642    .1016148    .3021541          0          1
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/explore_sample_char.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 7 Aug 2024, 13:30:26
+ {txt}closed on:  {res}28 Aug 2024, 17:48:07
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
