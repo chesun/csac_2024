@@ -1,0 +1,1731 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
+> questions_simple.smcl
+  log type:  smcl
+ opened on:   5 Sep 2024, 10:43:30
+
+. 
+. foreach var of local all_qs {
+  2.     di "tabulation of `var'"
+  3.     
+.     tab `var' if hs_senior==1
+  4. 
+. }
+tabulation of why_fafsa_requirement
+
+ why fafsa: |
+requirement |
+        for |
+ graduation |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,164       61.54       61.54
+          1 |      4,478       38.46      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_fafsa_assignment
+
+ why fafsa: |
+ assignment |
+  for class |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,762       92.44       92.44
+          1 |        880        7.56      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_fafsa_eligible
+
+ why fafsa: |
+      check |
+eligibility |
+        for |
+  financial |
+        aid |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      4,633       39.80       39.80
+          1 |      7,009       60.20      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_fafsa_expected
+
+ why fafsa: |
+expected at |
+     school |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,724       74.94       74.94
+          1 |      2,918       25.06      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_fafsa_other
+
+ why fafsa: |
+      other |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,906       93.68       93.68
+          1 |        736        6.32      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of when_heard_fafsa
+
+W12: When did you first |
+    hear about FAFSA or |
+                  CADAA |      Freq.     Percent        Cum.
+------------------------+-----------------------------------
+            Junior year |      3,583       31.91       31.91
+Prior to my junior year |      3,076       27.39       59.30
+            Senior year |      4,571       40.70      100.00
+------------------------+-----------------------------------
+                  Total |     11,230      100.00
+tabulation of difficulty_apply_finaid
+
+Q14: How difficult |
+  was applying for |
+     financial aid |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Somewhat difficult |      3,928       36.56       36.56
+     Somewhat easy |      4,361       40.59       77.15
+    Very difficult |      1,336       12.43       89.58
+         Very easy |      1,119       10.42      100.00
+-------------------+-----------------------------------
+             Total |     10,744      100.00
+tabulation of finaid_challenge_tech
+
+      FAFSA |
+challenges: |
+  technical |
+difficultie |
+          s |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,980       68.54       68.54
+          1 |      3,662       31.46      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of finaid_challenge_none
+
+      FAFSA |
+challenges: |
+         no |
+difficultie |
+          s |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,954       76.91       76.91
+          1 |      2,688       23.09      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of finaid_challenge_doc
+
+      FAFSA |
+challenges: |
+issues with |
+   required |
+  documents |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,065       86.45       86.45
+          1 |      1,577       13.55      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of finaid_challenge_invite
+
+      FAFSA |
+challenges: |
+     issues |
+   inviting |
+  financial |
+contributor |
+          s |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,501       81.61       81.61
+          1 |      2,141       18.39      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of finaid_challenge_multi
+
+      FAFSA |
+challenges: |
+       took |
+   multiple |
+attempts to |
+     submit |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,064       77.86       77.86
+          1 |      2,578       22.14      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of finaid_challenge_confusing
+
+      FAFSA |
+challenges: |
+application |
+        was |
+  confusing |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,617       74.02       74.02
+          1 |      3,025       25.98      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of finaid_challenge_nohelp
+
+      FAFSA |
+challenges: |
+  could not |
+       find |
+ someone to |
+       help |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,017       94.63       94.63
+          1 |        625        5.37      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of finaid_challenge_info
+
+      FAFSA |
+challenges: |
+  concerned |
+      about |
+    sharing |
+     family |
+information |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,355       88.95       88.95
+          1 |      1,287       11.05      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of finaid_challenge_whichapp
+
+      FAFSA |
+challenges: |
+didn't know |
+      which |
+application |
+        t o |
+   complete |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,883       93.48       93.48
+          1 |        759        6.52      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of finaid_challenge_other
+
+      FAFSA |
+challenges: |
+other/eplai |
+          n |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,174       95.98       95.98
+          1 |        468        4.02      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of support_received_counselor
+
+  Q16 FAFSA |
+support: HS |
+  counselor |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      6,754       58.01       58.01
+          1 |      4,888       41.99      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of support_received_teacher
+
+  Q16 FAFSA |
+   support: |
+    teacher |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,265       79.58       79.58
+          1 |      2,377       20.42      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of support_received_hsworkshop
+
+  Q16 FAFSA |
+support: HS |
+   workshop |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,817       75.73       75.73
+          1 |      2,825       24.27      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of support_received_cmworkshop
+
+  Q16 FAFSA |
+   support: |
+  community |
+   workshop |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,989       94.39       94.39
+          1 |        653        5.61      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of support_received_parent
+
+  Q16 FAFSA |
+   support: |
+     parent |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      6,990       60.04       60.04
+          1 |      4,652       39.96      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of support_received_family
+
+  Q16 FAFSA |
+   support: |
+     family |
+ other than |
+     parent |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,956       85.52       85.52
+          1 |      1,686       14.48      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of support_received_friend
+
+  Q16 FAFSA |
+   support: |
+     friend |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,500       90.19       90.19
+          1 |      1,142        9.81      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of support_received_online
+
+  Q16 FAFSA |
+   support: |
+     Online |
+  resources |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,283       88.33       88.33
+          1 |      1,359       11.67      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of support_received_nobody
+
+  Q16 FAFSA |
+   support: |
+    Nobody, |
+  completed |
+  on my own |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,778       92.58       92.58
+          1 |        864        7.42      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_att_3pt_important
+
+    College is |
+ important for |
+     my future |
+         plans |      Freq.     Percent        Cum.
+---------------+-----------------------------------
+      Disagree |         45        0.83        0.83
+Somewhat agree |      1,009       18.67       19.51
+Strongly agree |      4,349       80.49      100.00
+---------------+-----------------------------------
+         Total |      5,403      100.00
+tabulation of coll_att_3pt_worth
+
+    College is |
+worth the cost |      Freq.     Percent        Cum.
+---------------+-----------------------------------
+      Disagree |        376        6.96        6.96
+Somewhat agree |      2,768       51.27       58.23
+Strongly agree |      2,255       41.77      100.00
+---------------+-----------------------------------
+         Total |      5,399      100.00
+tabulation of coll_att_3pt_ready
+
+          I am |
+  academically |
+     ready for |
+       college |      Freq.     Percent        Cum.
+---------------+-----------------------------------
+      Disagree |        136        2.52        2.52
+Somewhat agree |      2,389       44.25       46.77
+Strongly agree |      2,874       53.23      100.00
+---------------+-----------------------------------
+         Total |      5,399      100.00
+tabulation of coll_att_5pt_important
+
+  College is important for |
+           my future plans |      Freq.     Percent        Cum.
+---------------------------+-----------------------------------
+         Strongly disagree |        265        5.04        5.04
+         Somewhat disagree |         89        1.69        6.74
+Neither agree nor disagree |        293        5.58       12.31
+            Somewhat agree |      1,020       19.41       31.72
+            Strongly agree |      3,588       68.28      100.00
+---------------------------+-----------------------------------
+                     Total |      5,255      100.00
+tabulation of coll_att_5pt_worth
+
+ College is worth the cost |      Freq.     Percent        Cum.
+---------------------------+-----------------------------------
+         Strongly disagree |        205        3.92        3.92
+         Somewhat disagree |        441        8.43       12.35
+Neither agree nor disagree |      1,063       20.33       32.68
+            Somewhat agree |      1,995       38.15       70.82
+            Strongly agree |      1,526       29.18      100.00
+---------------------------+-----------------------------------
+                     Total |      5,230      100.00
+tabulation of coll_att_5pt_ready
+
+   I am academically ready |
+               for college |      Freq.     Percent        Cum.
+---------------------------+-----------------------------------
+         Strongly disagree |        116        2.22        2.22
+         Somewhat disagree |        230        4.40        6.62
+Neither agree nor disagree |        727       13.90       20.52
+            Somewhat agree |      2,214       42.33       62.85
+            Strongly agree |      1,943       37.15      100.00
+---------------------------+-----------------------------------
+                     Total |      5,230      100.00
+tabulation of coll_factor_gpa
+
+    Q21: how |
+ should High |
+  School GPA |
+   factor in |
+     college |
+applications |      Freq.     Percent        Cum.
+-------------+-----------------------------------
+Not a factor |        334        3.24        3.24
+Minor Factor |      4,208       40.86       44.10
+Major Factor |      5,757       55.90      100.00
+-------------+-----------------------------------
+       Total |     10,299      100.00
+tabulation of coll_factor_score
+
+    Q21: how |
+  should std |
+  test score |
+   factor in |
+    coll app |      Freq.     Percent        Cum.
+-------------+-----------------------------------
+Not a factor |      2,676       26.02       26.02
+Minor Factor |      5,789       56.29       82.31
+Major Factor |      1,819       17.69      100.00
+-------------+-----------------------------------
+       Total |     10,284      100.00
+tabulation of coll_factor_service
+
+    Q21: how |
+      should |
+   community |
+     service |
+   factor in |
+    coll app |      Freq.     Percent        Cum.
+-------------+-----------------------------------
+Not a factor |      1,972       19.15       19.15
+Minor Factor |      5,302       51.50       70.66
+Major Factor |      3,021       29.34      100.00
+-------------+-----------------------------------
+       Total |     10,295      100.00
+tabulation of coll_factor_firstgen
+
+    Q21: how |
+should being |
+    firstgen |
+   factor in |
+    coll app |      Freq.     Percent        Cum.
+-------------+-----------------------------------
+Not a factor |      2,275       22.12       22.12
+Minor Factor |      3,463       33.67       55.79
+Major Factor |      4,547       44.21      100.00
+-------------+-----------------------------------
+       Total |     10,285      100.00
+tabulation of coll_factor_extra
+
+    Q21: how |
+      should |
+extracurricu |
+         lar |
+   activites |
+   factor in |
+    coll app |      Freq.     Percent        Cum.
+-------------+-----------------------------------
+Not a factor |      1,028        9.99        9.99
+Minor Factor |      4,935       47.97       57.97
+Major Factor |      4,324       42.03      100.00
+-------------+-----------------------------------
+       Total |     10,287      100.00
+tabulation of coll_applied_ccc
+
+       Q25: |
+ applied to |
+        CCC |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      6,134       52.69       52.69
+          1 |      5,508       47.31      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_applied_csu
+
+       Q25: |
+ applied to |
+        CSU |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,151       61.42       61.42
+          1 |      4,491       38.58      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_applied_uc
+
+       Q25: |
+ applied to |
+         UC |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,179       70.25       70.25
+          1 |      3,463       29.75      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_applied_priv4yr
+
+       Q25: |
+ applied to |
+  private 4 |
+ year in CA |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,888       84.93       84.93
+          1 |      1,754       15.07      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_applied_vocation
+
+       Q25: |
+ applied to |
+ vocational |
+ college in |
+         CA |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,337       97.38       97.38
+          1 |        305        2.62      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_applied_outside
+
+       Q25: |
+ applied to |
+    college |
+ outside CA |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,939       85.37       85.37
+          1 |      1,703       14.63      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_applied_notsure
+
+   Q25: not |
+       sure |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,342       97.42       97.42
+          1 |        300        2.58      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_applied_none
+
+   Q25: did |
+  not apply |
+ to college |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,357       97.55       97.55
+          1 |        285        2.45      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of collapp_chall_dna
+
+   Q26: did |
+  not apply |
+ to college |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,004       94.52       94.52
+          1 |        638        5.48      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of collapp_chall_none
+
+   Q26: did |
+   not face |
+ challenges |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,355       63.18       63.18
+          1 |      4,287       36.82      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of collapp_chall_noinfo
+
+   Q26: did |
+    nothave |
+enough info |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,317       88.62       88.62
+          1 |      1,325       11.38      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of collapp_chall_dnu
+
+   Q26: did |
+        not |
+ understand |
+  questions |
+         on |
+application |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,678       83.13       83.13
+          1 |      1,964       16.87      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of collapp_chall_course
+
+       Q26: |
+    trouble |
+entering HS |
+ coursework |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,645       91.44       91.44
+          1 |        997        8.56      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of collapp_chall_miss
+
+       Q26: |
+    missing |
+  necessary |
+ coursework |
+        for |
+eligibility |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,389       97.83       97.83
+          1 |        253        2.17      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of collapp_chall_fee
+
+ Q26: could |
+ not afford |
+application |
+       fees |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,829       93.02       93.02
+          1 |        813        6.98      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of collapp_chall_deadline
+
+Q26: missed |
+application |
+   deadline |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,088       95.24       95.24
+          1 |        554        4.76      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of collapp_chall_notready
+
+   Q26: not |
+academicall |
+y ready for |
+    college |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,037       94.80       94.80
+          1 |        605        5.20      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of collapp_chall_submit
+
+       Q26: |
+ difficulty |
+ submitting |
+      other |
+   required |
+      items |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,516       90.33       90.33
+          1 |      1,126        9.67      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of collapp_chall_other
+
+ Q26: other |
+    (please |
+   specify) |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,278       96.87       96.87
+          1 |        364        3.13      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of attend_coll
+
+Q27: plan to |
+      attend |
+  college in |
+    the fall |      Freq.     Percent        Cum.
+-------------+-----------------------------------
+I don't know |        417        4.16        4.16
+          No |        164        1.64        5.79
+         Yes |      9,448       94.21      100.00
+-------------+-----------------------------------
+       Total |     10,029      100.00
+tabulation of fall_plan_workpt
+
+  Q29: work |
+  part time |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,568       99.36       99.36
+          1 |         74        0.64      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of fall_plan_workft
+
+  Q29: work |
+  full time |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,605       99.68       99.68
+          1 |         37        0.32      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of fall_plan_family
+
+Q29: family |
+obligations |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,621       99.82       99.82
+          1 |         21        0.18      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of fall_plan_military
+
+       Q29: |
+   military |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,624       99.85       99.85
+          1 |         18        0.15      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of fall_plan_other
+
+ Q29: other |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,607       99.70       99.70
+          1 |         35        0.30      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_coll_notforme
+
+why_no_coll |
+  _notforme |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,626       99.86       99.86
+          1 |         16        0.14      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_coll_expensive
+
+why_no_coll |
+ _expensive |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,621       99.82       99.82
+          1 |         21        0.18      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_coll_notworth
+
+why_no_coll |
+  _notworth |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,626       99.86       99.86
+          1 |         16        0.14      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_coll_gapyear
+
+why_no_coll |
+   _gapyear |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,597       99.61       99.61
+          1 |         45        0.39      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_coll_military
+
+why_no_coll |
+  _military |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,624       99.85       99.85
+          1 |         18        0.15      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_coll_health
+
+why_no_coll |
+    _health |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,638       99.97       99.97
+          1 |          4        0.03      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_coll_work
+
+why_no_coll |
+      _work |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,606       99.69       99.69
+          1 |         36        0.31      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_coll_training
+
+why_no_coll |
+  _training |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,623       99.84       99.84
+          1 |         19        0.16      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_coll_other
+
+why_no_coll |
+     _other |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,606       99.69       99.69
+          1 |         36        0.31      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_decision_financial
+
+       Q32: |
+  financial |
+    support |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,333       97.35       97.35
+          1 |        309        2.65      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_decision_academic
+
+       Q32: |
+   academic |
+    support |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,506       98.83       98.83
+          1 |        136        1.17      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_decision_family
+
+Q32: family |
+   or other |
+    support |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,474       98.56       98.56
+          1 |        168        1.44      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of where_attend_coll
+
+   Q34: where |
+      are you |
+mostly likely |
+    to attend |
+ college this |
+         fall |      Freq.     Percent        Cum.
+--------------+-----------------------------------
+          CCC |      4,325       45.93       45.93
+          CSU |      1,987       21.10       67.03
+           UC |        519        5.51       72.55
+     Priv 4yr |        318        3.38       75.92
+   Vocational |        159        1.69       77.61
+   Outside CA |        420        4.46       82.07
+None of these |      1,533       16.28       98.35
+     Not sure |        155        1.65      100.00
+--------------+-----------------------------------
+        Total |      9,416      100.00
+tabulation of which_uc_campus
+
+      Q36: which |
+  campus are you |
+  most likely to |
+  attend (if UC) |      Freq.     Percent        Cum.
+-----------------+-----------------------------------
+    Not sure yet |         10        0.67        0.67
+     UC Berkeley |        131        8.72        9.39
+        UC Davis |        416       27.70       37.08
+       UC Irvine |        145        9.65       46.74
+  UC Los Angeles |        158       10.52       57.26
+       UC Merced |         78        5.19       62.45
+    UC Riverside |        118        7.86       70.31
+    UC San Diego |        178       11.85       82.16
+UC Santa Barbara |        152       10.12       92.28
+   UC Santa Cruz |        116        7.72      100.00
+-----------------+-----------------------------------
+           Total |      1,502      100.00
+tabulation of which_csu_campus
+
+   Q37: which campus are |
+    you mostly likely to |
+         attend (if CSU) |      Freq.     Percent        Cum.
+-------------------------+-----------------------------------
+         CSU Bakersfield |         48        2.49        2.49
+     CSU Channel Islands |         21        1.09        3.58
+     CSU Dominguez Hills |         69        3.58        7.15
+        CSU Monterey Bay |         61        3.16       10.32
+          CSU San Marcos |         50        2.59       12.91
+                    CSUN |        167        8.66       21.57
+            Cal Maritime |          5        0.26       21.82
+       Cal Poly Humboldt |         34        1.76       23.59
+         Cal Poly Pomona |        137        7.10       30.69
+Cal Poly San Luis Obispo |        122        6.32       37.01
+      Cal State East Bay |         19        0.98       38.00
+     Cal State Fullerton |        179        9.28       47.28
+            Cal State LA |        106        5.50       52.77
+    Cal State Long Beach |        194       10.06       62.83
+Cal State San Bernardino |         55        2.85       65.68
+             Chico State |         63        3.27       68.95
+            Fresno State |        134        6.95       75.89
+            Not sure yet |          8        0.41       76.31
+        Sacramento State |        157        8.14       84.45
+         San Diego State |        107        5.55       89.99
+     San Francisco State |         54        2.80       92.79
+          San Jose State |        101        5.24       98.03
+            Sonoma State |         17        0.88       98.91
+        Stanislaus State |         21        1.09      100.00
+-------------------------+-----------------------------------
+                   Total |      1,929      100.00
+tabulation of how_sure_attend
+
+            Q38 |      Freq.     Percent        Cum.
+----------------+-----------------------------------
+  Somewhat sure |      1,295       14.66       14.66
+Absolutely Sure |      7,362       83.32       97.97
+         Unsure |        179        2.03      100.00
+----------------+-----------------------------------
+          Total |      8,836      100.00
+tabulation of coll_contact
+
+   Q40: has |
+any college |
+  contacted |
+  you about |
+     finaid |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        All |      2,630       28.28       28.28
+       None |      2,806       30.18       58.46
+       Some |      3,863       41.54      100.00
+------------+-----------------------------------
+      Total |      9,299      100.00
+tabulation of coll_contact_subject_doc
+
+       Q42: |
+FAFSA/CADAA |
+verificatio |
+       n or |
+ additional |
+documentati |
+         on |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,811       67.09       67.09
+          1 |      3,831       32.91      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_contact_subject_work
+
+       Q42: |
+eligibility |
+   for work |
+      study |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,839       84.51       84.51
+          1 |      1,803       15.49      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_contact_subject_grant
+
+Q42: grants |
+         or |
+scholarship |
+          s |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,907       67.92       67.92
+          1 |      3,735       32.08      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of coll_contact_subject_loan
+
+       Q42: |
+information |
+about loans |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,927       76.68       76.68
+          1 |      2,715       23.32      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of helpful_source_hs
+
+  Q45: how helpful |
+ was HS counselors |
+      and teachers |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all helpful |        844        9.65        9.65
+  Somewhat helpful |      3,936       44.99       54.64
+      Very Helpful |      3,968       45.36      100.00
+-------------------+-----------------------------------
+             Total |      8,748      100.00
+tabulation of helpful_source_parent
+
+  Q45: how helpful |
+      were parents |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all helpful |      1,539       18.67       18.67
+  Somewhat helpful |      3,759       45.59       64.26
+      Very Helpful |      2,947       35.74      100.00
+-------------------+-----------------------------------
+             Total |      8,245      100.00
+tabulation of helpful_source_family
+
+  Qrt: how helpful |
+       were family |
+           members |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all helpful |      1,757       27.65       27.65
+  Somewhat helpful |      2,828       44.50       72.15
+      Very Helpful |      1,770       27.85      100.00
+-------------------+-----------------------------------
+             Total |      6,355      100.00
+tabulation of helpful_source_friend
+
+  Q45: how helpful |
+      were friends |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all helpful |      1,535       21.58       21.58
+  Somewhat helpful |      4,153       58.39       79.98
+      Very Helpful |      1,424       20.02      100.00
+-------------------+-----------------------------------
+             Total |      7,112      100.00
+tabulation of helpful_source_social
+
+  Q45: how helpful |
+  was social media |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all helpful |      2,047       32.01       32.01
+  Somewhat helpful |      3,353       52.43       84.44
+      Very Helpful |        995       15.56      100.00
+-------------------+-----------------------------------
+             Total |      6,395      100.00
+tabulation of helpful_source_college
+
+  Q45: how helpful |
+      were college |
+     website/staff |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all helpful |      1,021       12.92       12.92
+  Somewhat helpful |      4,492       56.85       69.77
+      Very Helpful |      2,389       30.23      100.00
+-------------------+-----------------------------------
+             Total |      7,902      100.00
+tabulation of helpful_source_private
+
+  Q45: how helpful |
+       was private |
+ college counselor |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all helpful |        859       20.58       20.58
+  Somewhat helpful |      1,839       44.06       64.64
+      Very Helpful |      1,476       35.36      100.00
+-------------------+-----------------------------------
+             Total |      4,174      100.00
+tabulation of social_reddit
+
+Q47: Reddit |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,043       94.85       94.85
+          1 |        599        5.15      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of social_fb
+
+       Q47: |
+   Facebook |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,496       98.75       98.75
+          1 |        146        1.25      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of social_yt
+
+       Q47: |
+    YouTube |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,187       87.50       87.50
+          1 |      1,455       12.50      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of social_tiktok
+
+Q47: TikTok |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,588       82.36       82.36
+          1 |      2,054       17.64      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of social_insta
+
+       Q47: |
+  Instagram |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,279       79.70       79.70
+          1 |      2,363       20.30      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of social_twitter
+
+       Q47: |
+    Twitter |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,474       98.56       98.56
+          1 |        168        1.44      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of social_other
+
+ Q47: Other |
+    (please |
+      list) |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,174       95.98       95.98
+          1 |        468        4.02      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of help_parent
+
+       Q49: |
+    Parents |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,714       66.26       66.26
+          1 |      3,928       33.74      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of help_family
+
+Q49: family |
+ other than |
+     parent |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,333       88.76       88.76
+          1 |      1,309       11.24      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of help_teacher
+
+       Q49: |
+    teacher |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,795       84.14       84.14
+          1 |      1,847       15.86      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of help_collstsaff
+
+ Q49: staff |
+  at future |
+    college |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,851       93.21       93.21
+          1 |        791        6.79      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of help_privcounselor
+
+       Q49: |
+    private |
+  counselor |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,019       94.65       94.65
+          1 |        623        5.35      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of help_hscounselor
+
+    Q49: HS |
+  counselor |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,002       68.73       68.73
+          1 |      3,640       31.27      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of help_other
+
+ Q49: other |
+  member of |
+  community |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,161       95.87       95.87
+          1 |        481        4.13      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of help_self
+
+Q49: did it |
+     myself |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,764       75.28       75.28
+          1 |      2,878       24.72      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of resrc_finaidtool
+
+       Q50: |
+  financial |
+  aid tools |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,113       69.69       69.69
+          1 |      3,529       30.31      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of resrc_website
+
+       Q50: |
+    college |
+    website |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      6,824       58.62       58.62
+          1 |      4,818       41.38      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of resrc_comptool
+
+       Q50: |
+    college |
+ comparison |
+      tools |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,134       87.05       87.05
+          1 |      1,508       12.95      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of resrc_agtool
+
+   Q50: a-g |
+     course |
+eligibility |
+      tools |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,642      100.00      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of resrc_apptool
+
+       Q50: |
+    college |
+application |
+      tools |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,053       77.76       77.76
+          1 |      2,589       22.24      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of resrc_essaytool
+
+       Q50: |
+    college |
+      essay |
+    writing |
+      tools |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,459       89.84       89.84
+          1 |      1,183       10.16      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of resrc_counselor
+
+       Q50: |
+    private |
+    college |
+  counselor |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,916       93.76       93.76
+          1 |        726        6.24      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of resrc_other
+
+Q50: other, |
+     please |
+    specify |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,398       97.90       97.90
+          1 |        244        2.10      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of pay_plan_scholarship
+
+       Q54: |
+scholarship |
+          s |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,454       64.03       64.03
+          1 |      4,188       35.97      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of pay_plan_grant
+
+Q54: grants |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,223       62.04       62.04
+          1 |      4,419       37.96      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of pay_plan_saving
+
+Q54: my own |
+    savings |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,754       75.19       75.19
+          1 |      2,888       24.81      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of pay_plan_work
+
+       Q54: |
+    working |
+      while |
+   enrolled |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      6,686       57.43       57.43
+          1 |      4,956       42.57      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of pay_plan_otherppl
+
+ Q54: money |
+ from other |
+     people |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,170       70.18       70.18
+          1 |      3,472       29.82      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of pay_plan_loan
+
+       Q54: |
+    student |
+      loans |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,956       76.93       76.93
+          1 |      2,686       23.07      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of pay_plan_va
+
+       Q54: |
+military/VA |
+   benefits |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,418       98.08       98.08
+          1 |        224        1.92      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of pay_plan_credit
+
+Q54: credit |
+      cards |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,213       96.32       96.32
+          1 |        429        3.68      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of major_business
+
+       Q55: |
+   Business |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,408       89.40       89.40
+          1 |      1,234       10.60      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of major_engineering
+
+       Q55: |
+Engineering |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,268       88.20       88.20
+          1 |      1,374       11.80      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of major_science
+
+       Q55: |
+    Natural |
+    Scinces |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,930       85.29       85.29
+          1 |      1,712       14.71      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of major_social
+
+Q55: Social |
+   Sciences |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,343       88.84       88.84
+          1 |      1,299       11.16      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of major_humanity
+
+       Q55: |
+ Humanities |
+   and Arts |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,516       90.33       90.33
+          1 |      1,126        9.67      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of major_health
+
+Q55: Health |
+   Sciences |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,804       84.21       84.21
+          1 |      1,838       15.79      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of major_education
+
+       Q55: |
+  Education |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,027       94.72       94.72
+          1 |        615        5.28      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of major_applied
+
+       Q55: |
+    Applied |
+   Sciences |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,195       96.16       96.16
+          1 |        447        3.84      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of major_service
+
+Q55: Public |
+    Service |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,982       94.33       94.33
+          1 |        660        5.67      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of major_undecided
+
+       Q55: |
+  Undecided |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,932       93.90       93.90
+          1 |        710        6.10      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of highest_degree
+
+   Q56: highest degree you hope to earn |      Freq.     Percent        Cum.
+----------------------------------------+-----------------------------------
+Get a certificate in a vocational or te |        250        2.95        2.95
+          Associate degree  (AA/AS/ADT) |        614        7.23       10.18
+Doctoral Degree (Ph.D., M.D., J.D., etc |      1,684       19.84       30.02
+                             I'm unsure |      1,225       14.43       44.46
+            Bachelorâs Degree (BA/BS) |      2,600       30.64       75.09
+              Masterâs Degree (MA/MS) |      2,114       24.91      100.00
+----------------------------------------+-----------------------------------
+                                  Total |      8,487      100.00
+tabulation of coll_worry_tuition
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |        748        8.94        8.94
+  Somewhat worried |      3,659       43.72       52.65
+      Very worried |      3,963       47.35      100.00
+-------------------+-----------------------------------
+             Total |      8,370      100.00
+tabulation of coll_worry_living
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      1,385       16.57       16.57
+  Somewhat worried |      3,274       39.18       55.76
+      Very worried |      3,697       44.24      100.00
+-------------------+-----------------------------------
+             Total |      8,356      100.00
+tabulation of coll_worry_academic
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      1,429       17.08       17.08
+  Somewhat worried |      4,146       49.55       66.62
+      Very worried |      2,793       33.38      100.00
+-------------------+-----------------------------------
+             Total |      8,368      100.00
+tabulation of coll_worry_work
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      1,140       13.63       13.63
+  Somewhat worried |      4,441       53.10       66.73
+      Very worried |      2,782       33.27      100.00
+-------------------+-----------------------------------
+             Total |      8,363      100.00
+tabulation of coll_worry_family
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      3,045       36.45       36.45
+  Somewhat worried |      3,792       45.39       81.83
+      Very worried |      1,518       18.17      100.00
+-------------------+-----------------------------------
+             Total |      8,355      100.00
+tabulation of coll_worry_community
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      2,391       28.63       28.63
+  Somewhat worried |      3,867       46.30       74.93
+      Very worried |      2,094       25.07      100.00
+-------------------+-----------------------------------
+             Total |      8,352      100.00
+tabulation of coll_worry_living_away
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      4,384       52.54       52.54
+  Somewhat worried |      2,805       33.62       86.16
+      Very worried |      1,155       13.84      100.00
+-------------------+-----------------------------------
+             Total |      8,344      100.00
+tabulation of coll_worry_support
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      2,859       34.30       34.30
+  Somewhat worried |      3,669       44.01       78.31
+      Very worried |      1,808       21.69      100.00
+-------------------+-----------------------------------
+             Total |      8,336      100.00
+tabulation of hs_type
+
+    Q61: type of HS you are graduating |
+                                  from |      Freq.     Percent        Cum.
+---------------------------------------+-----------------------------------
+                           Home school |        158        1.78        1.78
+         Private/Parochial high school |        286        3.23        5.02
+Public high school (including charter) |      8,408       94.98      100.00
+---------------------------------------+-----------------------------------
+                                 Total |      8,852      100.00
+tabulation of complete_atog
+
+   Q62: are |
+     you on |
+   track to |
+   complete |
+        a-g |      Freq.     Percent        Cum.
+------------+-----------------------------------
+   Not sure |      1,467       16.59       16.59
+         No |        635        7.18       23.77
+        Yes |      6,742       76.23      100.00
+------------+-----------------------------------
+      Total |      8,844      100.00
+tabulation of track_atog
+
+Q63: how difficult |
+    was it to keep |
+      track of a-g |
+          progress |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+       It was easy |      4,495       50.92       50.92
+          Not sure |      1,342       15.20       66.12
+Somewhat difficult |      2,561       29.01       95.13
+    Very difficult |        430        4.87      100.00
+-------------------+-----------------------------------
+             Total |      8,828      100.00
+tabulation of why_no_atog_notrequired
+
+   Q64: not |
+   required |
+    for the |
+  college I |
+    plan to |
+     attend |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,416       98.06       98.06
+          1 |        226        1.94      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_atog_unknown
+
+Q64: didn't |
+ know about |
+        the |
+requirement |
+          s |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,487       98.67       98.67
+          1 |        155        1.33      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_atog_nocourse
+
+ Q64: my HS |
+     didn't |
+      offer |
+  necessary |
+    courses |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,595       99.60       99.60
+          1 |         47        0.40      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_atog_lowgrade
+
+    Q64: My |
+grades were |
+ too low in |
+       some |
+   required |
+    courses |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,403       97.95       97.95
+          1 |        239        2.05      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_atog_nocollege
+
+  Q64: I am |
+        not |
+planning to |
+     attend |
+    college |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,625       99.85       99.85
+          1 |         17        0.15      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_no_atog_other
+
+ Q64: Other |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,540       99.12       99.12
+          1 |        102        0.88      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of de
+
+   Q66: did |
+   you take |
+    college |
+ courses in |
+         HS |      Freq.     Percent        Cum.
+------------+-----------------------------------
+   Not sure |        727        8.22        8.22
+         No |      4,613       52.13       60.35
+        Yes |      3,509       39.65      100.00
+------------+-----------------------------------
+      Total |      8,849      100.00
+tabulation of why_de_class
+
+  Q67: take |
+classes not |
+ offered by |
+  my school |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,604       91.08       91.08
+          1 |      1,038        8.92      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_de_college
+
+       Q67: |
+    improve |
+  chance of |
+    getting |
+       into |
+  selective |
+    college |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,149       87.18       87.18
+          1 |      1,493       12.82      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_de_reduce
+
+Q67: reduce |
+  number of |
+    courses |
+  needed in |
+    college |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,756       83.80       83.80
+          1 |      1,886       16.20      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_de_trade
+
+ Q67: to be |
+ready for a |
+   trade or |
+  job after |
+         HS |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,353       97.52       97.52
+          1 |        289        2.48      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of why_de_other
+
+ Q67: other |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,101       95.35       95.35
+          1 |        541        4.65      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+tabulation of de_atog
+
+   Q68: did |
+you use any |
+dual enroll |
+ courses to |
+satisfy a-g |
+ for CSU/UC |      Freq.     Percent        Cum.
+------------+-----------------------------------
+   Not sure |        766       22.16       22.16
+         No |        943       27.28       49.44
+        Yes |      1,748       50.56      100.00
+------------+-----------------------------------
+      Total |      3,457      100.00
+tabulation of transcript_atog
+
+Q69: how difficult |
+         to add DE |
+     coursework to |
+        transcript |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+       It was easy |      1,704       49.51       49.51
+Somewhat difficult |      1,532       44.51       94.02
+    Very Difficult |        206        5.98      100.00
+-------------------+-----------------------------------
+             Total |      3,442      100.00
+
+. 
+. log close 
+      name:  <unnamed>
+       log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
+> questions_simple.smcl
+  log type:  smcl
+ closed on:   5 Sep 2024, 10:43:30
+-------------------------------------------------------------------------------

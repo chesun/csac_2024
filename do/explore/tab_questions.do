@@ -37,5 +37,17 @@ foreach demog in race gender parent_edu {
         $projdir/log/explore/tab_questions_`demog'.log, replace
 }
 
+// simple tabulation of all questions
+log using $projdir/log/explore/tab_questions_simple.smcl, replace 
 
+foreach var of local all_qs {
+    di "tabulation of `var'"
+    
+    tab `var' if hs_senior==1
+
+}
+
+log close 
+translate $projdir/log/explore/tab_questions_simple.smcl ///
+    $projdir/log/explore/tab_questions_simple.log, replace 
 

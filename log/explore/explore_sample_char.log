@@ -3,7 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/expl
 > ore_sample_char.smcl
   log type:  smcl
- opened on:  28 Aug 2024, 17:48:07
+ opened on:   5 Sep 2024, 10:43:28
 
 . 
 . graph drop _all
@@ -297,5 +297,5 @@ resrc_coun~r |     11,642    .0623604    .2418194          0          1
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/expl
 > ore_sample_char.smcl
   log type:  smcl
- closed on:  28 Aug 2024, 17:48:07
+ closed on:   5 Sep 2024, 10:43:28
 -------------------------------------------------------------------------------

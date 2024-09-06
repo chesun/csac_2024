@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_parent_edu.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}28 Aug 2024, 17:48:31
+ {txt}opened on:  {res} 5 Sep 2024, 10:43:29
 why_fafsa_requirement by parent_edu
 {txt}
 {c TLC}{hline 16}{c TRC}
@@ -4727,31 +4727,31 @@ highest_degree by parent_edu
 {c BLC}{hline 16}{c BRC}
 
   Q73: highest parent {c |}               Q56: highest degree you hope to earn
-            education {c |} Associate  Bachelorâ  Doctoral   Get a cer  I'm unsur  Masterâ {c |}     Total
+            education {c |} Get a cer  Associate  Doctoral   I'm unsur  Bachelorâ  Masterâ {c |}     Total
 {hline 22}{c +}{hline 66}{c +}{hline 10}
-           Don't know {c |}{res}        47        121         51         18        141         53 {txt}{c |}{res}       431 
-                      {txt}{c |}{res}     10.90      28.07      11.83       4.18      32.71      12.30 {txt}{c |}{res}    100.00 
+           Don't know {c |}{res}        18         47         51        141        121         53 {txt}{c |}{res}       431 
+                      {txt}{c |}{res}      4.18      10.90      11.83      32.71      28.07      12.30 {txt}{c |}{res}    100.00 
 {txt}{hline 22}{c +}{hline 66}{c +}{hline 10}
-Did not complete high {c |}{res}       153        542        296         76        244        374 {txt}{c |}{res}     1,685 
-                      {txt}{c |}{res}      9.08      32.17      17.57       4.51      14.48      22.20 {txt}{c |}{res}    100.00 
+Did not complete high {c |}{res}        76        153        296        244        542        374 {txt}{c |}{res}     1,685 
+                      {txt}{c |}{res}      4.51       9.08      17.57      14.48      32.17      22.20 {txt}{c |}{res}    100.00 
 {txt}{hline 22}{c +}{hline 66}{c +}{hline 10}
-  High school diploma {c |}{res}       231        716        334         96        322        478 {txt}{c |}{res}     2,177 
-                      {txt}{c |}{res}     10.61      32.89      15.34       4.41      14.79      21.96 {txt}{c |}{res}    100.00 
+  High school diploma {c |}{res}        96        231        334        322        716        478 {txt}{c |}{res}     2,177 
+                      {txt}{c |}{res}      4.41      10.61      15.34      14.79      32.89      21.96 {txt}{c |}{res}    100.00 
 {txt}{hline 22}{c +}{hline 66}{c +}{hline 10}
-Some college, no coll {c |}{res}        68        381        210         25        147        252 {txt}{c |}{res}     1,083 
-                      {txt}{c |}{res}      6.28      35.18      19.39       2.31      13.57      23.27 {txt}{c |}{res}    100.00 
+Some college, no coll {c |}{res}        25         68        210        147        381        252 {txt}{c |}{res}     1,083 
+                      {txt}{c |}{res}      2.31       6.28      19.39      13.57      35.18      23.27 {txt}{c |}{res}    100.00 
 {txt}{hline 22}{c +}{hline 66}{c +}{hline 10}
-     Associate degree {c |}{res}        33        149         86          7         46        113 {txt}{c |}{res}       434 
-                      {txt}{c |}{res}      7.60      34.33      19.82       1.61      10.60      26.04 {txt}{c |}{res}    100.00 
+     Associate degree {c |}{res}         7         33         86         46        149        113 {txt}{c |}{res}       434 
+                      {txt}{c |}{res}      1.61       7.60      19.82      10.60      34.33      26.04 {txt}{c |}{res}    100.00 
 {txt}{hline 22}{c +}{hline 66}{c +}{hline 10}
-    Bachelor's degree {c |}{res}        44        398        297          9        135        354 {txt}{c |}{res}     1,237 
-                      {txt}{c |}{res}      3.56      32.17      24.01       0.73      10.91      28.62 {txt}{c |}{res}    100.00 
+    Bachelor's degree {c |}{res}         9         44        297        135        398        354 {txt}{c |}{res}     1,237 
+                      {txt}{c |}{res}      0.73       3.56      24.01      10.91      32.17      28.62 {txt}{c |}{res}    100.00 
 {txt}{hline 22}{c +}{hline 66}{c +}{hline 10}
-Graduate/Professional {c |}{res}        13        210        358          7        133        416 {txt}{c |}{res}     1,137 
-                      {txt}{c |}{res}      1.14      18.47      31.49       0.62      11.70      36.59 {txt}{c |}{res}    100.00 
+Graduate/Professional {c |}{res}         7         13        358        133        210        416 {txt}{c |}{res}     1,137 
+                      {txt}{c |}{res}      0.62       1.14      31.49      11.70      18.47      36.59 {txt}{c |}{res}    100.00 
 {txt}{hline 22}{c +}{hline 66}{c +}{hline 10}
-                Total {c |}{res}       589      2,517      1,632        238      1,168      2,040 {txt}{c |}{res}     8,184 
-                      {txt}{c |}{res}      7.20      30.76      19.94       2.91      14.27      24.93 {txt}{c |}{res}    100.00 
+                Total {c |}{res}       238        589      1,632      1,168      2,517      2,040 {txt}{c |}{res}     8,184 
+                      {txt}{c |}{res}      2.91       7.20      19.94      14.27      30.76      24.93 {txt}{c |}{res}    100.00 
 coll_worry_tuition by parent_edu
 {txt}
 {c TLC}{hline 16}{c TRC}
@@ -5654,7 +5654,7 @@ Graduate/Professional {c |}{res}       326        252         39 {txt}{c |}{res}
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_parent_edu.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}28 Aug 2024, 17:48:32
+ {txt}closed on:  {res} 5 Sep 2024, 10:43:30
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

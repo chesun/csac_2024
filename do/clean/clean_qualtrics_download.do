@@ -496,6 +496,10 @@ lab var major_undecided "Q55: Undecided"
 
 order major_raw, before(major_business)
 
+lab define highest_degree_lab 1 "Get a certificate in a vocational or technical field" ///
+    2 "Associate degree  (AA/AS/ADT)" 3 "Bachelor’s Degree (BA/BS)" ///
+    4 "Master’s Degree (MA/MS)" 5 "Doctoral Degree (Ph.D., M.D., J.D., etc.)" ///
+    6 "I'm unsure"
 encode q56, generate(highest_degree) label(highest_degree_lab)
 label var highest_degree "Q56: highest degree you hope to earn"
 drop q56 

@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_gender.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}28 Aug 2024, 17:48:31
+ {txt}opened on:  {res} 5 Sep 2024, 10:43:29
 why_fafsa_requirement by gender
 {txt}
 {c TLC}{hline 16}{c TRC}
@@ -3935,25 +3935,25 @@ highest_degree by gender
 {c BLC}{hline 16}{c BRC}
 
                       {c |}               Q56: highest degree you hope to earn
-                  Q83 {c |} Associate  Bachelorâ  Doctoral   Get a cer  I'm unsur  Masterâ {c |}     Total
+                  Q83 {c |} Get a cer  Associate  Doctoral   I'm unsur  Bachelorâ  Masterâ {c |}     Total
 {hline 22}{c +}{hline 66}{c +}{hline 10}
-                  Man {c |}{res}       237        970        382        150        445        721 {txt}{c |}{res}     2,905 
-                      {txt}{c |}{res}      8.16      33.39      13.15       5.16      15.32      24.82 {txt}{c |}{res}    100.00 
+                  Man {c |}{res}       150        237        382        445        970        721 {txt}{c |}{res}     2,905 
+                      {txt}{c |}{res}      5.16       8.16      13.15      15.32      33.39      24.82 {txt}{c |}{res}    100.00 
 {txt}{hline 22}{c +}{hline 66}{c +}{hline 10}
-                Woman {c |}{res}       337      1,446      1,159         81        665      1,211 {txt}{c |}{res}     4,899 
-                      {txt}{c |}{res}      6.88      29.52      23.66       1.65      13.57      24.72 {txt}{c |}{res}    100.00 
+                Woman {c |}{res}        81        337      1,159        665      1,446      1,211 {txt}{c |}{res}     4,899 
+                      {txt}{c |}{res}      1.65       6.88      23.66      13.57      29.52      24.72 {txt}{c |}{res}    100.00 
 {txt}{hline 22}{c +}{hline 66}{c +}{hline 10}
-           Non-binary {c |}{res}         5         53         51          4         18         50 {txt}{c |}{res}       181 
-                      {txt}{c |}{res}      2.76      29.28      28.18       2.21       9.94      27.62 {txt}{c |}{res}    100.00 
+           Non-binary {c |}{res}         4          5         51         18         53         50 {txt}{c |}{res}       181 
+                      {txt}{c |}{res}      2.21       2.76      28.18       9.94      29.28      27.62 {txt}{c |}{res}    100.00 
 {txt}{hline 22}{c +}{hline 66}{c +}{hline 10}
-    Prefer not to say {c |}{res}         7         41         35          2         36         41 {txt}{c |}{res}       162 
-                      {txt}{c |}{res}      4.32      25.31      21.60       1.23      22.22      25.31 {txt}{c |}{res}    100.00 
+    Prefer not to say {c |}{res}         2          7         35         36         41         41 {txt}{c |}{res}       162 
+                      {txt}{c |}{res}      1.23       4.32      21.60      22.22      25.31      25.31 {txt}{c |}{res}    100.00 
 {txt}{hline 22}{c +}{hline 66}{c +}{hline 10}
-Other (please feel fr {c |}{res}         2          5          6          1          7          9 {txt}{c |}{res}        30 
-                      {txt}{c |}{res}      6.67      16.67      20.00       3.33      23.33      30.00 {txt}{c |}{res}    100.00 
+Other (please feel fr {c |}{res}         1          2          6          7          5          9 {txt}{c |}{res}        30 
+                      {txt}{c |}{res}      3.33       6.67      20.00      23.33      16.67      30.00 {txt}{c |}{res}    100.00 
 {txt}{hline 22}{c +}{hline 66}{c +}{hline 10}
-                Total {c |}{res}       588      2,515      1,633        238      1,171      2,032 {txt}{c |}{res}     8,177 
-                      {txt}{c |}{res}      7.19      30.76      19.97       2.91      14.32      24.85 {txt}{c |}{res}    100.00 
+                Total {c |}{res}       238        588      1,633      1,171      2,515      2,032 {txt}{c |}{res}     8,177 
+                      {txt}{c |}{res}      2.91       7.19      19.97      14.32      30.76      24.85 {txt}{c |}{res}    100.00 
 coll_worry_tuition by gender
 {txt}
 {c TLC}{hline 16}{c TRC}
@@ -4706,7 +4706,7 @@ Other (please feel fr {c |}{res}         8          4          4 {txt}{c |}{res}
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_gender.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}28 Aug 2024, 17:48:31
+ {txt}closed on:  {res} 5 Sep 2024, 10:43:29
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
