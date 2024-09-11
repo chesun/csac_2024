@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_race.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 5 Sep 2024, 10:43:28
+ {txt}opened on:  {res} 7 Sep 2024, 15:24:20
 why_fafsa_requirement by race
 {txt}
 {c TLC}{hline 16}{c TRC}
@@ -6799,7 +6799,7 @@ Pacific Islander {c |}{res}         1          1          0 {txt}{c |}{res}     
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_race.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 5 Sep 2024, 10:43:28
+ {txt}closed on:  {res} 7 Sep 2024, 15:24:21
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

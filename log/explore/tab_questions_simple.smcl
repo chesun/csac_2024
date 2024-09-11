@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_simple.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 5 Sep 2024, 10:43:30
+ {txt}opened on:  {res} 7 Sep 2024, 15:24:22
 {txt}
 {com}. 
 . foreach var of local all_qs {c -(}
@@ -1726,7 +1726,7 @@ tabulation of transcript_atog
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_simple.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 5 Sep 2024, 10:43:30
+ {txt}closed on:  {res} 7 Sep 2024, 15:24:22
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

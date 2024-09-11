@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/clean/clean_qualtrics_download.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}28 Aug 2024, 17:47:59
+ {txt}opened on:  {res}10 Sep 2024, 16:55:54
 {txt}
 {com}. 
 . graph drop _all
@@ -849,7 +849,12 @@
 . order major_raw, before(major_business)
 {txt}
 {com}. 
-. encode q56, generate(highest_degree) label(highest_degree_lab)
+. lab define highest_degree_lab 1 "Get a certificate in a vocational or technical field" ///
+>     2 "Associate degree  (AA/AS/ADT)" 3 "Bachelor’s Degree (BA/BS)" ///
+>     4 "Master’s Degree (MA/MS)" 5 "Doctoral Degree (Ph.D., M.D., J.D., etc.)" ///
+>     6 "I'm unsure"
+{txt}
+{com}. encode q56, generate(highest_degree) label(highest_degree_lab)
 {txt}
 {com}. label var highest_degree "Q56: highest degree you hope to earn"
 {txt}
@@ -994,7 +999,9 @@
 . 
 . ************ Demographics *************
 . 
+. //-----------------------------
 . // race
+. //------------------------------
 . rename q72 race_raw
 {res}{txt}
 {com}. gen black = 1 if strpos(race_raw, "Black/African American") !=0
@@ -1003,7 +1010,7 @@
 {com}. replace black = 0 if strpos(race_raw, "Black/African American") ==0 & !mi(race_raw)
 {txt}(8,045 real changes made)
 
-{com}. label var black "Black"
+{com}. label var black "selected Black"
 {txt}
 {com}. 
 . gen native = 1 if strpos(race_raw, "American Indian/Alaskan Native") != 0
@@ -1012,7 +1019,7 @@
 {com}. replace native = 0 if strpos(race_raw, "American Indian/Alaskan Native") == 0 & !mi(race_raw)
 {txt}(8,516 real changes made)
 
-{com}. label var native "American Indian/Alaskan Native"
+{com}. label var native "selected American Indian/Alaskan Native"
 {txt}
 {com}. 
 . gen asian = 1 if strpos(race_raw, "Asian") != 0
@@ -1021,7 +1028,7 @@
 {com}. replace asian = 0 if strpos(race_raw, "Asian") ==0 & !mi(race_raw)
 {txt}(7,391 real changes made)
 
-{com}. label var asian "Asian"
+{com}. label var asian "selected Asian"
 {txt}
 {com}. 
 . gen filipino = 1 if strpos(race_raw, "Filipino") !=0
@@ -1030,7 +1037,7 @@
 {com}. replace filipino = 0 if strpos(race_raw, "Filipino") == 0 & !mi(race_raw)
 {txt}(8,338 real changes made)
 
-{com}. label var filipino "Filipino"
+{com}. label var filipino "selected Filipino"
 {txt}
 {com}. 
 . gen hispanic = 1 if strpos(race_raw, "Hispanic/Latinx") != 0
@@ -1039,7 +1046,7 @@
 {com}. replace hispanic = 0 if strpos(race_raw, "Hispanic/Latinx") == 0 & !mi(race_raw)
 {txt}(3,569 real changes made)
 
-{com}. label var hispanic "Hispanic"
+{com}. label var hispanic "selected Hispanic"
 {txt}
 {com}. 
 . gen islander = 1 if strpos(race_raw, "Pacific Islander") !=0
@@ -1048,7 +1055,7 @@
 {com}. replace islander = 0 if strpos(race_raw, "Pacific Islander") ==0 & !mi(race_raw)
 {txt}(8,632 real changes made)
 
-{com}. label var islander "Pacific Islander"
+{com}. label var islander "selected Pacific Islander"
 {txt}
 {com}. 
 . gen white = 1 if strpos(race_raw, "White/Non-Hispanic") !=0
@@ -1057,7 +1064,7 @@
 {com}. replace white = 0 if strpos(race_raw, "White/Non-Hispanic") ==0 & !mi(race_raw)
 {txt}(6,667 real changes made)
 
-{com}. label var white "White/Non-Hispanic"
+{com}. label var white "selected White/Non-Hispanic"
 {txt}
 {com}. 
 . // if other race was selected 
@@ -1069,7 +1076,7 @@
 
 {com}.      /* & (black == 0) & (native == 0) & (asian == 0) & (filipino == 0) ///
 >      & (hispanic == 0) & (islander == 0) & (white == 0)) */
-. label var other_race "Other race was selected"
+. label var other_race "selected Other race"
 {txt}
 {com}. 
 . rename q72_8_text other_race_text
@@ -1093,73 +1100,124 @@
 (304 real changes made)
 
 {com}. 
-. label define race_lab 1 "Black" 2 "Native" 3 "Asian" 4 "Filipino" ///
+. ************** simple mutually exclusive race, 2024 version
+. // differs from 2023 version in how multirace is defined
+. label define race_simple_lab 1 "Black" 2 "Native" 3 "Asian" 4 "Filipino" ///
 >     5 "Hispanic" 6 "Pacific Islander" 7 "White" 8 "Other Race" ///
 >     9 "Multiracial" 
 {txt}
-{com}. gen race = .
+{com}. gen race_simple_24 = .
 {txt}(25,028 missing values generated)
 
 {com}. 
 . // select only black, native, etc. 
-. replace race = 1 if black == 1 & numrace == 1
+. replace race_simple_24 = 1 if black == 1 & numrace == 1
 {txt}(388 real changes made)
 
-{com}. replace race = 2 if native == 1 & numrace == 1
+{com}. replace race_simple_24 = 2 if native == 1 & numrace == 1
 {txt}(29 real changes made)
 
-{com}. replace race = 3 if asian == 1 & numrace == 1
+{com}. replace race_simple_24 = 3 if asian == 1 & numrace == 1
 {txt}(968 real changes made)
 
-{com}. replace race = 4 if filipino == 1 & numrace == 1
+{com}. replace race_simple_24 = 4 if filipino == 1 & numrace == 1
 {txt}(132 real changes made)
 
-{com}. replace race = 5 if hispanic == 1 & numrace == 1
+{com}. replace race_simple_24 = 5 if hispanic == 1 & numrace == 1
 {txt}(4,430 real changes made)
 
-{com}. replace race = 6 if islander == 1 & numrace == 1
+{com}. replace race_simple_24 = 6 if islander == 1 & numrace == 1
 {txt}(24 real changes made)
 
-{com}. replace race = 7 if white == 1 & numrace == 1
+{com}. replace race_simple_24 = 7 if white == 1 & numrace == 1
 {txt}(1,319 real changes made)
 
-{com}. replace race = 8 if other_race == 1 & numrace == 1
+{com}. replace race_simple_24 = 8 if other_race == 1 & numrace == 1
 {txt}(180 real changes made)
 
 {com}. // select 1 predefined and other race
-. replace race = 1 if black == 1 & other_race == 1 & numrace == 2 
+. replace race_simple_24 = 1 if black == 1 & other_race == 1 & numrace == 2 
 {txt}(8 real changes made)
 
-{com}. replace race = 2 if native == 1 & other_race == 1 & numrace == 2 
+{com}. replace race_simple_24 = 2 if native == 1 & other_race == 1 & numrace == 2 
 {txt}(2 real changes made)
 
-{com}. replace race = 3 if asian == 1 & other_race == 1 & numrace == 2 
+{com}. replace race_simple_24 = 3 if asian == 1 & other_race == 1 & numrace == 2 
 {txt}(33 real changes made)
 
-{com}. replace race = 4 if filipino == 1 & other_race == 1 & numrace == 2 
+{com}. replace race_simple_24 = 4 if filipino == 1 & other_race == 1 & numrace == 2 
 {txt}(1 real change made)
 
-{com}. replace race = 5 if hispanic == 1 & other_race == 1 & numrace == 2 
+{com}. replace race_simple_24 = 5 if hispanic == 1 & other_race == 1 & numrace == 2 
 {txt}(28 real changes made)
 
-{com}. replace race = 6 if islander == 1 & other_race == 1 & numrace == 2 
+{com}. replace race_simple_24 = 6 if islander == 1 & other_race == 1 & numrace == 2 
 {txt}(0 real changes made)
 
-{com}. replace race = 7 if white == 1 & other_race == 1 & numrace == 2 
+{com}. replace race_simple_24 = 7 if white == 1 & other_race == 1 & numrace == 2 
 {txt}(31 real changes made)
 
 {com}. // multiracial
 . // select 2 or more predefined options 
-. replace race = 9 if (numrace == 2 & other_race == 0) ///
->     | (numrace >= 3 & other_race == 1)
-{txt}(988 real changes made)
+. replace race_simple_24 = 9 if (inrange(numrace, 2, 8) & other_race == 0) ///
+>     | (inrange(numrace, 3, 8) & other_race == 1)
+{txt}(1,147 real changes made)
 
-{com}. label values race race_lab
+{com}. label values race_simple_24 race_simple_lab
 {txt}
-{com}. label var race "race narrowly defined (mutually exclusive)"
+{com}. label var race_simple_24 "race narrowly defined (mutually exclusive), 2024 version"
 {txt}
 {com}. 
-. order race_raw other_race_text black-other_race numrace race, after(transcript_atog)
+. ************** simple mutually exclusive race, 2023 version
+. gen race_simple_23 = .
+{txt}(25,028 missing values generated)
+
+{com}. label var race_simple_23 "mutually exclusive race, 2023 version"
+{txt}
+{com}. replace race_simple_23 = race_simple_24 if numrace == 1
+{txt}(7,470 real changes made)
+
+{com}. replace race_simple_23 = 9 if inrange(numrace, 2, 8)
+{txt}(1,250 real changes made)
+
+{com}. lab val race_simple_23 race_simple_lab
+{txt}
+{com}. 
+. 
+. ************** mututally exclusive race based on URM hierarchy, same as 2023 version
+. gen race_hrchy = .
+{txt}(25,028 missing values generated)
+
+{com}. lab var race_hrchy "mutually exclusive race based on URM hierarchy"
+{txt}
+{com}. // initiate numerical value for category
+. local j = 8
+{txt}
+{com}. foreach cat in white other_race asian filipino islander hispanic black native {c -(}
+{txt}  2{com}.     replace race_hrchy = `j' if `cat' == 1
+{txt}  3{com}.     // copy the value label from the dummies
+.     local varlab: var lab `cat'
+{txt}  4{com}.     // remove unused part of string, keep only the race
+.     local varlab = subinstr("`varlab'", "selected ", "", 1)
+{txt}  5{com}.     // update value label
+.     lab define race_hrchy_lab `j' "`varlab'", add 
+{txt}  6{com}.     // update numerical category
+.     local j = `j' - 1
+{txt}  7{com}. {c )-}
+{txt}(2,053 real changes made)
+(304 real changes made)
+(1,329 real changes made)
+(382 real changes made)
+(88 real changes made)
+(5,151 real changes made)
+(675 real changes made)
+(204 real changes made)
+
+{com}. label values race_hrchy race_hrchy_lab
+{txt}
+{com}. 
+. 
+. order race_raw other_race_text black-other_race numrace race_simple_24, after(transcript_atog)
 {txt}
 {com}. 
 . // parent education
@@ -1426,7 +1484,9 @@
   {txt}variable {bf}{res}white{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
   {txt}variable {bf}{res}other_race{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
   {txt}variable {bf}{res}numrace{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
-  {txt}variable {bf}{res}race{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
+  {txt}variable {bf}{res}race_simple_24{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
+  {txt}variable {bf}{res}race_simple_23{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
+  {txt}variable {bf}{res}race_hrchy{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
   {txt}variable {bf}{res}parent_edu{sf}{txt} was {bf}{res}long{sf}{txt} now {bf}{res}byte{sf}
   {txt}variable {bf}{res}home_lang_eng{sf}{txt} was {bf}{res}long{sf}{txt} now {bf}{res}byte{sf}
   {txt}variable {bf}{res}has_job{sf}{txt} was {bf}{res}long{sf}{txt} now {bf}{res}byte{sf}
@@ -1490,7 +1550,7 @@
   {bf}{res}gender_other_text{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}coll_excite{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}coll_challenge{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
-  (40,869,822 bytes saved)
+  (41,020,068 bytes saved)
 
 {com}. save $projdir/dta/csac_2024_initial_clean.dta, replace 
 {txt}{p 0 4 2}
@@ -1505,7 +1565,7 @@ saved
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/clean/clean_qualtrics_download.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}28 Aug 2024, 17:48:07
+ {txt}closed on:  {res}10 Sep 2024, 16:56:02
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

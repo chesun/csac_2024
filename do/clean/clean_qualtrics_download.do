@@ -587,42 +587,44 @@ drop q69
 
 ************ Demographics *************
 
+//-----------------------------
 // race
+//------------------------------
 rename q72 race_raw
 gen black = 1 if strpos(race_raw, "Black/African American") !=0
 replace black = 0 if strpos(race_raw, "Black/African American") ==0 & !mi(race_raw)
-label var black "Black"
+label var black "selected Black"
 
 gen native = 1 if strpos(race_raw, "American Indian/Alaskan Native") != 0
 replace native = 0 if strpos(race_raw, "American Indian/Alaskan Native") == 0 & !mi(race_raw)
-label var native "American Indian/Alaskan Native"
+label var native "selected American Indian/Alaskan Native"
 
 gen asian = 1 if strpos(race_raw, "Asian") != 0
 replace asian = 0 if strpos(race_raw, "Asian") ==0 & !mi(race_raw)
-label var asian "Asian"
+label var asian "selected Asian"
 
 gen filipino = 1 if strpos(race_raw, "Filipino") !=0
 replace filipino = 0 if strpos(race_raw, "Filipino") == 0 & !mi(race_raw)
-label var filipino "Filipino"
+label var filipino "selected Filipino"
 
 gen hispanic = 1 if strpos(race_raw, "Hispanic/Latinx") != 0
 replace hispanic = 0 if strpos(race_raw, "Hispanic/Latinx") == 0 & !mi(race_raw)
-label var hispanic "Hispanic"
+label var hispanic "selected Hispanic"
 
 gen islander = 1 if strpos(race_raw, "Pacific Islander") !=0
 replace islander = 0 if strpos(race_raw, "Pacific Islander") ==0 & !mi(race_raw)
-label var islander "Pacific Islander"
+label var islander "selected Pacific Islander"
 
 gen white = 1 if strpos(race_raw, "White/Non-Hispanic") !=0
 replace white = 0 if strpos(race_raw, "White/Non-Hispanic") ==0 & !mi(race_raw)
-label var white "White/Non-Hispanic"
+label var white "selected White/Non-Hispanic"
 
 // if other race was selected 
 gen other_race = 1 if strpos(race_raw, "Other (Please specify):") !=0 
 replace other_race = 0 if strpos(race_raw, "Other (Please specify):") ==0 & !mi(race_raw)
      /* & (black == 0) & (native == 0) & (asian == 0) & (filipino == 0) ///
      & (hispanic == 0) & (islander == 0) & (white == 0)) */
-label var other_race "Other race was selected"
+label var other_race "selected Other race"
 
 rename q72_8_text other_race_text
 label var other_race_text "Q72: free response for race/ethnicity: other"
@@ -633,36 +635,65 @@ foreach v of varlist black-other_race {
     replace numrace = numrace + `v'
 }
 
-label define race_lab 1 "Black" 2 "Native" 3 "Asian" 4 "Filipino" ///
+************** simple mutually exclusive race, 2024 version
+// differs from 2023 version in how multirace is defined
+label define race_simple_lab 1 "Black" 2 "Native" 3 "Asian" 4 "Filipino" ///
     5 "Hispanic" 6 "Pacific Islander" 7 "White" 8 "Other Race" ///
     9 "Multiracial" 
-gen race = .
+gen race_simple_24 = .
 
 // select only black, native, etc. 
-replace race = 1 if black == 1 & numrace == 1
-replace race = 2 if native == 1 & numrace == 1
-replace race = 3 if asian == 1 & numrace == 1
-replace race = 4 if filipino == 1 & numrace == 1
-replace race = 5 if hispanic == 1 & numrace == 1
-replace race = 6 if islander == 1 & numrace == 1
-replace race = 7 if white == 1 & numrace == 1
-replace race = 8 if other_race == 1 & numrace == 1
+replace race_simple_24 = 1 if black == 1 & numrace == 1
+replace race_simple_24 = 2 if native == 1 & numrace == 1
+replace race_simple_24 = 3 if asian == 1 & numrace == 1
+replace race_simple_24 = 4 if filipino == 1 & numrace == 1
+replace race_simple_24 = 5 if hispanic == 1 & numrace == 1
+replace race_simple_24 = 6 if islander == 1 & numrace == 1
+replace race_simple_24 = 7 if white == 1 & numrace == 1
+replace race_simple_24 = 8 if other_race == 1 & numrace == 1
 // select 1 predefined and other race
-replace race = 1 if black == 1 & other_race == 1 & numrace == 2 
-replace race = 2 if native == 1 & other_race == 1 & numrace == 2 
-replace race = 3 if asian == 1 & other_race == 1 & numrace == 2 
-replace race = 4 if filipino == 1 & other_race == 1 & numrace == 2 
-replace race = 5 if hispanic == 1 & other_race == 1 & numrace == 2 
-replace race = 6 if islander == 1 & other_race == 1 & numrace == 2 
-replace race = 7 if white == 1 & other_race == 1 & numrace == 2 
+replace race_simple_24 = 1 if black == 1 & other_race == 1 & numrace == 2 
+replace race_simple_24 = 2 if native == 1 & other_race == 1 & numrace == 2 
+replace race_simple_24 = 3 if asian == 1 & other_race == 1 & numrace == 2 
+replace race_simple_24 = 4 if filipino == 1 & other_race == 1 & numrace == 2 
+replace race_simple_24 = 5 if hispanic == 1 & other_race == 1 & numrace == 2 
+replace race_simple_24 = 6 if islander == 1 & other_race == 1 & numrace == 2 
+replace race_simple_24 = 7 if white == 1 & other_race == 1 & numrace == 2 
 // multiracial
 // select 2 or more predefined options 
-replace race = 9 if (numrace == 2 & other_race == 0) ///
-    | (numrace >= 3 & other_race == 1)
-label values race race_lab
-label var race "race narrowly defined (mutually exclusive)"
+replace race_simple_24 = 9 if (inrange(numrace, 2, 8) & other_race == 0) ///
+    | (inrange(numrace, 3, 8) & other_race == 1)
+label values race_simple_24 race_simple_lab
+label var race_simple_24 "race narrowly defined (mutually exclusive), 2024 version"
 
-order race_raw other_race_text black-other_race numrace race, after(transcript_atog)
+************** simple mutually exclusive race, 2023 version
+gen race_simple_23 = .
+label var race_simple_23 "mutually exclusive race, 2023 version"
+replace race_simple_23 = race_simple_24 if numrace == 1
+replace race_simple_23 = 9 if inrange(numrace, 2, 8)
+lab val race_simple_23 race_simple_lab
+
+
+************** mututally exclusive race based on URM hierarchy, same as 2023 version
+gen race_hrchy = .
+lab var race_hrchy "mutually exclusive race based on URM hierarchy"
+// initiate numerical value for category
+local j = 8
+foreach cat in white other_race asian filipino islander hispanic black native {
+    replace race_hrchy = `j' if `cat' == 1
+    // copy the value label from the dummies
+    local varlab: var lab `cat'
+    // remove unused part of string, keep only the race
+    local varlab = subinstr("`varlab'", "selected ", "", 1)
+    // update value label
+    lab define race_hrchy_lab `j' "`varlab'", add 
+    // update numerical category
+    local j = `j' - 1
+}
+label values race_hrchy race_hrchy_lab
+
+
+order race_raw other_race_text black-other_race numrace race_simple_24, after(transcript_atog)
 
 // parent education
 label define parent_edu_lab 1 "Don't know" 2 "Did not complete high school" ///

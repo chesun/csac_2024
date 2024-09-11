@@ -1,0 +1,202 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_coll_app.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 7 Sep 2024, 15:24:22
+{txt}
+{com}. 
+. di "colleges applied"
+{res}colleges applied
+{txt}
+{com}. tab coll_applied_coded if hs_senior==1
+
+       {txt}College applied coded with all {c |}
+                           categories {c |}      Freq.     Percent        Cum.
+{hline 38}{c +}{hline 35}
+                                  CCC {c |}{res}      3,417       34.18       34.18
+{txt}                                  CSU {c |}{res}        898        8.98       43.16
+{txt}                                   UC {c |}{res}        308        3.08       46.24
+{txt}                               CCC,UC {c |}{res}        141        1.41       47.65
+{txt}                              CCC,CSU {c |}{res}        597        5.97       53.63
+{txt}                               CSU,UC {c |}{res}        751        7.51       61.14
+{txt}                           CCC,CSU,UC {c |}{res}        513        5.13       66.27
+{txt}                       CCC,UC,PRIVATE {c |}{res}         22        0.22       66.49
+{txt}                      CCC,CSU,PRIVATE {c |}{res}         42        0.42       66.91
+{txt}                       CSU,UC,PRIVATE {c |}{res}        305        3.05       69.96
+{txt}                   CCC,CSU,UC,PRIVATE {c |}{res}        147        1.47       71.43
+{txt}                    CCC,UC,VOCATIONAL {c |}{res}          3        0.03       71.46
+{txt}                   CCC,CSU,VOCATIONAL {c |}{res}         16        0.16       71.62
+{txt}                    CSU,UC,VOCATIONAL {c |}{res}          5        0.05       71.67
+{txt}                CCC,CSU,UC,VOCATIONAL {c |}{res}          4        0.04       71.71
+{txt}                       CCC,UC,OUTSIDE {c |}{res}         21        0.21       71.92
+{txt}                      CCC,CSU,OUTSIDE {c |}{res}         45        0.45       72.37
+{txt}                       CSU,UC,OUTSIDE {c |}{res}        235        2.35       74.72
+{txt}                   CCC,CSU,UC,OUTSIDE {c |}{res}         78        0.78       75.50
+{txt}                  CCC,CSU,DIDNOTAPPLY {c |}{res}          1        0.01       75.51
+{txt}                      CCC,CSU,NOTSURE {c |}{res}          3        0.03       75.54
+{txt}          CCC,CSU,NOTSURE,DIDNOTAPPLY {c |}{res}          1        0.01       75.55
+{txt}              CCC,CSU,OUTSIDE,NOTSURE {c |}{res}          1        0.01       75.56
+{txt}              CCC,CSU,PRIVATE,OUTSIDE {c |}{res}         23        0.23       75.79
+{txt}           CCC,CSU,PRIVATE,VOCATIONAL {c |}{res}          1        0.01       75.80
+{txt}   CCC,CSU,PRIVATE,VOCATIONAL,OUTSIDE {c |}{res}          1        0.01       75.81
+{txt}           CCC,CSU,UC,PRIVATE,NOTSURE {c |}{res}          1        0.01       75.82
+{txt}           CCC,CSU,UC,PRIVATE,OUTSIDE {c |}{res}        147        1.47       77.29
+{txt}        CCC,CSU,UC,PRIVATE,VOCATIONAL {c |}{res}          3        0.03       77.32
+{txt}CCC,CSU,UC,PRIVATE,VOCATIONAL,OUTSIDE {c |}{res}          8        0.08       77.40
+{txt}        CCC,CSU,UC,VOCATIONAL,NOTSURE {c |}{res}          1        0.01       77.41
+{txt}                      CCC,DIDNOTAPPLY {c |}{res}         18        0.18       77.59
+{txt}                          CCC,NOTSURE {c |}{res}         43        0.43       78.02
+{txt}                          CCC,OUTSIDE {c |}{res}         54        0.54       78.56
+{txt}                  CCC,OUTSIDE,NOTSURE {c |}{res}          1        0.01       78.57
+{txt}                          CCC,PRIVATE {c |}{res}         47        0.47       79.04
+{txt}                  CCC,PRIVATE,OUTSIDE {c |}{res}         18        0.18       79.22
+{txt}               CCC,PRIVATE,VOCATIONAL {c |}{res}          2        0.02       79.24
+{txt}               CCC,UC,PRIVATE,OUTSIDE {c |}{res}         18        0.18       79.42
+{txt}            CCC,UC,PRIVATE,VOCATIONAL {c |}{res}          1        0.01       79.43
+{txt}            CCC,UC,VOCATIONAL,OUTSIDE {c |}{res}          1        0.01       79.44
+{txt}                       CCC,VOCATIONAL {c |}{res}         63        0.63       80.07
+{txt}               CCC,VOCATIONAL,NOTSURE {c |}{res}          1        0.01       80.08
+{txt}               CCC,VOCATIONAL,OUTSIDE {c |}{res}          4        0.04       80.12
+{txt}                      CSU,DIDNOTAPPLY {c |}{res}          1        0.01       80.13
+{txt}                          CSU,OUTSIDE {c |}{res}         85        0.85       80.98
+{txt}                          CSU,PRIVATE {c |}{res}         52        0.52       81.50
+{txt}                  CSU,PRIVATE,OUTSIDE {c |}{res}         41        0.41       81.91
+{txt}                       CSU,UC,NOTSURE {c |}{res}          1        0.01       81.92
+{txt}               CSU,UC,PRIVATE,OUTSIDE {c |}{res}        475        4.75       86.68
+{txt}            CSU,UC,PRIVATE,VOCATIONAL {c |}{res}          3        0.03       86.71
+{txt}    CSU,UC,PRIVATE,VOCATIONAL,OUTSIDE {c |}{res}          2        0.02       86.73
+{txt}            CSU,UC,VOCATIONAL,OUTSIDE {c |}{res}          1        0.01       86.74
+{txt}                       CSU,VOCATIONAL {c |}{res}          3        0.03       86.77
+{txt}                          DIDNOTAPPLY {c |}{res}        247        2.47       89.24
+{txt}                              NOTSURE {c |}{res}        224        2.24       91.48
+{txt}                  NOTSURE,DIDNOTAPPLY {c |}{res}         12        0.12       91.60
+{txt}                              OUTSIDE {c |}{res}        201        2.01       93.61
+{txt}                      OUTSIDE,NOTSURE {c |}{res}          3        0.03       93.64
+{txt}                              PRIVATE {c |}{res}        158        1.58       95.22
+{txt}                      PRIVATE,NOTSURE {c |}{res}          2        0.02       95.24
+{txt}                      PRIVATE,OUTSIDE {c |}{res}         29        0.29       95.53
+{txt}                   PRIVATE,VOCATIONAL {c |}{res}          4        0.04       95.57
+{txt}           PRIVATE,VOCATIONAL,OUTSIDE {c |}{res}          1        0.01       95.58
+{txt}                       UC,DIDNOTAPPLY {c |}{res}          1        0.01       95.59
+{txt}                           UC,NOTSURE {c |}{res}          2        0.02       95.61
+{txt}                           UC,OUTSIDE {c |}{res}         61        0.61       96.22
+{txt}                   UC,OUTSIDE,NOTSURE {c |}{res}          1        0.01       96.23
+{txt}                           UC,PRIVATE {c |}{res}         58        0.58       96.81
+{txt}                   UC,PRIVATE,OUTSIDE {c |}{res}        142        1.42       98.23
+{txt}        UC,PRIVATE,VOCATIONAL,OUTSIDE {c |}{res}          1        0.01       98.24
+{txt}                        UC,VOCATIONAL {c |}{res}          2        0.02       98.26
+{txt}                           VOCATIONAL {c |}{res}        162        1.62       99.88
+{txt}               VOCATIONAL,DIDNOTAPPLY {c |}{res}          4        0.04       99.92
+{txt}                   VOCATIONAL,NOTSURE {c |}{res}          3        0.03       99.95
+{txt}                   VOCATIONAL,OUTSIDE {c |}{res}          5        0.05      100.00
+{txt}{hline 38}{c +}{hline 35}
+                                Total {c |}{res}      9,997      100.00
+{txt}
+{com}. 
+. di "truncated colleges applied"
+{res}truncated colleges applied
+{txt}
+{com}. tab coll_applied_coded_trunc if hs_senior==1
+
+{txt}Colleges applied with {c |}
+ truncated categories {c |}      Freq.     Percent        Cum.
+{hline 22}{c +}{hline 35}
+                  CCC {c |}{res}      3,417       34.18       34.18
+{txt}                  CSU {c |}{res}        898        8.98       43.16
+{txt}                   UC {c |}{res}        308        3.08       46.24
+{txt}               CCC,UC {c |}{res}        141        1.41       47.65
+{txt}              CCC,CSU {c |}{res}        597        5.97       53.63
+{txt}               CSU,UC {c |}{res}        751        7.51       61.14
+{txt}           CCC,CSU,UC {c |}{res}        513        5.13       66.27
+{txt}       CCC,UC,PRIVATE {c |}{res}         22        0.22       66.49
+{txt}      CCC,CSU,PRIVATE {c |}{res}         42        0.42       66.91
+{txt}       CSU,UC,PRIVATE {c |}{res}        305        3.05       69.96
+{txt}   CCC,CSU,UC,PRIVATE {c |}{res}        147        1.47       71.43
+{txt}    CCC,UC,VOCATIONAL {c |}{res}          3        0.03       71.46
+{txt}   CCC,CSU,VOCATIONAL {c |}{res}         16        0.16       71.62
+{txt}    CSU,UC,VOCATIONAL {c |}{res}          5        0.05       71.67
+{txt}CCC,CSU,UC,VOCATIONAL {c |}{res}          4        0.04       71.71
+{txt}       CCC,UC,OUTSIDE {c |}{res}         21        0.21       71.92
+{txt}      CCC,CSU,OUTSIDE {c |}{res}         45        0.45       72.37
+{txt}       CSU,UC,OUTSIDE {c |}{res}        235        2.35       74.72
+{txt}   CCC,CSU,UC,OUTSIDE {c |}{res}         78        0.78       75.50
+{txt}    OTHERCOMBINATIONS {c |}{res}      2,449       24.50      100.00
+{txt}{hline 22}{c +}{hline 35}
+                Total {c |}{res}      9,997      100.00
+{txt}
+{com}. 
+. di "where are you attending college"
+{res}where are you attending college
+{txt}
+{com}. tab coll_applied_coded_trunc where_attend_coll if hs_senior==1
+
+{txt}Colleges applied with {c |}              Q34: where are you mostly likely to attend college this fall
+ truncated categories {c |}       CCC        CSU         UC   Priv 4yr  Vocationa  Outside C  None of t   Not sure {c |}     Total
+{hline 22}{c +}{hline 88}{c +}{hline 10}
+                  CCC {c |}{res}     3,061          3          0        107         18          1          2         12 {txt}{c |}{res}     3,204 
+{txt}                  CSU {c |}{res}        15        829          1         12          5          0          4          1 {txt}{c |}{res}       867 
+{txt}                   UC {c |}{res}         8          8          1          4          0          0        274          1 {txt}{c |}{res}       296 
+{txt}               CCC,UC {c |}{res}       104          2          0          0          4          0         23          0 {txt}{c |}{res}       133 
+{txt}              CCC,CSU {c |}{res}       376        188          0          2          6          0          1          1 {txt}{c |}{res}       574 
+{txt}               CSU,UC {c |}{res}         4        376          5          0          7          1        343          0 {txt}{c |}{res}       736 
+{txt}           CCC,CSU,UC {c |}{res}       220        133          1          1          9          1        138          0 {txt}{c |}{res}       503 
+{txt}       CCC,UC,PRIVATE {c |}{res}        11          0          0          0          0          4          7          0 {txt}{c |}{res}        22 
+{txt}      CCC,CSU,PRIVATE {c |}{res}        20          7          0          0          2         12          1          0 {txt}{c |}{res}        42 
+{txt}       CSU,UC,PRIVATE {c |}{res}         2         88          1          0          2         57        149          1 {txt}{c |}{res}       300 
+{txt}   CCC,CSU,UC,PRIVATE {c |}{res}        49         30          0          1          5         18         40          0 {txt}{c |}{res}       143 
+{txt}    CCC,UC,VOCATIONAL {c |}{res}         3          0          0          0          0          0          0          0 {txt}{c |}{res}         3 
+{txt}   CCC,CSU,VOCATIONAL {c |}{res}         8          1          0          0          2          0          0          5 {txt}{c |}{res}        16 
+{txt}    CSU,UC,VOCATIONAL {c |}{res}         2          1          0          0          0          0          0          1 {txt}{c |}{res}         4 
+{txt}CCC,CSU,UC,VOCATIONAL {c |}{res}         3          0          0          0          1          0          0          0 {txt}{c |}{res}         4 
+{txt}       CCC,UC,OUTSIDE {c |}{res}        13          0          3          0          0          0          4          1 {txt}{c |}{res}        21 
+{txt}      CCC,CSU,OUTSIDE {c |}{res}        22         13          8          0          1          0          0          0 {txt}{c |}{res}        44 
+{txt}       CSU,UC,OUTSIDE {c |}{res}         1         74         63          3          7          1         85          0 {txt}{c |}{res}       234 
+{txt}   CCC,CSU,UC,OUTSIDE {c |}{res}        30         19          8          1          2          0         18          0 {txt}{c |}{res}        78 
+{txt}    OTHERCOMBINATIONS {c |}{res}       366        215        427        174         87        324        443        130 {txt}{c |}{res}     2,166 
+{txt}{hline 22}{c +}{hline 88}{c +}{hline 10}
+                Total {c |}{res}     4,318      1,987        518        305        158        419      1,532        153 {txt}{c |}{res}     9,390 
+{txt}
+{com}. 
+. di "has college contacted you about finaid"
+{res}has college contacted you about finaid
+{txt}
+{com}. tab coll_applied_coded_trunc coll_contact if hs_senior==1
+
+                      {txt}{c |}  Q40: has any college contacted
+Colleges applied with {c |}         you about finaid
+ truncated categories {c |}       All       None       Some {c |}     Total
+{hline 22}{c +}{hline 33}{c +}{hline 10}
+                  CCC {c |}{res}       621      1,639        892 {txt}{c |}{res}     3,152 
+{txt}                  CSU {c |}{res}       282        166        413 {txt}{c |}{res}       861 
+{txt}                   UC {c |}{res}       103         39        149 {txt}{c |}{res}       291 
+{txt}               CCC,UC {c |}{res}        39         45         48 {txt}{c |}{res}       132 
+{txt}              CCC,CSU {c |}{res}       158        150        260 {txt}{c |}{res}       568 
+{txt}               CSU,UC {c |}{res}       256         72        400 {txt}{c |}{res}       728 
+{txt}           CCC,CSU,UC {c |}{res}       145         90        263 {txt}{c |}{res}       498 
+{txt}       CCC,UC,PRIVATE {c |}{res}         9          1         12 {txt}{c |}{res}        22 
+{txt}      CCC,CSU,PRIVATE {c |}{res}        17          5         20 {txt}{c |}{res}        42 
+{txt}       CSU,UC,PRIVATE {c |}{res}       110         26        162 {txt}{c |}{res}       298 
+{txt}   CCC,CSU,UC,PRIVATE {c |}{res}        44         19         80 {txt}{c |}{res}       143 
+{txt}    CCC,UC,VOCATIONAL {c |}{res}         1          2          0 {txt}{c |}{res}         3 
+{txt}   CCC,CSU,VOCATIONAL {c |}{res}         1          5         10 {txt}{c |}{res}        16 
+{txt}    CSU,UC,VOCATIONAL {c |}{res}         1          2          1 {txt}{c |}{res}         4 
+{txt}CCC,CSU,UC,VOCATIONAL {c |}{res}         0          3          1 {txt}{c |}{res}         4 
+{txt}       CCC,UC,OUTSIDE {c |}{res}         4          4         13 {txt}{c |}{res}        21 
+{txt}      CCC,CSU,OUTSIDE {c |}{res}        12         11         20 {txt}{c |}{res}        43 
+{txt}       CSU,UC,OUTSIDE {c |}{res}        80         16        134 {txt}{c |}{res}       230 
+{txt}   CCC,CSU,UC,OUTSIDE {c |}{res}        28          9         41 {txt}{c |}{res}        78 
+{txt}    OTHERCOMBINATIONS {c |}{res}       714        488        940 {txt}{c |}{res}     2,142 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+                Total {c |}{res}     2,625      2,792      3,859 {txt}{c |}{res}     9,276 
+{txt}
+{com}. 
+. 
+. log close 
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_coll_app.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 7 Sep 2024, 15:24:22
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

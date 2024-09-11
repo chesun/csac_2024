@@ -1,0 +1,226 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
+> coll_app.smcl
+  log type:  smcl
+ opened on:   7 Sep 2024, 15:24:22
+
+. 
+. di "colleges applied"
+colleges applied
+
+. tab coll_applied_coded if hs_senior==1
+
+       College applied coded with all |
+                           categories |      Freq.     Percent        Cum.
+--------------------------------------+-----------------------------------
+                                  CCC |      3,417       34.18       34.18
+                                  CSU |        898        8.98       43.16
+                                   UC |        308        3.08       46.24
+                               CCC,UC |        141        1.41       47.65
+                              CCC,CSU |        597        5.97       53.63
+                               CSU,UC |        751        7.51       61.14
+                           CCC,CSU,UC |        513        5.13       66.27
+                       CCC,UC,PRIVATE |         22        0.22       66.49
+                      CCC,CSU,PRIVATE |         42        0.42       66.91
+                       CSU,UC,PRIVATE |        305        3.05       69.96
+                   CCC,CSU,UC,PRIVATE |        147        1.47       71.43
+                    CCC,UC,VOCATIONAL |          3        0.03       71.46
+                   CCC,CSU,VOCATIONAL |         16        0.16       71.62
+                    CSU,UC,VOCATIONAL |          5        0.05       71.67
+                CCC,CSU,UC,VOCATIONAL |          4        0.04       71.71
+                       CCC,UC,OUTSIDE |         21        0.21       71.92
+                      CCC,CSU,OUTSIDE |         45        0.45       72.37
+                       CSU,UC,OUTSIDE |        235        2.35       74.72
+                   CCC,CSU,UC,OUTSIDE |         78        0.78       75.50
+                  CCC,CSU,DIDNOTAPPLY |          1        0.01       75.51
+                      CCC,CSU,NOTSURE |          3        0.03       75.54
+          CCC,CSU,NOTSURE,DIDNOTAPPLY |          1        0.01       75.55
+              CCC,CSU,OUTSIDE,NOTSURE |          1        0.01       75.56
+              CCC,CSU,PRIVATE,OUTSIDE |         23        0.23       75.79
+           CCC,CSU,PRIVATE,VOCATIONAL |          1        0.01       75.80
+   CCC,CSU,PRIVATE,VOCATIONAL,OUTSIDE |          1        0.01       75.81
+           CCC,CSU,UC,PRIVATE,NOTSURE |          1        0.01       75.82
+           CCC,CSU,UC,PRIVATE,OUTSIDE |        147        1.47       77.29
+        CCC,CSU,UC,PRIVATE,VOCATIONAL |          3        0.03       77.32
+CCC,CSU,UC,PRIVATE,VOCATIONAL,OUTSIDE |          8        0.08       77.40
+        CCC,CSU,UC,VOCATIONAL,NOTSURE |          1        0.01       77.41
+                      CCC,DIDNOTAPPLY |         18        0.18       77.59
+                          CCC,NOTSURE |         43        0.43       78.02
+                          CCC,OUTSIDE |         54        0.54       78.56
+                  CCC,OUTSIDE,NOTSURE |          1        0.01       78.57
+                          CCC,PRIVATE |         47        0.47       79.04
+                  CCC,PRIVATE,OUTSIDE |         18        0.18       79.22
+               CCC,PRIVATE,VOCATIONAL |          2        0.02       79.24
+               CCC,UC,PRIVATE,OUTSIDE |         18        0.18       79.42
+            CCC,UC,PRIVATE,VOCATIONAL |          1        0.01       79.43
+            CCC,UC,VOCATIONAL,OUTSIDE |          1        0.01       79.44
+                       CCC,VOCATIONAL |         63        0.63       80.07
+               CCC,VOCATIONAL,NOTSURE |          1        0.01       80.08
+               CCC,VOCATIONAL,OUTSIDE |          4        0.04       80.12
+                      CSU,DIDNOTAPPLY |          1        0.01       80.13
+                          CSU,OUTSIDE |         85        0.85       80.98
+                          CSU,PRIVATE |         52        0.52       81.50
+                  CSU,PRIVATE,OUTSIDE |         41        0.41       81.91
+                       CSU,UC,NOTSURE |          1        0.01       81.92
+               CSU,UC,PRIVATE,OUTSIDE |        475        4.75       86.68
+            CSU,UC,PRIVATE,VOCATIONAL |          3        0.03       86.71
+    CSU,UC,PRIVATE,VOCATIONAL,OUTSIDE |          2        0.02       86.73
+            CSU,UC,VOCATIONAL,OUTSIDE |          1        0.01       86.74
+                       CSU,VOCATIONAL |          3        0.03       86.77
+                          DIDNOTAPPLY |        247        2.47       89.24
+                              NOTSURE |        224        2.24       91.48
+                  NOTSURE,DIDNOTAPPLY |         12        0.12       91.60
+                              OUTSIDE |        201        2.01       93.61
+                      OUTSIDE,NOTSURE |          3        0.03       93.64
+                              PRIVATE |        158        1.58       95.22
+                      PRIVATE,NOTSURE |          2        0.02       95.24
+                      PRIVATE,OUTSIDE |         29        0.29       95.53
+                   PRIVATE,VOCATIONAL |          4        0.04       95.57
+           PRIVATE,VOCATIONAL,OUTSIDE |          1        0.01       95.58
+                       UC,DIDNOTAPPLY |          1        0.01       95.59
+                           UC,NOTSURE |          2        0.02       95.61
+                           UC,OUTSIDE |         61        0.61       96.22
+                   UC,OUTSIDE,NOTSURE |          1        0.01       96.23
+                           UC,PRIVATE |         58        0.58       96.81
+                   UC,PRIVATE,OUTSIDE |        142        1.42       98.23
+        UC,PRIVATE,VOCATIONAL,OUTSIDE |          1        0.01       98.24
+                        UC,VOCATIONAL |          2        0.02       98.26
+                           VOCATIONAL |        162        1.62       99.88
+               VOCATIONAL,DIDNOTAPPLY |          4        0.04       99.92
+                   VOCATIONAL,NOTSURE |          3        0.03       99.95
+                   VOCATIONAL,OUTSIDE |          5        0.05      100.00
+--------------------------------------+-----------------------------------
+                                Total |      9,997      100.00
+
+. 
+. di "truncated colleges applied"
+truncated colleges applied
+
+. tab coll_applied_coded_trunc if hs_senior==1
+
+Colleges applied with |
+ truncated categories |      Freq.     Percent        Cum.
+----------------------+-----------------------------------
+                  CCC |      3,417       34.18       34.18
+                  CSU |        898        8.98       43.16
+                   UC |        308        3.08       46.24
+               CCC,UC |        141        1.41       47.65
+              CCC,CSU |        597        5.97       53.63
+               CSU,UC |        751        7.51       61.14
+           CCC,CSU,UC |        513        5.13       66.27
+       CCC,UC,PRIVATE |         22        0.22       66.49
+      CCC,CSU,PRIVATE |         42        0.42       66.91
+       CSU,UC,PRIVATE |        305        3.05       69.96
+   CCC,CSU,UC,PRIVATE |        147        1.47       71.43
+    CCC,UC,VOCATIONAL |          3        0.03       71.46
+   CCC,CSU,VOCATIONAL |         16        0.16       71.62
+    CSU,UC,VOCATIONAL |          5        0.05       71.67
+CCC,CSU,UC,VOCATIONAL |          4        0.04       71.71
+       CCC,UC,OUTSIDE |         21        0.21       71.92
+      CCC,CSU,OUTSIDE |         45        0.45       72.37
+       CSU,UC,OUTSIDE |        235        2.35       74.72
+   CCC,CSU,UC,OUTSIDE |         78        0.78       75.50
+    OTHERCOMBINATIONS |      2,449       24.50      100.00
+----------------------+-----------------------------------
+                Total |      9,997      100.00
+
+. 
+. di "where are you attending college"
+where are you attending college
+
+. tab coll_applied_coded_trunc where_attend_coll if hs_senior==1
+
+Colleges applied with |              Q34: where are you mostly likely to attend
+>  college this fall
+ truncated categories |       CCC        CSU         UC   Priv 4yr  Vocationa  
+> Outside C  None of t   Not sure |     Total
+----------------------+--------------------------------------------------------
+--------------------------------+----------
+                  CCC |     3,061          3          0        107         18  
+>         1          2         12 |     3,204 
+                  CSU |        15        829          1         12          5  
+>         0          4          1 |       867 
+                   UC |         8          8          1          4          0  
+>         0        274          1 |       296 
+               CCC,UC |       104          2          0          0          4  
+>         0         23          0 |       133 
+              CCC,CSU |       376        188          0          2          6  
+>         0          1          1 |       574 
+               CSU,UC |         4        376          5          0          7  
+>         1        343          0 |       736 
+           CCC,CSU,UC |       220        133          1          1          9  
+>         1        138          0 |       503 
+       CCC,UC,PRIVATE |        11          0          0          0          0  
+>         4          7          0 |        22 
+      CCC,CSU,PRIVATE |        20          7          0          0          2  
+>        12          1          0 |        42 
+       CSU,UC,PRIVATE |         2         88          1          0          2  
+>        57        149          1 |       300 
+   CCC,CSU,UC,PRIVATE |        49         30          0          1          5  
+>        18         40          0 |       143 
+    CCC,UC,VOCATIONAL |         3          0          0          0          0  
+>         0          0          0 |         3 
+   CCC,CSU,VOCATIONAL |         8          1          0          0          2  
+>         0          0          5 |        16 
+    CSU,UC,VOCATIONAL |         2          1          0          0          0  
+>         0          0          1 |         4 
+CCC,CSU,UC,VOCATIONAL |         3          0          0          0          1  
+>         0          0          0 |         4 
+       CCC,UC,OUTSIDE |        13          0          3          0          0  
+>         0          4          1 |        21 
+      CCC,CSU,OUTSIDE |        22         13          8          0          1  
+>         0          0          0 |        44 
+       CSU,UC,OUTSIDE |         1         74         63          3          7  
+>         1         85          0 |       234 
+   CCC,CSU,UC,OUTSIDE |        30         19          8          1          2  
+>         0         18          0 |        78 
+    OTHERCOMBINATIONS |       366        215        427        174         87  
+>       324        443        130 |     2,166 
+----------------------+--------------------------------------------------------
+--------------------------------+----------
+                Total |     4,318      1,987        518        305        158  
+>       419      1,532        153 |     9,390 
+
+. 
+. di "has college contacted you about finaid"
+has college contacted you about finaid
+
+. tab coll_applied_coded_trunc coll_contact if hs_senior==1
+
+                      |  Q40: has any college contacted
+Colleges applied with |         you about finaid
+ truncated categories |       All       None       Some |     Total
+----------------------+---------------------------------+----------
+                  CCC |       621      1,639        892 |     3,152 
+                  CSU |       282        166        413 |       861 
+                   UC |       103         39        149 |       291 
+               CCC,UC |        39         45         48 |       132 
+              CCC,CSU |       158        150        260 |       568 
+               CSU,UC |       256         72        400 |       728 
+           CCC,CSU,UC |       145         90        263 |       498 
+       CCC,UC,PRIVATE |         9          1         12 |        22 
+      CCC,CSU,PRIVATE |        17          5         20 |        42 
+       CSU,UC,PRIVATE |       110         26        162 |       298 
+   CCC,CSU,UC,PRIVATE |        44         19         80 |       143 
+    CCC,UC,VOCATIONAL |         1          2          0 |         3 
+   CCC,CSU,VOCATIONAL |         1          5         10 |        16 
+    CSU,UC,VOCATIONAL |         1          2          1 |         4 
+CCC,CSU,UC,VOCATIONAL |         0          3          1 |         4 
+       CCC,UC,OUTSIDE |         4          4         13 |        21 
+      CCC,CSU,OUTSIDE |        12         11         20 |        43 
+       CSU,UC,OUTSIDE |        80         16        134 |       230 
+   CCC,CSU,UC,OUTSIDE |        28          9         41 |        78 
+    OTHERCOMBINATIONS |       714        488        940 |     2,142 
+----------------------+---------------------------------+----------
+                Total |     2,625      2,792      3,859 |     9,276 
+
+. 
+. 
+. log close 
+      name:  <unnamed>
+       log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
+> coll_app.smcl
+  log type:  smcl
+ closed on:   7 Sep 2024, 15:24:22
+-------------------------------------------------------------------------------

@@ -31,9 +31,15 @@ tab attend_coll if hs_senior == 1
 // demographics
 //------------------------------------------------
 
-di "race"
+di "race for all respondents"
+tab race_simple_23
+tab race_simple_24
+tab race_hrchy
 
-tab race if hs_senior==1 
+di "race for high school seniors"
+tab race_simple_23 if hs_senior==1 
+tab race_simple_23 if hs_senior==1 
+tab race_hrchy if hs_senior == 1
 
 
 di "parent education"

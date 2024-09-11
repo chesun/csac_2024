@@ -3,7 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/expl
 > ore_sample_char.smcl
   log type:  smcl
- opened on:   5 Sep 2024, 10:43:28
+ opened on:  10 Sep 2024, 16:57:30
 
 . 
 . graph drop _all
@@ -60,28 +60,118 @@ I don't know |        417        4.16        4.16
 . // demographics
 . //------------------------------------------------
 . 
-. di "race"
-race
+. di "race for all respondents"
+race for all respondents
 
-. 
-. tab race if hs_senior==1 
+. tab race_simple_23
+
+        mutually |
+ exclusive race, |
+    2023 version |      Freq.     Percent        Cum.
+-----------------+-----------------------------------
+           Black |        388        4.45        4.45
+          Native |         29        0.33        4.78
+           Asian |        968       11.10       15.88
+        Filipino |        132        1.51       17.40
+        Hispanic |      4,430       50.80       68.20
+Pacific Islander |         24        0.28       68.47
+           White |      1,319       15.13       83.60
+      Other Race |        180        2.06       85.67
+     Multiracial |      1,250       14.33      100.00
+-----------------+-----------------------------------
+           Total |      8,720      100.00
+
+. tab race_simple_24
 
    race narrowly |
          defined |
        (mutually |
-      exclusive) |      Freq.     Percent        Cum.
+exclusive), 2024 |
+         version |      Freq.     Percent        Cum.
 -----------------+-----------------------------------
-           Black |        396        4.63        4.63
-          Native |         31        0.36        4.99
-           Asian |      1,001       11.69       16.68
-        Filipino |        133        1.55       18.23
-        Hispanic |      4,458       52.07       70.31
-Pacific Islander |         24        0.28       70.59
-           White |      1,350       15.77       86.36
-      Other Race |        180        2.10       88.46
-     Multiracial |        988       11.54      100.00
+           Black |        396        4.54        4.54
+          Native |         31        0.36        4.90
+           Asian |      1,001       11.48       16.38
+        Filipino |        133        1.53       17.90
+        Hispanic |      4,458       51.12       69.03
+Pacific Islander |         24        0.28       69.30
+           White |      1,350       15.48       84.78
+      Other Race |        180        2.06       86.85
+     Multiracial |      1,147       13.15      100.00
 -----------------+-----------------------------------
-           Total |      8,561      100.00
+           Total |      8,720      100.00
+
+. tab race_hrchy
+
+ mutually exclusive race based |
+              on URM hierarchy |      Freq.     Percent        Cum.
+-------------------------------+-----------------------------------
+American Indian/Alaskan Native |        204        2.34        2.34
+                         Black |        644        7.39        9.72
+                      Hispanic |      4,895       56.14       65.86
+              Pacific Islander |         47        0.54       66.40
+                      Filipino |        291        3.34       69.74
+                         Asian |      1,109       12.72       82.45
+                    Other race |        211        2.42       84.87
+            White/Non-Hispanic |      1,319       15.13      100.00
+-------------------------------+-----------------------------------
+                         Total |      8,720      100.00
+
+. 
+. di "race for high school seniors"
+race for high school seniors
+
+. tab race_simple_23 if hs_senior==1 
+
+        mutually |
+ exclusive race, |
+    2023 version |      Freq.     Percent        Cum.
+-----------------+-----------------------------------
+           Black |        388        4.45        4.45
+          Native |         29        0.33        4.78
+           Asian |        968       11.10       15.88
+        Filipino |        132        1.51       17.40
+        Hispanic |      4,430       50.80       68.20
+Pacific Islander |         24        0.28       68.47
+           White |      1,319       15.13       83.60
+      Other Race |        180        2.06       85.67
+     Multiracial |      1,250       14.33      100.00
+-----------------+-----------------------------------
+           Total |      8,720      100.00
+
+. tab race_simple_23 if hs_senior==1 
+
+        mutually |
+ exclusive race, |
+    2023 version |      Freq.     Percent        Cum.
+-----------------+-----------------------------------
+           Black |        388        4.45        4.45
+          Native |         29        0.33        4.78
+           Asian |        968       11.10       15.88
+        Filipino |        132        1.51       17.40
+        Hispanic |      4,430       50.80       68.20
+Pacific Islander |         24        0.28       68.47
+           White |      1,319       15.13       83.60
+      Other Race |        180        2.06       85.67
+     Multiracial |      1,250       14.33      100.00
+-----------------+-----------------------------------
+           Total |      8,720      100.00
+
+. tab race_hrchy if hs_senior == 1
+
+ mutually exclusive race based |
+              on URM hierarchy |      Freq.     Percent        Cum.
+-------------------------------+-----------------------------------
+American Indian/Alaskan Native |        204        2.34        2.34
+                         Black |        644        7.39        9.72
+                      Hispanic |      4,895       56.14       65.86
+              Pacific Islander |         47        0.54       66.40
+                      Filipino |        291        3.34       69.74
+                         Asian |      1,109       12.72       82.45
+                    Other race |        211        2.42       84.87
+            White/Non-Hispanic |      1,319       15.13      100.00
+-------------------------------+-----------------------------------
+                         Total |      8,720      100.00
 
 . 
 . 
@@ -297,5 +387,5 @@ resrc_coun~r |     11,642    .0623604    .2418194          0          1
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/expl
 > ore_sample_char.smcl
   log type:  smcl
- closed on:   5 Sep 2024, 10:43:28
+ closed on:  10 Sep 2024, 16:57:30
 -------------------------------------------------------------------------------
