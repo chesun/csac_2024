@@ -3,7 +3,11 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/explore_sample_char.smcl
   {txt}log type:  {res}smcl
+<<<<<<< Updated upstream
  {txt}opened on:  {res}10 Sep 2024, 16:57:30
+=======
+ {txt}opened on:  {res} 7 Sep 2024, 15:24:20
+>>>>>>> Stashed changes
 {txt}
 {com}. 
 . graph drop _all
@@ -386,7 +390,11 @@ resrc_essa~l {c |}{res}     11,642    .1016148    .3021541          0          1
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/explore_sample_char.smcl
   {txt}log type:  {res}smcl
+<<<<<<< Updated upstream
  {txt}closed on:  {res}10 Sep 2024, 16:57:30
+=======
+ {txt}closed on:  {res} 7 Sep 2024, 15:24:20
+>>>>>>> Stashed changes
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}
