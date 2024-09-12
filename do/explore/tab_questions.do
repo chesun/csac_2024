@@ -51,3 +51,25 @@ log close
 translate $projdir/log/explore/tab_questions_simple.smcl ///
     $projdir/log/explore/tab_questions_simple.log, replace 
 
+// tabulation of college applications
+log using $projdir/log/explore/tab_coll_app.smcl, replace 
+
+di "colleges applied"
+tab coll_applied_coded if hs_senior==1
+
+di "truncated colleges applied"
+tab coll_applied_coded_trunc if hs_senior==1
+
+di "where are you attending college"
+tab coll_applied_coded_trunc where_attend_coll if hs_senior==1
+
+di "has college contacted you about finaid"
+tab coll_applied_coded_trunc coll_contact if hs_senior==1
+
+
+log close 
+translate $projdir/log/explore/tab_coll_app.smcl ///
+    $projdir/log/explore/tab_coll_app.log, replace
+
+
+

@@ -198,6 +198,50 @@ label var coll_applied_outside "Q25: applied to college outside CA"
 label var coll_applied_notsure "Q25: not sure"
 label var coll_applied_none "Q25: did not apply to college"
 
+    // a shortened variable for encoding different combos
+    gen coll_applied_short = coll_applied_raw
+    replace coll_applied_short = subinstr(coll_applied_short, "California Community College (CCC)", "CCC", .)
+    replace coll_applied_short = subinstr(coll_applied_short, "California State University (CSU)", "CSU", .)
+    replace coll_applied_short = subinstr(coll_applied_short, "University of California (UC)", "UC", .)
+    replace coll_applied_short = subinstr(coll_applied_short, "Private four-year college/university in California", "PRIVATE", .)
+    replace coll_applied_short = subinstr(coll_applied_short, "Vocational, technical, or career college in California", "VOCATIONAL", .)
+    replace coll_applied_short = subinstr(coll_applied_short, "College or university outside of California", "OUTSIDE", .)
+    replace coll_applied_short = subinstr(coll_applied_short, "I'm not sure", "NOTSURE", .)
+    replace coll_applied_short = subinstr(coll_applied_short, "I did not apply to a college", "DIDNOTAPPLY", .)
+
+    // encode 
+    lab define coll_applied_coded 1 "CCC" 2 "CSU" 3 "UC" ///
+        4 "CCC,UC" 5 "CCC,CSU" 6 "CSU,UC" 7 "CCC,CSU,UC" ///
+        8 "CCC,UC,PRIVATE" 9 "CCC,CSU,PRIVATE" 10 "CSU,UC,PRIVATE" 11 "CCC,CSU,UC,PRIVATE" ///
+        12 "CCC,UC,VOCATIONAL" 13 "CCC,CSU,VOCATIONAL" 14 "CSU,UC,VOCATIONAL" 15 "CCC,CSU,UC,VOCATIONAL" ///
+        16 "CCC,UC,OUTSIDE" 17 "CCC,CSU,OUTSIDE" 18 "CSU,UC,OUTSIDE" 19 "CCC,CSU,UC,OUTSIDE" 
+
+    encode coll_applied_short, gen(coll_applied_coded) lab(coll_applied_coded)
+    lab var coll_applied_coded "College applied coded with all categories"
+
+    gen coll_applied_coded_trunc = coll_applied_coded
+    replace coll_applied_coded_trunc = 20 if coll_applied_coded_trunc >= 20 & !mi(coll_applied_coded_trunc)
+    lab define coll_applied_coded_trunc ///
+        1 "CCC" 2 "CSU" 3 "UC" ///
+        4 "CCC,UC" 5 "CCC,CSU" 6 "CSU,UC" 7 "CCC,CSU,UC" ///
+        8 "CCC,UC,PRIVATE" 9 "CCC,CSU,PRIVATE" 10 "CSU,UC,PRIVATE" 11 "CCC,CSU,UC,PRIVATE" ///
+        12 "CCC,UC,VOCATIONAL" 13 "CCC,CSU,VOCATIONAL" 14 "CSU,UC,VOCATIONAL" 15 "CCC,CSU,UC,VOCATIONAL" ///
+        16 "CCC,UC,OUTSIDE" 17 "CCC,CSU,OUTSIDE" 18 "CSU,UC,OUTSIDE" 19 "CCC,CSU,UC,OUTSIDE"  ///
+        20 "OTHERCOMBINATIONS"
+
+    lab values coll_applied_coded_trunc coll_applied_coded_trunc
+    lab var coll_applied_coded_trunc "Colleges applied with truncated categories"
+
+    //dummies
+    gen coll_applied_only_ccc = 1 if coll_applied_coded == 1
+    gen coll_applied_only_csu = 1 if coll_applied_coded == 2
+    gen coll_applied_only_uc = 1 if coll_applied_coded == 3 
+    gen coll_applied_only_ccc_uc = 1 if coll_applied_coded == 4
+    gen coll_applied_only_ccc_csu = 1 if coll_applied_coded == 5 
+    gen coll_applied_only_csu_uc = 1 if coll_applied_coded == 6 
+    gen coll_applied_only_ccc_csu_uc = 1 if coll_applied_coded == 7
+
+
 /* Q26: what challenges did you face when applying to college or trade school? select all that apply */
 rename q26 collapp_chall_raw
 label var collapp_chall_raw "Q26: challenges applying to college/trade school"
