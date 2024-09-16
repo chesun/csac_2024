@@ -52,10 +52,15 @@ rename q11 why_fafsa_raw
 label var why_fafsa_raw "W11: Reason for completing FAFSA or CADAA"
 
 gen why_fafsa_requirement = (strpos(why_fafsa_raw, "It was a requirement for graduation")!=0)
+replace why_fafsa_requirement = . if mi(why_fafsa_raw)
 gen why_fafsa_assignment = (strpos(why_fafsa_raw, "It was part of an assignment for a class")!=0)
+replace why_fafsa_assignment = . if mi(why_fafsa_raw)
 gen why_fafsa_eligible = (strpos(why_fafsa_raw, "I wanted to see if I was eligible for financial aid")!=0)
+replace why_fafsa_eligible = . if mi(why_fafsa_raw)
 gen why_fafsa_expected = (strpos(why_fafsa_raw, "It was an expectation at my school")!=0)
+replace why_fafsa_expected = . if mi(why_fafsa_raw)
 gen why_fafsa_other = (strpos(why_fafsa_raw, "Other (Please describe)")!=0)
+replace why_fafsa_other = . if mi(why_fafsa_raw)
 
 label var why_fafsa_requirement "why fafsa: requirement for graduation"
 label var why_fafsa_assignment "why fafsa: assignment for class"
@@ -91,6 +96,17 @@ gen finaid_challenge_info = (strpos(finaid_challenge_raw, "I was concerned about
 gen finaid_challenge_whichapp = (strpos(finaid_challenge_raw, "I did not know which application to complete") !=0)
 gen finaid_challenge_other = (strpos(finaid_challenge_raw, "Other: (please explain)") !=0)
 
+replace finaid_challenge_tech =. if mi(finaid_challenge_raw)
+replace finaid_challenge_none =. if mi(finaid_challenge_raw)
+replace finaid_challenge_doc =. if mi(finaid_challenge_raw)
+replace finaid_challenge_invite =. if mi(finaid_challenge_raw)
+replace finaid_challenge_multi =. if mi(finaid_challenge_raw)
+replace finaid_challenge_confusing =. if mi(finaid_challenge_raw)
+replace finaid_challenge_nohelp =. if mi(finaid_challenge_raw)
+replace finaid_challenge_info =. if mi(finaid_challenge_raw)
+replace finaid_challenge_whichapp =. if mi(finaid_challenge_raw)
+replace finaid_challenge_other =. if mi(finaid_challenge_raw)
+
 label var finaid_challenge_tech "FAFSA challenges: technical difficulties"
 label var finaid_challenge_none "FAFSA challenges: no difficulties"
 label var finaid_challenge_doc "FAFSA challenges: issues with required documents"
@@ -122,6 +138,16 @@ gen support_received_family = (strpos(support_received_raw, "Family member other
 gen support_received_friend = (strpos(support_received_raw, "Friend") !=0)
 gen support_received_online = (strpos(support_received_raw, "Online resources") !=0)
 gen support_received_nobody = (strpos(support_received_raw, "Nobody (I completed it on my own)") !=0)
+
+replace support_received_counselor =. if mi(support_received_raw)
+replace support_received_teacher =. if mi(support_received_raw)
+replace support_received_hsworkshop =. if mi(support_received_raw)
+replace support_received_cmworkshop =. if mi(support_received_raw)
+replace support_received_parent =. if mi(support_received_raw)
+replace support_received_family =. if mi(support_received_raw)
+replace support_received_friend =. if mi(support_received_raw)
+replace support_received_online =. if mi(support_received_raw)
+replace support_received_nobody =. if mi(support_received_raw)
 
 lab var support_received_counselor "Q16 FAFSA support: HS counselor"
 lab var support_received_teacher "Q16 FAFSA support: teacher"
@@ -188,6 +214,15 @@ gen coll_applied_vocation = (strpos(coll_applied_raw, "Vocational, technical, or
 gen coll_applied_outside = (strpos(coll_applied_raw, "College or university outside of California") !=0)
 gen coll_applied_notsure = (strpos(coll_applied_raw, "I'm not sure") !=0)
 gen coll_applied_none = (strpos(coll_applied_raw, "I did not apply to a college") !=0)
+
+replace coll_applied_ccc =. if mi(coll_applied_raw)
+replace coll_applied_csu =. if mi(coll_applied_raw)
+replace coll_applied_uc =. if mi(coll_applied_raw)
+replace coll_applied_priv4yr =. if mi(coll_applied_raw)
+replace coll_applied_vocation =. if mi(coll_applied_raw)
+replace coll_applied_outside =. if mi(coll_applied_raw)
+replace coll_applied_notsure =. if mi(coll_applied_raw)
+replace coll_applied_none =. if mi(coll_applied_raw)
 
 label var coll_applied_ccc "Q25: applied to CCC"
 label var coll_applied_csu "Q25: applied to CSU"
@@ -258,6 +293,18 @@ gen collapp_chall_notready = (strpos(collapp_chall_raw, "I do not feel academica
 gen collapp_chall_submit = (strpos(collapp_chall_raw, "I had difficulty submitting other required items (transcripts, essays, test scores, etc.)") !=0)
 gen collapp_chall_other = (strpos(collapp_chall_raw, "Other (please specify)") !=0)
 
+replace collapp_chall_dna =. if mi(collapp_chall_raw)
+replace collapp_chall_none =. if mi(collapp_chall_raw)
+replace collapp_chall_noinfo =. if mi(collapp_chall_raw)
+replace collapp_chall_dnu =. if mi(collapp_chall_raw)
+replace collapp_chall_course =. if mi(collapp_chall_raw)
+replace collapp_chall_miss =. if mi(collapp_chall_raw)
+replace collapp_chall_fee =. if mi(collapp_chall_raw)
+replace collapp_chall_deadline =. if mi(collapp_chall_raw)
+replace collapp_chall_notready =. if mi(collapp_chall_raw)
+replace collapp_chall_submit =. if mi(collapp_chall_raw)
+replace collapp_chall_other =. if mi(collapp_chall_raw)
+
 lab var collapp_chall_dna "Q26: did not apply to college"
 lab var collapp_chall_none "Q26: did not face challenges"
 lab var collapp_chall_noinfo "Q26: did nothave enough info"
@@ -292,6 +339,12 @@ gen fall_plan_family = (strpos(fall_plan_raw, "Family obligations") !=0)
 gen fall_plan_military = (strpos(fall_plan_raw, "Military") !=0)
 gen fall_plan_other = (strpos(fall_plan_raw, "Other (please tell us):") !=0)
 
+replace fall_plan_workpt =. if mi(fall_plan_raw)
+replace fall_plan_workft =. if mi(fall_plan_raw)
+replace fall_plan_family =. if mi(fall_plan_raw)
+replace fall_plan_military =. if mi(fall_plan_raw)
+replace fall_plan_other =. if mi(fall_plan_raw)
+
 lab var fall_plan_workpt "Q29: work part time"
 lab var fall_plan_workft "Q29: work full time"
 lab var fall_plan_family "Q29: family obligations"
@@ -316,6 +369,26 @@ gen why_no_coll_work = (strpos(why_no_coll_raw, "I need to work") !=0)
 gen why_no_coll_training = (strpos(why_no_coll_raw, "In another education or training program") !=0)
 gen why_no_coll_other = (strpos(why_no_coll_raw, "Other (Please list)") !=0)
 
+replace why_no_coll_notforme =. if mi(why_no_coll_raw)
+replace why_no_coll_expensive =. if mi(why_no_coll_raw)
+replace why_no_coll_notworth =. if mi(why_no_coll_raw)
+replace why_no_coll_gapyear =. if mi(why_no_coll_raw)
+replace why_no_coll_military =. if mi(why_no_coll_raw)
+replace why_no_coll_health =. if mi(why_no_coll_raw)
+replace why_no_coll_work =. if mi(why_no_coll_raw)
+replace why_no_coll_training =. if mi(why_no_coll_raw)
+replace why_no_coll_other =. if mi(why_no_coll_raw)
+
+lab var why_no_coll_notforme "Q30: not for me"
+lab var why_no_coll_expensive "Q30: too expensive"
+lab var why_no_coll_notworth "Q30: Not worth the cost"
+lab var why_no_coll_gapyear "Q30: gap year"
+lab var why_no_coll_military "Q30: military"
+lab var why_no_coll_health "Q30: health reasons"
+lab var why_no_coll_work "Q30: need to work"
+lab var why_no_coll_training "Q30: in another education/training program"
+lab var why_no_coll_other "Q30: other"
+
 rename q30_9_text why_no_coll_other_text
 label var why_no_coll_other_text "Q30: why won't attend college this fall: other"
 
@@ -331,6 +404,10 @@ gen coll_decision_academic = (strpos(coll_decision_raw, "Academic support") !=0)
 lab var coll_decision_academic "Q32: academic support"
 gen coll_decision_family = (strpos(coll_decision_raw, "Family or other support") !=0)
 lab var coll_decision_family "Q32: family or other support"
+
+replace coll_decision_financial =. if mi(coll_decision_raw)
+replace coll_decision_academic =. if mi(coll_decision_raw)
+replace coll_decision_family =. if mi(coll_decision_raw)
 
 order fall_plan_raw fall_plan_workpt - fall_plan_other fall_plan_other_text ///
     why_no_coll_raw why_no_coll_notforme - why_no_coll_other why_no_coll_other_text ///
@@ -374,6 +451,11 @@ gen coll_contact_subject_work = (strpos(coll_contact_subject_raw, "Eligibility f
 gen coll_contact_subject_grant = (strpos(coll_contact_subject_raw, "Grants or scholarships") !=0)
 gen coll_contact_subject_loan = (strpos(coll_contact_subject_raw, "Information about loans") !=0)
 
+replace coll_contact_subject_doc =. if mi(coll_contact_subject_raw)
+replace coll_contact_subject_work =. if mi(coll_contact_subject_raw)
+replace coll_contact_subject_grant =. if mi(coll_contact_subject_raw)
+replace coll_contact_subject_loan =. if mi(coll_contact_subject_raw)
+
 lab var coll_contact_subject_doc "Q42: FAFSA/CADAA verification or additional documentation"
 lab var coll_contact_subject_work "Q42: eligibility for work study"
 lab var coll_contact_subject_grant "Q42: grants or scholarships"
@@ -415,6 +497,14 @@ gen social_insta = (strpos(social_raw, "Instagram") != 0)
 gen social_twitter = (strpos(social_raw, "Twitter/X") != 0)
 gen social_other = (strpos(social_raw, "Other (please list):") != 0)
 
+replace social_reddit =. if mi(social_raw)
+replace social_fb =. if mi(social_raw)
+replace social_yt =. if mi(social_raw)
+replace social_tiktok =. if mi(social_raw)
+replace social_insta =. if mi(social_raw)
+replace social_twitter =. if mi(social_raw)
+replace social_other =. if mi(social_raw)
+
 lab var social_reddit "Q47: Reddit"
 lab var social_fb "Q47: Facebook"
 lab var social_yt "Q47: YouTube"
@@ -437,6 +527,15 @@ gen help_privcounselor = (strpos(help_raw, "College counselor or consultant hire
 gen help_hscounselor = (strpos(help_raw, "High school counselor") != 0)
 gen help_other = (strpos(help_raw, "Other members of my community") != 0)
 gen help_self = (strpos(help_raw, "I did it myself") != 0)
+
+replace help_parent =. if mi(help_raw)
+replace help_family =. if mi(help_raw)
+replace help_teacher =. if mi(help_raw)
+replace help_collstsaff =. if mi(help_raw)
+replace help_privcounselor =. if mi(help_raw)
+replace help_hscounselor =. if mi(help_raw)
+replace help_other =. if mi(help_raw)
+replace help_self =. if mi(help_raw)
 
 label var help_parent "Q49: Parents"
 label var help_family "Q49: family other than parent"
@@ -462,6 +561,15 @@ gen resrc_essaytool = (strpos(resrc_raw, "College essay writing tools") != 0)
 gen resrc_counselor = (strpos(resrc_raw, "Private college counselor/consultant") != 0)
 gen resrc_other = (strpos(resrc_raw, "Other (please specify)") != 0)
 
+replace resrc_finaidtool =. if mi(resrc_raw)
+replace resrc_website =. if mi(resrc_raw)
+replace resrc_comptool =. if mi(resrc_raw)
+replace resrc_agtool =. if mi(resrc_raw)
+replace resrc_apptool =. if mi(resrc_raw)
+replace resrc_essaytool =. if mi(resrc_raw)
+replace resrc_counselor =. if mi(resrc_raw)
+replace resrc_other =. if mi(resrc_raw)
+
 lab var resrc_finaidtool "Q50: financial aid tools"
 lab var resrc_website "Q50: college website"
 lab var resrc_comptool "Q50: college comparison tools"
@@ -485,14 +593,14 @@ label var pay_plan_raw "Q54: how do you plan to pay college tuition and fees"
 
 order pay_plan_raw, after(what_make_app_easier)
 
-gen pay_plan_scholarship = (strpos(pay_plan_raw, "Scholarships") !=0)
-gen pay_plan_grant = (strpos(pay_plan_raw, "Grants (e.g., Pell Grant, Cal Grant)") !=0)
-gen pay_plan_saving = (strpos(pay_plan_raw, "My own savings") !=0)
-gen pay_plan_work = (strpos(pay_plan_raw, "Working while enrolled") !=0)
-gen pay_plan_otherppl = (strpos(pay_plan_raw, "Money from other people (e.g., parents, family, and friends)") !=0)
-gen pay_plan_loan = (strpos(pay_plan_raw, "Student loans") !=0)
-gen pay_plan_va = (strpos(pay_plan_raw, "Military/VA benefits") !=0)
-gen pay_plan_credit = (strpos(pay_plan_raw, "Credit card(s)") !=0)
+gen pay_plan_scholarship = (strpos(pay_plan_raw, "Scholarships") !=0) if !mi(pay_plan_raw)
+gen pay_plan_grant = (strpos(pay_plan_raw, "Grants (e.g., Pell Grant, Cal Grant)") !=0) if !mi(pay_plan_raw)
+gen pay_plan_saving = (strpos(pay_plan_raw, "My own savings") !=0) if !mi(pay_plan_raw)
+gen pay_plan_work = (strpos(pay_plan_raw, "Working while enrolled") !=0) if !mi(pay_plan_raw)
+gen pay_plan_otherppl = (strpos(pay_plan_raw, "Money from other people (e.g., parents, family, and friends)") !=0) if !mi(pay_plan_raw)
+gen pay_plan_loan = (strpos(pay_plan_raw, "Student loans") !=0) if !mi(pay_plan_raw)
+gen pay_plan_va = (strpos(pay_plan_raw, "Military/VA benefits") !=0) if !mi(pay_plan_raw)
+gen pay_plan_credit = (strpos(pay_plan_raw, "Credit card(s)") !=0) if !mi(pay_plan_raw)
 
 lab var pay_plan_scholarship "Q54: scholarships"
 lab var pay_plan_grant "Q54: grants"
@@ -515,16 +623,16 @@ drop q55 */
 rename q55 major_raw 
 lab var major_raw "Q55: what are you most likely to study in college"
 
-gen major_business = (strpos(major_raw, "Business") !=0)
-gen major_engineering = (strpos(major_raw, "Engineering") !=0)
-gen major_science = (strpos(major_raw, "Natural sciences (e.g., biology, chemistry, physics)") !=0)
-gen major_social = (strpos(major_raw, "Social sciences (e.g., psychology, sociology, economics)") !=0)
-gen major_humanity = (strpos(major_raw, "Humanities & Arts (e.g., English, History, Arts)") !=0)
-gen major_health = (strpos(major_raw, "Health sciences") !=0)
-gen major_education = (strpos(major_raw, "Education") !=0)
-gen major_applied = (strpos(major_raw, "Applied sciences (e.g., automotive repair, HVAC, construction)") !=0)
-gen major_service = (strpos(major_raw, "Public service (e.g., criminal justice, fire science)") !=0)
-gen major_undecided = (strpos(major_raw, "Undecided") !=0)
+gen major_business = (strpos(major_raw, "Business") !=0) if !mi(major_raw)
+gen major_engineering = (strpos(major_raw, "Engineering") !=0) if !mi(major_raw)
+gen major_science = (strpos(major_raw, "Natural sciences (e.g., biology, chemistry, physics)") !=0) if !mi(major_raw)
+gen major_social = (strpos(major_raw, "Social sciences (e.g., psychology, sociology, economics)") !=0) if !mi(major_raw)
+gen major_humanity = (strpos(major_raw, "Humanities & Arts (e.g., English, History, Arts)") !=0) if !mi(major_raw)
+gen major_health = (strpos(major_raw, "Health sciences") !=0) if !mi(major_raw)
+gen major_education = (strpos(major_raw, "Education") !=0) if !mi(major_raw)
+gen major_applied = (strpos(major_raw, "Applied sciences (e.g., automotive repair, HVAC, construction)") !=0) if !mi(major_raw)
+gen major_service = (strpos(major_raw, "Public service (e.g., criminal justice, fire science)") !=0) if !mi(major_raw)
+gen major_undecided = (strpos(major_raw, "Undecided") !=0) if !mi(major_raw)
 
 
 lab var major_business "Q55: Business"
@@ -575,12 +683,12 @@ drop q63
 rename q64 why_no_atog_raw
 label var why_no_atog_raw "Q64: why not on track to complete a-g"
 
-gen why_no_atog_notrequired = (strpos(why_no_atog_raw, "They were not required for the college I plan to attend") !=0)
-gen why_no_atog_unknown = (strpos(why_no_atog_raw, "I did not know about the requirements") !=0)
-gen why_no_atog_nocourse = (strpos(why_no_atog_raw, "My high school did not offer the necessary courses") !=0)
-gen why_no_atog_lowgrade = (strpos(why_no_atog_raw, "My grades were too low in some of the required courses") !=0)
-gen why_no_atog_nocollege = (strpos(why_no_atog_raw, "I am not planning on attending college") !=0)
-gen why_no_atog_other = (strpos(why_no_atog_raw, "Other (please specify):") !=0)
+gen why_no_atog_notrequired = (strpos(why_no_atog_raw, "They were not required for the college I plan to attend") !=0) if !mi(why_no_atog_raw)
+gen why_no_atog_unknown = (strpos(why_no_atog_raw, "I did not know about the requirements") !=0) if !mi(why_no_atog_raw)
+gen why_no_atog_nocourse = (strpos(why_no_atog_raw, "My high school did not offer the necessary courses") !=0) if !mi(why_no_atog_raw)
+gen why_no_atog_lowgrade = (strpos(why_no_atog_raw, "My grades were too low in some of the required courses") !=0) if !mi(why_no_atog_raw)
+gen why_no_atog_nocollege = (strpos(why_no_atog_raw, "I am not planning on attending college") !=0) if !mi(why_no_atog_raw)
+gen why_no_atog_other = (strpos(why_no_atog_raw, "Other (please specify):") !=0) if !mi(why_no_atog_raw)
 
 lab var why_no_atog_notrequired "Q64: not required for the college I plan to attend"
 lab var why_no_atog_unknown "Q64: didn't know about the requirements"
@@ -602,11 +710,11 @@ drop q66
 rename q67 why_de_raw
 label var why_de_raw "Q67: why did you take dual enrollment courses"
 
-gen why_de_class = (strpos(why_de_raw, "To take classes not offered by my school") !=0)
-gen why_de_college = (strpos(why_de_raw, "To improve my chances of getting in a more selective college") !=0)
-gen why_de_reduce = (strpos(why_de_raw, "To reduce the number of courses I need to take in college") !=0)
-gen why_de_trade = (strpos(why_de_raw, "To be ready for a trade or job after high school") !=0)
-gen why_de_other = (strpos(why_de_raw, "Other (please explain)") !=0)
+gen why_de_class = (strpos(why_de_raw, "To take classes not offered by my school") !=0) if !mi(why_de_raw)
+gen why_de_college = (strpos(why_de_raw, "To improve my chances of getting in a more selective college") !=0) if !mi(why_de_raw)
+gen why_de_reduce = (strpos(why_de_raw, "To reduce the number of courses I need to take in college") !=0) if !mi(why_de_raw)
+gen why_de_trade = (strpos(why_de_raw, "To be ready for a trade or job after high school") !=0) if !mi(why_de_raw)
+gen why_de_other = (strpos(why_de_raw, "Other (please explain)") !=0) if !mi(why_de_raw)
 
 lab var why_de_class "Q67: take classes not offered by my school"
 lab var why_de_college "Q67: improve chance of getting into selective college"

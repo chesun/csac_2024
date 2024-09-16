@@ -1,0 +1,135 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/select_all_denom.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}16 Sep 2024, 15:14:21
+{txt}
+{com}. 
+. foreach var of local select_all_raw_qs {c -(}
+{txt}  2{com}.     di "number of nonmissing responses for `var'"
+{txt}  3{com}. 
+.     mdesc `var' if hs_senior==1, none
+{txt}  4{com}. {c )-}
+number of nonmissing responses for why_fafsa_raw
+
+{txt}            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}  11,238      11,642          96.53
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for finaid_challenge_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}  10,701      11,642          91.92
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for support_received_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}  10,733      11,642          92.19
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for coll_applied_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}   9,997      11,642          85.87
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for collapp_chall_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}   9,497      11,642          81.58
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for fall_plan_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}     146      11,642           1.25
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for why_no_coll_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}     139      11,642           1.19
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for coll_decision_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}     406      11,642           3.49
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for coll_contact_subject_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}   6,325      11,642          54.33
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for social_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}   4,159      11,642          35.72
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for help_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}   8,756      11,642          75.21
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for resrc_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}   8,337      11,642          71.61
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for pay_plan_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}   8,456      11,642          72.63
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for major_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}   8,445      11,642          72.54
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for why_no_atog_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}     621      11,642           5.33
+{txt}{hline 16}{c +}{hline 47}
+number of nonmissing responses for why_de_raw
+
+            {col 17}{c |}      None                        Percent              
+    Variable{col 17}{c |}     Missing          Total     Not Missing
+{hline 16}{c +}{hline 47}
+        no vars{col 17}{c |}    {res}   3,446      11,642          29.60
+{txt}{hline 16}{c +}{hline 47}
+
+{com}. 
+. log close 
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/select_all_denom.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}16 Sep 2024, 15:14:21
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

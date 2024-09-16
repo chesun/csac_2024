@@ -120,5 +120,24 @@ local all_qs
     `tools_qs' `coll_exp_qs' `hs_exp_qs'
     ;
 
+// questions with select all that apply, for counting denominators ;
+local select_all_raw_qs
+    why_fafsa_raw
+    finaid_challenge_raw
+    support_received_raw
+    coll_applied_raw
+    collapp_chall_raw
+    fall_plan_raw
+    why_no_coll_raw
+    coll_decision_raw
+    coll_contact_subject_raw
+    social_raw
+    help_raw
+    resrc_raw
+    pay_plan_raw
+    major_raw
+    why_no_atog_raw
+    why_de_raw
+    ;
 
 #delimit cr 

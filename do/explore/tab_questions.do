@@ -20,7 +20,7 @@ include $projdir/do/macros_csac.doh
 use $projdir/dta/csac_2024_initial_clean.dta, clear 
 
 
-foreach demog in race gender parent_edu {
+foreach demog in race_simple_24 race_simple_23 race_hrchy gender parent_edu {
     di "tabulation by `demog'"
     log using $projdir/log/explore/tab_questions_`demog'.smcl, replace 
 
@@ -72,4 +72,16 @@ translate $projdir/log/explore/tab_coll_app.smcl ///
     $projdir/log/explore/tab_coll_app.log, replace
 
 
+// denominators for select all that apply questions 
+log using $projdir/log/explore/select_all_denom.smcl, replace 
+
+foreach var of local select_all_raw_qs {
+    di "number of nonmissing responses for `var'"
+
+    mdesc `var' if hs_senior==1, none
+}
+
+log close 
+translate $projdir/log/explore/select_all_denom.smcl ///
+    $projdir/log/explore/select_all_denom.log, replace 
 

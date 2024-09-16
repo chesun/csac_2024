@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/clean/clean_qualtrics_download.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}10 Sep 2024, 16:55:54
+ {txt}opened on:  {res}16 Sep 2024, 15:14:08
 {txt}
 {com}. 
 . graph drop _all
@@ -77,14 +77,29 @@
 {com}. 
 . gen why_fafsa_requirement = (strpos(why_fafsa_raw, "It was a requirement for graduation")!=0)
 {txt}
+{com}. replace why_fafsa_requirement = . if mi(why_fafsa_raw)
+{txt}(13,790 real changes made, 13,790 to missing)
+
 {com}. gen why_fafsa_assignment = (strpos(why_fafsa_raw, "It was part of an assignment for a class")!=0)
 {txt}
+{com}. replace why_fafsa_assignment = . if mi(why_fafsa_raw)
+{txt}(13,790 real changes made, 13,790 to missing)
+
 {com}. gen why_fafsa_eligible = (strpos(why_fafsa_raw, "I wanted to see if I was eligible for financial aid")!=0)
 {txt}
+{com}. replace why_fafsa_eligible = . if mi(why_fafsa_raw)
+{txt}(13,790 real changes made, 13,790 to missing)
+
 {com}. gen why_fafsa_expected = (strpos(why_fafsa_raw, "It was an expectation at my school")!=0)
 {txt}
+{com}. replace why_fafsa_expected = . if mi(why_fafsa_raw)
+{txt}(13,790 real changes made, 13,790 to missing)
+
 {com}. gen why_fafsa_other = (strpos(why_fafsa_raw, "Other (Please describe)")!=0)
 {txt}
+{com}. replace why_fafsa_other = . if mi(why_fafsa_raw)
+{txt}(13,790 real changes made, 13,790 to missing)
+
 {com}. 
 . label var why_fafsa_requirement "why fafsa: requirement for graduation"
 {txt}
@@ -147,6 +162,37 @@
 {com}. gen finaid_challenge_other = (strpos(finaid_challenge_raw, "Other: (please explain)") !=0)
 {txt}
 {com}. 
+. replace finaid_challenge_tech =. if mi(finaid_challenge_raw)
+{txt}(14,327 real changes made, 14,327 to missing)
+
+{com}. replace finaid_challenge_none =. if mi(finaid_challenge_raw)
+{txt}(14,327 real changes made, 14,327 to missing)
+
+{com}. replace finaid_challenge_doc =. if mi(finaid_challenge_raw)
+{txt}(14,327 real changes made, 14,327 to missing)
+
+{com}. replace finaid_challenge_invite =. if mi(finaid_challenge_raw)
+{txt}(14,327 real changes made, 14,327 to missing)
+
+{com}. replace finaid_challenge_multi =. if mi(finaid_challenge_raw)
+{txt}(14,327 real changes made, 14,327 to missing)
+
+{com}. replace finaid_challenge_confusing =. if mi(finaid_challenge_raw)
+{txt}(14,327 real changes made, 14,327 to missing)
+
+{com}. replace finaid_challenge_nohelp =. if mi(finaid_challenge_raw)
+{txt}(14,327 real changes made, 14,327 to missing)
+
+{com}. replace finaid_challenge_info =. if mi(finaid_challenge_raw)
+{txt}(14,327 real changes made, 14,327 to missing)
+
+{com}. replace finaid_challenge_whichapp =. if mi(finaid_challenge_raw)
+{txt}(14,327 real changes made, 14,327 to missing)
+
+{com}. replace finaid_challenge_other =. if mi(finaid_challenge_raw)
+{txt}(14,327 real changes made, 14,327 to missing)
+
+{com}. 
 . label var finaid_challenge_tech "FAFSA challenges: technical difficulties"
 {txt}
 {com}. label var finaid_challenge_none "FAFSA challenges: no difficulties"
@@ -203,6 +249,34 @@
 {txt}
 {com}. gen support_received_nobody = (strpos(support_received_raw, "Nobody (I completed it on my own)") !=0)
 {txt}
+{com}. 
+. replace support_received_counselor =. if mi(support_received_raw)
+{txt}(14,295 real changes made, 14,295 to missing)
+
+{com}. replace support_received_teacher =. if mi(support_received_raw)
+{txt}(14,295 real changes made, 14,295 to missing)
+
+{com}. replace support_received_hsworkshop =. if mi(support_received_raw)
+{txt}(14,295 real changes made, 14,295 to missing)
+
+{com}. replace support_received_cmworkshop =. if mi(support_received_raw)
+{txt}(14,295 real changes made, 14,295 to missing)
+
+{com}. replace support_received_parent =. if mi(support_received_raw)
+{txt}(14,295 real changes made, 14,295 to missing)
+
+{com}. replace support_received_family =. if mi(support_received_raw)
+{txt}(14,295 real changes made, 14,295 to missing)
+
+{com}. replace support_received_friend =. if mi(support_received_raw)
+{txt}(14,295 real changes made, 14,295 to missing)
+
+{com}. replace support_received_online =. if mi(support_received_raw)
+{txt}(14,295 real changes made, 14,295 to missing)
+
+{com}. replace support_received_nobody =. if mi(support_received_raw)
+{txt}(14,295 real changes made, 14,295 to missing)
+
 {com}. 
 . lab var support_received_counselor "Q16 FAFSA support: HS counselor"
 {txt}
@@ -315,6 +389,31 @@
 {com}. gen coll_applied_none = (strpos(coll_applied_raw, "I did not apply to a college") !=0)
 {txt}
 {com}. 
+. replace coll_applied_ccc =. if mi(coll_applied_raw)
+{txt}(15,031 real changes made, 15,031 to missing)
+
+{com}. replace coll_applied_csu =. if mi(coll_applied_raw)
+{txt}(15,031 real changes made, 15,031 to missing)
+
+{com}. replace coll_applied_uc =. if mi(coll_applied_raw)
+{txt}(15,031 real changes made, 15,031 to missing)
+
+{com}. replace coll_applied_priv4yr =. if mi(coll_applied_raw)
+{txt}(15,031 real changes made, 15,031 to missing)
+
+{com}. replace coll_applied_vocation =. if mi(coll_applied_raw)
+{txt}(15,031 real changes made, 15,031 to missing)
+
+{com}. replace coll_applied_outside =. if mi(coll_applied_raw)
+{txt}(15,031 real changes made, 15,031 to missing)
+
+{com}. replace coll_applied_notsure =. if mi(coll_applied_raw)
+{txt}(15,031 real changes made, 15,031 to missing)
+
+{com}. replace coll_applied_none =. if mi(coll_applied_raw)
+{txt}(15,031 real changes made, 15,031 to missing)
+
+{com}. 
 . label var coll_applied_ccc "Q25: applied to CCC"
 {txt}
 {com}. label var coll_applied_csu "Q25: applied to CSU"
@@ -332,6 +431,92 @@
 {com}. label var coll_applied_none "Q25: did not apply to college"
 {txt}
 {com}. 
+.     // a shortened variable for encoding different combos
+.     gen coll_applied_short = coll_applied_raw
+{txt}(15,031 missing values generated)
+
+{com}.     replace coll_applied_short = subinstr(coll_applied_short, "California Community College (CCC)", "CCC", .)
+{txt}(5,508 real changes made)
+
+{com}.     replace coll_applied_short = subinstr(coll_applied_short, "California State University (CSU)", "CSU", .)
+{txt}(4,491 real changes made)
+
+{com}.     replace coll_applied_short = subinstr(coll_applied_short, "University of California (UC)", "UC", .)
+{txt}(3,463 real changes made)
+
+{com}.     replace coll_applied_short = subinstr(coll_applied_short, "Private four-year college/university in California", "PRIVATE", .)
+{txt}(1,754 real changes made)
+
+{com}.     replace coll_applied_short = subinstr(coll_applied_short, "Vocational, technical, or career college in California", "VOCATIONAL", .)
+{txt}(305 real changes made)
+
+{com}.     replace coll_applied_short = subinstr(coll_applied_short, "College or university outside of California", "OUTSIDE", .)
+{txt}(1,703 real changes made)
+
+{com}.     replace coll_applied_short = subinstr(coll_applied_short, "I'm not sure", "NOTSURE", .)
+{txt}(300 real changes made)
+
+{com}.     replace coll_applied_short = subinstr(coll_applied_short, "I did not apply to a college", "DIDNOTAPPLY", .)
+{txt}(285 real changes made)
+
+{com}. 
+.     // encode 
+.     lab define coll_applied_coded 1 "CCC" 2 "CSU" 3 "UC" ///
+>         4 "CCC,UC" 5 "CCC,CSU" 6 "CSU,UC" 7 "CCC,CSU,UC" ///
+>         8 "CCC,UC,PRIVATE" 9 "CCC,CSU,PRIVATE" 10 "CSU,UC,PRIVATE" 11 "CCC,CSU,UC,PRIVATE" ///
+>         12 "CCC,UC,VOCATIONAL" 13 "CCC,CSU,VOCATIONAL" 14 "CSU,UC,VOCATIONAL" 15 "CCC,CSU,UC,VOCATIONAL" ///
+>         16 "CCC,UC,OUTSIDE" 17 "CCC,CSU,OUTSIDE" 18 "CSU,UC,OUTSIDE" 19 "CCC,CSU,UC,OUTSIDE" 
+{txt}
+{com}. 
+.     encode coll_applied_short, gen(coll_applied_coded) lab(coll_applied_coded)
+{txt}
+{com}.     lab var coll_applied_coded "College applied coded with all categories"
+{txt}
+{com}. 
+.     gen coll_applied_coded_trunc = coll_applied_coded
+{txt}(15,031 missing values generated)
+
+{com}.     replace coll_applied_coded_trunc = 20 if coll_applied_coded_trunc >= 20 & !mi(coll_applied_coded_trunc)
+{txt}(2,448 real changes made)
+
+{com}.     lab define coll_applied_coded_trunc ///
+>         1 "CCC" 2 "CSU" 3 "UC" ///
+>         4 "CCC,UC" 5 "CCC,CSU" 6 "CSU,UC" 7 "CCC,CSU,UC" ///
+>         8 "CCC,UC,PRIVATE" 9 "CCC,CSU,PRIVATE" 10 "CSU,UC,PRIVATE" 11 "CCC,CSU,UC,PRIVATE" ///
+>         12 "CCC,UC,VOCATIONAL" 13 "CCC,CSU,VOCATIONAL" 14 "CSU,UC,VOCATIONAL" 15 "CCC,CSU,UC,VOCATIONAL" ///
+>         16 "CCC,UC,OUTSIDE" 17 "CCC,CSU,OUTSIDE" 18 "CSU,UC,OUTSIDE" 19 "CCC,CSU,UC,OUTSIDE"  ///
+>         20 "OTHERCOMBINATIONS"
+{txt}
+{com}. 
+.     lab values coll_applied_coded_trunc coll_applied_coded_trunc
+{txt}
+{com}.     lab var coll_applied_coded_trunc "Colleges applied with truncated categories"
+{txt}
+{com}. 
+.     //dummies
+.     gen coll_applied_only_ccc = 1 if coll_applied_coded == 1
+{txt}(21,611 missing values generated)
+
+{com}.     gen coll_applied_only_csu = 1 if coll_applied_coded == 2
+{txt}(24,130 missing values generated)
+
+{com}.     gen coll_applied_only_uc = 1 if coll_applied_coded == 3 
+{txt}(24,720 missing values generated)
+
+{com}.     gen coll_applied_only_ccc_uc = 1 if coll_applied_coded == 4
+{txt}(24,887 missing values generated)
+
+{com}.     gen coll_applied_only_ccc_csu = 1 if coll_applied_coded == 5 
+{txt}(24,431 missing values generated)
+
+{com}.     gen coll_applied_only_csu_uc = 1 if coll_applied_coded == 6 
+{txt}(24,277 missing values generated)
+
+{com}.     gen coll_applied_only_ccc_csu_uc = 1 if coll_applied_coded == 7
+{txt}(24,515 missing values generated)
+
+{com}. 
+. 
 . /* Q26: what challenges did you face when applying to college or trade school? select all that apply */
 . rename q26 collapp_chall_raw
 {res}{txt}
@@ -360,6 +545,40 @@
 {txt}
 {com}. gen collapp_chall_other = (strpos(collapp_chall_raw, "Other (please specify)") !=0)
 {txt}
+{com}. 
+. replace collapp_chall_dna =. if mi(collapp_chall_raw)
+{txt}(15,531 real changes made, 15,531 to missing)
+
+{com}. replace collapp_chall_none =. if mi(collapp_chall_raw)
+{txt}(15,531 real changes made, 15,531 to missing)
+
+{com}. replace collapp_chall_noinfo =. if mi(collapp_chall_raw)
+{txt}(15,531 real changes made, 15,531 to missing)
+
+{com}. replace collapp_chall_dnu =. if mi(collapp_chall_raw)
+{txt}(15,531 real changes made, 15,531 to missing)
+
+{com}. replace collapp_chall_course =. if mi(collapp_chall_raw)
+{txt}(15,531 real changes made, 15,531 to missing)
+
+{com}. replace collapp_chall_miss =. if mi(collapp_chall_raw)
+{txt}(15,531 real changes made, 15,531 to missing)
+
+{com}. replace collapp_chall_fee =. if mi(collapp_chall_raw)
+{txt}(15,531 real changes made, 15,531 to missing)
+
+{com}. replace collapp_chall_deadline =. if mi(collapp_chall_raw)
+{txt}(15,531 real changes made, 15,531 to missing)
+
+{com}. replace collapp_chall_notready =. if mi(collapp_chall_raw)
+{txt}(15,531 real changes made, 15,531 to missing)
+
+{com}. replace collapp_chall_submit =. if mi(collapp_chall_raw)
+{txt}(15,531 real changes made, 15,531 to missing)
+
+{com}. replace collapp_chall_other =. if mi(collapp_chall_raw)
+{txt}(15,531 real changes made, 15,531 to missing)
+
 {com}. 
 . lab var collapp_chall_dna "Q26: did not apply to college"
 {txt}
@@ -420,6 +639,22 @@
 {com}. gen fall_plan_other = (strpos(fall_plan_raw, "Other (please tell us):") !=0)
 {txt}
 {com}. 
+. replace fall_plan_workpt =. if mi(fall_plan_raw)
+{txt}(24,882 real changes made, 24,882 to missing)
+
+{com}. replace fall_plan_workft =. if mi(fall_plan_raw)
+{txt}(24,882 real changes made, 24,882 to missing)
+
+{com}. replace fall_plan_family =. if mi(fall_plan_raw)
+{txt}(24,882 real changes made, 24,882 to missing)
+
+{com}. replace fall_plan_military =. if mi(fall_plan_raw)
+{txt}(24,882 real changes made, 24,882 to missing)
+
+{com}. replace fall_plan_other =. if mi(fall_plan_raw)
+{txt}(24,882 real changes made, 24,882 to missing)
+
+{com}. 
 . lab var fall_plan_workpt "Q29: work part time"
 {txt}
 {com}. lab var fall_plan_workft "Q29: work full time"
@@ -462,6 +697,53 @@
 {com}. gen why_no_coll_other = (strpos(why_no_coll_raw, "Other (Please list)") !=0)
 {txt}
 {com}. 
+. replace why_no_coll_notforme =. if mi(why_no_coll_raw)
+{txt}(24,889 real changes made, 24,889 to missing)
+
+{com}. replace why_no_coll_expensive =. if mi(why_no_coll_raw)
+{txt}(24,889 real changes made, 24,889 to missing)
+
+{com}. replace why_no_coll_notworth =. if mi(why_no_coll_raw)
+{txt}(24,889 real changes made, 24,889 to missing)
+
+{com}. replace why_no_coll_gapyear =. if mi(why_no_coll_raw)
+{txt}(24,889 real changes made, 24,889 to missing)
+
+{com}. replace why_no_coll_military =. if mi(why_no_coll_raw)
+{txt}(24,889 real changes made, 24,889 to missing)
+
+{com}. replace why_no_coll_health =. if mi(why_no_coll_raw)
+{txt}(24,889 real changes made, 24,889 to missing)
+
+{com}. replace why_no_coll_work =. if mi(why_no_coll_raw)
+{txt}(24,889 real changes made, 24,889 to missing)
+
+{com}. replace why_no_coll_training =. if mi(why_no_coll_raw)
+{txt}(24,889 real changes made, 24,889 to missing)
+
+{com}. replace why_no_coll_other =. if mi(why_no_coll_raw)
+{txt}(24,889 real changes made, 24,889 to missing)
+
+{com}. 
+. lab var why_no_coll_notforme "Q30: not for me"
+{txt}
+{com}. lab var why_no_coll_expensive "Q30: too expensive"
+{txt}
+{com}. lab var why_no_coll_notworth "Q30: Not worth the cost"
+{txt}
+{com}. lab var why_no_coll_gapyear "Q30: gap year"
+{txt}
+{com}. lab var why_no_coll_military "Q30: military"
+{txt}
+{com}. lab var why_no_coll_health "Q30: health reasons"
+{txt}
+{com}. lab var why_no_coll_work "Q30: need to work"
+{txt}
+{com}. lab var why_no_coll_training "Q30: in another education/training program"
+{txt}
+{com}. lab var why_no_coll_other "Q30: other"
+{txt}
+{com}. 
 . rename q30_9_text why_no_coll_other_text
 {res}{txt}
 {com}. label var why_no_coll_other_text "Q30: why won't attend college this fall: other"
@@ -487,6 +769,16 @@
 {txt}
 {com}. lab var coll_decision_family "Q32: family or other support"
 {txt}
+{com}. 
+. replace coll_decision_financial =. if mi(coll_decision_raw)
+{txt}(24,622 real changes made, 24,622 to missing)
+
+{com}. replace coll_decision_academic =. if mi(coll_decision_raw)
+{txt}(24,622 real changes made, 24,622 to missing)
+
+{com}. replace coll_decision_family =. if mi(coll_decision_raw)
+{txt}(24,622 real changes made, 24,622 to missing)
+
 {com}. 
 . order fall_plan_raw fall_plan_workpt - fall_plan_other fall_plan_other_text ///
 >     why_no_coll_raw why_no_coll_notforme - why_no_coll_other why_no_coll_other_text ///
@@ -557,6 +849,19 @@
 {txt}
 {com}. gen coll_contact_subject_loan = (strpos(coll_contact_subject_raw, "Information about loans") !=0)
 {txt}
+{com}. 
+. replace coll_contact_subject_doc =. if mi(coll_contact_subject_raw)
+{txt}(18,703 real changes made, 18,703 to missing)
+
+{com}. replace coll_contact_subject_work =. if mi(coll_contact_subject_raw)
+{txt}(18,703 real changes made, 18,703 to missing)
+
+{com}. replace coll_contact_subject_grant =. if mi(coll_contact_subject_raw)
+{txt}(18,703 real changes made, 18,703 to missing)
+
+{com}. replace coll_contact_subject_loan =. if mi(coll_contact_subject_raw)
+{txt}(18,703 real changes made, 18,703 to missing)
+
 {com}. 
 . lab var coll_contact_subject_doc "Q42: FAFSA/CADAA verification or additional documentation"
 {txt}
@@ -631,6 +936,28 @@
 {com}. gen social_other = (strpos(social_raw, "Other (please list):") != 0)
 {txt}
 {com}. 
+. replace social_reddit =. if mi(social_raw)
+{txt}(20,869 real changes made, 20,869 to missing)
+
+{com}. replace social_fb =. if mi(social_raw)
+{txt}(20,869 real changes made, 20,869 to missing)
+
+{com}. replace social_yt =. if mi(social_raw)
+{txt}(20,869 real changes made, 20,869 to missing)
+
+{com}. replace social_tiktok =. if mi(social_raw)
+{txt}(20,869 real changes made, 20,869 to missing)
+
+{com}. replace social_insta =. if mi(social_raw)
+{txt}(20,869 real changes made, 20,869 to missing)
+
+{com}. replace social_twitter =. if mi(social_raw)
+{txt}(20,869 real changes made, 20,869 to missing)
+
+{com}. replace social_other =. if mi(social_raw)
+{txt}(20,869 real changes made, 20,869 to missing)
+
+{com}. 
 . lab var social_reddit "Q47: Reddit"
 {txt}
 {com}. lab var social_fb "Q47: Facebook"
@@ -671,6 +998,31 @@
 {txt}
 {com}. gen help_self = (strpos(help_raw, "I did it myself") != 0)
 {txt}
+{com}. 
+. replace help_parent =. if mi(help_raw)
+{txt}(16,272 real changes made, 16,272 to missing)
+
+{com}. replace help_family =. if mi(help_raw)
+{txt}(16,272 real changes made, 16,272 to missing)
+
+{com}. replace help_teacher =. if mi(help_raw)
+{txt}(16,272 real changes made, 16,272 to missing)
+
+{com}. replace help_collstsaff =. if mi(help_raw)
+{txt}(16,272 real changes made, 16,272 to missing)
+
+{com}. replace help_privcounselor =. if mi(help_raw)
+{txt}(16,272 real changes made, 16,272 to missing)
+
+{com}. replace help_hscounselor =. if mi(help_raw)
+{txt}(16,272 real changes made, 16,272 to missing)
+
+{com}. replace help_other =. if mi(help_raw)
+{txt}(16,272 real changes made, 16,272 to missing)
+
+{com}. replace help_self =. if mi(help_raw)
+{txt}(16,272 real changes made, 16,272 to missing)
+
 {com}. 
 . label var help_parent "Q49: Parents"
 {txt}
@@ -715,6 +1067,31 @@
 {com}. gen resrc_other = (strpos(resrc_raw, "Other (please specify)") != 0)
 {txt}
 {com}. 
+. replace resrc_finaidtool =. if mi(resrc_raw)
+{txt}(16,691 real changes made, 16,691 to missing)
+
+{com}. replace resrc_website =. if mi(resrc_raw)
+{txt}(16,691 real changes made, 16,691 to missing)
+
+{com}. replace resrc_comptool =. if mi(resrc_raw)
+{txt}(16,691 real changes made, 16,691 to missing)
+
+{com}. replace resrc_agtool =. if mi(resrc_raw)
+{txt}(16,691 real changes made, 16,691 to missing)
+
+{com}. replace resrc_apptool =. if mi(resrc_raw)
+{txt}(16,691 real changes made, 16,691 to missing)
+
+{com}. replace resrc_essaytool =. if mi(resrc_raw)
+{txt}(16,691 real changes made, 16,691 to missing)
+
+{com}. replace resrc_counselor =. if mi(resrc_raw)
+{txt}(16,691 real changes made, 16,691 to missing)
+
+{com}. replace resrc_other =. if mi(resrc_raw)
+{txt}(16,691 real changes made, 16,691 to missing)
+
+{com}. 
 . lab var resrc_finaidtool "Q50: financial aid tools"
 {txt}
 {com}. lab var resrc_website "Q50: college website"
@@ -754,22 +1131,30 @@
 . order pay_plan_raw, after(what_make_app_easier)
 {txt}
 {com}. 
-. gen pay_plan_scholarship = (strpos(pay_plan_raw, "Scholarships") !=0)
-{txt}
-{com}. gen pay_plan_grant = (strpos(pay_plan_raw, "Grants (e.g., Pell Grant, Cal Grant)") !=0)
-{txt}
-{com}. gen pay_plan_saving = (strpos(pay_plan_raw, "My own savings") !=0)
-{txt}
-{com}. gen pay_plan_work = (strpos(pay_plan_raw, "Working while enrolled") !=0)
-{txt}
-{com}. gen pay_plan_otherppl = (strpos(pay_plan_raw, "Money from other people (e.g., parents, family, and friends)") !=0)
-{txt}
-{com}. gen pay_plan_loan = (strpos(pay_plan_raw, "Student loans") !=0)
-{txt}
-{com}. gen pay_plan_va = (strpos(pay_plan_raw, "Military/VA benefits") !=0)
-{txt}
-{com}. gen pay_plan_credit = (strpos(pay_plan_raw, "Credit card(s)") !=0)
-{txt}
+. gen pay_plan_scholarship = (strpos(pay_plan_raw, "Scholarships") !=0) if !mi(pay_plan_raw)
+{txt}(16,572 missing values generated)
+
+{com}. gen pay_plan_grant = (strpos(pay_plan_raw, "Grants (e.g., Pell Grant, Cal Grant)") !=0) if !mi(pay_plan_raw)
+{txt}(16,572 missing values generated)
+
+{com}. gen pay_plan_saving = (strpos(pay_plan_raw, "My own savings") !=0) if !mi(pay_plan_raw)
+{txt}(16,572 missing values generated)
+
+{com}. gen pay_plan_work = (strpos(pay_plan_raw, "Working while enrolled") !=0) if !mi(pay_plan_raw)
+{txt}(16,572 missing values generated)
+
+{com}. gen pay_plan_otherppl = (strpos(pay_plan_raw, "Money from other people (e.g., parents, family, and friends)") !=0) if !mi(pay_plan_raw)
+{txt}(16,572 missing values generated)
+
+{com}. gen pay_plan_loan = (strpos(pay_plan_raw, "Student loans") !=0) if !mi(pay_plan_raw)
+{txt}(16,572 missing values generated)
+
+{com}. gen pay_plan_va = (strpos(pay_plan_raw, "Military/VA benefits") !=0) if !mi(pay_plan_raw)
+{txt}(16,572 missing values generated)
+
+{com}. gen pay_plan_credit = (strpos(pay_plan_raw, "Credit card(s)") !=0) if !mi(pay_plan_raw)
+{txt}(16,572 missing values generated)
+
 {com}. 
 . lab var pay_plan_scholarship "Q54: scholarships"
 {txt}
@@ -803,26 +1188,36 @@
 {com}. lab var major_raw "Q55: what are you most likely to study in college"
 {txt}
 {com}. 
-. gen major_business = (strpos(major_raw, "Business") !=0)
-{txt}
-{com}. gen major_engineering = (strpos(major_raw, "Engineering") !=0)
-{txt}
-{com}. gen major_science = (strpos(major_raw, "Natural sciences (e.g., biology, chemistry, physics)") !=0)
-{txt}
-{com}. gen major_social = (strpos(major_raw, "Social sciences (e.g., psychology, sociology, economics)") !=0)
-{txt}
-{com}. gen major_humanity = (strpos(major_raw, "Humanities & Arts (e.g., English, History, Arts)") !=0)
-{txt}
-{com}. gen major_health = (strpos(major_raw, "Health sciences") !=0)
-{txt}
-{com}. gen major_education = (strpos(major_raw, "Education") !=0)
-{txt}
-{com}. gen major_applied = (strpos(major_raw, "Applied sciences (e.g., automotive repair, HVAC, construction)") !=0)
-{txt}
-{com}. gen major_service = (strpos(major_raw, "Public service (e.g., criminal justice, fire science)") !=0)
-{txt}
-{com}. gen major_undecided = (strpos(major_raw, "Undecided") !=0)
-{txt}
+. gen major_business = (strpos(major_raw, "Business") !=0) if !mi(major_raw)
+{txt}(16,583 missing values generated)
+
+{com}. gen major_engineering = (strpos(major_raw, "Engineering") !=0) if !mi(major_raw)
+{txt}(16,583 missing values generated)
+
+{com}. gen major_science = (strpos(major_raw, "Natural sciences (e.g., biology, chemistry, physics)") !=0) if !mi(major_raw)
+{txt}(16,583 missing values generated)
+
+{com}. gen major_social = (strpos(major_raw, "Social sciences (e.g., psychology, sociology, economics)") !=0) if !mi(major_raw)
+{txt}(16,583 missing values generated)
+
+{com}. gen major_humanity = (strpos(major_raw, "Humanities & Arts (e.g., English, History, Arts)") !=0) if !mi(major_raw)
+{txt}(16,583 missing values generated)
+
+{com}. gen major_health = (strpos(major_raw, "Health sciences") !=0) if !mi(major_raw)
+{txt}(16,583 missing values generated)
+
+{com}. gen major_education = (strpos(major_raw, "Education") !=0) if !mi(major_raw)
+{txt}(16,583 missing values generated)
+
+{com}. gen major_applied = (strpos(major_raw, "Applied sciences (e.g., automotive repair, HVAC, construction)") !=0) if !mi(major_raw)
+{txt}(16,583 missing values generated)
+
+{com}. gen major_service = (strpos(major_raw, "Public service (e.g., criminal justice, fire science)") !=0) if !mi(major_raw)
+{txt}(16,583 missing values generated)
+
+{com}. gen major_undecided = (strpos(major_raw, "Undecided") !=0) if !mi(major_raw)
+{txt}(16,583 missing values generated)
+
 {com}. 
 . 
 . lab var major_business "Q55: Business"
@@ -903,18 +1298,24 @@
 {com}. label var why_no_atog_raw "Q64: why not on track to complete a-g"
 {txt}
 {com}. 
-. gen why_no_atog_notrequired = (strpos(why_no_atog_raw, "They were not required for the college I plan to attend") !=0)
-{txt}
-{com}. gen why_no_atog_unknown = (strpos(why_no_atog_raw, "I did not know about the requirements") !=0)
-{txt}
-{com}. gen why_no_atog_nocourse = (strpos(why_no_atog_raw, "My high school did not offer the necessary courses") !=0)
-{txt}
-{com}. gen why_no_atog_lowgrade = (strpos(why_no_atog_raw, "My grades were too low in some of the required courses") !=0)
-{txt}
-{com}. gen why_no_atog_nocollege = (strpos(why_no_atog_raw, "I am not planning on attending college") !=0)
-{txt}
-{com}. gen why_no_atog_other = (strpos(why_no_atog_raw, "Other (please specify):") !=0)
-{txt}
+. gen why_no_atog_notrequired = (strpos(why_no_atog_raw, "They were not required for the college I plan to attend") !=0) if !mi(why_no_atog_raw)
+{txt}(24,407 missing values generated)
+
+{com}. gen why_no_atog_unknown = (strpos(why_no_atog_raw, "I did not know about the requirements") !=0) if !mi(why_no_atog_raw)
+{txt}(24,407 missing values generated)
+
+{com}. gen why_no_atog_nocourse = (strpos(why_no_atog_raw, "My high school did not offer the necessary courses") !=0) if !mi(why_no_atog_raw)
+{txt}(24,407 missing values generated)
+
+{com}. gen why_no_atog_lowgrade = (strpos(why_no_atog_raw, "My grades were too low in some of the required courses") !=0) if !mi(why_no_atog_raw)
+{txt}(24,407 missing values generated)
+
+{com}. gen why_no_atog_nocollege = (strpos(why_no_atog_raw, "I am not planning on attending college") !=0) if !mi(why_no_atog_raw)
+{txt}(24,407 missing values generated)
+
+{com}. gen why_no_atog_other = (strpos(why_no_atog_raw, "Other (please specify):") !=0) if !mi(why_no_atog_raw)
+{txt}(24,407 missing values generated)
+
 {com}. 
 . lab var why_no_atog_notrequired "Q64: not required for the college I plan to attend"
 {txt}
@@ -950,16 +1351,21 @@
 {com}. label var why_de_raw "Q67: why did you take dual enrollment courses"
 {txt}
 {com}. 
-. gen why_de_class = (strpos(why_de_raw, "To take classes not offered by my school") !=0)
-{txt}
-{com}. gen why_de_college = (strpos(why_de_raw, "To improve my chances of getting in a more selective college") !=0)
-{txt}
-{com}. gen why_de_reduce = (strpos(why_de_raw, "To reduce the number of courses I need to take in college") !=0)
-{txt}
-{com}. gen why_de_trade = (strpos(why_de_raw, "To be ready for a trade or job after high school") !=0)
-{txt}
-{com}. gen why_de_other = (strpos(why_de_raw, "Other (please explain)") !=0)
-{txt}
+. gen why_de_class = (strpos(why_de_raw, "To take classes not offered by my school") !=0) if !mi(why_de_raw)
+{txt}(21,582 missing values generated)
+
+{com}. gen why_de_college = (strpos(why_de_raw, "To improve my chances of getting in a more selective college") !=0) if !mi(why_de_raw)
+{txt}(21,582 missing values generated)
+
+{com}. gen why_de_reduce = (strpos(why_de_raw, "To reduce the number of courses I need to take in college") !=0) if !mi(why_de_raw)
+{txt}(21,582 missing values generated)
+
+{com}. gen why_de_trade = (strpos(why_de_raw, "To be ready for a trade or job after high school") !=0) if !mi(why_de_raw)
+{txt}(21,582 missing values generated)
+
+{com}. gen why_de_other = (strpos(why_de_raw, "Other (please explain)") !=0) if !mi(why_de_raw)
+{txt}(21,582 missing values generated)
+
 {com}. 
 . lab var why_de_class "Q67: take classes not offered by my school"
 {txt}
@@ -1363,6 +1769,15 @@
   {txt}variable {bf}{res}coll_applied_outside{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
   {txt}variable {bf}{res}coll_applied_notsure{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
   {txt}variable {bf}{res}coll_applied_none{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
+  {txt}variable {bf}{res}coll_applied_coded{sf}{txt} was {bf}{res}long{sf}{txt} now {bf}{res}byte{sf}
+  {txt}variable {bf}{res}coll_applied_coded_trunc{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
+  {txt}variable {bf}{res}coll_applied_only_ccc{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
+  {txt}variable {bf}{res}coll_applied_only_csu{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
+  {txt}variable {bf}{res}coll_applied_only_uc{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
+  {txt}variable {bf}{res}coll_applied_only_ccc_uc{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
+  {txt}variable {bf}{res}coll_applied_only_ccc_csu{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
+  {txt}variable {bf}{res}coll_applied_only_csu_uc{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
+  {txt}variable {bf}{res}coll_applied_only_ccc_csu_uc{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
   {txt}variable {bf}{res}collapp_chall_dna{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
   {txt}variable {bf}{res}collapp_chall_none{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
   {txt}variable {bf}{res}collapp_chall_noinfo{sf}{txt} was {bf}{res}float{sf}{txt} now {bf}{res}byte{sf}
@@ -1509,6 +1924,7 @@
   {txt}variable {bf}{res}q1_version{sf}{txt} was {bf}{res}str42{sf}{txt} now {bf}{res}str15{sf}
   {txt}variable {bf}{res}q1_operatingsystem{sf}{txt} was {bf}{res}str51{sf}{txt} now {bf}{res}str23{sf}
   {txt}variable {bf}{res}q1_resolution{sf}{txt} was {bf}{res}str45{sf}{txt} now {bf}{res}str9{sf}
+  {txt}variable {bf}{res}coll_applied_short{sf}{txt} was {bf}{res}str248{sf}{txt} now {bf}{res}str37{sf}
   {txt}variable {bf}{res}gender_raw{sf}{txt} was {bf}{res}str55{sf}{txt} now {bf}{res}str35{sf}
   {txt}variable {bf}{res}interview_email{sf}{txt} was {bf}{res}str62{sf}{txt} now {bf}{res}str40{sf}
   {txt}variable {bf}{res}email{sf}{txt} was {bf}{res}strL{sf}{txt} now {bf}{res}str51{sf}
@@ -1545,12 +1961,11 @@
   {bf}{res}why_no_atog_other_text{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}why_de_raw{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}why_de_other_text{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
-  {bf}{res}race_raw{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}other_race_text{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}gender_other_text{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}coll_excite{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}coll_challenge{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
-  (41,020,068 bytes saved)
+  (46,334,131 bytes saved)
 
 {com}. save $projdir/dta/csac_2024_initial_clean.dta, replace 
 {txt}{p 0 4 2}
@@ -1565,7 +1980,7 @@ saved
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/clean/clean_qualtrics_download.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}10 Sep 2024, 16:56:02
+ {txt}closed on:  {res}16 Sep 2024, 15:14:17
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

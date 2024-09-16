@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_simple.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 7 Sep 2024, 15:24:22
+ {txt}opened on:  {res}16 Sep 2024, 15:14:21
 {txt}
 {com}. 
 . foreach var of local all_qs {c -(}
@@ -19,20 +19,20 @@ requirement {c |}
         for {c |}
  graduation {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      7,164       61.54       61.54
-{txt}          1 {c |}{res}      4,478       38.46      100.00
+          0 {c |}{res}      6,760       60.15       60.15
+{txt}          1 {c |}{res}      4,478       39.85      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     11,238      100.00
 tabulation of why_fafsa_assignment
 
  {txt}why fafsa: {c |}
  assignment {c |}
   for class {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,762       92.44       92.44
-{txt}          1 {c |}{res}        880        7.56      100.00
+          0 {c |}{res}     10,358       92.17       92.17
+{txt}          1 {c |}{res}        880        7.83      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     11,238      100.00
 tabulation of why_fafsa_eligible
 
  {txt}why fafsa: {c |}
@@ -42,29 +42,29 @@ eligibility {c |}
   financial {c |}
         aid {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      4,633       39.80       39.80
-{txt}          1 {c |}{res}      7,009       60.20      100.00
+          0 {c |}{res}      4,229       37.63       37.63
+{txt}          1 {c |}{res}      7,009       62.37      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     11,238      100.00
 tabulation of why_fafsa_expected
 
  {txt}why fafsa: {c |}
 expected at {c |}
      school {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      8,724       74.94       74.94
-{txt}          1 {c |}{res}      2,918       25.06      100.00
+          0 {c |}{res}      8,320       74.03       74.03
+{txt}          1 {c |}{res}      2,918       25.97      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     11,238      100.00
 tabulation of why_fafsa_other
 
  {txt}why fafsa: {c |}
       other {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,906       93.68       93.68
-{txt}          1 {c |}{res}        736        6.32      100.00
+          0 {c |}{res}     10,502       93.45       93.45
+{txt}          1 {c |}{res}        736        6.55      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     11,238      100.00
 tabulation of when_heard_fafsa
 
 {txt}W12: When did you first {c |}
@@ -96,10 +96,10 @@ challenges: {c |}
 difficultie {c |}
           s {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      7,980       68.54       68.54
-{txt}          1 {c |}{res}      3,662       31.46      100.00
+          0 {c |}{res}      7,039       65.78       65.78
+{txt}          1 {c |}{res}      3,662       34.22      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,701      100.00
 tabulation of finaid_challenge_none
 
       {txt}FAFSA {c |}
@@ -108,10 +108,10 @@ challenges: {c |}
 difficultie {c |}
           s {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      8,954       76.91       76.91
-{txt}          1 {c |}{res}      2,688       23.09      100.00
+          0 {c |}{res}      8,013       74.88       74.88
+{txt}          1 {c |}{res}      2,688       25.12      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,701      100.00
 tabulation of finaid_challenge_doc
 
       {txt}FAFSA {c |}
@@ -120,10 +120,10 @@ issues with {c |}
    required {c |}
   documents {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,065       86.45       86.45
-{txt}          1 {c |}{res}      1,577       13.55      100.00
+          0 {c |}{res}      9,124       85.26       85.26
+{txt}          1 {c |}{res}      1,577       14.74      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,701      100.00
 tabulation of finaid_challenge_invite
 
       {txt}FAFSA {c |}
@@ -134,10 +134,10 @@ challenges: {c |}
 contributor {c |}
           s {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,501       81.61       81.61
-{txt}          1 {c |}{res}      2,141       18.39      100.00
+          0 {c |}{res}      8,560       79.99       79.99
+{txt}          1 {c |}{res}      2,141       20.01      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,701      100.00
 tabulation of finaid_challenge_multi
 
       {txt}FAFSA {c |}
@@ -147,10 +147,10 @@ challenges: {c |}
 attempts to {c |}
      submit {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,064       77.86       77.86
-{txt}          1 {c |}{res}      2,578       22.14      100.00
+          0 {c |}{res}      8,123       75.91       75.91
+{txt}          1 {c |}{res}      2,578       24.09      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,701      100.00
 tabulation of finaid_challenge_confusing
 
       {txt}FAFSA {c |}
@@ -159,10 +159,10 @@ application {c |}
         was {c |}
   confusing {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      8,617       74.02       74.02
-{txt}          1 {c |}{res}      3,025       25.98      100.00
+          0 {c |}{res}      7,676       71.73       71.73
+{txt}          1 {c |}{res}      3,025       28.27      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,701      100.00
 tabulation of finaid_challenge_nohelp
 
       {txt}FAFSA {c |}
@@ -172,10 +172,10 @@ challenges: {c |}
  someone to {c |}
        help {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,017       94.63       94.63
-{txt}          1 {c |}{res}        625        5.37      100.00
+          0 {c |}{res}     10,076       94.16       94.16
+{txt}          1 {c |}{res}        625        5.84      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,701      100.00
 tabulation of finaid_challenge_info
 
       {txt}FAFSA {c |}
@@ -186,10 +186,10 @@ challenges: {c |}
      family {c |}
 information {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,355       88.95       88.95
-{txt}          1 {c |}{res}      1,287       11.05      100.00
+          0 {c |}{res}      9,414       87.97       87.97
+{txt}          1 {c |}{res}      1,287       12.03      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,701      100.00
 tabulation of finaid_challenge_whichapp
 
       {txt}FAFSA {c |}
@@ -200,10 +200,10 @@ application {c |}
         t o {c |}
    complete {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,883       93.48       93.48
-{txt}          1 {c |}{res}        759        6.52      100.00
+          0 {c |}{res}      9,942       92.91       92.91
+{txt}          1 {c |}{res}        759        7.09      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,701      100.00
 tabulation of finaid_challenge_other
 
       {txt}FAFSA {c |}
@@ -211,40 +211,40 @@ challenges: {c |}
 other/eplai {c |}
           n {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,174       95.98       95.98
-{txt}          1 {c |}{res}        468        4.02      100.00
+          0 {c |}{res}     10,233       95.63       95.63
+{txt}          1 {c |}{res}        468        4.37      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,701      100.00
 tabulation of support_received_counselor
 
   {txt}Q16 FAFSA {c |}
 support: HS {c |}
   counselor {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      6,754       58.01       58.01
-{txt}          1 {c |}{res}      4,888       41.99      100.00
+          0 {c |}{res}      5,845       54.46       54.46
+{txt}          1 {c |}{res}      4,888       45.54      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,733      100.00
 tabulation of support_received_teacher
 
   {txt}Q16 FAFSA {c |}
    support: {c |}
     teacher {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,265       79.58       79.58
-{txt}          1 {c |}{res}      2,377       20.42      100.00
+          0 {c |}{res}      8,356       77.85       77.85
+{txt}          1 {c |}{res}      2,377       22.15      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,733      100.00
 tabulation of support_received_hsworkshop
 
   {txt}Q16 FAFSA {c |}
 support: HS {c |}
    workshop {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      8,817       75.73       75.73
-{txt}          1 {c |}{res}      2,825       24.27      100.00
+          0 {c |}{res}      7,908       73.68       73.68
+{txt}          1 {c |}{res}      2,825       26.32      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,733      100.00
 tabulation of support_received_cmworkshop
 
   {txt}Q16 FAFSA {c |}
@@ -252,20 +252,20 @@ tabulation of support_received_cmworkshop
   community {c |}
    workshop {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,989       94.39       94.39
-{txt}          1 {c |}{res}        653        5.61      100.00
+          0 {c |}{res}     10,080       93.92       93.92
+{txt}          1 {c |}{res}        653        6.08      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,733      100.00
 tabulation of support_received_parent
 
   {txt}Q16 FAFSA {c |}
    support: {c |}
      parent {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      6,990       60.04       60.04
-{txt}          1 {c |}{res}      4,652       39.96      100.00
+          0 {c |}{res}      6,081       56.66       56.66
+{txt}          1 {c |}{res}      4,652       43.34      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,733      100.00
 tabulation of support_received_family
 
   {txt}Q16 FAFSA {c |}
@@ -274,20 +274,20 @@ tabulation of support_received_family
  other than {c |}
      parent {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,956       85.52       85.52
-{txt}          1 {c |}{res}      1,686       14.48      100.00
+          0 {c |}{res}      9,047       84.29       84.29
+{txt}          1 {c |}{res}      1,686       15.71      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,733      100.00
 tabulation of support_received_friend
 
   {txt}Q16 FAFSA {c |}
    support: {c |}
      friend {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,500       90.19       90.19
-{txt}          1 {c |}{res}      1,142        9.81      100.00
+          0 {c |}{res}      9,591       89.36       89.36
+{txt}          1 {c |}{res}      1,142       10.64      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,733      100.00
 tabulation of support_received_online
 
   {txt}Q16 FAFSA {c |}
@@ -295,10 +295,10 @@ tabulation of support_received_online
      Online {c |}
   resources {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,283       88.33       88.33
-{txt}          1 {c |}{res}      1,359       11.67      100.00
+          0 {c |}{res}      9,374       87.34       87.34
+{txt}          1 {c |}{res}      1,359       12.66      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,733      100.00
 tabulation of support_received_nobody
 
   {txt}Q16 FAFSA {c |}
@@ -307,10 +307,10 @@ tabulation of support_received_nobody
   completed {c |}
   on my own {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,778       92.58       92.58
-{txt}          1 {c |}{res}        864        7.42      100.00
+          0 {c |}{res}      9,869       91.95       91.95
+{txt}          1 {c |}{res}        864        8.05      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}     10,733      100.00
 tabulation of coll_att_3pt_important
 
     {txt}College is {c |}
@@ -455,30 +455,30 @@ tabulation of coll_applied_ccc
  applied to {c |}
         CCC {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      6,134       52.69       52.69
-{txt}          1 {c |}{res}      5,508       47.31      100.00
+          0 {c |}{res}      4,489       44.90       44.90
+{txt}          1 {c |}{res}      5,508       55.10      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,997      100.00
 tabulation of coll_applied_csu
 
        {txt}Q25: {c |}
  applied to {c |}
         CSU {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      7,151       61.42       61.42
-{txt}          1 {c |}{res}      4,491       38.58      100.00
+          0 {c |}{res}      5,506       55.08       55.08
+{txt}          1 {c |}{res}      4,491       44.92      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,997      100.00
 tabulation of coll_applied_uc
 
        {txt}Q25: {c |}
  applied to {c |}
          UC {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      8,179       70.25       70.25
-{txt}          1 {c |}{res}      3,463       29.75      100.00
+          0 {c |}{res}      6,534       65.36       65.36
+{txt}          1 {c |}{res}      3,463       34.64      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,997      100.00
 tabulation of coll_applied_priv4yr
 
        {txt}Q25: {c |}
@@ -486,10 +486,10 @@ tabulation of coll_applied_priv4yr
   private 4 {c |}
  year in CA {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,888       84.93       84.93
-{txt}          1 {c |}{res}      1,754       15.07      100.00
+          0 {c |}{res}      8,243       82.45       82.45
+{txt}          1 {c |}{res}      1,754       17.55      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,997      100.00
 tabulation of coll_applied_vocation
 
        {txt}Q25: {c |}
@@ -498,10 +498,10 @@ tabulation of coll_applied_vocation
  college in {c |}
          CA {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,337       97.38       97.38
-{txt}          1 {c |}{res}        305        2.62      100.00
+          0 {c |}{res}      9,692       96.95       96.95
+{txt}          1 {c |}{res}        305        3.05      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,997      100.00
 tabulation of coll_applied_outside
 
        {txt}Q25: {c |}
@@ -509,59 +509,59 @@ tabulation of coll_applied_outside
     college {c |}
  outside CA {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,939       85.37       85.37
-{txt}          1 {c |}{res}      1,703       14.63      100.00
+          0 {c |}{res}      8,294       82.96       82.96
+{txt}          1 {c |}{res}      1,703       17.04      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,997      100.00
 tabulation of coll_applied_notsure
 
    {txt}Q25: not {c |}
        sure {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,342       97.42       97.42
-{txt}          1 {c |}{res}        300        2.58      100.00
+          0 {c |}{res}      9,697       97.00       97.00
+{txt}          1 {c |}{res}        300        3.00      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,997      100.00
 tabulation of coll_applied_none
 
    {txt}Q25: did {c |}
   not apply {c |}
  to college {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,357       97.55       97.55
-{txt}          1 {c |}{res}        285        2.45      100.00
+          0 {c |}{res}      9,712       97.15       97.15
+{txt}          1 {c |}{res}        285        2.85      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,997      100.00
 tabulation of collapp_chall_dna
 
    {txt}Q26: did {c |}
   not apply {c |}
  to college {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,004       94.52       94.52
-{txt}          1 {c |}{res}        638        5.48      100.00
+          0 {c |}{res}      8,859       93.28       93.28
+{txt}          1 {c |}{res}        638        6.72      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,497      100.00
 tabulation of collapp_chall_none
 
    {txt}Q26: did {c |}
    not face {c |}
  challenges {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      7,355       63.18       63.18
-{txt}          1 {c |}{res}      4,287       36.82      100.00
+          0 {c |}{res}      5,210       54.86       54.86
+{txt}          1 {c |}{res}      4,287       45.14      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,497      100.00
 tabulation of collapp_chall_noinfo
 
    {txt}Q26: did {c |}
     nothave {c |}
 enough info {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,317       88.62       88.62
-{txt}          1 {c |}{res}      1,325       11.38      100.00
+          0 {c |}{res}      8,172       86.05       86.05
+{txt}          1 {c |}{res}      1,325       13.95      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,497      100.00
 tabulation of collapp_chall_dnu
 
    {txt}Q26: did {c |}
@@ -571,10 +571,10 @@ tabulation of collapp_chall_dnu
          on {c |}
 application {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,678       83.13       83.13
-{txt}          1 {c |}{res}      1,964       16.87      100.00
+          0 {c |}{res}      7,533       79.32       79.32
+{txt}          1 {c |}{res}      1,964       20.68      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,497      100.00
 tabulation of collapp_chall_course
 
        {txt}Q26: {c |}
@@ -582,10 +582,10 @@ tabulation of collapp_chall_course
 entering HS {c |}
  coursework {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,645       91.44       91.44
-{txt}          1 {c |}{res}        997        8.56      100.00
+          0 {c |}{res}      8,500       89.50       89.50
+{txt}          1 {c |}{res}        997       10.50      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,497      100.00
 tabulation of collapp_chall_miss
 
        {txt}Q26: {c |}
@@ -595,10 +595,10 @@ tabulation of collapp_chall_miss
         for {c |}
 eligibility {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,389       97.83       97.83
-{txt}          1 {c |}{res}        253        2.17      100.00
+          0 {c |}{res}      9,244       97.34       97.34
+{txt}          1 {c |}{res}        253        2.66      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,497      100.00
 tabulation of collapp_chall_fee
 
  {txt}Q26: could {c |}
@@ -606,20 +606,20 @@ tabulation of collapp_chall_fee
 application {c |}
        fees {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,829       93.02       93.02
-{txt}          1 {c |}{res}        813        6.98      100.00
+          0 {c |}{res}      8,684       91.44       91.44
+{txt}          1 {c |}{res}        813        8.56      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,497      100.00
 tabulation of collapp_chall_deadline
 
 {txt}Q26: missed {c |}
 application {c |}
    deadline {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,088       95.24       95.24
-{txt}          1 {c |}{res}        554        4.76      100.00
+          0 {c |}{res}      8,943       94.17       94.17
+{txt}          1 {c |}{res}        554        5.83      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,497      100.00
 tabulation of collapp_chall_notready
 
    {txt}Q26: not {c |}
@@ -627,10 +627,10 @@ academicall {c |}
 y ready for {c |}
     college {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,037       94.80       94.80
-{txt}          1 {c |}{res}        605        5.20      100.00
+          0 {c |}{res}      8,892       93.63       93.63
+{txt}          1 {c |}{res}        605        6.37      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,497      100.00
 tabulation of collapp_chall_submit
 
        {txt}Q26: {c |}
@@ -640,20 +640,20 @@ tabulation of collapp_chall_submit
    required {c |}
       items {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,516       90.33       90.33
-{txt}          1 {c |}{res}      1,126        9.67      100.00
+          0 {c |}{res}      8,371       88.14       88.14
+{txt}          1 {c |}{res}      1,126       11.86      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,497      100.00
 tabulation of collapp_chall_other
 
  {txt}Q26: other {c |}
     (please {c |}
    specify) {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,278       96.87       96.87
-{txt}          1 {c |}{res}        364        3.13      100.00
+          0 {c |}{res}      9,133       96.17       96.17
+{txt}          1 {c |}{res}        364        3.83      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      9,497      100.00
 tabulation of attend_coll
 
 {txt}Q27: plan to {c |}
@@ -671,156 +671,159 @@ tabulation of fall_plan_workpt
   {txt}Q29: work {c |}
   part time {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,568       99.36       99.36
-{txt}          1 {c |}{res}         74        0.64      100.00
+          0 {c |}{res}         72       49.32       49.32
+{txt}          1 {c |}{res}         74       50.68      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        146      100.00
 tabulation of fall_plan_workft
 
   {txt}Q29: work {c |}
   full time {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,605       99.68       99.68
-{txt}          1 {c |}{res}         37        0.32      100.00
+          0 {c |}{res}        109       74.66       74.66
+{txt}          1 {c |}{res}         37       25.34      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        146      100.00
 tabulation of fall_plan_family
 
 {txt}Q29: family {c |}
 obligations {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,621       99.82       99.82
-{txt}          1 {c |}{res}         21        0.18      100.00
+          0 {c |}{res}        125       85.62       85.62
+{txt}          1 {c |}{res}         21       14.38      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        146      100.00
 tabulation of fall_plan_military
 
        {txt}Q29: {c |}
    military {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,624       99.85       99.85
-{txt}          1 {c |}{res}         18        0.15      100.00
+          0 {c |}{res}        128       87.67       87.67
+{txt}          1 {c |}{res}         18       12.33      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        146      100.00
 tabulation of fall_plan_other
 
  {txt}Q29: other {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,607       99.70       99.70
-{txt}          1 {c |}{res}         35        0.30      100.00
+          0 {c |}{res}        111       76.03       76.03
+{txt}          1 {c |}{res}         35       23.97      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        146      100.00
 tabulation of why_no_coll_notforme
 
-{txt}why_no_coll {c |}
-  _notforme {c |}      Freq.     Percent        Cum.
+   {txt}Q30: not {c |}
+     for me {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,626       99.86       99.86
-{txt}          1 {c |}{res}         16        0.14      100.00
+          0 {c |}{res}        123       88.49       88.49
+{txt}          1 {c |}{res}         16       11.51      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        139      100.00
 tabulation of why_no_coll_expensive
 
-{txt}why_no_coll {c |}
- _expensive {c |}      Freq.     Percent        Cum.
+   {txt}Q30: too {c |}
+  expensive {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,621       99.82       99.82
-{txt}          1 {c |}{res}         21        0.18      100.00
+          0 {c |}{res}        118       84.89       84.89
+{txt}          1 {c |}{res}         21       15.11      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        139      100.00
 tabulation of why_no_coll_notworth
 
-{txt}why_no_coll {c |}
-  _notworth {c |}      Freq.     Percent        Cum.
+   {txt}Q30: Not {c |}
+  worth the {c |}
+       cost {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,626       99.86       99.86
-{txt}          1 {c |}{res}         16        0.14      100.00
+          0 {c |}{res}        123       88.49       88.49
+{txt}          1 {c |}{res}         16       11.51      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        139      100.00
 tabulation of why_no_coll_gapyear
 
-{txt}why_no_coll {c |}
-   _gapyear {c |}      Freq.     Percent        Cum.
+   {txt}Q30: gap {c |}
+       year {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,597       99.61       99.61
-{txt}          1 {c |}{res}         45        0.39      100.00
+          0 {c |}{res}         94       67.63       67.63
+{txt}          1 {c |}{res}         45       32.37      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        139      100.00
 tabulation of why_no_coll_military
 
-{txt}why_no_coll {c |}
-  _military {c |}      Freq.     Percent        Cum.
+       {txt}Q30: {c |}
+   military {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,624       99.85       99.85
-{txt}          1 {c |}{res}         18        0.15      100.00
+          0 {c |}{res}        121       87.05       87.05
+{txt}          1 {c |}{res}         18       12.95      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        139      100.00
 tabulation of why_no_coll_health
 
-{txt}why_no_coll {c |}
-    _health {c |}      Freq.     Percent        Cum.
+{txt}Q30: health {c |}
+    reasons {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,638       99.97       99.97
-{txt}          1 {c |}{res}          4        0.03      100.00
+          0 {c |}{res}        135       97.12       97.12
+{txt}          1 {c |}{res}          4        2.88      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        139      100.00
 tabulation of why_no_coll_work
 
-{txt}why_no_coll {c |}
-      _work {c |}      Freq.     Percent        Cum.
+  {txt}Q30: need {c |}
+    to work {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,606       99.69       99.69
-{txt}          1 {c |}{res}         36        0.31      100.00
+          0 {c |}{res}        103       74.10       74.10
+{txt}          1 {c |}{res}         36       25.90      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        139      100.00
 tabulation of why_no_coll_training
 
-{txt}why_no_coll {c |}
-  _training {c |}      Freq.     Percent        Cum.
+    {txt}Q30: in {c |}
+    another {c |}
+education/t {c |}
+    raining {c |}
+    program {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,623       99.84       99.84
-{txt}          1 {c |}{res}         19        0.16      100.00
+          0 {c |}{res}        120       86.33       86.33
+{txt}          1 {c |}{res}         19       13.67      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        139      100.00
 tabulation of why_no_coll_other
 
-{txt}why_no_coll {c |}
-     _other {c |}      Freq.     Percent        Cum.
+ {txt}Q30: other {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,606       99.69       99.69
-{txt}          1 {c |}{res}         36        0.31      100.00
+          0 {c |}{res}        103       74.10       74.10
+{txt}          1 {c |}{res}         36       25.90      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        139      100.00
 tabulation of coll_decision_financial
 
        {txt}Q32: {c |}
   financial {c |}
     support {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,333       97.35       97.35
-{txt}          1 {c |}{res}        309        2.65      100.00
+          0 {c |}{res}         97       23.89       23.89
+{txt}          1 {c |}{res}        309       76.11      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        406      100.00
 tabulation of coll_decision_academic
 
        {txt}Q32: {c |}
    academic {c |}
     support {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,506       98.83       98.83
-{txt}          1 {c |}{res}        136        1.17      100.00
+          0 {c |}{res}        270       66.50       66.50
+{txt}          1 {c |}{res}        136       33.50      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        406      100.00
 tabulation of coll_decision_family
 
 {txt}Q32: family {c |}
    or other {c |}
     support {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,474       98.56       98.56
-{txt}          1 {c |}{res}        168        1.44      100.00
+          0 {c |}{res}        238       58.62       58.62
+{txt}          1 {c |}{res}        168       41.38      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        406      100.00
 tabulation of where_attend_coll
 
    {txt}Q34: where {c |}
@@ -923,10 +926,10 @@ verificatio {c |}
 documentati {c |}
          on {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      7,811       67.09       67.09
-{txt}          1 {c |}{res}      3,831       32.91      100.00
+          0 {c |}{res}      2,494       39.43       39.43
+{txt}          1 {c |}{res}      3,831       60.57      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      6,325      100.00
 tabulation of coll_contact_subject_work
 
        {txt}Q42: {c |}
@@ -934,10 +937,10 @@ eligibility {c |}
    for work {c |}
       study {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,839       84.51       84.51
-{txt}          1 {c |}{res}      1,803       15.49      100.00
+          0 {c |}{res}      4,522       71.49       71.49
+{txt}          1 {c |}{res}      1,803       28.51      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      6,325      100.00
 tabulation of coll_contact_subject_grant
 
 {txt}Q42: grants {c |}
@@ -945,20 +948,20 @@ tabulation of coll_contact_subject_grant
 scholarship {c |}
           s {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      7,907       67.92       67.92
-{txt}          1 {c |}{res}      3,735       32.08      100.00
+          0 {c |}{res}      2,590       40.95       40.95
+{txt}          1 {c |}{res}      3,735       59.05      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      6,325      100.00
 tabulation of coll_contact_subject_loan
 
        {txt}Q42: {c |}
 information {c |}
 about loans {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      8,927       76.68       76.68
-{txt}          1 {c |}{res}      2,715       23.32      100.00
+          0 {c |}{res}      3,610       57.08       57.08
+{txt}          1 {c |}{res}      2,715       42.92      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      6,325      100.00
 tabulation of helpful_source_hs
 
   {txt}Q45: how helpful {c |}
@@ -1037,160 +1040,160 @@ tabulation of social_reddit
 
 {txt}Q47: Reddit {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,043       94.85       94.85
-{txt}          1 {c |}{res}        599        5.15      100.00
+          0 {c |}{res}      3,560       85.60       85.60
+{txt}          1 {c |}{res}        599       14.40      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      4,159      100.00
 tabulation of social_fb
 
        {txt}Q47: {c |}
    Facebook {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,496       98.75       98.75
-{txt}          1 {c |}{res}        146        1.25      100.00
+          0 {c |}{res}      4,013       96.49       96.49
+{txt}          1 {c |}{res}        146        3.51      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      4,159      100.00
 tabulation of social_yt
 
        {txt}Q47: {c |}
     YouTube {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,187       87.50       87.50
-{txt}          1 {c |}{res}      1,455       12.50      100.00
+          0 {c |}{res}      2,704       65.02       65.02
+{txt}          1 {c |}{res}      1,455       34.98      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      4,159      100.00
 tabulation of social_tiktok
 
 {txt}Q47: TikTok {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,588       82.36       82.36
-{txt}          1 {c |}{res}      2,054       17.64      100.00
+          0 {c |}{res}      2,105       50.61       50.61
+{txt}          1 {c |}{res}      2,054       49.39      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      4,159      100.00
 tabulation of social_insta
 
        {txt}Q47: {c |}
   Instagram {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,279       79.70       79.70
-{txt}          1 {c |}{res}      2,363       20.30      100.00
+          0 {c |}{res}      1,796       43.18       43.18
+{txt}          1 {c |}{res}      2,363       56.82      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      4,159      100.00
 tabulation of social_twitter
 
        {txt}Q47: {c |}
     Twitter {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,474       98.56       98.56
-{txt}          1 {c |}{res}        168        1.44      100.00
+          0 {c |}{res}      3,991       95.96       95.96
+{txt}          1 {c |}{res}        168        4.04      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      4,159      100.00
 tabulation of social_other
 
  {txt}Q47: Other {c |}
     (please {c |}
       list) {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,174       95.98       95.98
-{txt}          1 {c |}{res}        468        4.02      100.00
+          0 {c |}{res}      3,691       88.75       88.75
+{txt}          1 {c |}{res}        468       11.25      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      4,159      100.00
 tabulation of help_parent
 
        {txt}Q49: {c |}
     Parents {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      7,714       66.26       66.26
-{txt}          1 {c |}{res}      3,928       33.74      100.00
+          0 {c |}{res}      4,828       55.14       55.14
+{txt}          1 {c |}{res}      3,928       44.86      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,756      100.00
 tabulation of help_family
 
 {txt}Q49: family {c |}
  other than {c |}
      parent {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,333       88.76       88.76
-{txt}          1 {c |}{res}      1,309       11.24      100.00
+          0 {c |}{res}      7,447       85.05       85.05
+{txt}          1 {c |}{res}      1,309       14.95      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,756      100.00
 tabulation of help_teacher
 
        {txt}Q49: {c |}
     teacher {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,795       84.14       84.14
-{txt}          1 {c |}{res}      1,847       15.86      100.00
+          0 {c |}{res}      6,909       78.91       78.91
+{txt}          1 {c |}{res}      1,847       21.09      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,756      100.00
 tabulation of help_collstsaff
 
  {txt}Q49: staff {c |}
   at future {c |}
     college {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,851       93.21       93.21
-{txt}          1 {c |}{res}        791        6.79      100.00
+          0 {c |}{res}      7,965       90.97       90.97
+{txt}          1 {c |}{res}        791        9.03      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,756      100.00
 tabulation of help_privcounselor
 
        {txt}Q49: {c |}
     private {c |}
   counselor {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,019       94.65       94.65
-{txt}          1 {c |}{res}        623        5.35      100.00
+          0 {c |}{res}      8,133       92.88       92.88
+{txt}          1 {c |}{res}        623        7.12      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,756      100.00
 tabulation of help_hscounselor
 
     {txt}Q49: HS {c |}
   counselor {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      8,002       68.73       68.73
-{txt}          1 {c |}{res}      3,640       31.27      100.00
+          0 {c |}{res}      5,116       58.43       58.43
+{txt}          1 {c |}{res}      3,640       41.57      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,756      100.00
 tabulation of help_other
 
  {txt}Q49: other {c |}
   member of {c |}
   community {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,161       95.87       95.87
-{txt}          1 {c |}{res}        481        4.13      100.00
+          0 {c |}{res}      8,275       94.51       94.51
+{txt}          1 {c |}{res}        481        5.49      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,756      100.00
 tabulation of help_self
 
 {txt}Q49: did it {c |}
      myself {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      8,764       75.28       75.28
-{txt}          1 {c |}{res}      2,878       24.72      100.00
+          0 {c |}{res}      5,878       67.13       67.13
+{txt}          1 {c |}{res}      2,878       32.87      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,756      100.00
 tabulation of resrc_finaidtool
 
        {txt}Q50: {c |}
   financial {c |}
   aid tools {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      8,113       69.69       69.69
-{txt}          1 {c |}{res}      3,529       30.31      100.00
+          0 {c |}{res}      4,808       57.67       57.67
+{txt}          1 {c |}{res}      3,529       42.33      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,337      100.00
 tabulation of resrc_website
 
        {txt}Q50: {c |}
     college {c |}
     website {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      6,824       58.62       58.62
-{txt}          1 {c |}{res}      4,818       41.38      100.00
+          0 {c |}{res}      3,519       42.21       42.21
+{txt}          1 {c |}{res}      4,818       57.79      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,337      100.00
 tabulation of resrc_comptool
 
        {txt}Q50: {c |}
@@ -1198,10 +1201,10 @@ tabulation of resrc_comptool
  comparison {c |}
       tools {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,134       87.05       87.05
-{txt}          1 {c |}{res}      1,508       12.95      100.00
+          0 {c |}{res}      6,829       81.91       81.91
+{txt}          1 {c |}{res}      1,508       18.09      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,337      100.00
 tabulation of resrc_agtool
 
    {txt}Q50: a-g {c |}
@@ -1209,9 +1212,9 @@ tabulation of resrc_agtool
 eligibility {c |}
       tools {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,642      100.00      100.00
+          0 {c |}{res}      8,337      100.00      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,337      100.00
 tabulation of resrc_apptool
 
        {txt}Q50: {c |}
@@ -1219,10 +1222,10 @@ tabulation of resrc_apptool
 application {c |}
       tools {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,053       77.76       77.76
-{txt}          1 {c |}{res}      2,589       22.24      100.00
+          0 {c |}{res}      5,748       68.95       68.95
+{txt}          1 {c |}{res}      2,589       31.05      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,337      100.00
 tabulation of resrc_essaytool
 
        {txt}Q50: {c |}
@@ -1231,10 +1234,10 @@ tabulation of resrc_essaytool
     writing {c |}
       tools {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,459       89.84       89.84
-{txt}          1 {c |}{res}      1,183       10.16      100.00
+          0 {c |}{res}      7,154       85.81       85.81
+{txt}          1 {c |}{res}      1,183       14.19      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,337      100.00
 tabulation of resrc_counselor
 
        {txt}Q50: {c |}
@@ -1242,47 +1245,47 @@ tabulation of resrc_counselor
     college {c |}
   counselor {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,916       93.76       93.76
-{txt}          1 {c |}{res}        726        6.24      100.00
+          0 {c |}{res}      7,611       91.29       91.29
+{txt}          1 {c |}{res}        726        8.71      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,337      100.00
 tabulation of resrc_other
 
 {txt}Q50: other, {c |}
      please {c |}
     specify {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,398       97.90       97.90
-{txt}          1 {c |}{res}        244        2.10      100.00
+          0 {c |}{res}      8,093       97.07       97.07
+{txt}          1 {c |}{res}        244        2.93      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,337      100.00
 tabulation of pay_plan_scholarship
 
        {txt}Q54: {c |}
 scholarship {c |}
           s {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      7,454       64.03       64.03
-{txt}          1 {c |}{res}      4,188       35.97      100.00
+          0 {c |}{res}      4,268       50.47       50.47
+{txt}          1 {c |}{res}      4,188       49.53      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,456      100.00
 tabulation of pay_plan_grant
 
 {txt}Q54: grants {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      7,223       62.04       62.04
-{txt}          1 {c |}{res}      4,419       37.96      100.00
+          0 {c |}{res}      4,037       47.74       47.74
+{txt}          1 {c |}{res}      4,419       52.26      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,456      100.00
 tabulation of pay_plan_saving
 
 {txt}Q54: my own {c |}
     savings {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      8,754       75.19       75.19
-{txt}          1 {c |}{res}      2,888       24.81      100.00
+          0 {c |}{res}      5,568       65.85       65.85
+{txt}          1 {c |}{res}      2,888       34.15      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,456      100.00
 tabulation of pay_plan_work
 
        {txt}Q54: {c |}
@@ -1290,142 +1293,142 @@ tabulation of pay_plan_work
       while {c |}
    enrolled {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      6,686       57.43       57.43
-{txt}          1 {c |}{res}      4,956       42.57      100.00
+          0 {c |}{res}      3,500       41.39       41.39
+{txt}          1 {c |}{res}      4,956       58.61      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,456      100.00
 tabulation of pay_plan_otherppl
 
  {txt}Q54: money {c |}
  from other {c |}
      people {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      8,170       70.18       70.18
-{txt}          1 {c |}{res}      3,472       29.82      100.00
+          0 {c |}{res}      4,984       58.94       58.94
+{txt}          1 {c |}{res}      3,472       41.06      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,456      100.00
 tabulation of pay_plan_loan
 
        {txt}Q54: {c |}
     student {c |}
       loans {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      8,956       76.93       76.93
-{txt}          1 {c |}{res}      2,686       23.07      100.00
+          0 {c |}{res}      5,770       68.24       68.24
+{txt}          1 {c |}{res}      2,686       31.76      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,456      100.00
 tabulation of pay_plan_va
 
        {txt}Q54: {c |}
 military/VA {c |}
    benefits {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,418       98.08       98.08
-{txt}          1 {c |}{res}        224        1.92      100.00
+          0 {c |}{res}      8,232       97.35       97.35
+{txt}          1 {c |}{res}        224        2.65      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,456      100.00
 tabulation of pay_plan_credit
 
 {txt}Q54: credit {c |}
       cards {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,213       96.32       96.32
-{txt}          1 {c |}{res}        429        3.68      100.00
+          0 {c |}{res}      8,027       94.93       94.93
+{txt}          1 {c |}{res}        429        5.07      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,456      100.00
 tabulation of major_business
 
        {txt}Q55: {c |}
    Business {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,408       89.40       89.40
-{txt}          1 {c |}{res}      1,234       10.60      100.00
+          0 {c |}{res}      7,211       85.39       85.39
+{txt}          1 {c |}{res}      1,234       14.61      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,445      100.00
 tabulation of major_engineering
 
        {txt}Q55: {c |}
 Engineering {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,268       88.20       88.20
-{txt}          1 {c |}{res}      1,374       11.80      100.00
+          0 {c |}{res}      7,071       83.73       83.73
+{txt}          1 {c |}{res}      1,374       16.27      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,445      100.00
 tabulation of major_science
 
        {txt}Q55: {c |}
     Natural {c |}
     Scinces {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,930       85.29       85.29
-{txt}          1 {c |}{res}      1,712       14.71      100.00
+          0 {c |}{res}      6,733       79.73       79.73
+{txt}          1 {c |}{res}      1,712       20.27      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,445      100.00
 tabulation of major_social
 
 {txt}Q55: Social {c |}
    Sciences {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,343       88.84       88.84
-{txt}          1 {c |}{res}      1,299       11.16      100.00
+          0 {c |}{res}      7,146       84.62       84.62
+{txt}          1 {c |}{res}      1,299       15.38      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,445      100.00
 tabulation of major_humanity
 
        {txt}Q55: {c |}
  Humanities {c |}
    and Arts {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,516       90.33       90.33
-{txt}          1 {c |}{res}      1,126        9.67      100.00
+          0 {c |}{res}      7,319       86.67       86.67
+{txt}          1 {c |}{res}      1,126       13.33      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,445      100.00
 tabulation of major_health
 
 {txt}Q55: Health {c |}
    Sciences {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,804       84.21       84.21
-{txt}          1 {c |}{res}      1,838       15.79      100.00
+          0 {c |}{res}      6,607       78.24       78.24
+{txt}          1 {c |}{res}      1,838       21.76      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,445      100.00
 tabulation of major_education
 
        {txt}Q55: {c |}
   Education {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,027       94.72       94.72
-{txt}          1 {c |}{res}        615        5.28      100.00
+          0 {c |}{res}      7,830       92.72       92.72
+{txt}          1 {c |}{res}        615        7.28      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,445      100.00
 tabulation of major_applied
 
        {txt}Q55: {c |}
     Applied {c |}
    Sciences {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,195       96.16       96.16
-{txt}          1 {c |}{res}        447        3.84      100.00
+          0 {c |}{res}      7,998       94.71       94.71
+{txt}          1 {c |}{res}        447        5.29      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,445      100.00
 tabulation of major_service
 
 {txt}Q55: Public {c |}
     Service {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,982       94.33       94.33
-{txt}          1 {c |}{res}        660        5.67      100.00
+          0 {c |}{res}      7,785       92.18       92.18
+{txt}          1 {c |}{res}        660        7.82      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,445      100.00
 tabulation of major_undecided
 
        {txt}Q55: {c |}
   Undecided {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,932       93.90       93.90
-{txt}          1 {c |}{res}        710        6.10      100.00
+          0 {c |}{res}      7,735       91.59       91.59
+{txt}          1 {c |}{res}        710        8.41      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      8,445      100.00
 tabulation of highest_degree
 
    {txt}Q56: highest degree you hope to earn {c |}      Freq.     Percent        Cum.
@@ -1563,10 +1566,10 @@ tabulation of why_no_atog_notrequired
     plan to {c |}
      attend {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,416       98.06       98.06
-{txt}          1 {c |}{res}        226        1.94      100.00
+          0 {c |}{res}        395       63.61       63.61
+{txt}          1 {c |}{res}        226       36.39      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        621      100.00
 tabulation of why_no_atog_unknown
 
 {txt}Q64: didn't {c |}
@@ -1575,10 +1578,10 @@ tabulation of why_no_atog_unknown
 requirement {c |}
           s {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,487       98.67       98.67
-{txt}          1 {c |}{res}        155        1.33      100.00
+          0 {c |}{res}        466       75.04       75.04
+{txt}          1 {c |}{res}        155       24.96      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        621      100.00
 tabulation of why_no_atog_nocourse
 
  {txt}Q64: my HS {c |}
@@ -1587,10 +1590,10 @@ tabulation of why_no_atog_nocourse
   necessary {c |}
     courses {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,595       99.60       99.60
-{txt}          1 {c |}{res}         47        0.40      100.00
+          0 {c |}{res}        574       92.43       92.43
+{txt}          1 {c |}{res}         47        7.57      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        621      100.00
 tabulation of why_no_atog_lowgrade
 
     {txt}Q64: My {c |}
@@ -1600,10 +1603,10 @@ grades were {c |}
    required {c |}
     courses {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,403       97.95       97.95
-{txt}          1 {c |}{res}        239        2.05      100.00
+          0 {c |}{res}        382       61.51       61.51
+{txt}          1 {c |}{res}        239       38.49      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        621      100.00
 tabulation of why_no_atog_nocollege
 
   {txt}Q64: I am {c |}
@@ -1612,18 +1615,18 @@ planning to {c |}
      attend {c |}
     college {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,625       99.85       99.85
-{txt}          1 {c |}{res}         17        0.15      100.00
+          0 {c |}{res}        604       97.26       97.26
+{txt}          1 {c |}{res}         17        2.74      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        621      100.00
 tabulation of why_no_atog_other
 
  {txt}Q64: Other {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,540       99.12       99.12
-{txt}          1 {c |}{res}        102        0.88      100.00
+          0 {c |}{res}        519       83.57       83.57
+{txt}          1 {c |}{res}        102       16.43      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}        621      100.00
 tabulation of de
 
    {txt}Q66: did {c |}
@@ -1644,10 +1647,10 @@ classes not {c |}
  offered by {c |}
   my school {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,604       91.08       91.08
-{txt}          1 {c |}{res}      1,038        8.92      100.00
+          0 {c |}{res}      2,408       69.88       69.88
+{txt}          1 {c |}{res}      1,038       30.12      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      3,446      100.00
 tabulation of why_de_college
 
        {txt}Q67: {c |}
@@ -1658,10 +1661,10 @@ tabulation of why_de_college
   selective {c |}
     college {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     10,149       87.18       87.18
-{txt}          1 {c |}{res}      1,493       12.82      100.00
+          0 {c |}{res}      1,953       56.67       56.67
+{txt}          1 {c |}{res}      1,493       43.33      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      3,446      100.00
 tabulation of why_de_reduce
 
 {txt}Q67: reduce {c |}
@@ -1670,10 +1673,10 @@ tabulation of why_de_reduce
   needed in {c |}
     college {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}      9,756       83.80       83.80
-{txt}          1 {c |}{res}      1,886       16.20      100.00
+          0 {c |}{res}      1,560       45.27       45.27
+{txt}          1 {c |}{res}      1,886       54.73      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      3,446      100.00
 tabulation of why_de_trade
 
  {txt}Q67: to be {c |}
@@ -1682,18 +1685,18 @@ ready for a {c |}
   job after {c |}
          HS {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,353       97.52       97.52
-{txt}          1 {c |}{res}        289        2.48      100.00
+          0 {c |}{res}      3,157       91.61       91.61
+{txt}          1 {c |}{res}        289        8.39      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      3,446      100.00
 tabulation of why_de_other
 
  {txt}Q67: other {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-          0 {c |}{res}     11,101       95.35       95.35
-{txt}          1 {c |}{res}        541        4.65      100.00
+          0 {c |}{res}      2,905       84.30       84.30
+{txt}          1 {c |}{res}        541       15.70      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     11,642      100.00
+      Total {c |}{res}      3,446      100.00
 tabulation of de_atog
 
    {txt}Q68: did {c |}
@@ -1726,7 +1729,7 @@ tabulation of transcript_atog
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_simple.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 7 Sep 2024, 15:24:22
+ {txt}closed on:  {res}16 Sep 2024, 15:14:21
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

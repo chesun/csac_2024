@@ -1,9 +1,9 @@
 {smcl}
-{txt}{sf}{ul off}{.-}
+{com}{sf}{ul off}{txt}{.-}
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_coll_app.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 7 Sep 2024, 15:24:22
+ {txt}opened on:  {res}16 Sep 2024, 15:14:21
 {txt}
 {com}. 
 . di "colleges applied"
@@ -196,7 +196,7 @@ Colleges applied with {c |}         you about finaid
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_coll_app.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 7 Sep 2024, 15:24:22
+ {txt}closed on:  {res}16 Sep 2024, 15:14:21
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

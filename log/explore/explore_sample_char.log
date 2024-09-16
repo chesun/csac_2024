@@ -3,11 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/expl
 > ore_sample_char.smcl
   log type:  smcl
-<<<<<<< Updated upstream
- opened on:  10 Sep 2024, 16:57:30
-=======
- opened on:   7 Sep 2024, 15:24:20
->>>>>>> Stashed changes
+ opened on:  16 Sep 2024, 15:14:17
 
 . 
 . graph drop _all
@@ -340,14 +336,14 @@ Q47: social media platforms
 
     Variable |        Obs        Mean    Std. dev.       Min        Max
 -------------+---------------------------------------------------------
-social_red~t |     11,642    .0514516    .2209266          0          1
-   social_fb |     11,642    .0125408    .1112861          0          1
-   social_yt |     11,642    .1249785    .3307088          0          1
-social_tik~k |     11,642    .1764302    .3812021          0          1
-social_insta |     11,642     .202972    .4022291          0          1
+social_red~t |      4,159     .144025    .3511573          0          1
+   social_fb |      4,159    .0351046    .1840663          0          1
+   social_yt |      4,159    .3498437    .4769778          0          1
+social_tik~k |      4,159    .4938687    .5000225          0          1
+social_insta |      4,159    .5681654    .4953912          0          1
 -------------+---------------------------------------------------------
-social_twi~r |     11,642    .0144305    .1192623          0          1
-social_other |     11,642    .0401993    .1964347          0          1
+social_twi~r |      4,159    .0403943    .1969059          0          1
+social_other |      4,159     .112527    .3160518          0          1
 
 . 
 . di "Q49: who helpd you fill out the college application"
@@ -357,15 +353,15 @@ Q49: who helpd you fill out the college application
 
     Variable |        Obs        Mean    Std. dev.       Min        Max
 -------------+---------------------------------------------------------
- help_parent |     11,642    .3373991    .4728426          0          1
- help_family |     11,642    .1124377    .3159178          0          1
-help_teacher |     11,642    .1586497    .3653648          0          1
-help_colls~f |     11,642    .0679437      .25166          0          1
-help_privc~r |     11,642    .0535131    .2250641          0          1
+ help_parent |      8,756    .4486067    .4973801          0          1
+ help_family |      8,756    .1494975    .3565985          0          1
+help_teacher |      8,756    .2109411    .4079999          0          1
+help_colls~f |      8,756    .0903381    .2866818          0          1
+help_privc~r |      8,756    .0711512    .2570919          0          1
 -------------+---------------------------------------------------------
-help_hscou~r |     11,642    .3126611    .4635974          0          1
-  help_other |     11,642    .0413159    .1990284          0          1
-   help_self |     11,642    .2472084    .4314074          0          1
+help_hscou~r |      8,756    .4157149     .492873          0          1
+  help_other |      8,756    .0549338    .2278639          0          1
+   help_self |      8,756    .3286889    .4697635          0          1
 
 . 
 . di "Q50: college planning resources"
@@ -375,15 +371,15 @@ Q50: college planning resources
 
     Variable |        Obs        Mean    Std. dev.       Min        Max
 -------------+---------------------------------------------------------
-resrc_fina~l |     11,642    .3031266    .4596292          0          1
-resrc_webs~e |     11,642    .4138464    .4925428          0          1
-resrc_comp~l |     11,642     .129531    .3358011          0          1
-resrc_agtool |     11,642           0           0          0          0
-resrc_appt~l |     11,642    .2223845    .4158659          0          1
+resrc_fina~l |      8,337    .4232938    .4941108          0          1
+resrc_webs~e |      8,337    .5779057     .493923          0          1
+resrc_comp~l |      8,337    .1808804    .3849422          0          1
+resrc_agtool |      8,337           0           0          0          0
+resrc_appt~l |      8,337    .3105434    .4627438          0          1
 -------------+---------------------------------------------------------
-resrc_essa~l |     11,642    .1016148    .3021541          0          1
-resrc_coun~r |     11,642    .0623604    .2418194          0          1
- resrc_other |     11,642    .0209586    .1432519          0          1
+resrc_essa~l |      8,337    .1418976     .348966          0          1
+resrc_coun~r |      8,337    .0870817    .2819716          0          1
+ resrc_other |      8,337    .0292671    .1685644          0          1
 
 . 
 . log close 
@@ -391,9 +387,5 @@ resrc_coun~r |     11,642    .0623604    .2418194          0          1
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/expl
 > ore_sample_char.smcl
   log type:  smcl
-<<<<<<< Updated upstream
- closed on:  10 Sep 2024, 16:57:30
-=======
- closed on:   7 Sep 2024, 15:24:20
->>>>>>> Stashed changes
+ closed on:  16 Sep 2024, 15:14:17
 -------------------------------------------------------------------------------
