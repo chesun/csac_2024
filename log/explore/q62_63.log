@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/q62_
+> 63.smcl
+  log type:  smcl
+ opened on:   1 Oct 2024, 14:28:41
+
+. 
+. tab complete_atog if hs_senior==1, missing
+
+   Q62: are |
+     you on |
+   track to |
+   complete |
+        a-g |      Freq.     Percent        Cum.
+------------+-----------------------------------
+   Not sure |      1,467       12.60       12.60
+         No |        635        5.45       18.06
+        Yes |      6,742       57.91       75.97
+          . |      2,798       24.03      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
+
+. 
+. tab track_atog if hs_senior==1, missing 
+
+Q63: how difficult |
+    was it to keep |
+      track of a-g |
+          progress |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+       It was easy |      4,495       38.61       38.61
+          Not sure |      1,342       11.53       50.14
+Somewhat difficult |      2,561       22.00       72.14
+    Very difficult |        430        3.69       75.83
+                 . |      2,814       24.17      100.00
+-------------------+-----------------------------------
+             Total |     11,642      100.00
+
+. 
+. log close 
+      name:  <unnamed>
+       log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/q62_
+> 63.smcl
+  log type:  smcl
+ closed on:   1 Oct 2024, 14:28:41
+-------------------------------------------------------------------------------

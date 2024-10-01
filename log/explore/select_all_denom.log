@@ -3,7 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/sele
 > ct_all_denom.smcl
   log type:  smcl
- opened on:  16 Sep 2024, 15:14:21
+ opened on:   1 Oct 2024, 14:28:41
 
 . 
 . foreach var of local select_all_raw_qs {
@@ -130,5 +130,5 @@ number of nonmissing responses for why_de_raw
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/sele
 > ct_all_denom.smcl
   log type:  smcl
- closed on:  16 Sep 2024, 15:14:21
+ closed on:   1 Oct 2024, 14:28:41
 -------------------------------------------------------------------------------

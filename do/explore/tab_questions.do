@@ -85,3 +85,13 @@ log close
 translate $projdir/log/explore/select_all_denom.smcl ///
     $projdir/log/explore/select_all_denom.log, replace 
 
+
+log using $projdir/log/explore/q62_63.smcl, replace 
+
+tab complete_atog if hs_senior==1, missing
+
+tab track_atog if hs_senior==1, missing 
+
+log close 
+translate $projdir/log/explore/q62_63.smcl ///
+    $projdir/log/explore/q62_63.log, replace 
