@@ -18,8 +18,7 @@ set seed 1984
 // this is the correct file, the older file has line breaks in text response which results in incorrect import
 import delimited "$rawdtadir/CSAC_2024_Senior_Survey_August 2, 2024_12.04.csv", varnames(1) clear 
 
-
-//---------------------------------------------------------------
+//-------------------- -------------------------------------------
 // initial cleaning
 // do not encode select all that apply questions
 //---------------------------------------------------------------
@@ -42,14 +41,14 @@ rename q6 email
 
 label define hs_senior_lab 0 "No" 1 "Yes"
 encode q8, generate(hs_senior) label(hs_senior_lab)
-label var hs_senior "W8: Graduated HS in spring or summer 2024"
+label var hs_senior "Q8: Graduated HS in spring or summer 2024"
 drop q8
 
 *********** FAFSA*********
 
 // Q11: wy did you complete FAFSA or CADAA? select all that apply
 rename q11 why_fafsa_raw
-label var why_fafsa_raw "W11: Reason for completing FAFSA or CADAA"
+label var why_fafsa_raw "Q11: Reason for completing FAFSA or CADAA"
 
 gen why_fafsa_requirement = (strpos(why_fafsa_raw, "It was a requirement for graduation")!=0)
 replace why_fafsa_requirement = . if mi(why_fafsa_raw)
@@ -62,18 +61,20 @@ replace why_fafsa_expected = . if mi(why_fafsa_raw)
 gen why_fafsa_other = (strpos(why_fafsa_raw, "Other (Please describe)")!=0)
 replace why_fafsa_other = . if mi(why_fafsa_raw)
 
-label var why_fafsa_requirement "why fafsa: requirement for graduation"
-label var why_fafsa_assignment "why fafsa: assignment for class"
-label var why_fafsa_eligible "why fafsa: check eligibility for financial aid"
-label var why_fafsa_expected "why fafsa: expected at school"
-label var why_fafsa_other "why fafsa: other"
+label var why_fafsa_requirement "Q11: Requirement for Graduation"
+label var why_fafsa_assignment "Q11: Assignment for Class"
+label var why_fafsa_eligible "Q11: Check Eligibility for Financial Aid"
+label var why_fafsa_expected "Q11: Expected at School"
+label var why_fafsa_other "Q11: Other"
+
+
 
 rename q11_5_text why_fafsa_other_text
 replace why_fafsa_other_text = strlower(strtrim(why_fafsa_other_text))
-label var why_fafsa_other_text "W11: Free response for why completed FAFSA or CADAA"
+label var why_fafsa_other_text "Q11: Free response for why completed FAFSA or CADAA"
 
 encode q12, generate(when_heard_fafsa) label(when_heard_fafsa_lab)
-label var when_heard_fafsa "W12: When did you first hear about FAFSA or CADAA"
+label var when_heard_fafsa "Q12: When did you first hear about FAFSA or CADAA"
 drop q12 
 
 encode q14, generate(difficulty_apply_finaid) label(difficulty_apply_finaid_lab)

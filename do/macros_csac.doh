@@ -3,6 +3,55 @@
 #delimit ;
 
 // question macros ;
+local test_qnums 
+    8 11 
+    ;
+
+local q8_subqs
+    hs_senior
+    ;
+
+local q8_heading
+    "Q8: Did you graduate from high school in spring 2024 or are you planning to graduate in summer 2024?"
+    ;
+
+local hs_senior_title "Is High School Senior";
+
+local q11_subqs
+    why_fafsa_requirement why_fafsa_assignment why_fafsa_eligible
+    why_fafsa_expected why_fafsa_other
+    ;
+
+local q11_heading
+    "Q11: Why did you complete the FAFSA or CADAA? (Select all that apply)"
+    ;
+
+local why_fafsa_requirement_title  "Q11 Selected: It was a requirement for graduation"  ;
+local why_fafsa_assignment_title "Q11 Selected: It was part of an assignment for a class";
+local why_fafsa_eligible_title "Q11 Selected: I wanted to see if I was eligible for financial aid";
+local why_fafsa_expected_title "Q11 Selected: It was an expectation at my school";
+local why_fafsa_other_title "Q11 Selected: Other (Please describe)";
+
+local q12_subqs
+    when_heard_fafsa
+    ;
+
+local q14_subqs
+    difficulty_apply_finaid
+    ;
+
+
+
+
+
+local test_qs 
+    hs_senior
+
+    why_fafsa_requirement why_fafsa_assignment why_fafsa_eligible
+    why_fafsa_expected why_fafsa_other
+
+    when_heard_fafsa difficulty_apply_finaid
+    ;
 
 local fafsa_qs
     why_fafsa_requirement why_fafsa_assignment why_fafsa_eligible
@@ -115,10 +164,20 @@ local hs_exp_qs
     ;
 
 local all_qs
-    `fafsa_qs' `coll_att_qs' `coll_app_qs' 
+    hs_senior `fafsa_qs' `coll_att_qs' `coll_app_qs' 
     `not_coll_qs' `idk_coll_qs' `yes_coll_qs'
     `tools_qs' `coll_exp_qs' `hs_exp_qs'
+    home_lang_eng has_job hours_perweek
     ;
+
+local demo_qs
+    race_hrchy parent_edu gender 
+    ;
+
+
+local race_hrchy_str "Race";
+local parent_edu_str "Parental Education";
+local gender_str "Gender";
 
 // questions with select all that apply, for counting denominators ;
 local select_all_raw_qs

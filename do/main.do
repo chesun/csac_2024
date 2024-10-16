@@ -7,6 +7,8 @@ do /home/research/ca_ed_lab/projects/csac_survey2024/do/main.do
 cd "/home/research/ca_ed_lab/projects/csac_survey2024"
 do do/settings.do
 
+ssc install asdoc, replace 
+
 // clean data
 do $projdir/do/clean/clean_qualtrics_download.do
 

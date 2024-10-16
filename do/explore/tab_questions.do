@@ -95,3 +95,7 @@ tab track_atog if hs_senior==1, missing
 log close 
 translate $projdir/log/explore/q62_63.smcl ///
     $projdir/log/explore/q62_63.log, replace 
+
+
+
+count if why_fafsa_requirement==1 |why_fafsa_assignment==1 |why_fafsa_expected==1
