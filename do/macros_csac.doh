@@ -11,7 +11,7 @@ local q8_subqs
     hs_senior
     ;
 
-local q8_heading
+local q8_str
     "Q8: Did you graduate from high school in spring 2024 or are you planning to graduate in summer 2024?"
     ;
 
@@ -22,7 +22,7 @@ local q11_subqs
     why_fafsa_expected why_fafsa_other
     ;
 
-local q11_heading
+local q11_str
     "Q11: Why did you complete the FAFSA or CADAA? (Select all that apply)"
     ;
 

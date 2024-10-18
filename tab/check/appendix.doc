@@ -1,16 +1,18 @@
 {\rtf1\ansi\deff0 {\fonttbl{\f0\fnil Garamond;}}
 {\info {\author Attaullah Shah}{\company IMSciences}{\title .}}
-\deflang1033\plain\fs24
-{\footer\pard\qc\plain\f0\fs24\chpgn\par}
+\deflang1033\plain\fs20
+{\footer\pard\qc\plain\f0\fs20\chpgn\par}
 {
-{\fs24\line Appendix: Tabulations of All Survey Questions }
+{\fs20\line Appendix: Tabulations of All Survey Questions }
 
-{\fs24\line 1. Tabulations of Question Q8: Did you graduate from high school in spring 2024 or are you planning to graduate in summer 2024? }
+{\fs32\line \b 1. Tabulations of Question Q8: Did you graduate from high school in spring 2024 or are you planning to graduate in summer 2024? }
 
-{\fs20\line 1.1 Is High School Senior }
+{\fs28\line \b 1.1. Is High School Senior }
+
+{\fs24\line \b 1.1.1. One-Way Tabulation }
 
 {
-{\b\qc\line One-Way Tabulation }{\par}
+{\b\qc\line \ }{\par}
 \trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
 \ql {Q8: Graduated HS in spring or summer 2024}\cell
 \qr {Freq.}\cell
@@ -20,22 +22,17 @@
 \trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
 \ql {No}\cell
 \qr {2431}\cell
-\qr {9.71}\cell
-\qr {9.71}\cell
+\qr {17.27}\cell
+\qr {17.27}\cell
 \row
 \ql {Yes}\cell
 \qr {11642}\cell
-\qr {46.52}\cell
-\qr {56.23}\cell
-\row
-\ql {.}\cell
-\qr {10955}\cell
-\qr {43.77}\cell
+\qr {82.73}\cell
 \qr {100.00}\cell
 \row
 \trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
 \ql {Total}\cell
-\qr {25028}\cell
+\qr {14073}\cell
 \qr {100.00}\cell
 \qr {}\cell
 \row
@@ -44,729 +41,454 @@
 \clbrdrt\brdrw15\brdrs\cellx3900\cell
 \row}
 
-{\b\qc\line Two-Way Tabulation by Race }{\par}
+{\fs24\line \b 1.1.2. Two-Way Tabulation by Race }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Race}\cell
+\fs24\pard\intbl\ql {Race}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q8: Graduated HS in spring or summer 2024}\cell
+\fs24\pard\intbl\qc {Q8: Graduated HS in spring or summer 2024}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {No}\cell
+\fs24\pard\intbl\qr {Yes}\cell
 \cellx5000
-\fs20\pard\intbl\qr {Yes}\cell
-\cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {American Indian/Alaskan Native}\cell
+\fs24\pard\intbl\ql {American Indian/Alaskan Native}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {204}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {204}\cell
-\clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {204}\cell
+\fs24\pard\intbl\qr {204}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Black}\cell
+\fs24\pard\intbl\ql {Black}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {644}\cell
 \cellx5000
-\fs20\pard\intbl\qr {644}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {644}\cell
+\fs24\pard\intbl\qr {644}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Hispanic}\cell
+\fs24\pard\intbl\ql {Hispanic}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {4895}\cell
 \cellx5000
-\fs20\pard\intbl\qr {4895}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {4895}\cell
+\fs24\pard\intbl\qr {4895}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Pacific Islander}\cell
+\fs24\pard\intbl\ql {Pacific Islander}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {47}\cell
 \cellx5000
-\fs20\pard\intbl\qr {47}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {47}\cell
+\fs24\pard\intbl\qr {47}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Filipino}\cell
+\fs24\pard\intbl\ql {Filipino}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {291}\cell
 \cellx5000
-\fs20\pard\intbl\qr {291}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {291}\cell
+\fs24\pard\intbl\qr {291}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Asian}\cell
+\fs24\pard\intbl\ql {Asian}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {1109}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1109}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1109}\cell
+\fs24\pard\intbl\qr {1109}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Other race}\cell
+\fs24\pard\intbl\ql {Other race}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {211}\cell
 \cellx5000
-\fs20\pard\intbl\qr {211}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {211}\cell
+\fs24\pard\intbl\qr {211}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {White/Non-Hispanic}\cell
+\fs24\pard\intbl\ql {White/Non-Hispanic}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {1319}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1319}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1319}\cell
+\fs24\pard\intbl\qr {1319}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {2431}\cell
-\cellx5000
-\fs20\pard\intbl\qr {2922}\cell
-\cellx6000
-\fs20\pard\intbl\qr {10955}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16308}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {14.91}\cell
-\cellx5000
-\fs20\pard\intbl\qr {17.92}\cell
-\cellx6000
-\fs20\pard\intbl\qr {67.18}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {2431}\cell
+\fs24\pard\intbl\qr {8720}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {11642}\cell
-\clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {10955}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8720}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {9.71}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {46.52}\cell
-\cellx6000
-\fs20\pard\intbl\qr {43.77}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx5000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\b\qc\line Two-Way Tabulation by Parental Education }{\par}
+{\fs24\line \b 1.1.3. Two-Way Tabulation by Parental Education }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Parental Education}\cell
+\fs24\pard\intbl\ql {Parental Education}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q8: Graduated HS in spring or summer 2024}\cell
+\fs24\pard\intbl\qc {Q8: Graduated HS in spring or summer 2024}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {No}\cell
+\fs24\pard\intbl\qr {Yes}\cell
 \cellx5000
-\fs20\pard\intbl\qr {Yes}\cell
-\cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {Don't know}\cell
+\fs24\pard\intbl\ql {Don't know}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {507}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {507}\cell
-\clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {507}\cell
+\fs24\pard\intbl\qr {507}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Did not complete high school}\cell
+\fs24\pard\intbl\ql {Did not complete high school}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {1813}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1813}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1813}\cell
+\fs24\pard\intbl\qr {1813}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {High school diploma}\cell
+\fs24\pard\intbl\ql {High school diploma}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {2389}\cell
 \cellx5000
-\fs20\pard\intbl\qr {2389}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {2389}\cell
+\fs24\pard\intbl\qr {2389}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Some college, no college degree}\cell
+\fs24\pard\intbl\ql {Some college, no college degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {1133}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1133}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1133}\cell
+\fs24\pard\intbl\qr {1133}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Associate degree}\cell
+\fs24\pard\intbl\ql {Associate degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {452}\cell
 \cellx5000
-\fs20\pard\intbl\qr {452}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {452}\cell
+\fs24\pard\intbl\qr {452}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Bachelor's degree}\cell
+\fs24\pard\intbl\ql {Bachelor's degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {1277}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1277}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1277}\cell
+\fs24\pard\intbl\qr {1277}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Graduate/Professional degree beyond Bachelor's degree (Master's, PhD, JD, MD, etc.)}\cell
+\fs24\pard\intbl\ql {Graduate/Professional degree beyond Bachelor's degree (Master's, PhD, JD, MD, etc.)}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {1167}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1167}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1167}\cell
+\fs24\pard\intbl\qr {1167}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {2431}\cell
-\cellx5000
-\fs20\pard\intbl\qr {2904}\cell
-\cellx6000
-\fs20\pard\intbl\qr {10955}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16290}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {14.92}\cell
-\cellx5000
-\fs20\pard\intbl\qr {17.83}\cell
-\cellx6000
-\fs20\pard\intbl\qr {67.25}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {2431}\cell
+\fs24\pard\intbl\qr {8738}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {11642}\cell
-\clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {10955}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8738}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {9.71}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {46.52}\cell
-\cellx6000
-\fs20\pard\intbl\qr {43.77}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx5000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\b\qc\line Two-Way Tabulation by Gender }{\par}
+{\fs24\line \b 1.1.4. Two-Way Tabulation by Gender }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Gender}\cell
+\fs24\pard\intbl\ql {Gender}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q8: Graduated HS in spring or summer 2024}\cell
+\fs24\pard\intbl\qc {Q8: Graduated HS in spring or summer 2024}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {No}\cell
+\fs24\pard\intbl\qr {Yes}\cell
 \cellx5000
-\fs20\pard\intbl\qr {Yes}\cell
-\cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {Man}\cell
+\fs24\pard\intbl\ql {Man}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {3169}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {3169}\cell
-\clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {3169}\cell
+\fs24\pard\intbl\qr {3169}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Woman}\cell
+\fs24\pard\intbl\ql {Woman}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {5162}\cell
 \cellx5000
-\fs20\pard\intbl\qr {5162}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {5162}\cell
+\fs24\pard\intbl\qr {5162}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Non-binary}\cell
+\fs24\pard\intbl\ql {Non-binary}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {193}\cell
 \cellx5000
-\fs20\pard\intbl\qr {193}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {193}\cell
+\fs24\pard\intbl\qr {193}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Prefer not to say}\cell
+\fs24\pard\intbl\ql {Prefer not to say}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {180}\cell
 \cellx5000
-\fs20\pard\intbl\qr {180}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {180}\cell
+\fs24\pard\intbl\qr {180}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Other (please feel free to specify)}\cell
+\fs24\pard\intbl\ql {Other (please feel free to specify)}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {36}\cell
 \cellx5000
-\fs20\pard\intbl\qr {36}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {36}\cell
+\fs24\pard\intbl\qr {36}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100.00}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {2431}\cell
-\cellx5000
-\fs20\pard\intbl\qr {2902}\cell
-\cellx6000
-\fs20\pard\intbl\qr {10955}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16288}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {14.93}\cell
-\cellx5000
-\fs20\pard\intbl\qr {17.82}\cell
-\cellx6000
-\fs20\pard\intbl\qr {67.26}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {2431}\cell
+\fs24\pard\intbl\qr {8740}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {11642}\cell
-\clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {10955}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8740}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {9.71}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {46.52}\cell
-\cellx6000
-\fs20\pard\intbl\qr {43.77}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx5000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\fs24\line 2. Tabulations of Question Q11: Why did you complete the FAFSA or CADAA? (Select all that apply }
+{\fs32\line \b 2. Tabulations of Question Q11: Why did you complete the FAFSA or CADAA? (Select all that apply }
 
-{\fs20\line 2.1 Q11 Selected: It was a requirement for graduation }
+{\fs28\line \b 2.1. Q11 Selected: It was a requirement for graduation }
+
+{\fs24\line \b 2.1.1. One-Way Tabulation }
 
 {
-{\b\qc\line One-Way Tabulation }{\par}
+{\b\qc\line \ }{\par}
 \trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
 \ql {Q11: Requirement for Graduation}\cell
 \qr {Freq.}\cell
@@ -776,22 +498,17 @@ First row has {\i frequencies} and second row has {\i row percentages}{\par}
 \trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
 \ql {0}\cell
 \qr {6760}\cell
-\qr {27.01}\cell
-\qr {27.01}\cell
+\qr {60.15}\cell
+\qr {60.15}\cell
 \row
 \ql {1}\cell
 \qr {4478}\cell
-\qr {17.89}\cell
-\qr {44.90}\cell
-\row
-\ql {.}\cell
-\qr {13790}\cell
-\qr {55.10}\cell
+\qr {39.85}\cell
 \qr {100.00}\cell
 \row
 \trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
 \ql {Total}\cell
-\qr {25028}\cell
+\qr {11238}\cell
 \qr {100.00}\cell
 \qr {}\cell
 \row
@@ -800,727 +517,556 @@ First row has {\i frequencies} and second row has {\i row percentages}{\par}
 \clbrdrt\brdrw15\brdrs\cellx3900\cell
 \row}
 
-{\b\qc\line Two-Way Tabulation by Race }{\par}
+{\fs24\line \b 2.1.2. Two-Way Tabulation by Race }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Race}\cell
+\fs24\pard\intbl\ql {Race}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Requirement for Graduation}\cell
+\fs24\pard\intbl\qc {Q11: Requirement for Graduation}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {American Indian/Alaskan Native}\cell
+\fs24\pard\intbl\ql {American Indian/Alaskan Native}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {134}\cell
+\fs24\pard\intbl\qr {134}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {70}\cell
+\fs24\pard\intbl\qr {70}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {204}\cell
+\fs24\pard\intbl\qr {204}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {65.69}\cell
+\fs24\pard\intbl\qr {65.69}\cell
 \cellx5000
-\fs20\pard\intbl\qr {34.31}\cell
+\fs24\pard\intbl\qr {34.31}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Black}\cell
+\fs24\pard\intbl\ql {Black}\cell
 \cellx4000
-\fs20\pard\intbl\qr {358}\cell
+\fs24\pard\intbl\qr {358}\cell
 \cellx5000
-\fs20\pard\intbl\qr {285}\cell
+\fs24\pard\intbl\qr {285}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {644}\cell
+\fs24\pard\intbl\qr {643}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {55.59}\cell
+\fs24\pard\intbl\qr {55.68}\cell
 \cellx5000
-\fs20\pard\intbl\qr {44.25}\cell
+\fs24\pard\intbl\qr {44.32}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.16}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Hispanic}\cell
+\fs24\pard\intbl\ql {Hispanic}\cell
 \cellx4000
-\fs20\pard\intbl\qr {2729}\cell
+\fs24\pard\intbl\qr {2729}\cell
 \cellx5000
-\fs20\pard\intbl\qr {2164}\cell
+\fs24\pard\intbl\qr {2164}\cell
 \cellx6000
-\fs20\pard\intbl\qr {2}\cell
-\cellx7000
-\fs20\pard\intbl\qr {4895}\cell
+\fs24\pard\intbl\qr {4893}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {55.75}\cell
+\fs24\pard\intbl\qr {55.77}\cell
 \cellx5000
-\fs20\pard\intbl\qr {44.21}\cell
+\fs24\pard\intbl\qr {44.23}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.04}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Pacific Islander}\cell
+\fs24\pard\intbl\ql {Pacific Islander}\cell
 \cellx4000
-\fs20\pard\intbl\qr {29}\cell
+\fs24\pard\intbl\qr {29}\cell
 \cellx5000
-\fs20\pard\intbl\qr {18}\cell
+\fs24\pard\intbl\qr {18}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {47}\cell
+\fs24\pard\intbl\qr {47}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {61.70}\cell
+\fs24\pard\intbl\qr {61.70}\cell
 \cellx5000
-\fs20\pard\intbl\qr {38.30}\cell
+\fs24\pard\intbl\qr {38.30}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Filipino}\cell
+\fs24\pard\intbl\ql {Filipino}\cell
 \cellx4000
-\fs20\pard\intbl\qr {181}\cell
+\fs24\pard\intbl\qr {181}\cell
 \cellx5000
-\fs20\pard\intbl\qr {110}\cell
+\fs24\pard\intbl\qr {110}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {291}\cell
+\fs24\pard\intbl\qr {291}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {62.20}\cell
+\fs24\pard\intbl\qr {62.20}\cell
 \cellx5000
-\fs20\pard\intbl\qr {37.80}\cell
+\fs24\pard\intbl\qr {37.80}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Asian}\cell
+\fs24\pard\intbl\ql {Asian}\cell
 \cellx4000
-\fs20\pard\intbl\qr {761}\cell
+\fs24\pard\intbl\qr {761}\cell
 \cellx5000
-\fs20\pard\intbl\qr {348}\cell
+\fs24\pard\intbl\qr {348}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1109}\cell
+\fs24\pard\intbl\qr {1109}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {68.62}\cell
+\fs24\pard\intbl\qr {68.62}\cell
 \cellx5000
-\fs20\pard\intbl\qr {31.38}\cell
+\fs24\pard\intbl\qr {31.38}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Other race}\cell
+\fs24\pard\intbl\ql {Other race}\cell
 \cellx4000
-\fs20\pard\intbl\qr {141}\cell
+\fs24\pard\intbl\qr {141}\cell
 \cellx5000
-\fs20\pard\intbl\qr {70}\cell
+\fs24\pard\intbl\qr {70}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {211}\cell
+\fs24\pard\intbl\qr {211}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {66.82}\cell
+\fs24\pard\intbl\qr {66.82}\cell
 \cellx5000
-\fs20\pard\intbl\qr {33.18}\cell
+\fs24\pard\intbl\qr {33.18}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {White/Non-Hispanic}\cell
+\fs24\pard\intbl\ql {White/Non-Hispanic}\cell
 \cellx4000
-\fs20\pard\intbl\qr {928}\cell
+\fs24\pard\intbl\qr {928}\cell
 \cellx5000
-\fs20\pard\intbl\qr {391}\cell
+\fs24\pard\intbl\qr {391}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1319}\cell
+\fs24\pard\intbl\qr {1319}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {70.36}\cell
+\fs24\pard\intbl\qr {70.36}\cell
 \cellx5000
-\fs20\pard\intbl\qr {29.64}\cell
+\fs24\pard\intbl\qr {29.64}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {1499}\cell
-\cellx5000
-\fs20\pard\intbl\qr {1022}\cell
-\cellx6000
-\fs20\pard\intbl\qr {13787}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16308}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {9.19}\cell
-\cellx5000
-\fs20\pard\intbl\qr {6.27}\cell
-\cellx6000
-\fs20\pard\intbl\qr {84.54}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {6760}\cell
+\fs24\pard\intbl\qr {5261}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {4478}\cell
+\fs24\pard\intbl\qr {3456}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8717}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {27.01}\cell
+\fs24\pard\intbl\qr {60.35}\cell
 \cellx5000
-\fs20\pard\intbl\qr {17.89}\cell
+\fs24\pard\intbl\qr {39.65}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\b\qc\line Two-Way Tabulation by Parental Education }{\par}
+{\fs24\line \b 2.1.3. Two-Way Tabulation by Parental Education }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Parental Education}\cell
+\fs24\pard\intbl\ql {Parental Education}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Requirement for Graduation}\cell
+\fs24\pard\intbl\qc {Q11: Requirement for Graduation}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {Don't know}\cell
+\fs24\pard\intbl\ql {Don't know}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {284}\cell
+\fs24\pard\intbl\qr {284}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {222}\cell
+\fs24\pard\intbl\qr {222}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {507}\cell
+\fs24\pard\intbl\qr {506}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {56.02}\cell
+\fs24\pard\intbl\qr {56.13}\cell
 \cellx5000
-\fs20\pard\intbl\qr {43.79}\cell
+\fs24\pard\intbl\qr {43.87}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.20}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Did not complete high school}\cell
+\fs24\pard\intbl\ql {Did not complete high school}\cell
 \cellx4000
-\fs20\pard\intbl\qr {995}\cell
+\fs24\pard\intbl\qr {995}\cell
 \cellx5000
-\fs20\pard\intbl\qr {818}\cell
+\fs24\pard\intbl\qr {818}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1813}\cell
+\fs24\pard\intbl\qr {1813}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {54.88}\cell
+\fs24\pard\intbl\qr {54.88}\cell
 \cellx5000
-\fs20\pard\intbl\qr {45.12}\cell
+\fs24\pard\intbl\qr {45.12}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {High school diploma}\cell
+\fs24\pard\intbl\ql {High school diploma}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1355}\cell
+\fs24\pard\intbl\qr {1355}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1033}\cell
+\fs24\pard\intbl\qr {1033}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {2389}\cell
+\fs24\pard\intbl\qr {2388}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {56.72}\cell
+\fs24\pard\intbl\qr {56.74}\cell
 \cellx5000
-\fs20\pard\intbl\qr {43.24}\cell
+\fs24\pard\intbl\qr {43.26}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.04}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Some college, no college degree}\cell
+\fs24\pard\intbl\ql {Some college, no college degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {672}\cell
+\fs24\pard\intbl\qr {672}\cell
 \cellx5000
-\fs20\pard\intbl\qr {460}\cell
+\fs24\pard\intbl\qr {460}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1133}\cell
+\fs24\pard\intbl\qr {1132}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {59.31}\cell
+\fs24\pard\intbl\qr {59.36}\cell
 \cellx5000
-\fs20\pard\intbl\qr {40.60}\cell
+\fs24\pard\intbl\qr {40.64}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.09}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Associate degree}\cell
+\fs24\pard\intbl\ql {Associate degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {282}\cell
+\fs24\pard\intbl\qr {282}\cell
 \cellx5000
-\fs20\pard\intbl\qr {170}\cell
+\fs24\pard\intbl\qr {170}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {452}\cell
+\fs24\pard\intbl\qr {452}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {62.39}\cell
+\fs24\pard\intbl\qr {62.39}\cell
 \cellx5000
-\fs20\pard\intbl\qr {37.61}\cell
+\fs24\pard\intbl\qr {37.61}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Bachelor's degree}\cell
+\fs24\pard\intbl\ql {Bachelor's degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {875}\cell
+\fs24\pard\intbl\qr {875}\cell
 \cellx5000
-\fs20\pard\intbl\qr {402}\cell
+\fs24\pard\intbl\qr {402}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1277}\cell
+\fs24\pard\intbl\qr {1277}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {68.52}\cell
+\fs24\pard\intbl\qr {68.52}\cell
 \cellx5000
-\fs20\pard\intbl\qr {31.48}\cell
+\fs24\pard\intbl\qr {31.48}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Graduate/Professional degree beyond Bachelor's degree (Master's, PhD, JD, MD, etc.)}\cell
+\fs24\pard\intbl\ql {Graduate/Professional degree beyond Bachelor's degree (Master's, PhD, JD, MD, etc.)}\cell
 \cellx4000
-\fs20\pard\intbl\qr {814}\cell
+\fs24\pard\intbl\qr {814}\cell
 \cellx5000
-\fs20\pard\intbl\qr {352}\cell
+\fs24\pard\intbl\qr {352}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1167}\cell
+\fs24\pard\intbl\qr {1166}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {69.75}\cell
+\fs24\pard\intbl\qr {69.81}\cell
 \cellx5000
-\fs20\pard\intbl\qr {30.16}\cell
+\fs24\pard\intbl\qr {30.19}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.09}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {1483}\cell
-\cellx5000
-\fs20\pard\intbl\qr {1021}\cell
-\cellx6000
-\fs20\pard\intbl\qr {13786}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16290}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {9.10}\cell
-\cellx5000
-\fs20\pard\intbl\qr {6.27}\cell
-\cellx6000
-\fs20\pard\intbl\qr {84.63}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {6760}\cell
+\fs24\pard\intbl\qr {5277}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {4478}\cell
+\fs24\pard\intbl\qr {3457}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8734}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {27.01}\cell
+\fs24\pard\intbl\qr {60.42}\cell
 \cellx5000
-\fs20\pard\intbl\qr {17.89}\cell
+\fs24\pard\intbl\qr {39.58}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\b\qc\line Two-Way Tabulation by Gender }{\par}
+{\fs24\line \b 2.1.4. Two-Way Tabulation by Gender }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Gender}\cell
+\fs24\pard\intbl\ql {Gender}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Requirement for Graduation}\cell
+\fs24\pard\intbl\qc {Q11: Requirement for Graduation}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {Man}\cell
+\fs24\pard\intbl\ql {Man}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {1917}\cell
+\fs24\pard\intbl\qr {1917}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {1251}\cell
+\fs24\pard\intbl\qr {1251}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {3169}\cell
+\fs24\pard\intbl\qr {3168}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {60.49}\cell
+\fs24\pard\intbl\qr {60.51}\cell
 \cellx5000
-\fs20\pard\intbl\qr {39.48}\cell
+\fs24\pard\intbl\qr {39.49}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.03}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Woman}\cell
+\fs24\pard\intbl\ql {Woman}\cell
 \cellx4000
-\fs20\pard\intbl\qr {3095}\cell
+\fs24\pard\intbl\qr {3095}\cell
 \cellx5000
-\fs20\pard\intbl\qr {2064}\cell
+\fs24\pard\intbl\qr {2064}\cell
 \cellx6000
-\fs20\pard\intbl\qr {3}\cell
-\cellx7000
-\fs20\pard\intbl\qr {5162}\cell
+\fs24\pard\intbl\qr {5159}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {59.96}\cell
+\fs24\pard\intbl\qr {59.99}\cell
 \cellx5000
-\fs20\pard\intbl\qr {39.98}\cell
+\fs24\pard\intbl\qr {40.01}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.06}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Non-binary}\cell
+\fs24\pard\intbl\ql {Non-binary}\cell
 \cellx4000
-\fs20\pard\intbl\qr {128}\cell
+\fs24\pard\intbl\qr {128}\cell
 \cellx5000
-\fs20\pard\intbl\qr {65}\cell
+\fs24\pard\intbl\qr {65}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {193}\cell
+\fs24\pard\intbl\qr {193}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {66.32}\cell
+\fs24\pard\intbl\qr {66.32}\cell
 \cellx5000
-\fs20\pard\intbl\qr {33.68}\cell
+\fs24\pard\intbl\qr {33.68}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Prefer not to say}\cell
+\fs24\pard\intbl\ql {Prefer not to say}\cell
 \cellx4000
-\fs20\pard\intbl\qr {109}\cell
+\fs24\pard\intbl\qr {109}\cell
 \cellx5000
-\fs20\pard\intbl\qr {70}\cell
+\fs24\pard\intbl\qr {70}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {180}\cell
+\fs24\pard\intbl\qr {179}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {60.56}\cell
+\fs24\pard\intbl\qr {60.89}\cell
 \cellx5000
-\fs20\pard\intbl\qr {38.89}\cell
+\fs24\pard\intbl\qr {39.11}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.56}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Other (please feel free to specify)}\cell
+\fs24\pard\intbl\ql {Other (please feel free to specify)}\cell
 \cellx4000
-\fs20\pard\intbl\qr {22}\cell
+\fs24\pard\intbl\qr {22}\cell
 \cellx5000
-\fs20\pard\intbl\qr {14}\cell
+\fs24\pard\intbl\qr {14}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {36}\cell
+\fs24\pard\intbl\qr {36}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {61.11}\cell
+\fs24\pard\intbl\qr {61.11}\cell
 \cellx5000
-\fs20\pard\intbl\qr {38.89}\cell
+\fs24\pard\intbl\qr {38.89}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {1489}\cell
-\cellx5000
-\fs20\pard\intbl\qr {1014}\cell
-\cellx6000
-\fs20\pard\intbl\qr {13785}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16288}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {9.14}\cell
-\cellx5000
-\fs20\pard\intbl\qr {6.23}\cell
-\cellx6000
-\fs20\pard\intbl\qr {84.63}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {6760}\cell
+\fs24\pard\intbl\qr {5271}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {4478}\cell
+\fs24\pard\intbl\qr {3464}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8735}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {27.01}\cell
+\fs24\pard\intbl\qr {60.34}\cell
 \cellx5000
-\fs20\pard\intbl\qr {17.89}\cell
+\fs24\pard\intbl\qr {39.66}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\fs20\line 2.2 Q11 Selected: It was part of an assignment for a class }
+{\fs28\line \b 2.2. Q11 Selected: It was part of an assignment for a class }
+
+{\fs24\line \b 2.2.1. One-Way Tabulation }
 
 {
-{\b\qc\line One-Way Tabulation }{\par}
+{\b\qc\line \ }{\par}
 \trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
 \ql {Q11: Assignment for Class}\cell
 \qr {Freq.}\cell
@@ -1530,22 +1076,17 @@ First row has {\i frequencies} and second row has {\i row percentages}{\par}
 \trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
 \ql {0}\cell
 \qr {10358}\cell
-\qr {41.39}\cell
-\qr {41.39}\cell
+\qr {92.17}\cell
+\qr {92.17}\cell
 \row
 \ql {1}\cell
 \qr {880}\cell
-\qr {3.52}\cell
-\qr {44.90}\cell
-\row
-\ql {.}\cell
-\qr {13790}\cell
-\qr {55.10}\cell
+\qr {7.83}\cell
 \qr {100.00}\cell
 \row
 \trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
 \ql {Total}\cell
-\qr {25028}\cell
+\qr {11238}\cell
 \qr {100.00}\cell
 \qr {}\cell
 \row
@@ -1554,727 +1095,556 @@ First row has {\i frequencies} and second row has {\i row percentages}{\par}
 \clbrdrt\brdrw15\brdrs\cellx3900\cell
 \row}
 
-{\b\qc\line Two-Way Tabulation by Race }{\par}
+{\fs24\line \b 2.2.2. Two-Way Tabulation by Race }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Race}\cell
+\fs24\pard\intbl\ql {Race}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Assignment for Class}\cell
+\fs24\pard\intbl\qc {Q11: Assignment for Class}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {American Indian/Alaskan Native}\cell
+\fs24\pard\intbl\ql {American Indian/Alaskan Native}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {184}\cell
+\fs24\pard\intbl\qr {184}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {20}\cell
+\fs24\pard\intbl\qr {20}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {204}\cell
+\fs24\pard\intbl\qr {204}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {90.20}\cell
+\fs24\pard\intbl\qr {90.20}\cell
 \cellx5000
-\fs20\pard\intbl\qr {9.80}\cell
+\fs24\pard\intbl\qr {9.80}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Black}\cell
+\fs24\pard\intbl\ql {Black}\cell
 \cellx4000
-\fs20\pard\intbl\qr {588}\cell
+\fs24\pard\intbl\qr {588}\cell
 \cellx5000
-\fs20\pard\intbl\qr {55}\cell
+\fs24\pard\intbl\qr {55}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {644}\cell
+\fs24\pard\intbl\qr {643}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {91.30}\cell
+\fs24\pard\intbl\qr {91.45}\cell
 \cellx5000
-\fs20\pard\intbl\qr {8.54}\cell
+\fs24\pard\intbl\qr {8.55}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.16}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Hispanic}\cell
+\fs24\pard\intbl\ql {Hispanic}\cell
 \cellx4000
-\fs20\pard\intbl\qr {4501}\cell
+\fs24\pard\intbl\qr {4501}\cell
 \cellx5000
-\fs20\pard\intbl\qr {392}\cell
+\fs24\pard\intbl\qr {392}\cell
 \cellx6000
-\fs20\pard\intbl\qr {2}\cell
-\cellx7000
-\fs20\pard\intbl\qr {4895}\cell
+\fs24\pard\intbl\qr {4893}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {91.95}\cell
+\fs24\pard\intbl\qr {91.99}\cell
 \cellx5000
-\fs20\pard\intbl\qr {8.01}\cell
+\fs24\pard\intbl\qr {8.01}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.04}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Pacific Islander}\cell
+\fs24\pard\intbl\ql {Pacific Islander}\cell
 \cellx4000
-\fs20\pard\intbl\qr {45}\cell
+\fs24\pard\intbl\qr {45}\cell
 \cellx5000
-\fs20\pard\intbl\qr {2}\cell
+\fs24\pard\intbl\qr {2}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {47}\cell
+\fs24\pard\intbl\qr {47}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {95.74}\cell
+\fs24\pard\intbl\qr {95.74}\cell
 \cellx5000
-\fs20\pard\intbl\qr {4.26}\cell
+\fs24\pard\intbl\qr {4.26}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Filipino}\cell
+\fs24\pard\intbl\ql {Filipino}\cell
 \cellx4000
-\fs20\pard\intbl\qr {273}\cell
+\fs24\pard\intbl\qr {273}\cell
 \cellx5000
-\fs20\pard\intbl\qr {18}\cell
+\fs24\pard\intbl\qr {18}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {291}\cell
+\fs24\pard\intbl\qr {291}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {93.81}\cell
+\fs24\pard\intbl\qr {93.81}\cell
 \cellx5000
-\fs20\pard\intbl\qr {6.19}\cell
+\fs24\pard\intbl\qr {6.19}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Asian}\cell
+\fs24\pard\intbl\ql {Asian}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1026}\cell
+\fs24\pard\intbl\qr {1026}\cell
 \cellx5000
-\fs20\pard\intbl\qr {83}\cell
+\fs24\pard\intbl\qr {83}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1109}\cell
+\fs24\pard\intbl\qr {1109}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {92.52}\cell
+\fs24\pard\intbl\qr {92.52}\cell
 \cellx5000
-\fs20\pard\intbl\qr {7.48}\cell
+\fs24\pard\intbl\qr {7.48}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Other race}\cell
+\fs24\pard\intbl\ql {Other race}\cell
 \cellx4000
-\fs20\pard\intbl\qr {194}\cell
+\fs24\pard\intbl\qr {194}\cell
 \cellx5000
-\fs20\pard\intbl\qr {17}\cell
+\fs24\pard\intbl\qr {17}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {211}\cell
+\fs24\pard\intbl\qr {211}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {91.94}\cell
+\fs24\pard\intbl\qr {91.94}\cell
 \cellx5000
-\fs20\pard\intbl\qr {8.06}\cell
+\fs24\pard\intbl\qr {8.06}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {White/Non-Hispanic}\cell
+\fs24\pard\intbl\ql {White/Non-Hispanic}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1242}\cell
+\fs24\pard\intbl\qr {1242}\cell
 \cellx5000
-\fs20\pard\intbl\qr {77}\cell
+\fs24\pard\intbl\qr {77}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1319}\cell
+\fs24\pard\intbl\qr {1319}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {94.16}\cell
+\fs24\pard\intbl\qr {94.16}\cell
 \cellx5000
-\fs20\pard\intbl\qr {5.84}\cell
+\fs24\pard\intbl\qr {5.84}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {2305}\cell
-\cellx5000
-\fs20\pard\intbl\qr {216}\cell
-\cellx6000
-\fs20\pard\intbl\qr {13787}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16308}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {14.13}\cell
-\cellx5000
-\fs20\pard\intbl\qr {1.32}\cell
-\cellx6000
-\fs20\pard\intbl\qr {84.54}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {10358}\cell
+\fs24\pard\intbl\qr {8053}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {880}\cell
+\fs24\pard\intbl\qr {664}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8717}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {41.39}\cell
+\fs24\pard\intbl\qr {92.38}\cell
 \cellx5000
-\fs20\pard\intbl\qr {3.52}\cell
+\fs24\pard\intbl\qr {7.62}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\b\qc\line Two-Way Tabulation by Parental Education }{\par}
+{\fs24\line \b 2.2.3. Two-Way Tabulation by Parental Education }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Parental Education}\cell
+\fs24\pard\intbl\ql {Parental Education}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Assignment for Class}\cell
+\fs24\pard\intbl\qc {Q11: Assignment for Class}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {Don't know}\cell
+\fs24\pard\intbl\ql {Don't know}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {467}\cell
+\fs24\pard\intbl\qr {467}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {39}\cell
+\fs24\pard\intbl\qr {39}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {507}\cell
+\fs24\pard\intbl\qr {506}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {92.11}\cell
+\fs24\pard\intbl\qr {92.29}\cell
 \cellx5000
-\fs20\pard\intbl\qr {7.69}\cell
+\fs24\pard\intbl\qr {7.71}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.20}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Did not complete high school}\cell
+\fs24\pard\intbl\ql {Did not complete high school}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1653}\cell
+\fs24\pard\intbl\qr {1653}\cell
 \cellx5000
-\fs20\pard\intbl\qr {160}\cell
+\fs24\pard\intbl\qr {160}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1813}\cell
+\fs24\pard\intbl\qr {1813}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {91.17}\cell
+\fs24\pard\intbl\qr {91.17}\cell
 \cellx5000
-\fs20\pard\intbl\qr {8.83}\cell
+\fs24\pard\intbl\qr {8.83}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {High school diploma}\cell
+\fs24\pard\intbl\ql {High school diploma}\cell
 \cellx4000
-\fs20\pard\intbl\qr {2208}\cell
+\fs24\pard\intbl\qr {2208}\cell
 \cellx5000
-\fs20\pard\intbl\qr {180}\cell
+\fs24\pard\intbl\qr {180}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {2389}\cell
+\fs24\pard\intbl\qr {2388}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {92.42}\cell
+\fs24\pard\intbl\qr {92.46}\cell
 \cellx5000
-\fs20\pard\intbl\qr {7.53}\cell
+\fs24\pard\intbl\qr {7.54}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.04}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Some college, no college degree}\cell
+\fs24\pard\intbl\ql {Some college, no college degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1032}\cell
+\fs24\pard\intbl\qr {1032}\cell
 \cellx5000
-\fs20\pard\intbl\qr {100}\cell
+\fs24\pard\intbl\qr {100}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1133}\cell
+\fs24\pard\intbl\qr {1132}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {91.09}\cell
+\fs24\pard\intbl\qr {91.17}\cell
 \cellx5000
-\fs20\pard\intbl\qr {8.83}\cell
+\fs24\pard\intbl\qr {8.83}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.09}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Associate degree}\cell
+\fs24\pard\intbl\ql {Associate degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {409}\cell
+\fs24\pard\intbl\qr {409}\cell
 \cellx5000
-\fs20\pard\intbl\qr {43}\cell
+\fs24\pard\intbl\qr {43}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {452}\cell
+\fs24\pard\intbl\qr {452}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {90.49}\cell
+\fs24\pard\intbl\qr {90.49}\cell
 \cellx5000
-\fs20\pard\intbl\qr {9.51}\cell
+\fs24\pard\intbl\qr {9.51}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Bachelor's degree}\cell
+\fs24\pard\intbl\ql {Bachelor's degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1191}\cell
+\fs24\pard\intbl\qr {1191}\cell
 \cellx5000
-\fs20\pard\intbl\qr {86}\cell
+\fs24\pard\intbl\qr {86}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1277}\cell
+\fs24\pard\intbl\qr {1277}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {93.27}\cell
+\fs24\pard\intbl\qr {93.27}\cell
 \cellx5000
-\fs20\pard\intbl\qr {6.73}\cell
+\fs24\pard\intbl\qr {6.73}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Graduate/Professional degree beyond Bachelor's degree (Master's, PhD, JD, MD, etc.)}\cell
+\fs24\pard\intbl\ql {Graduate/Professional degree beyond Bachelor's degree (Master's, PhD, JD, MD, etc.)}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1109}\cell
+\fs24\pard\intbl\qr {1109}\cell
 \cellx5000
-\fs20\pard\intbl\qr {57}\cell
+\fs24\pard\intbl\qr {57}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1167}\cell
+\fs24\pard\intbl\qr {1166}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {95.03}\cell
+\fs24\pard\intbl\qr {95.11}\cell
 \cellx5000
-\fs20\pard\intbl\qr {4.88}\cell
+\fs24\pard\intbl\qr {4.89}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.09}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {2289}\cell
-\cellx5000
-\fs20\pard\intbl\qr {215}\cell
-\cellx6000
-\fs20\pard\intbl\qr {13786}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16290}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {14.05}\cell
-\cellx5000
-\fs20\pard\intbl\qr {1.32}\cell
-\cellx6000
-\fs20\pard\intbl\qr {84.63}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {10358}\cell
+\fs24\pard\intbl\qr {8069}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {880}\cell
+\fs24\pard\intbl\qr {665}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8734}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {41.39}\cell
+\fs24\pard\intbl\qr {92.39}\cell
 \cellx5000
-\fs20\pard\intbl\qr {3.52}\cell
+\fs24\pard\intbl\qr {7.61}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\b\qc\line Two-Way Tabulation by Gender }{\par}
+{\fs24\line \b 2.2.4. Two-Way Tabulation by Gender }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Gender}\cell
+\fs24\pard\intbl\ql {Gender}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Assignment for Class}\cell
+\fs24\pard\intbl\qc {Q11: Assignment for Class}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {Man}\cell
+\fs24\pard\intbl\ql {Man}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {2916}\cell
+\fs24\pard\intbl\qr {2916}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {252}\cell
+\fs24\pard\intbl\qr {252}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {3169}\cell
+\fs24\pard\intbl\qr {3168}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {92.02}\cell
+\fs24\pard\intbl\qr {92.05}\cell
 \cellx5000
-\fs20\pard\intbl\qr {7.95}\cell
+\fs24\pard\intbl\qr {7.95}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.03}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Woman}\cell
+\fs24\pard\intbl\ql {Woman}\cell
 \cellx4000
-\fs20\pard\intbl\qr {4792}\cell
+\fs24\pard\intbl\qr {4792}\cell
 \cellx5000
-\fs20\pard\intbl\qr {367}\cell
+\fs24\pard\intbl\qr {367}\cell
 \cellx6000
-\fs20\pard\intbl\qr {3}\cell
-\cellx7000
-\fs20\pard\intbl\qr {5162}\cell
+\fs24\pard\intbl\qr {5159}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {92.83}\cell
+\fs24\pard\intbl\qr {92.89}\cell
 \cellx5000
-\fs20\pard\intbl\qr {7.11}\cell
+\fs24\pard\intbl\qr {7.11}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.06}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Non-binary}\cell
+\fs24\pard\intbl\ql {Non-binary}\cell
 \cellx4000
-\fs20\pard\intbl\qr {169}\cell
+\fs24\pard\intbl\qr {169}\cell
 \cellx5000
-\fs20\pard\intbl\qr {24}\cell
+\fs24\pard\intbl\qr {24}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {193}\cell
+\fs24\pard\intbl\qr {193}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {87.56}\cell
+\fs24\pard\intbl\qr {87.56}\cell
 \cellx5000
-\fs20\pard\intbl\qr {12.44}\cell
+\fs24\pard\intbl\qr {12.44}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Prefer not to say}\cell
+\fs24\pard\intbl\ql {Prefer not to say}\cell
 \cellx4000
-\fs20\pard\intbl\qr {160}\cell
+\fs24\pard\intbl\qr {160}\cell
 \cellx5000
-\fs20\pard\intbl\qr {19}\cell
+\fs24\pard\intbl\qr {19}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {180}\cell
+\fs24\pard\intbl\qr {179}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {88.89}\cell
+\fs24\pard\intbl\qr {89.39}\cell
 \cellx5000
-\fs20\pard\intbl\qr {10.56}\cell
+\fs24\pard\intbl\qr {10.61}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.56}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Other (please feel free to specify)}\cell
+\fs24\pard\intbl\ql {Other (please feel free to specify)}\cell
 \cellx4000
-\fs20\pard\intbl\qr {34}\cell
+\fs24\pard\intbl\qr {34}\cell
 \cellx5000
-\fs20\pard\intbl\qr {2}\cell
+\fs24\pard\intbl\qr {2}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {36}\cell
+\fs24\pard\intbl\qr {36}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {94.44}\cell
+\fs24\pard\intbl\qr {94.44}\cell
 \cellx5000
-\fs20\pard\intbl\qr {5.56}\cell
+\fs24\pard\intbl\qr {5.56}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {2287}\cell
-\cellx5000
-\fs20\pard\intbl\qr {216}\cell
-\cellx6000
-\fs20\pard\intbl\qr {13785}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16288}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {14.04}\cell
-\cellx5000
-\fs20\pard\intbl\qr {1.33}\cell
-\cellx6000
-\fs20\pard\intbl\qr {84.63}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {10358}\cell
+\fs24\pard\intbl\qr {8071}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {880}\cell
+\fs24\pard\intbl\qr {664}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8735}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {41.39}\cell
+\fs24\pard\intbl\qr {92.40}\cell
 \cellx5000
-\fs20\pard\intbl\qr {3.52}\cell
+\fs24\pard\intbl\qr {7.60}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\fs20\line 2.3 Q11 Selected: I wanted to see if I was eligible for financial aid }
+{\fs28\line \b 2.3. Q11 Selected: I wanted to see if I was eligible for financial aid }
+
+{\fs24\line \b 2.3.1. One-Way Tabulation }
 
 {
-{\b\qc\line One-Way Tabulation }{\par}
+{\b\qc\line \ }{\par}
 \trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
 \ql {Q11: Check Eligibility for Financial Aid}\cell
 \qr {Freq.}\cell
@@ -2284,22 +1654,17 @@ First row has {\i frequencies} and second row has {\i row percentages}{\par}
 \trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
 \ql {0}\cell
 \qr {4229}\cell
-\qr {16.90}\cell
-\qr {16.90}\cell
+\qr {37.63}\cell
+\qr {37.63}\cell
 \row
 \ql {1}\cell
 \qr {7009}\cell
-\qr {28.00}\cell
-\qr {44.90}\cell
-\row
-\ql {.}\cell
-\qr {13790}\cell
-\qr {55.10}\cell
+\qr {62.37}\cell
 \qr {100.00}\cell
 \row
 \trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
 \ql {Total}\cell
-\qr {25028}\cell
+\qr {11238}\cell
 \qr {100.00}\cell
 \qr {}\cell
 \row
@@ -2308,727 +1673,556 @@ First row has {\i frequencies} and second row has {\i row percentages}{\par}
 \clbrdrt\brdrw15\brdrs\cellx3900\cell
 \row}
 
-{\b\qc\line Two-Way Tabulation by Race }{\par}
+{\fs24\line \b 2.3.2. Two-Way Tabulation by Race }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Race}\cell
+\fs24\pard\intbl\ql {Race}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Check Eligibility for Financial Aid}\cell
+\fs24\pard\intbl\qc {Q11: Check Eligibility for Financial Aid}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {American Indian/Alaskan Native}\cell
+\fs24\pard\intbl\ql {American Indian/Alaskan Native}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {71}\cell
+\fs24\pard\intbl\qr {71}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {133}\cell
+\fs24\pard\intbl\qr {133}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {204}\cell
+\fs24\pard\intbl\qr {204}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {34.80}\cell
+\fs24\pard\intbl\qr {34.80}\cell
 \cellx5000
-\fs20\pard\intbl\qr {65.20}\cell
+\fs24\pard\intbl\qr {65.20}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Black}\cell
+\fs24\pard\intbl\ql {Black}\cell
 \cellx4000
-\fs20\pard\intbl\qr {276}\cell
+\fs24\pard\intbl\qr {276}\cell
 \cellx5000
-\fs20\pard\intbl\qr {367}\cell
+\fs24\pard\intbl\qr {367}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {644}\cell
+\fs24\pard\intbl\qr {643}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {42.86}\cell
+\fs24\pard\intbl\qr {42.92}\cell
 \cellx5000
-\fs20\pard\intbl\qr {56.99}\cell
+\fs24\pard\intbl\qr {57.08}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.16}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Hispanic}\cell
+\fs24\pard\intbl\ql {Hispanic}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1911}\cell
+\fs24\pard\intbl\qr {1911}\cell
 \cellx5000
-\fs20\pard\intbl\qr {2982}\cell
+\fs24\pard\intbl\qr {2982}\cell
 \cellx6000
-\fs20\pard\intbl\qr {2}\cell
-\cellx7000
-\fs20\pard\intbl\qr {4895}\cell
+\fs24\pard\intbl\qr {4893}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {39.04}\cell
+\fs24\pard\intbl\qr {39.06}\cell
 \cellx5000
-\fs20\pard\intbl\qr {60.92}\cell
+\fs24\pard\intbl\qr {60.94}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.04}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Pacific Islander}\cell
+\fs24\pard\intbl\ql {Pacific Islander}\cell
 \cellx4000
-\fs20\pard\intbl\qr {17}\cell
+\fs24\pard\intbl\qr {17}\cell
 \cellx5000
-\fs20\pard\intbl\qr {30}\cell
+\fs24\pard\intbl\qr {30}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {47}\cell
+\fs24\pard\intbl\qr {47}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {36.17}\cell
+\fs24\pard\intbl\qr {36.17}\cell
 \cellx5000
-\fs20\pard\intbl\qr {63.83}\cell
+\fs24\pard\intbl\qr {63.83}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Filipino}\cell
+\fs24\pard\intbl\ql {Filipino}\cell
 \cellx4000
-\fs20\pard\intbl\qr {86}\cell
+\fs24\pard\intbl\qr {86}\cell
 \cellx5000
-\fs20\pard\intbl\qr {205}\cell
+\fs24\pard\intbl\qr {205}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {291}\cell
+\fs24\pard\intbl\qr {291}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {29.55}\cell
+\fs24\pard\intbl\qr {29.55}\cell
 \cellx5000
-\fs20\pard\intbl\qr {70.45}\cell
+\fs24\pard\intbl\qr {70.45}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Asian}\cell
+\fs24\pard\intbl\ql {Asian}\cell
 \cellx4000
-\fs20\pard\intbl\qr {314}\cell
+\fs24\pard\intbl\qr {314}\cell
 \cellx5000
-\fs20\pard\intbl\qr {795}\cell
+\fs24\pard\intbl\qr {795}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1109}\cell
+\fs24\pard\intbl\qr {1109}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {28.31}\cell
+\fs24\pard\intbl\qr {28.31}\cell
 \cellx5000
-\fs20\pard\intbl\qr {71.69}\cell
+\fs24\pard\intbl\qr {71.69}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Other race}\cell
+\fs24\pard\intbl\ql {Other race}\cell
 \cellx4000
-\fs20\pard\intbl\qr {77}\cell
+\fs24\pard\intbl\qr {77}\cell
 \cellx5000
-\fs20\pard\intbl\qr {134}\cell
+\fs24\pard\intbl\qr {134}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {211}\cell
+\fs24\pard\intbl\qr {211}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {36.49}\cell
+\fs24\pard\intbl\qr {36.49}\cell
 \cellx5000
-\fs20\pard\intbl\qr {63.51}\cell
+\fs24\pard\intbl\qr {63.51}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {White/Non-Hispanic}\cell
+\fs24\pard\intbl\ql {White/Non-Hispanic}\cell
 \cellx4000
-\fs20\pard\intbl\qr {462}\cell
+\fs24\pard\intbl\qr {462}\cell
 \cellx5000
-\fs20\pard\intbl\qr {857}\cell
+\fs24\pard\intbl\qr {857}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1319}\cell
+\fs24\pard\intbl\qr {1319}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {35.03}\cell
+\fs24\pard\intbl\qr {35.03}\cell
 \cellx5000
-\fs20\pard\intbl\qr {64.97}\cell
+\fs24\pard\intbl\qr {64.97}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {1015}\cell
-\cellx5000
-\fs20\pard\intbl\qr {1506}\cell
-\cellx6000
-\fs20\pard\intbl\qr {13787}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16308}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {6.22}\cell
-\cellx5000
-\fs20\pard\intbl\qr {9.23}\cell
-\cellx6000
-\fs20\pard\intbl\qr {84.54}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {4229}\cell
+\fs24\pard\intbl\qr {3214}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {7009}\cell
+\fs24\pard\intbl\qr {5503}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8717}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {16.90}\cell
+\fs24\pard\intbl\qr {36.87}\cell
 \cellx5000
-\fs20\pard\intbl\qr {28.00}\cell
+\fs24\pard\intbl\qr {63.13}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\b\qc\line Two-Way Tabulation by Parental Education }{\par}
+{\fs24\line \b 2.3.3. Two-Way Tabulation by Parental Education }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Parental Education}\cell
+\fs24\pard\intbl\ql {Parental Education}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Check Eligibility for Financial Aid}\cell
+\fs24\pard\intbl\qc {Q11: Check Eligibility for Financial Aid}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {Don't know}\cell
+\fs24\pard\intbl\ql {Don't know}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {208}\cell
+\fs24\pard\intbl\qr {208}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {298}\cell
+\fs24\pard\intbl\qr {298}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {507}\cell
+\fs24\pard\intbl\qr {506}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {41.03}\cell
+\fs24\pard\intbl\qr {41.11}\cell
 \cellx5000
-\fs20\pard\intbl\qr {58.78}\cell
+\fs24\pard\intbl\qr {58.89}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.20}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Did not complete high school}\cell
+\fs24\pard\intbl\ql {Did not complete high school}\cell
 \cellx4000
-\fs20\pard\intbl\qr {701}\cell
+\fs24\pard\intbl\qr {701}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1112}\cell
+\fs24\pard\intbl\qr {1112}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1813}\cell
+\fs24\pard\intbl\qr {1813}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {38.67}\cell
+\fs24\pard\intbl\qr {38.67}\cell
 \cellx5000
-\fs20\pard\intbl\qr {61.33}\cell
+\fs24\pard\intbl\qr {61.33}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {High school diploma}\cell
+\fs24\pard\intbl\ql {High school diploma}\cell
 \cellx4000
-\fs20\pard\intbl\qr {986}\cell
+\fs24\pard\intbl\qr {986}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1402}\cell
+\fs24\pard\intbl\qr {1402}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {2389}\cell
+\fs24\pard\intbl\qr {2388}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {41.27}\cell
+\fs24\pard\intbl\qr {41.29}\cell
 \cellx5000
-\fs20\pard\intbl\qr {58.69}\cell
+\fs24\pard\intbl\qr {58.71}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.04}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Some college, no college degree}\cell
+\fs24\pard\intbl\ql {Some college, no college degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {435}\cell
+\fs24\pard\intbl\qr {435}\cell
 \cellx5000
-\fs20\pard\intbl\qr {697}\cell
+\fs24\pard\intbl\qr {697}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1133}\cell
+\fs24\pard\intbl\qr {1132}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {38.39}\cell
+\fs24\pard\intbl\qr {38.43}\cell
 \cellx5000
-\fs20\pard\intbl\qr {61.52}\cell
+\fs24\pard\intbl\qr {61.57}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.09}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Associate degree}\cell
+\fs24\pard\intbl\ql {Associate degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {152}\cell
+\fs24\pard\intbl\qr {152}\cell
 \cellx5000
-\fs20\pard\intbl\qr {300}\cell
+\fs24\pard\intbl\qr {300}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {452}\cell
+\fs24\pard\intbl\qr {452}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {33.63}\cell
+\fs24\pard\intbl\qr {33.63}\cell
 \cellx5000
-\fs20\pard\intbl\qr {66.37}\cell
+\fs24\pard\intbl\qr {66.37}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Bachelor's degree}\cell
+\fs24\pard\intbl\ql {Bachelor's degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {363}\cell
+\fs24\pard\intbl\qr {363}\cell
 \cellx5000
-\fs20\pard\intbl\qr {914}\cell
+\fs24\pard\intbl\qr {914}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1277}\cell
+\fs24\pard\intbl\qr {1277}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {28.43}\cell
+\fs24\pard\intbl\qr {28.43}\cell
 \cellx5000
-\fs20\pard\intbl\qr {71.57}\cell
+\fs24\pard\intbl\qr {71.57}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Graduate/Professional degree beyond Bachelor's degree (Master's, PhD, JD, MD, etc.)}\cell
+\fs24\pard\intbl\ql {Graduate/Professional degree beyond Bachelor's degree (Master's, PhD, JD, MD, etc.)}\cell
 \cellx4000
-\fs20\pard\intbl\qr {376}\cell
+\fs24\pard\intbl\qr {376}\cell
 \cellx5000
-\fs20\pard\intbl\qr {790}\cell
+\fs24\pard\intbl\qr {790}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1167}\cell
+\fs24\pard\intbl\qr {1166}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {32.22}\cell
+\fs24\pard\intbl\qr {32.25}\cell
 \cellx5000
-\fs20\pard\intbl\qr {67.69}\cell
+\fs24\pard\intbl\qr {67.75}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.09}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {1008}\cell
-\cellx5000
-\fs20\pard\intbl\qr {1496}\cell
-\cellx6000
-\fs20\pard\intbl\qr {13786}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16290}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {6.19}\cell
-\cellx5000
-\fs20\pard\intbl\qr {9.18}\cell
-\cellx6000
-\fs20\pard\intbl\qr {84.63}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {4229}\cell
+\fs24\pard\intbl\qr {3221}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {7009}\cell
+\fs24\pard\intbl\qr {5513}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8734}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {16.90}\cell
+\fs24\pard\intbl\qr {36.88}\cell
 \cellx5000
-\fs20\pard\intbl\qr {28.00}\cell
+\fs24\pard\intbl\qr {63.12}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\b\qc\line Two-Way Tabulation by Gender }{\par}
+{\fs24\line \b 2.3.4. Two-Way Tabulation by Gender }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Gender}\cell
+\fs24\pard\intbl\ql {Gender}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Check Eligibility for Financial Aid}\cell
+\fs24\pard\intbl\qc {Q11: Check Eligibility for Financial Aid}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {Man}\cell
+\fs24\pard\intbl\ql {Man}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {1190}\cell
+\fs24\pard\intbl\qr {1190}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {1978}\cell
+\fs24\pard\intbl\qr {1978}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {3169}\cell
+\fs24\pard\intbl\qr {3168}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {37.55}\cell
+\fs24\pard\intbl\qr {37.56}\cell
 \cellx5000
-\fs20\pard\intbl\qr {62.42}\cell
+\fs24\pard\intbl\qr {62.44}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.03}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Woman}\cell
+\fs24\pard\intbl\ql {Woman}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1888}\cell
+\fs24\pard\intbl\qr {1888}\cell
 \cellx5000
-\fs20\pard\intbl\qr {3271}\cell
+\fs24\pard\intbl\qr {3271}\cell
 \cellx6000
-\fs20\pard\intbl\qr {3}\cell
-\cellx7000
-\fs20\pard\intbl\qr {5162}\cell
+\fs24\pard\intbl\qr {5159}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {36.57}\cell
+\fs24\pard\intbl\qr {36.60}\cell
 \cellx5000
-\fs20\pard\intbl\qr {63.37}\cell
+\fs24\pard\intbl\qr {63.40}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.06}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Non-binary}\cell
+\fs24\pard\intbl\ql {Non-binary}\cell
 \cellx4000
-\fs20\pard\intbl\qr {61}\cell
+\fs24\pard\intbl\qr {61}\cell
 \cellx5000
-\fs20\pard\intbl\qr {132}\cell
+\fs24\pard\intbl\qr {132}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {193}\cell
+\fs24\pard\intbl\qr {193}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {31.61}\cell
+\fs24\pard\intbl\qr {31.61}\cell
 \cellx5000
-\fs20\pard\intbl\qr {68.39}\cell
+\fs24\pard\intbl\qr {68.39}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Prefer not to say}\cell
+\fs24\pard\intbl\ql {Prefer not to say}\cell
 \cellx4000
-\fs20\pard\intbl\qr {70}\cell
+\fs24\pard\intbl\qr {70}\cell
 \cellx5000
-\fs20\pard\intbl\qr {109}\cell
+\fs24\pard\intbl\qr {109}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {180}\cell
+\fs24\pard\intbl\qr {179}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {38.89}\cell
+\fs24\pard\intbl\qr {39.11}\cell
 \cellx5000
-\fs20\pard\intbl\qr {60.56}\cell
+\fs24\pard\intbl\qr {60.89}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.56}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Other (please feel free to specify)}\cell
+\fs24\pard\intbl\ql {Other (please feel free to specify)}\cell
 \cellx4000
-\fs20\pard\intbl\qr {14}\cell
+\fs24\pard\intbl\qr {14}\cell
 \cellx5000
-\fs20\pard\intbl\qr {22}\cell
+\fs24\pard\intbl\qr {22}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {36}\cell
+\fs24\pard\intbl\qr {36}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {38.89}\cell
+\fs24\pard\intbl\qr {38.89}\cell
 \cellx5000
-\fs20\pard\intbl\qr {61.11}\cell
+\fs24\pard\intbl\qr {61.11}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {1006}\cell
-\cellx5000
-\fs20\pard\intbl\qr {1497}\cell
-\cellx6000
-\fs20\pard\intbl\qr {13785}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16288}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {6.18}\cell
-\cellx5000
-\fs20\pard\intbl\qr {9.19}\cell
-\cellx6000
-\fs20\pard\intbl\qr {84.63}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {4229}\cell
+\fs24\pard\intbl\qr {3223}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {7009}\cell
+\fs24\pard\intbl\qr {5512}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8735}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {16.90}\cell
+\fs24\pard\intbl\qr {36.90}\cell
 \cellx5000
-\fs20\pard\intbl\qr {28.00}\cell
+\fs24\pard\intbl\qr {63.10}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\fs20\line 2.4 Q11 Selected: It was an expectation at my school }
+{\fs28\line \b 2.4. Q11 Selected: It was an expectation at my school }
+
+{\fs24\line \b 2.4.1. One-Way Tabulation }
 
 {
-{\b\qc\line One-Way Tabulation }{\par}
+{\b\qc\line \ }{\par}
 \trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
 \ql {Q11: Expected at School}\cell
 \qr {Freq.}\cell
@@ -3038,22 +2232,17 @@ First row has {\i frequencies} and second row has {\i row percentages}{\par}
 \trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
 \ql {0}\cell
 \qr {8320}\cell
-\qr {33.24}\cell
-\qr {33.24}\cell
+\qr {74.03}\cell
+\qr {74.03}\cell
 \row
 \ql {1}\cell
 \qr {2918}\cell
-\qr {11.66}\cell
-\qr {44.90}\cell
-\row
-\ql {.}\cell
-\qr {13790}\cell
-\qr {55.10}\cell
+\qr {25.97}\cell
 \qr {100.00}\cell
 \row
 \trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
 \ql {Total}\cell
-\qr {25028}\cell
+\qr {11238}\cell
 \qr {100.00}\cell
 \qr {}\cell
 \row
@@ -3062,727 +2251,556 @@ First row has {\i frequencies} and second row has {\i row percentages}{\par}
 \clbrdrt\brdrw15\brdrs\cellx3900\cell
 \row}
 
-{\b\qc\line Two-Way Tabulation by Race }{\par}
+{\fs24\line \b 2.4.2. Two-Way Tabulation by Race }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Race}\cell
+\fs24\pard\intbl\ql {Race}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Expected at School}\cell
+\fs24\pard\intbl\qc {Q11: Expected at School}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {American Indian/Alaskan Native}\cell
+\fs24\pard\intbl\ql {American Indian/Alaskan Native}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {146}\cell
+\fs24\pard\intbl\qr {146}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {58}\cell
+\fs24\pard\intbl\qr {58}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {204}\cell
+\fs24\pard\intbl\qr {204}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {71.57}\cell
+\fs24\pard\intbl\qr {71.57}\cell
 \cellx5000
-\fs20\pard\intbl\qr {28.43}\cell
+\fs24\pard\intbl\qr {28.43}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Black}\cell
+\fs24\pard\intbl\ql {Black}\cell
 \cellx4000
-\fs20\pard\intbl\qr {456}\cell
+\fs24\pard\intbl\qr {456}\cell
 \cellx5000
-\fs20\pard\intbl\qr {187}\cell
+\fs24\pard\intbl\qr {187}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {644}\cell
+\fs24\pard\intbl\qr {643}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {70.81}\cell
+\fs24\pard\intbl\qr {70.92}\cell
 \cellx5000
-\fs20\pard\intbl\qr {29.04}\cell
+\fs24\pard\intbl\qr {29.08}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.16}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Hispanic}\cell
+\fs24\pard\intbl\ql {Hispanic}\cell
 \cellx4000
-\fs20\pard\intbl\qr {3716}\cell
+\fs24\pard\intbl\qr {3716}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1177}\cell
+\fs24\pard\intbl\qr {1177}\cell
 \cellx6000
-\fs20\pard\intbl\qr {2}\cell
-\cellx7000
-\fs20\pard\intbl\qr {4895}\cell
+\fs24\pard\intbl\qr {4893}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {75.91}\cell
+\fs24\pard\intbl\qr {75.95}\cell
 \cellx5000
-\fs20\pard\intbl\qr {24.04}\cell
+\fs24\pard\intbl\qr {24.05}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.04}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Pacific Islander}\cell
+\fs24\pard\intbl\ql {Pacific Islander}\cell
 \cellx4000
-\fs20\pard\intbl\qr {33}\cell
+\fs24\pard\intbl\qr {33}\cell
 \cellx5000
-\fs20\pard\intbl\qr {14}\cell
+\fs24\pard\intbl\qr {14}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {47}\cell
+\fs24\pard\intbl\qr {47}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {70.21}\cell
+\fs24\pard\intbl\qr {70.21}\cell
 \cellx5000
-\fs20\pard\intbl\qr {29.79}\cell
+\fs24\pard\intbl\qr {29.79}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Filipino}\cell
+\fs24\pard\intbl\ql {Filipino}\cell
 \cellx4000
-\fs20\pard\intbl\qr {193}\cell
+\fs24\pard\intbl\qr {193}\cell
 \cellx5000
-\fs20\pard\intbl\qr {98}\cell
+\fs24\pard\intbl\qr {98}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {291}\cell
+\fs24\pard\intbl\qr {291}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {66.32}\cell
+\fs24\pard\intbl\qr {66.32}\cell
 \cellx5000
-\fs20\pard\intbl\qr {33.68}\cell
+\fs24\pard\intbl\qr {33.68}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Asian}\cell
+\fs24\pard\intbl\ql {Asian}\cell
 \cellx4000
-\fs20\pard\intbl\qr {731}\cell
+\fs24\pard\intbl\qr {731}\cell
 \cellx5000
-\fs20\pard\intbl\qr {378}\cell
+\fs24\pard\intbl\qr {378}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1109}\cell
+\fs24\pard\intbl\qr {1109}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {65.92}\cell
+\fs24\pard\intbl\qr {65.92}\cell
 \cellx5000
-\fs20\pard\intbl\qr {34.08}\cell
+\fs24\pard\intbl\qr {34.08}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Other race}\cell
+\fs24\pard\intbl\ql {Other race}\cell
 \cellx4000
-\fs20\pard\intbl\qr {166}\cell
+\fs24\pard\intbl\qr {166}\cell
 \cellx5000
-\fs20\pard\intbl\qr {45}\cell
+\fs24\pard\intbl\qr {45}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {211}\cell
+\fs24\pard\intbl\qr {211}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {78.67}\cell
+\fs24\pard\intbl\qr {78.67}\cell
 \cellx5000
-\fs20\pard\intbl\qr {21.33}\cell
+\fs24\pard\intbl\qr {21.33}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {White/Non-Hispanic}\cell
+\fs24\pard\intbl\ql {White/Non-Hispanic}\cell
 \cellx4000
-\fs20\pard\intbl\qr {925}\cell
+\fs24\pard\intbl\qr {925}\cell
 \cellx5000
-\fs20\pard\intbl\qr {394}\cell
+\fs24\pard\intbl\qr {394}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1319}\cell
+\fs24\pard\intbl\qr {1319}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {70.13}\cell
+\fs24\pard\intbl\qr {70.13}\cell
 \cellx5000
-\fs20\pard\intbl\qr {29.87}\cell
+\fs24\pard\intbl\qr {29.87}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {1954}\cell
-\cellx5000
-\fs20\pard\intbl\qr {567}\cell
-\cellx6000
-\fs20\pard\intbl\qr {13787}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16308}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {11.98}\cell
-\cellx5000
-\fs20\pard\intbl\qr {3.48}\cell
-\cellx6000
-\fs20\pard\intbl\qr {84.54}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {8320}\cell
+\fs24\pard\intbl\qr {6366}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {2918}\cell
+\fs24\pard\intbl\qr {2351}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8717}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {33.24}\cell
+\fs24\pard\intbl\qr {73.03}\cell
 \cellx5000
-\fs20\pard\intbl\qr {11.66}\cell
+\fs24\pard\intbl\qr {26.97}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\b\qc\line Two-Way Tabulation by Parental Education }{\par}
+{\fs24\line \b 2.4.3. Two-Way Tabulation by Parental Education }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Parental Education}\cell
+\fs24\pard\intbl\ql {Parental Education}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Expected at School}\cell
+\fs24\pard\intbl\qc {Q11: Expected at School}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {Don't know}\cell
+\fs24\pard\intbl\ql {Don't know}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {395}\cell
+\fs24\pard\intbl\qr {395}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {111}\cell
+\fs24\pard\intbl\qr {111}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {507}\cell
+\fs24\pard\intbl\qr {506}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {77.91}\cell
+\fs24\pard\intbl\qr {78.06}\cell
 \cellx5000
-\fs20\pard\intbl\qr {21.89}\cell
+\fs24\pard\intbl\qr {21.94}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.20}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Did not complete high school}\cell
+\fs24\pard\intbl\ql {Did not complete high school}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1368}\cell
+\fs24\pard\intbl\qr {1368}\cell
 \cellx5000
-\fs20\pard\intbl\qr {445}\cell
+\fs24\pard\intbl\qr {445}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1813}\cell
+\fs24\pard\intbl\qr {1813}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {75.46}\cell
+\fs24\pard\intbl\qr {75.46}\cell
 \cellx5000
-\fs20\pard\intbl\qr {24.54}\cell
+\fs24\pard\intbl\qr {24.54}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {High school diploma}\cell
+\fs24\pard\intbl\ql {High school diploma}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1828}\cell
+\fs24\pard\intbl\qr {1828}\cell
 \cellx5000
-\fs20\pard\intbl\qr {560}\cell
+\fs24\pard\intbl\qr {560}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {2389}\cell
+\fs24\pard\intbl\qr {2388}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {76.52}\cell
+\fs24\pard\intbl\qr {76.55}\cell
 \cellx5000
-\fs20\pard\intbl\qr {23.44}\cell
+\fs24\pard\intbl\qr {23.45}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.04}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Some college, no college degree}\cell
+\fs24\pard\intbl\ql {Some college, no college degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {813}\cell
+\fs24\pard\intbl\qr {813}\cell
 \cellx5000
-\fs20\pard\intbl\qr {319}\cell
+\fs24\pard\intbl\qr {319}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1133}\cell
+\fs24\pard\intbl\qr {1132}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {71.76}\cell
+\fs24\pard\intbl\qr {71.82}\cell
 \cellx5000
-\fs20\pard\intbl\qr {28.16}\cell
+\fs24\pard\intbl\qr {28.18}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.09}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Associate degree}\cell
+\fs24\pard\intbl\ql {Associate degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {314}\cell
+\fs24\pard\intbl\qr {314}\cell
 \cellx5000
-\fs20\pard\intbl\qr {138}\cell
+\fs24\pard\intbl\qr {138}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {452}\cell
+\fs24\pard\intbl\qr {452}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {69.47}\cell
+\fs24\pard\intbl\qr {69.47}\cell
 \cellx5000
-\fs20\pard\intbl\qr {30.53}\cell
+\fs24\pard\intbl\qr {30.53}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Bachelor's degree}\cell
+\fs24\pard\intbl\ql {Bachelor's degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {855}\cell
+\fs24\pard\intbl\qr {855}\cell
 \cellx5000
-\fs20\pard\intbl\qr {422}\cell
+\fs24\pard\intbl\qr {422}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1277}\cell
+\fs24\pard\intbl\qr {1277}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {66.95}\cell
+\fs24\pard\intbl\qr {66.95}\cell
 \cellx5000
-\fs20\pard\intbl\qr {33.05}\cell
+\fs24\pard\intbl\qr {33.05}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Graduate/Professional degree beyond Bachelor's degree (Master's, PhD, JD, MD, etc.)}\cell
+\fs24\pard\intbl\ql {Graduate/Professional degree beyond Bachelor's degree (Master's, PhD, JD, MD, etc.)}\cell
 \cellx4000
-\fs20\pard\intbl\qr {803}\cell
+\fs24\pard\intbl\qr {803}\cell
 \cellx5000
-\fs20\pard\intbl\qr {363}\cell
+\fs24\pard\intbl\qr {363}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1167}\cell
+\fs24\pard\intbl\qr {1166}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {68.81}\cell
+\fs24\pard\intbl\qr {68.87}\cell
 \cellx5000
-\fs20\pard\intbl\qr {31.11}\cell
+\fs24\pard\intbl\qr {31.13}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.09}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {1944}\cell
-\cellx5000
-\fs20\pard\intbl\qr {560}\cell
-\cellx6000
-\fs20\pard\intbl\qr {13786}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16290}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {11.93}\cell
-\cellx5000
-\fs20\pard\intbl\qr {3.44}\cell
-\cellx6000
-\fs20\pard\intbl\qr {84.63}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {8320}\cell
+\fs24\pard\intbl\qr {6376}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {2918}\cell
+\fs24\pard\intbl\qr {2358}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8734}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {33.24}\cell
+\fs24\pard\intbl\qr {73.00}\cell
 \cellx5000
-\fs20\pard\intbl\qr {11.66}\cell
+\fs24\pard\intbl\qr {27.00}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\b\qc\line Two-Way Tabulation by Gender }{\par}
+{\fs24\line \b 2.4.4. Two-Way Tabulation by Gender }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Gender}\cell
+\fs24\pard\intbl\ql {Gender}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Expected at School}\cell
+\fs24\pard\intbl\qc {Q11: Expected at School}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {Man}\cell
+\fs24\pard\intbl\ql {Man}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {2373}\cell
+\fs24\pard\intbl\qr {2373}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {795}\cell
+\fs24\pard\intbl\qr {795}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {3169}\cell
+\fs24\pard\intbl\qr {3168}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {74.88}\cell
+\fs24\pard\intbl\qr {74.91}\cell
 \cellx5000
-\fs20\pard\intbl\qr {25.09}\cell
+\fs24\pard\intbl\qr {25.09}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.03}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Woman}\cell
+\fs24\pard\intbl\ql {Woman}\cell
 \cellx4000
-\fs20\pard\intbl\qr {3749}\cell
+\fs24\pard\intbl\qr {3749}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1410}\cell
+\fs24\pard\intbl\qr {1410}\cell
 \cellx6000
-\fs20\pard\intbl\qr {3}\cell
-\cellx7000
-\fs20\pard\intbl\qr {5162}\cell
+\fs24\pard\intbl\qr {5159}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {72.63}\cell
+\fs24\pard\intbl\qr {72.67}\cell
 \cellx5000
-\fs20\pard\intbl\qr {27.31}\cell
+\fs24\pard\intbl\qr {27.33}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.06}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Non-binary}\cell
+\fs24\pard\intbl\ql {Non-binary}\cell
 \cellx4000
-\fs20\pard\intbl\qr {119}\cell
+\fs24\pard\intbl\qr {119}\cell
 \cellx5000
-\fs20\pard\intbl\qr {74}\cell
+\fs24\pard\intbl\qr {74}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {193}\cell
+\fs24\pard\intbl\qr {193}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {61.66}\cell
+\fs24\pard\intbl\qr {61.66}\cell
 \cellx5000
-\fs20\pard\intbl\qr {38.34}\cell
+\fs24\pard\intbl\qr {38.34}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Prefer not to say}\cell
+\fs24\pard\intbl\ql {Prefer not to say}\cell
 \cellx4000
-\fs20\pard\intbl\qr {110}\cell
+\fs24\pard\intbl\qr {110}\cell
 \cellx5000
-\fs20\pard\intbl\qr {69}\cell
+\fs24\pard\intbl\qr {69}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {180}\cell
+\fs24\pard\intbl\qr {179}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {61.11}\cell
+\fs24\pard\intbl\qr {61.45}\cell
 \cellx5000
-\fs20\pard\intbl\qr {38.33}\cell
+\fs24\pard\intbl\qr {38.55}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.56}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Other (please feel free to specify)}\cell
+\fs24\pard\intbl\ql {Other (please feel free to specify)}\cell
 \cellx4000
-\fs20\pard\intbl\qr {29}\cell
+\fs24\pard\intbl\qr {29}\cell
 \cellx5000
-\fs20\pard\intbl\qr {7}\cell
+\fs24\pard\intbl\qr {7}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {36}\cell
+\fs24\pard\intbl\qr {36}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {80.56}\cell
+\fs24\pard\intbl\qr {80.56}\cell
 \cellx5000
-\fs20\pard\intbl\qr {19.44}\cell
+\fs24\pard\intbl\qr {19.44}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {1940}\cell
-\cellx5000
-\fs20\pard\intbl\qr {563}\cell
-\cellx6000
-\fs20\pard\intbl\qr {13785}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16288}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {11.91}\cell
-\cellx5000
-\fs20\pard\intbl\qr {3.46}\cell
-\cellx6000
-\fs20\pard\intbl\qr {84.63}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {8320}\cell
+\fs24\pard\intbl\qr {6380}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {2918}\cell
+\fs24\pard\intbl\qr {2355}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8735}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {33.24}\cell
+\fs24\pard\intbl\qr {73.04}\cell
 \cellx5000
-\fs20\pard\intbl\qr {11.66}\cell
+\fs24\pard\intbl\qr {26.96}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\fs20\line 2.5 Q11 Selected: Other (Please describe }
+{\fs28\line \b 2.5. Q11 Selected: Other (Please describe }
+
+{\fs24\line \b 2.5.1. One-Way Tabulation }
 
 {
-{\b\qc\line One-Way Tabulation }{\par}
+{\b\qc\line \ }{\par}
 \trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx1200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2100\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3900
 \ql {Q11: Other}\cell
 \qr {Freq.}\cell
@@ -3792,22 +2810,17 @@ First row has {\i frequencies} and second row has {\i row percentages}{\par}
 \trowd\trgaph108\trleft-108\cellx1200\cellx2100\cellx3000\cellx3900
 \ql {0}\cell
 \qr {10502}\cell
-\qr {41.96}\cell
-\qr {41.96}\cell
+\qr {93.45}\cell
+\qr {93.45}\cell
 \row
 \ql {1}\cell
 \qr {736}\cell
-\qr {2.94}\cell
-\qr {44.90}\cell
-\row
-\ql {.}\cell
-\qr {13790}\cell
-\qr {55.10}\cell
+\qr {6.55}\cell
 \qr {100.00}\cell
 \row
 \trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs\cellx1200\clbrdrt\brdrw10\brdrs\cellx2100\clbrdrt\brdrw10\brdrs\cellx3000\clbrdrt\brdrw10\brdrs\cellx3900 
 \ql {Total}\cell
-\qr {25028}\cell
+\qr {11238}\cell
 \qr {100.00}\cell
 \qr {}\cell
 \row
@@ -3816,722 +2829,549 @@ First row has {\i frequencies} and second row has {\i row percentages}{\par}
 \clbrdrt\brdrw15\brdrs\cellx3900\cell
 \row}
 
-{\b\qc\line Two-Way Tabulation by Race }{\par}
-{\trowd\trgaph108\trleft-108
-\clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Race}\cell
-\clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Other}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {0}\cell
-\cellx5000
-\fs20\pard\intbl\qr {1}\cell
-\cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {American Indian/Alaskan Native}\cell
-\clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {174}\cell
-\clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {30}\cell
-\clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {204}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {85.29}\cell
-\cellx5000
-\fs20\pard\intbl\qr {14.71}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Black}\cell
-\cellx4000
-\fs20\pard\intbl\qr {593}\cell
-\cellx5000
-\fs20\pard\intbl\qr {50}\cell
-\cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {644}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {92.08}\cell
-\cellx5000
-\fs20\pard\intbl\qr {7.76}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.16}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Hispanic}\cell
-\cellx4000
-\fs20\pard\intbl\qr {4583}\cell
-\cellx5000
-\fs20\pard\intbl\qr {310}\cell
-\cellx6000
-\fs20\pard\intbl\qr {2}\cell
-\cellx7000
-\fs20\pard\intbl\qr {4895}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {93.63}\cell
-\cellx5000
-\fs20\pard\intbl\qr {6.33}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.04}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Pacific Islander}\cell
-\cellx4000
-\fs20\pard\intbl\qr {46}\cell
-\cellx5000
-\fs20\pard\intbl\qr {1}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {47}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {97.87}\cell
-\cellx5000
-\fs20\pard\intbl\qr {2.13}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Filipino}\cell
-\cellx4000
-\fs20\pard\intbl\qr {269}\cell
-\cellx5000
-\fs20\pard\intbl\qr {22}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {291}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {92.44}\cell
-\cellx5000
-\fs20\pard\intbl\qr {7.56}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Asian}\cell
-\cellx4000
-\fs20\pard\intbl\qr {1048}\cell
-\cellx5000
-\fs20\pard\intbl\qr {61}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1109}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {94.50}\cell
-\cellx5000
-\fs20\pard\intbl\qr {5.50}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Other race}\cell
-\cellx4000
-\fs20\pard\intbl\qr {184}\cell
-\cellx5000
-\fs20\pard\intbl\qr {27}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {211}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {87.20}\cell
-\cellx5000
-\fs20\pard\intbl\qr {12.80}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {White/Non-Hispanic}\cell
-\cellx4000
-\fs20\pard\intbl\qr {1237}\cell
-\cellx5000
-\fs20\pard\intbl\qr {82}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1319}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {93.78}\cell
-\cellx5000
-\fs20\pard\intbl\qr {6.22}\cell
-\cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
-\cellx4000
-\fs20\pard\intbl\qr {2368}\cell
-\cellx5000
-\fs20\pard\intbl\qr {153}\cell
-\cellx6000
-\fs20\pard\intbl\qr {13787}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16308}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {14.52}\cell
-\cellx5000
-\fs20\pard\intbl\qr {0.94}\cell
-\cellx6000
-\fs20\pard\intbl\qr {84.54}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
-\clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {10502}\cell
-\clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {736}\cell
-\clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
-\cellx4000
-\fs20\pard\intbl\qr {41.96}\cell
-\cellx5000
-\fs20\pard\intbl\qr {2.94}\cell
-\cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
-\row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
+{\fs24\line \b 2.5.2. Two-Way Tabulation by Race }
 
-{\b\qc\line Two-Way Tabulation by Parental Education }{\par}
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Parental Education}\cell
+\fs24\pard\intbl\ql {Race}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Other}\cell
+\fs24\pard\intbl\qc {Q11: Other}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {Don't know}\cell
+\fs24\pard\intbl\ql {American Indian/Alaskan Native}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {462}\cell
+\fs24\pard\intbl\qr {174}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {44}\cell
+\fs24\pard\intbl\qr {30}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {507}\cell
+\fs24\pard\intbl\qr {204}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {91.12}\cell
+\fs24\pard\intbl\qr {85.29}\cell
 \cellx5000
-\fs20\pard\intbl\qr {8.68}\cell
+\fs24\pard\intbl\qr {14.71}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.20}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Did not complete high school}\cell
+\fs24\pard\intbl\ql {Black}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1671}\cell
+\fs24\pard\intbl\qr {593}\cell
 \cellx5000
-\fs20\pard\intbl\qr {142}\cell
+\fs24\pard\intbl\qr {50}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1813}\cell
+\fs24\pard\intbl\qr {643}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {92.17}\cell
+\fs24\pard\intbl\qr {92.22}\cell
 \cellx5000
-\fs20\pard\intbl\qr {7.83}\cell
+\fs24\pard\intbl\qr {7.78}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {High school diploma}\cell
+\fs24\pard\intbl\ql {Hispanic}\cell
 \cellx4000
-\fs20\pard\intbl\qr {2241}\cell
+\fs24\pard\intbl\qr {4583}\cell
 \cellx5000
-\fs20\pard\intbl\qr {147}\cell
+\fs24\pard\intbl\qr {310}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {2389}\cell
+\fs24\pard\intbl\qr {4893}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {93.80}\cell
+\fs24\pard\intbl\qr {93.66}\cell
 \cellx5000
-\fs20\pard\intbl\qr {6.15}\cell
+\fs24\pard\intbl\qr {6.34}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.04}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Some college, no college degree}\cell
+\fs24\pard\intbl\ql {Pacific Islander}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1045}\cell
+\fs24\pard\intbl\qr {46}\cell
 \cellx5000
-\fs20\pard\intbl\qr {87}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1133}\cell
+\fs24\pard\intbl\qr {47}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {92.23}\cell
+\fs24\pard\intbl\qr {97.87}\cell
 \cellx5000
-\fs20\pard\intbl\qr {7.68}\cell
+\fs24\pard\intbl\qr {2.13}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.09}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Associate degree}\cell
+\fs24\pard\intbl\ql {Filipino}\cell
 \cellx4000
-\fs20\pard\intbl\qr {422}\cell
+\fs24\pard\intbl\qr {269}\cell
 \cellx5000
-\fs20\pard\intbl\qr {30}\cell
+\fs24\pard\intbl\qr {22}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {452}\cell
+\fs24\pard\intbl\qr {291}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {93.36}\cell
+\fs24\pard\intbl\qr {92.44}\cell
 \cellx5000
-\fs20\pard\intbl\qr {6.64}\cell
+\fs24\pard\intbl\qr {7.56}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Bachelor's degree}\cell
+\fs24\pard\intbl\ql {Asian}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1210}\cell
+\fs24\pard\intbl\qr {1048}\cell
 \cellx5000
-\fs20\pard\intbl\qr {67}\cell
+\fs24\pard\intbl\qr {61}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1277}\cell
+\fs24\pard\intbl\qr {1109}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {94.75}\cell
+\fs24\pard\intbl\qr {94.50}\cell
 \cellx5000
-\fs20\pard\intbl\qr {5.25}\cell
+\fs24\pard\intbl\qr {5.50}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Graduate/Professional degree beyond Bachelor's degree (Master's, PhD, JD, MD, etc.)}\cell
+\fs24\pard\intbl\ql {Other race}\cell
 \cellx4000
-\fs20\pard\intbl\qr {1100}\cell
+\fs24\pard\intbl\qr {184}\cell
 \cellx5000
-\fs20\pard\intbl\qr {66}\cell
+\fs24\pard\intbl\qr {27}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {1167}\cell
+\fs24\pard\intbl\qr {211}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {94.26}\cell
+\fs24\pard\intbl\qr {87.20}\cell
 \cellx5000
-\fs20\pard\intbl\qr {5.66}\cell
+\fs24\pard\intbl\qr {12.80}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.09}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
+\fs24\pard\intbl\ql {White/Non-Hispanic}\cell
 \cellx4000
-\fs20\pard\intbl\qr {2351}\cell
+\fs24\pard\intbl\qr {1237}\cell
 \cellx5000
-\fs20\pard\intbl\qr {153}\cell
+\fs24\pard\intbl\qr {82}\cell
 \cellx6000
-\fs20\pard\intbl\qr {13786}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16290}\cell
+\fs24\pard\intbl\qr {1319}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {14.43}\cell
+\fs24\pard\intbl\qr {93.78}\cell
 \cellx5000
-\fs20\pard\intbl\qr {0.94}\cell
+\fs24\pard\intbl\qr {6.22}\cell
 \cellx6000
-\fs20\pard\intbl\qr {84.63}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {10502}\cell
+\fs24\pard\intbl\qr {8134}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {736}\cell
+\fs24\pard\intbl\qr {583}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8717}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {41.96}\cell
+\fs24\pard\intbl\qr {93.31}\cell
 \cellx5000
-\fs20\pard\intbl\qr {2.94}\cell
+\fs24\pard\intbl\qr {6.69}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
 
-{\b\qc\line Two-Way Tabulation by Gender }{\par}
+{\fs24\line \b 2.5.3. Two-Way Tabulation by Parental Education }
+
+{\b\qc\line  }{\par}
 {\trowd\trgaph108\trleft-108
 \clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Gender}\cell
+\fs24\pard\intbl\ql {Parental Education}\cell
 \clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qc {Q11: Other}\cell
+\fs24\pard\intbl\qc {Q11: Other}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {}\cell
-\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {}\cell
+\fs24\pard\intbl\qr {}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {0}\cell
+\fs24\pard\intbl\qr {0}\cell
 \cellx5000
-\fs20\pard\intbl\qr {1}\cell
+\fs24\pard\intbl\qr {1}\cell
 \cellx6000
-\fs20\pard\intbl\qr {.}\cell
-\cellx7000
-\fs20\pard\intbl\qr {Total}\cell
+\fs24\pard\intbl\qr {Total}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
-\fs20\pard\intbl\ql {Man}\cell
+\fs24\pard\intbl\ql {Don't know}\cell
 \clbrdrt\brdrw25\brdrs\cellx4000
-\fs20\pard\intbl\qr {2941}\cell
+\fs24\pard\intbl\qr {462}\cell
 \clbrdrt\brdrw25\brdrs\cellx5000
-\fs20\pard\intbl\qr {227}\cell
+\fs24\pard\intbl\qr {44}\cell
 \clbrdrt\brdrw25\brdrs\cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\qr {3169}\cell
+\fs24\pard\intbl\qr {506}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {92.81}\cell
+\fs24\pard\intbl\qr {91.30}\cell
 \cellx5000
-\fs20\pard\intbl\qr {7.16}\cell
+\fs24\pard\intbl\qr {8.70}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.03}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Woman}\cell
+\fs24\pard\intbl\ql {Did not complete high school}\cell
 \cellx4000
-\fs20\pard\intbl\qr {4829}\cell
+\fs24\pard\intbl\qr {1671}\cell
 \cellx5000
-\fs20\pard\intbl\qr {330}\cell
+\fs24\pard\intbl\qr {142}\cell
 \cellx6000
-\fs20\pard\intbl\qr {3}\cell
-\cellx7000
-\fs20\pard\intbl\qr {5162}\cell
+\fs24\pard\intbl\qr {1813}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {93.55}\cell
+\fs24\pard\intbl\qr {92.17}\cell
 \cellx5000
-\fs20\pard\intbl\qr {6.39}\cell
+\fs24\pard\intbl\qr {7.83}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.06}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Non-binary}\cell
+\fs24\pard\intbl\ql {High school diploma}\cell
 \cellx4000
-\fs20\pard\intbl\qr {184}\cell
+\fs24\pard\intbl\qr {2241}\cell
 \cellx5000
-\fs20\pard\intbl\qr {9}\cell
+\fs24\pard\intbl\qr {147}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {193}\cell
+\fs24\pard\intbl\qr {2388}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {95.34}\cell
+\fs24\pard\intbl\qr {93.84}\cell
 \cellx5000
-\fs20\pard\intbl\qr {4.66}\cell
+\fs24\pard\intbl\qr {6.16}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Prefer not to say}\cell
+\fs24\pard\intbl\ql {Some college, no college degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {164}\cell
+\fs24\pard\intbl\qr {1045}\cell
 \cellx5000
-\fs20\pard\intbl\qr {15}\cell
+\fs24\pard\intbl\qr {87}\cell
 \cellx6000
-\fs20\pard\intbl\qr {1}\cell
-\cellx7000
-\fs20\pard\intbl\qr {180}\cell
+\fs24\pard\intbl\qr {1132}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {91.11}\cell
+\fs24\pard\intbl\qr {92.31}\cell
 \cellx5000
-\fs20\pard\intbl\qr {8.33}\cell
+\fs24\pard\intbl\qr {7.69}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.56}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {Other (please feel free to specify)}\cell
+\fs24\pard\intbl\ql {Associate degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {34}\cell
+\fs24\pard\intbl\qr {422}\cell
 \cellx5000
-\fs20\pard\intbl\qr {2}\cell
+\fs24\pard\intbl\qr {30}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0}\cell
-\cellx7000
-\fs20\pard\intbl\qr {36}\cell
+\fs24\pard\intbl\qr {452}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {94.44}\cell
+\fs24\pard\intbl\qr {93.36}\cell
 \cellx5000
-\fs20\pard\intbl\qr {5.56}\cell
+\fs24\pard\intbl\qr {6.64}\cell
 \cellx6000
-\fs20\pard\intbl\qr {0.00}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {.}\cell
+\fs24\pard\intbl\ql {Bachelor's degree}\cell
 \cellx4000
-\fs20\pard\intbl\qr {2350}\cell
+\fs24\pard\intbl\qr {1210}\cell
 \cellx5000
-\fs20\pard\intbl\qr {153}\cell
+\fs24\pard\intbl\qr {67}\cell
 \cellx6000
-\fs20\pard\intbl\qr {13785}\cell
-\cellx7000
-\fs20\pard\intbl\qr {16288}\cell
+\fs24\pard\intbl\qr {1277}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {14.43}\cell
+\fs24\pard\intbl\qr {94.75}\cell
 \cellx5000
-\fs20\pard\intbl\qr {0.94}\cell
+\fs24\pard\intbl\qr {5.25}\cell
 \cellx6000
-\fs20\pard\intbl\qr {84.63}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx3000
+\fs24\pard\intbl\ql {Graduate/Professional degree beyond Bachelor's degree (Master's, PhD, JD, MD, etc.)}\cell
+\cellx4000
+\fs24\pard\intbl\qr {1100}\cell
+\cellx5000
+\fs24\pard\intbl\qr {66}\cell
+\cellx6000
+\fs24\pard\intbl\qr {1166}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx3000
+\fs24\pard\intbl\ql {}\cell
+\cellx4000
+\fs24\pard\intbl\qr {94.34}\cell
+\cellx5000
+\fs24\pard\intbl\qr {5.66}\cell
+\cellx6000
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
-\fs20\pard\intbl\ql {Total}\cell
+\fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx4000
-\fs20\pard\intbl\qr {10502}\cell
+\fs24\pard\intbl\qr {8151}\cell
 \clbrdrt\brdrw10\brdrs\cellx5000
-\fs20\pard\intbl\qr {736}\cell
+\fs24\pard\intbl\qr {583}\cell
 \clbrdrt\brdrw10\brdrs\cellx6000
-\fs20\pard\intbl\qr {13790}\cell
-\clbrdrt\brdrw10\brdrs\cellx7000
-\fs20\pard\intbl\qr {25028}\cell
+\fs24\pard\intbl\qr {8734}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \cellx3000
-\fs20\pard\intbl\ql {}\cell
+\fs24\pard\intbl\ql {}\cell
 \cellx4000
-\fs20\pard\intbl\qr {41.96}\cell
+\fs24\pard\intbl\qr {93.32}\cell
 \cellx5000
-\fs20\pard\intbl\qr {2.94}\cell
+\fs24\pard\intbl\qr {6.68}\cell
 \cellx6000
-\fs20\pard\intbl\qr {55.10}\cell
-\cellx7000
-\fs20\pard\intbl\qr {100.00}\cell
+\fs24\pard\intbl\qr {100.00}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw25\brdrs\cellx7000
-\fs20\pard\intbl\ql {}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
 \row}
-First row has {\i frequencies} and second row has {\i row percentages}{\par}
+
+{\fs24\line \b 2.5.4. Two-Way Tabulation by Gender }
+
+{\b\qc\line  }{\par}
+{\trowd\trgaph108\trleft-108
+\clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx3000
+\fs24\pard\intbl\ql {Gender}\cell
+\clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx4000
+\fs24\pard\intbl\qc {Q11: Other}\cell
+\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx5000
+\fs24\pard\intbl\qr {}\cell
+\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx6000
+\fs24\pard\intbl\qr {}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx3000
+\fs24\pard\intbl\ql {}\cell
+\cellx4000
+\fs24\pard\intbl\qr {0}\cell
+\cellx5000
+\fs24\pard\intbl\qr {1}\cell
+\cellx6000
+\fs24\pard\intbl\qr {Total}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx3000
+\fs24\pard\intbl\ql {Man}\cell
+\clbrdrt\brdrw25\brdrs\cellx4000
+\fs24\pard\intbl\qr {2941}\cell
+\clbrdrt\brdrw25\brdrs\cellx5000
+\fs24\pard\intbl\qr {227}\cell
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\qr {3168}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx3000
+\fs24\pard\intbl\ql {}\cell
+\cellx4000
+\fs24\pard\intbl\qr {92.83}\cell
+\cellx5000
+\fs24\pard\intbl\qr {7.17}\cell
+\cellx6000
+\fs24\pard\intbl\qr {100.00}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx3000
+\fs24\pard\intbl\ql {Woman}\cell
+\cellx4000
+\fs24\pard\intbl\qr {4829}\cell
+\cellx5000
+\fs24\pard\intbl\qr {330}\cell
+\cellx6000
+\fs24\pard\intbl\qr {5159}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx3000
+\fs24\pard\intbl\ql {}\cell
+\cellx4000
+\fs24\pard\intbl\qr {93.60}\cell
+\cellx5000
+\fs24\pard\intbl\qr {6.40}\cell
+\cellx6000
+\fs24\pard\intbl\qr {100.00}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx3000
+\fs24\pard\intbl\ql {Non-binary}\cell
+\cellx4000
+\fs24\pard\intbl\qr {184}\cell
+\cellx5000
+\fs24\pard\intbl\qr {9}\cell
+\cellx6000
+\fs24\pard\intbl\qr {193}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx3000
+\fs24\pard\intbl\ql {}\cell
+\cellx4000
+\fs24\pard\intbl\qr {95.34}\cell
+\cellx5000
+\fs24\pard\intbl\qr {4.66}\cell
+\cellx6000
+\fs24\pard\intbl\qr {100.00}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx3000
+\fs24\pard\intbl\ql {Prefer not to say}\cell
+\cellx4000
+\fs24\pard\intbl\qr {164}\cell
+\cellx5000
+\fs24\pard\intbl\qr {15}\cell
+\cellx6000
+\fs24\pard\intbl\qr {179}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx3000
+\fs24\pard\intbl\ql {}\cell
+\cellx4000
+\fs24\pard\intbl\qr {91.62}\cell
+\cellx5000
+\fs24\pard\intbl\qr {8.38}\cell
+\cellx6000
+\fs24\pard\intbl\qr {100.00}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx3000
+\fs24\pard\intbl\ql {Other (please feel free to specify)}\cell
+\cellx4000
+\fs24\pard\intbl\qr {34}\cell
+\cellx5000
+\fs24\pard\intbl\qr {2}\cell
+\cellx6000
+\fs24\pard\intbl\qr {36}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx3000
+\fs24\pard\intbl\ql {}\cell
+\cellx4000
+\fs24\pard\intbl\qr {94.44}\cell
+\cellx5000
+\fs24\pard\intbl\qr {5.56}\cell
+\cellx6000
+\fs24\pard\intbl\qr {100.00}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx3000
+\fs24\pard\intbl\ql {Total}\cell
+\clbrdrt\brdrw10\brdrs\cellx4000
+\fs24\pard\intbl\qr {8152}\cell
+\clbrdrt\brdrw10\brdrs\cellx5000
+\fs24\pard\intbl\qr {583}\cell
+\clbrdrt\brdrw10\brdrs\cellx6000
+\fs24\pard\intbl\qr {8735}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx3000
+\fs24\pard\intbl\ql {}\cell
+\cellx4000
+\fs24\pard\intbl\qr {93.33}\cell
+\cellx5000
+\fs24\pard\intbl\qr {6.67}\cell
+\cellx6000
+\fs24\pard\intbl\qr {100.00}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw25\brdrs\cellx6000
+\fs24\pard\intbl\ql {}\cell
+\row}
 
 
 \writepositionforappend
