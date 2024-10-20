@@ -16,30 +16,36 @@ set graphics off
 set scheme s1color
 set seed 1984
 
-include $projdir/do/macros_csac.doh 
 
 local check_tab_dir "$projdir/tab/check"
 
 use $projdir/dta/csac_2024_initial_clean.dta, clear 
+
+// this macros file needs data to run.
+include $projdir/do/macros_csac.doh 
+
 
 label var race_hrchy "Race"
 label var parent_edu "Parental Education"
 label var gender "Gender"
 
 // write document title
-asdoc, save(`check_tab_dir'/appendix.doc) replace text(Appendix: Tabulations of All Survey Questions) 
+asdoc, save(`check_tab_dir'/appendix.doc) replace text( Appendix: Tabulations of All Survey Questions)
+asdoc, save(`check_tab_dir'/appendix.doc) append text(\) 
 
 local secnum 1
-foreach qnum in `test_qnums' {
+foreach qnum in `all_qnums' {
     // write heading 
-    asdoc, save(`check_tab_dir'/appendix.doc) append text(\b `secnum'. Tabulations of Question `q`qnum'_str')  fs(16)
+    asdoc, save(`check_tab_dir'/appendix.doc) append text(\b `secnum'. Tabulations of Question `qnum': `q`qnum'_str')  fs(16)
+    asdoc, save(`check_tab_dir'/appendix.doc) append text(\)
 
     local subsecnum 1
 
 
     foreach var of varlist `q`qnum'_subqs' {
         // write subheading for sub question
-        asdoc, save(`check_tab_dir'/appendix.doc) append text(\b `secnum'.`subsecnum'. ``var'_title') fs(14)
+        asdoc, save(`check_tab_dir'/appendix.doc) append text(\b `secnum'.`subsecnum'. ``var'_str') fs(14)
+        asdoc, save(`check_tab_dir'/appendix.doc) append text(\)
 
         // one way tabulation, rtf font size are half of the number 
         local subsubsecnum 1
