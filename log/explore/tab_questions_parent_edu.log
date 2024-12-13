@@ -3,7 +3,47 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
 > questions_parent_edu.smcl
   log type:  smcl
- opened on:   1 Oct 2024, 14:28:40
+ opened on:  11 Dec 2024, 17:28:50
+hs_senior by parent_edu
+
++----------------+
+| Key            |
+|----------------|
+|   frequency    |
+| row percentage |
++----------------+
+
+                      |    Q8:
+                      | Graduated
+                      |   HS in
+                      | spring or
+                      |   summer
+  Q73: highest parent |    2024
+            education |       Yes |     Total
+----------------------+-----------+----------
+           Don't know |       507 |       507 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+Did not complete high |     1,813 |     1,813 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+  High school diploma |     2,389 |     2,389 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+Some college, no coll |     1,133 |     1,133 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+     Associate degree |       452 |       452 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+    Bachelor's degree |     1,277 |     1,277 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+Graduate/Professional |     1,167 |     1,167 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+                Total |     8,738 |     8,738 
+                      |    100.00 |    100.00 
 why_fafsa_requirement by parent_edu
 
 +----------------+
@@ -13,9 +53,8 @@ why_fafsa_requirement by parent_edu
 | row percentage |
 +----------------+
 
-                      |      why fafsa:
-                      |    requirement for
-  Q73: highest parent |      graduation
+                      | Q11: Requirement for
+  Q73: highest parent |      Graduation
             education |         0          1 |     Total
 ----------------------+----------------------+----------
            Don't know |       284        222 |       506 
@@ -50,8 +89,8 @@ why_fafsa_assignment by parent_edu
 | row percentage |
 +----------------+
 
-                      | why fafsa: assignment
-  Q73: highest parent |       for class
+                      |  Q11: Assignment for
+  Q73: highest parent |         Class
             education |         0          1 |     Total
 ----------------------+----------------------+----------
            Don't know |       467         39 |       506 
@@ -86,9 +125,9 @@ why_fafsa_eligible by parent_edu
 | row percentage |
 +----------------+
 
-                      |   why fafsa: check
-                      |    eligibility for
-  Q73: highest parent |     financial aid
+                      |      Q11: Check
+                      |    Eligibility for
+  Q73: highest parent |     Financial Aid
             education |         0          1 |     Total
 ----------------------+----------------------+----------
            Don't know |       208        298 |       506 
@@ -123,8 +162,8 @@ why_fafsa_expected by parent_edu
 | row percentage |
 +----------------+
 
-                      |  why fafsa: expected
-  Q73: highest parent |       at school
+                      |   Q11: Expected at
+  Q73: highest parent |        School
             education |         0          1 |     Total
 ----------------------+----------------------+----------
            Don't know |       395        111 |       506 
@@ -159,7 +198,7 @@ why_fafsa_other by parent_edu
 | row percentage |
 +----------------+
 
-  Q73: highest parent |   why fafsa: other
+  Q73: highest parent |      Q11: Other
             education |         0          1 |     Total
 ----------------------+----------------------+----------
            Don't know |       462         44 |       506 
@@ -194,7 +233,7 @@ when_heard_fafsa by parent_edu
 | row percentage |
 +----------------+
 
-                      |   W12: When did you first hear
+                      |   Q12: When did you first hear
   Q73: highest parent |       about FAFSA or CADAA
             education | Junior ye  Prior to   Senior ye |     Total
 ----------------------+---------------------------------+----------
@@ -5883,9 +5922,117 @@ Graduate/Professional |       326        252         39 |       617
 ----------------------+---------------------------------+----------
                 Total |     1,690      1,519        204 |     3,413 
                       |     49.52      44.51       5.98 |    100.00 
+home_lang_eng by parent_edu
+
++----------------+
+| Key            |
+|----------------|
+|   frequency    |
+| row percentage |
++----------------+
+
+                      |    Q76: Is English
+                      |  primary language at
+  Q73: highest parent |         home
+            education |        No        Yes |     Total
+----------------------+----------------------+----------
+           Don't know |       298        209 |       507 
+                      |     58.78      41.22 |    100.00 
+----------------------+----------------------+----------
+Did not complete high |     1,510        303 |     1,813 
+                      |     83.29      16.71 |    100.00 
+----------------------+----------------------+----------
+  High school diploma |     1,156      1,232 |     2,388 
+                      |     48.41      51.59 |    100.00 
+----------------------+----------------------+----------
+Some college, no coll |       354        776 |     1,130 
+                      |     31.33      68.67 |    100.00 
+----------------------+----------------------+----------
+     Associate degree |       136        316 |       452 
+                      |     30.09      69.91 |    100.00 
+----------------------+----------------------+----------
+    Bachelor's degree |       293        982 |     1,275 
+                      |     22.98      77.02 |    100.00 
+----------------------+----------------------+----------
+Graduate/Professional |       220        945 |     1,165 
+                      |     18.88      81.12 |    100.00 
+----------------------+----------------------+----------
+                Total |     3,967      4,763 |     8,730 
+                      |     45.44      54.56 |    100.00 
+has_job by parent_edu
+
++----------------+
+| Key            |
+|----------------|
+|   frequency    |
+| row percentage |
++----------------+
+
+                      |  Q80: current has a
+  Q73: highest parent |          job
+            education |        No        Yes |     Total
+----------------------+----------------------+----------
+           Don't know |       423         84 |       507 
+                      |     83.43      16.57 |    100.00 
+----------------------+----------------------+----------
+Did not complete high |     1,423        389 |     1,812 
+                      |     78.53      21.47 |    100.00 
+----------------------+----------------------+----------
+  High school diploma |     1,816        569 |     2,385 
+                      |     76.14      23.86 |    100.00 
+----------------------+----------------------+----------
+Some college, no coll |       846        285 |     1,131 
+                      |     74.80      25.20 |    100.00 
+----------------------+----------------------+----------
+     Associate degree |       328        124 |       452 
+                      |     72.57      27.43 |    100.00 
+----------------------+----------------------+----------
+    Bachelor's degree |       888        385 |     1,273 
+                      |     69.76      30.24 |    100.00 
+----------------------+----------------------+----------
+Graduate/Professional |       763        401 |     1,164 
+                      |     65.55      34.45 |    100.00 
+----------------------+----------------------+----------
+                Total |     6,487      2,237 |     8,724 
+                      |     74.36      25.64 |    100.00 
+hours_perweek by parent_edu
+
++----------------+
+| Key            |
+|----------------|
+|   frequency    |
+| row percentage |
++----------------+
+
+  Q73: highest parent |   Q81: how many hours a week do you work
+            education |     10-19      20-30  Less than  More than |     Total
+----------------------+--------------------------------------------+----------
+           Don't know |        28         22         31          2 |        83 
+                      |     33.73      26.51      37.35       2.41 |    100.00 
+----------------------+--------------------------------------------+----------
+Did not complete high |       145        104         99         39 |       387 
+                      |     37.47      26.87      25.58      10.08 |    100.00 
+----------------------+--------------------------------------------+----------
+  High school diploma |       230        143        141         55 |       569 
+                      |     40.42      25.13      24.78       9.67 |    100.00 
+----------------------+--------------------------------------------+----------
+Some college, no coll |       115         85         69         16 |       285 
+                      |     40.35      29.82      24.21       5.61 |    100.00 
+----------------------+--------------------------------------------+----------
+     Associate degree |        50         28         37          9 |       124 
+                      |     40.32      22.58      29.84       7.26 |    100.00 
+----------------------+--------------------------------------------+----------
+    Bachelor's degree |       159         77        128         20 |       384 
+                      |     41.41      20.05      33.33       5.21 |    100.00 
+----------------------+--------------------------------------------+----------
+Graduate/Professional |       157         55        160         29 |       401 
+                      |     39.15      13.72      39.90       7.23 |    100.00 
+----------------------+--------------------------------------------+----------
+                Total |       884        514        665        170 |     2,233 
+                      |     39.59      23.02      29.78       7.61 |    100.00 
       name:  <unnamed>
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
 > questions_parent_edu.smcl
   log type:  smcl
- closed on:   1 Oct 2024, 14:28:40
+ closed on:  11 Dec 2024, 17:28:50
 -------------------------------------------------------------------------------

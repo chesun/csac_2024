@@ -3,7 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
 > questions_simple.smcl
   log type:  smcl
- opened on:   1 Oct 2024, 14:28:41
+ opened on:  11 Dec 2024, 17:28:50
 
 . 
 . foreach var of local all_qs {
@@ -12,12 +12,23 @@
 .     tab `var' if hs_senior==1
   4. 
 . }
+tabulation of hs_senior
+
+        Q8: |
+  Graduated |
+      HS in |
+  spring or |
+summer 2024 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        Yes |     11,642      100.00      100.00
+------------+-----------------------------------
+      Total |     11,642      100.00
 tabulation of why_fafsa_requirement
 
- why fafsa: |
-requirement |
+       Q11: |
+Requirement |
         for |
- graduation |      Freq.     Percent        Cum.
+ Graduation |      Freq.     Percent        Cum.
 ------------+-----------------------------------
           0 |      6,760       60.15       60.15
           1 |      4,478       39.85      100.00
@@ -25,9 +36,9 @@ requirement |
       Total |     11,238      100.00
 tabulation of why_fafsa_assignment
 
- why fafsa: |
- assignment |
-  for class |      Freq.     Percent        Cum.
+       Q11: |
+ Assignment |
+  for Class |      Freq.     Percent        Cum.
 ------------+-----------------------------------
           0 |     10,358       92.17       92.17
           1 |        880        7.83      100.00
@@ -35,12 +46,11 @@ tabulation of why_fafsa_assignment
       Total |     11,238      100.00
 tabulation of why_fafsa_eligible
 
- why fafsa: |
-      check |
-eligibility |
+ Q11: Check |
+Eligibility |
         for |
-  financial |
-        aid |      Freq.     Percent        Cum.
+  Financial |
+        Aid |      Freq.     Percent        Cum.
 ------------+-----------------------------------
           0 |      4,229       37.63       37.63
           1 |      7,009       62.37      100.00
@@ -48,9 +58,9 @@ eligibility |
       Total |     11,238      100.00
 tabulation of why_fafsa_expected
 
- why fafsa: |
-expected at |
-     school |      Freq.     Percent        Cum.
+       Q11: |
+Expected at |
+     School |      Freq.     Percent        Cum.
 ------------+-----------------------------------
           0 |      8,320       74.03       74.03
           1 |      2,918       25.97      100.00
@@ -58,8 +68,7 @@ expected at |
       Total |     11,238      100.00
 tabulation of why_fafsa_other
 
- why fafsa: |
-      other |      Freq.     Percent        Cum.
+ Q11: Other |      Freq.     Percent        Cum.
 ------------+-----------------------------------
           0 |     10,502       93.45       93.45
           1 |        736        6.55      100.00
@@ -67,7 +76,7 @@ tabulation of why_fafsa_other
       Total |     11,238      100.00
 tabulation of when_heard_fafsa
 
-W12: When did you first |
+Q12: When did you first |
     hear about FAFSA or |
                   CADAA |      Freq.     Percent        Cum.
 ------------------------+-----------------------------------
@@ -1723,6 +1732,41 @@ Somewhat difficult |      1,532       44.51       94.02
     Very Difficult |        206        5.98      100.00
 -------------------+-----------------------------------
              Total |      3,442      100.00
+tabulation of home_lang_eng
+
+    Q76: Is |
+    English |
+    primary |
+language at |
+       home |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         No |      3,979       45.48       45.48
+        Yes |      4,769       54.52      100.00
+------------+-----------------------------------
+      Total |      8,748      100.00
+tabulation of has_job
+
+       Q80: |
+current has |
+      a job |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         No |      6,510       74.39       74.39
+        Yes |      2,241       25.61      100.00
+------------+-----------------------------------
+      Total |      8,751      100.00
+tabulation of hours_perweek
+
+    Q81: how |
+many hours a |
+ week do you |
+        work |      Freq.     Percent        Cum.
+-------------+-----------------------------------
+       10-19 |        885       39.58       39.58
+       20-30 |        515       23.03       62.61
+Less than 10 |        666       29.79       92.40
+More than 30 |        170        7.60      100.00
+-------------+-----------------------------------
+       Total |      2,236      100.00
 
 . 
 . log close 
@@ -1730,5 +1774,5 @@ Somewhat difficult |      1,532       44.51       94.02
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
 > questions_simple.smcl
   log type:  smcl
- closed on:   1 Oct 2024, 14:28:41
+ closed on:  11 Dec 2024, 17:28:51
 -------------------------------------------------------------------------------

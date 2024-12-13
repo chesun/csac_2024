@@ -1,0 +1,1370 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/compare_2023.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}11 Dec 2024, 17:28:52
+{txt}
+{com}. 
+. use $projdir/dta/csac_2024_initial_clean.dta, clear 
+{txt}
+{com}. tempfile csac2024 
+{txt}
+{com}. save `csac2024', replace 
+{txt}{p 0 4 2}
+(file {bf}
+/home/tmp/St30105.000001{rm}
+not found)
+{p_end}
+{p 0 4 2}
+file {bf}
+/home/tmp/St30105.000001{rm}
+saved
+as .dta format
+{p_end}
+
+{com}. 
+. use "$csac2023projdir/dta/cln/csac_hs_senior_2023_brief.dta", clear 
+{txt}(Fully cleaned CSAC 2023 HS senior survey data)
+
+{com}. tempfile csac2023
+{txt}
+{com}. save `csac2023', replace 
+{txt}{p 0 4 2}
+(file {bf}
+/home/tmp/St30105.000002{rm}
+not found)
+{p_end}
+{p 0 4 2}
+file {bf}
+/home/tmp/St30105.000002{rm}
+saved
+as .dta format
+{p_end}
+
+{com}. 
+. //why did you complete FAFSA
+. 
+. 
+. di "2024:why did you complete FAFSA"
+{res}2024:why did you complete FAFSA
+{txt}
+{com}. use `csac2024', clear 
+{txt}
+{com}. tab why_fafsa_requirement
+
+       {txt}Q11: {c |}
+Requirement {c |}
+        for {c |}
+ Graduation {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      6,760       60.15       60.15
+{txt}          1 {c |}{res}      4,478       39.85      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     11,238      100.00
+{txt}
+{com}. tab why_fafsa_assignment
+
+       {txt}Q11: {c |}
+ Assignment {c |}
+  for Class {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}     10,358       92.17       92.17
+{txt}          1 {c |}{res}        880        7.83      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     11,238      100.00
+{txt}
+{com}. tab why_fafsa_eligible
+
+ {txt}Q11: Check {c |}
+Eligibility {c |}
+        for {c |}
+  Financial {c |}
+        Aid {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      4,229       37.63       37.63
+{txt}          1 {c |}{res}      7,009       62.37      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     11,238      100.00
+{txt}
+{com}. tab why_fafsa_expected
+
+       {txt}Q11: {c |}
+Expected at {c |}
+     School {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      8,320       74.03       74.03
+{txt}          1 {c |}{res}      2,918       25.97      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     11,238      100.00
+{txt}
+{com}. tab why_fafsa_other
+
+ {txt}Q11: Other {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}     10,502       93.45       93.45
+{txt}          1 {c |}{res}        736        6.55      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     11,238      100.00
+{txt}
+{com}. 
+. 
+. di "2023: were you required by your high school to fill out FAFSA"
+{res}2023: were you required by your high school to fill out FAFSA
+{txt}
+{com}. use `csac2023', clear 
+{txt}(Fully cleaned CSAC 2023 HS senior survey data)
+
+{com}. tab hs_req_fafsa
+
+{txt}did your hs {c |}
+    require {c |}
+FAFSA/CADAA {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}      1,906       19.32       19.32
+{txt}        Yes {c |}{res}      7,957       80.68      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      9,863      100.00
+{txt}
+{com}. 
+. 
+. // support for FAFSA
+. 
+. di "2024: support you received in completing FAFSA"
+{res}2024: support you received in completing FAFSA
+{txt}
+{com}. use `csac2024', clear 
+{txt}
+{com}. tab support_received_counselor
+
+  {txt}Q16 FAFSA {c |}
+support: HS {c |}
+  counselor {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      5,845       54.46       54.46
+{txt}          1 {c |}{res}      4,888       45.54      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     10,733      100.00
+{txt}
+{com}. tab support_received_teacher
+
+  {txt}Q16 FAFSA {c |}
+   support: {c |}
+    teacher {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      8,356       77.85       77.85
+{txt}          1 {c |}{res}      2,377       22.15      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     10,733      100.00
+{txt}
+{com}. tab support_received_hsworkshop
+
+  {txt}Q16 FAFSA {c |}
+support: HS {c |}
+   workshop {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      7,908       73.68       73.68
+{txt}          1 {c |}{res}      2,825       26.32      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     10,733      100.00
+{txt}
+{com}. tab support_received_cmworkshop
+
+  {txt}Q16 FAFSA {c |}
+   support: {c |}
+  community {c |}
+   workshop {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}     10,080       93.92       93.92
+{txt}          1 {c |}{res}        653        6.08      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     10,733      100.00
+{txt}
+{com}. tab support_received_parent
+
+  {txt}Q16 FAFSA {c |}
+   support: {c |}
+     parent {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      6,081       56.66       56.66
+{txt}          1 {c |}{res}      4,652       43.34      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     10,733      100.00
+{txt}
+{com}. tab support_received_family
+
+  {txt}Q16 FAFSA {c |}
+   support: {c |}
+     family {c |}
+ other than {c |}
+     parent {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      9,047       84.29       84.29
+{txt}          1 {c |}{res}      1,686       15.71      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     10,733      100.00
+{txt}
+{com}. tab support_received_friend
+
+  {txt}Q16 FAFSA {c |}
+   support: {c |}
+     friend {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      9,591       89.36       89.36
+{txt}          1 {c |}{res}      1,142       10.64      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     10,733      100.00
+{txt}
+{com}. tab support_received_online
+
+  {txt}Q16 FAFSA {c |}
+   support: {c |}
+     Online {c |}
+  resources {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      9,374       87.34       87.34
+{txt}          1 {c |}{res}      1,359       12.66      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     10,733      100.00
+{txt}
+{com}. tab support_received_nobody
+
+  {txt}Q16 FAFSA {c |}
+   support: {c |}
+    Nobody, {c |}
+  completed {c |}
+  on my own {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      9,869       91.95       91.95
+{txt}          1 {c |}{res}        864        8.05      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     10,733      100.00
+{txt}
+{com}. 
+. di "2023: support you received in completin FAFSA"
+{res}2023: support you received in completin FAFSA
+{txt}
+{com}. use `csac2023', clear 
+{txt}(Fully cleaned CSAC 2023 HS senior survey data)
+
+{com}. tab fafsa_support_icounselor
+
+   {txt}selected {c |}
+      'High {c |}
+     school {c |}
+ counselor' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      5,380       55.44       55.44
+{txt}          1 {c |}{res}      4,324       44.56      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      9,704      100.00
+{txt}
+{com}. tab fafsa_support_iteacher
+
+   {txt}selected {c |}
+  'Teacher' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      7,541       77.71       77.71
+{txt}          1 {c |}{res}      2,163       22.29      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      9,704      100.00
+{txt}
+{com}. tab fafsa_support_ihsworkshop
+
+   {txt}selected {c |}
+     'FAFSA {c |}
+workshop or {c |}
+training at {c |}
+  your high {c |}
+    school' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      6,834       70.42       70.42
+{txt}          1 {c |}{res}      2,870       29.58      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      9,704      100.00
+{txt}
+{com}. tab fafsa_support_icmworkshop
+
+   {txt}selected {c |}
+     'FAFSA {c |}
+training at {c |}
+  community {c |}
+   location {c |}
+ outside of {c |}
+  your high {c |}
+    school' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      9,135       94.14       94.14
+{txt}          1 {c |}{res}        569        5.86      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      9,704      100.00
+{txt}
+{com}. tab fafsa_support_iparent
+
+   {txt}selected {c |}
+   'Parent' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      4,951       51.02       51.02
+{txt}          1 {c |}{res}      4,753       48.98      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      9,704      100.00
+{txt}
+{com}. tab fafsa_support_ifamily
+
+   {txt}selected {c |}
+    'Family {c |}
+     member {c |}
+ other than {c |}
+    parent' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      8,350       86.05       86.05
+{txt}          1 {c |}{res}      1,354       13.95      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      9,704      100.00
+{txt}
+{com}. tab fafsa_support_ifriend
+
+   {txt}selected {c |}
+   'Friend' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      8,774       90.42       90.42
+{txt}          1 {c |}{res}        930        9.58      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      9,704      100.00
+{txt}
+{com}. tab fafsa_support_inobody
+
+   {txt}selected {c |}
+ 'Nobody (I {c |}
+  completed {c |}
+   it on my {c |}
+      own)' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      8,691       89.56       89.56
+{txt}          1 {c |}{res}      1,013       10.44      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      9,704      100.00
+{txt}
+{com}. 
+. // do you plan to attend college this fall
+. di "2024: do you plan to attend college this fall"
+{res}2024: do you plan to attend college this fall
+{txt}
+{com}. use `csac2024', clear 
+{txt}
+{com}. tab attend_coll
+
+{txt}Q27: plan to {c |}
+      attend {c |}
+  college in {c |}
+    the fall {c |}      Freq.     Percent        Cum.
+{hline 13}{c +}{hline 35}
+I don't know {c |}{res}        417        4.16        4.16
+{txt}          No {c |}{res}        164        1.64        5.79
+{txt}         Yes {c |}{res}      9,448       94.21      100.00
+{txt}{hline 13}{c +}{hline 35}
+       Total {c |}{res}     10,029      100.00
+{txt}
+{com}. 
+. di "2023: do you plan to attend college this fall"
+{res}2023: do you plan to attend college this fall
+{txt}
+{com}. use `csac2023', clear 
+{txt}(Fully cleaned CSAC 2023 HS senior survey data)
+
+{com}. tab college_fall 
+
+ {txt}do you plan {c |}
+   to attend {c |}
+  college in {c |}
+    the fall {c |}      Freq.     Percent        Cum.
+{hline 13}{c +}{hline 35}
+          No {c |}{res}        170        1.75        1.75
+{txt}         Yes {c |}{res}      9,230       95.21       96.97
+{txt}I don't know {c |}{res}        294        3.03      100.00
+{txt}{hline 13}{c +}{hline 35}
+       Total {c |}{res}      9,694      100.00
+{txt}
+{com}. 
+. // what do you think you will be doing this fall
+. di "2024: why do you think you will be doing this fall"
+{res}2024: why do you think you will be doing this fall
+{txt}
+{com}. use `csac2024', clear 
+{txt}
+{com}. tab fall_plan_workpt
+
+  {txt}Q29: work {c |}
+  part time {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         72       49.32       49.32
+{txt}          1 {c |}{res}         74       50.68      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        146      100.00
+{txt}
+{com}. tab fall_plan_workft
+
+  {txt}Q29: work {c |}
+  full time {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        109       74.66       74.66
+{txt}          1 {c |}{res}         37       25.34      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        146      100.00
+{txt}
+{com}. tab fall_plan_family
+
+{txt}Q29: family {c |}
+obligations {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        125       85.62       85.62
+{txt}          1 {c |}{res}         21       14.38      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        146      100.00
+{txt}
+{com}. tab fall_plan_military
+
+       {txt}Q29: {c |}
+   military {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        128       87.67       87.67
+{txt}          1 {c |}{res}         18       12.33      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        146      100.00
+{txt}
+{com}. tab fall_plan_other
+
+ {txt}Q29: other {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        111       76.03       76.03
+{txt}          1 {c |}{res}         35       23.97      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        146      100.00
+{txt}
+{com}. 
+. di "2023: what do you think you will be doing this fall"
+{res}2023: what do you think you will be doing this fall
+{txt}
+{com}. use `csac2023', clear 
+{txt}(Fully cleaned CSAC 2023 HS senior survey data)
+
+{com}. tab fall_plan_iworkpt
+
+   {txt}selected {c |}
+      'Work {c |}
+ part-time' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         85       57.82       57.82
+{txt}          1 {c |}{res}         62       42.18      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        147      100.00
+{txt}
+{com}. tab fall_plan_iworkft
+
+   {txt}selected {c |}
+      'Work {c |}
+ full-time' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         93       63.27       63.27
+{txt}          1 {c |}{res}         54       36.73      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        147      100.00
+{txt}
+{com}. tab fall_plan_ifamily
+
+   {txt}selected {c |}
+    'Family {c |}
+obligations {c |}
+          ' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        122       82.99       82.99
+{txt}          1 {c |}{res}         25       17.01      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        147      100.00
+{txt}
+{com}. tab fall_plan_imilitary
+
+   {txt}selected {c |}
+ 'Military' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        119       80.95       80.95
+{txt}          1 {c |}{res}         28       19.05      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        147      100.00
+{txt}
+{com}. 
+. 
+. 
+. 
+. 
+. 
+. di "2024: which of the following might influence your decision of whether or not to attend college"
+{res}2024: which of the following might influence your decision of whether or not to attend college
+{txt}
+{com}. use `csac2024', clear 
+{txt}
+{com}. tab coll_decision_financial
+
+       {txt}Q32: {c |}
+  financial {c |}
+    support {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         97       23.89       23.89
+{txt}          1 {c |}{res}        309       76.11      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        406      100.00
+{txt}
+{com}. tab coll_decision_academic
+
+       {txt}Q32: {c |}
+   academic {c |}
+    support {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        270       66.50       66.50
+{txt}          1 {c |}{res}        136       33.50      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        406      100.00
+{txt}
+{com}. tab coll_decision_family
+
+{txt}Q32: family {c |}
+   or other {c |}
+    support {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        238       58.62       58.62
+{txt}          1 {c |}{res}        168       41.38      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        406      100.00
+{txt}
+{com}. 
+. di "2023: which of the following might influence your decision of whether or not to attend college"
+{res}2023: which of the following might influence your decision of whether or not to attend college
+{txt}
+{com}. use `csac2023', clear 
+{txt}(Fully cleaned CSAC 2023 HS senior survey data)
+
+{com}. tab inf_no_college_ifinancial
+
+   {txt}selected {c |}
+ 'Financial {c |}
+   support' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         69       24.21       24.21
+{txt}          1 {c |}{res}        216       75.79      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        285      100.00
+{txt}
+{com}. tab inf_no_college_iacademic
+
+   {txt}selected {c |}
+  'Academic {c |}
+   support' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        191       67.02       67.02
+{txt}          1 {c |}{res}         94       32.98      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        285      100.00
+{txt}
+{com}. tab inf_no_college_ifam_other
+
+   {txt}selected {c |}
+ 'Family or {c |}
+      other {c |}
+   support' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        178       62.46       62.46
+{txt}          1 {c |}{res}        107       37.54      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        285      100.00
+{txt}
+{com}. 
+. 
+. 
+. di "2024: where are you most likely to attend college"
+{res}2024: where are you most likely to attend college
+{txt}
+{com}. use `csac2024', clear 
+{txt}
+{com}. tab where_attend_coll
+
+   {txt}Q34: where {c |}
+      are you {c |}
+mostly likely {c |}
+    to attend {c |}
+ college this {c |}
+         fall {c |}      Freq.     Percent        Cum.
+{hline 14}{c +}{hline 35}
+          CCC {c |}{res}      4,325       45.93       45.93
+{txt}          CSU {c |}{res}      1,987       21.10       67.03
+{txt}           UC {c |}{res}        519        5.51       72.55
+{txt}     Priv 4yr {c |}{res}        318        3.38       75.92
+{txt}   Vocational {c |}{res}        159        1.69       77.61
+{txt}   Outside CA {c |}{res}        420        4.46       82.07
+{txt}None of these {c |}{res}      1,533       16.28       98.35
+{txt}     Not sure {c |}{res}        155        1.65      100.00
+{txt}{hline 14}{c +}{hline 35}
+        Total {c |}{res}      9,416      100.00
+{txt}
+{com}. 
+. di "2023: where do you plan to attend college this fall"
+{res}2023: where do you plan to attend college this fall
+{txt}
+{com}. use `csac2023', clear 
+{txt}(Fully cleaned CSAC 2023 HS senior survey data)
+
+{com}. tab where_college 
+
+    {txt}where do you plan to attend college {c |}
+                              this fall {c |}      Freq.     Percent        Cum.
+{hline 40}{c +}{hline 35}
+     California Community College (CCC) {c |}{res}      3,526       38.44       38.44
+{txt}      California State University (CSU) {c |}{res}      2,036       22.20       60.64
+{txt}          University of California (UC) {c |}{res}      1,973       21.51       82.15
+{txt}Private four-year college/university in {c |}{res}        514        5.60       87.76
+{txt}Vocational, technical, or career colleg {c |}{res}        193        2.10       89.86
+{txt}          College outside of California {c |}{res}        930       10.14      100.00
+{txt}{hline 40}{c +}{hline 35}
+                                  Total {c |}{res}      9,172      100.00
+{txt}
+{com}. 
+. 
+. 
+. di "2024: have any of the colleges contacted you about your financial aid"
+{res}2024: have any of the colleges contacted you about your financial aid
+{txt}
+{com}. use `csac2024', clear 
+{txt}
+{com}. tab coll_contact
+
+   {txt}Q40: has {c |}
+any college {c |}
+  contacted {c |}
+  you about {c |}
+     finaid {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+        All {c |}{res}      2,630       28.28       28.28
+{txt}       None {c |}{res}      2,806       30.18       58.46
+{txt}       Some {c |}{res}      3,863       41.54      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      9,299      100.00
+{txt}
+{com}. 
+. di "2023: have any of the colleges contacted you about your financial aid"
+{res}2023: have any of the colleges contacted you about your financial aid
+{txt}
+{com}. use `csac2023', clear 
+{txt}(Fully cleaned CSAC 2023 HS senior survey data)
+
+{com}. tab college_contact
+
+   {txt}has your {c |}
+    college {c |}
+  contacted {c |}
+  you about {c |}
+    fin aid {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}      2,363       25.91       25.91
+{txt}        Yes {c |}{res}      6,757       74.09      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      9,120      100.00
+{txt}
+{com}. 
+. 
+. 
+. di "2024: what did the colleges contact you about regarding your financial aid offer"
+{res}2024: what did the colleges contact you about regarding your financial aid offer
+{txt}
+{com}. use `csac2024', clear 
+{txt}
+{com}. tab coll_contact_subject_doc
+
+       {txt}Q42: {c |}
+FAFSA/CADAA {c |}
+verificatio {c |}
+       n or {c |}
+ additional {c |}
+documentati {c |}
+         on {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      2,494       39.43       39.43
+{txt}          1 {c |}{res}      3,831       60.57      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      6,325      100.00
+{txt}
+{com}. tab coll_contact_subject_work
+
+       {txt}Q42: {c |}
+eligibility {c |}
+   for work {c |}
+      study {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      4,522       71.49       71.49
+{txt}          1 {c |}{res}      1,803       28.51      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      6,325      100.00
+{txt}
+{com}. tab coll_contact_subject_grant
+
+{txt}Q42: grants {c |}
+         or {c |}
+scholarship {c |}
+          s {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      2,590       40.95       40.95
+{txt}          1 {c |}{res}      3,735       59.05      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      6,325      100.00
+{txt}
+{com}. tab coll_contact_subject_loan
+
+       {txt}Q42: {c |}
+information {c |}
+about loans {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      3,610       57.08       57.08
+{txt}          1 {c |}{res}      2,715       42.92      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      6,325      100.00
+{txt}
+{com}. 
+. di "2023: what did the colleges contact you about regarding your financial aid offer"
+{res}2023: what did the colleges contact you about regarding your financial aid offer
+{txt}
+{com}. use `csac2023', clear 
+{txt}(Fully cleaned CSAC 2023 HS senior survey data)
+
+{com}. tab college_contact_iverification
+
+   {txt}selected {c |}
+'FAFSA/CADA {c |}
+          A {c |}
+verificatio {c |}
+          n {c |}
+(additional {c |}
+documentati {c |}
+  on needed {c |}
+ to process {c |}
+          f {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      2,843       44.80       44.80
+{txt}          1 {c |}{res}      3,503       55.20      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      6,346      100.00
+{txt}
+{com}. tab college_contact_ifaoffer
+
+   {txt}selected {c |}
+ 'Financial {c |}
+        aid {c |}
+offer/award {c |}
+    letter' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      1,811       28.54       28.54
+{txt}          1 {c |}{res}      4,535       71.46      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      6,346      100.00
+{txt}
+{com}. tab college_contact_iworkstudy
+
+   {txt}selected {c |}
+'Eligibilit {c |}
+ y for work {c |}
+     study' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      4,514       71.13       71.13
+{txt}          1 {c |}{res}      1,832       28.87      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      6,346      100.00
+{txt}
+{com}. tab college_contact_iloans
+
+   {txt}selected {c |}
+'Informatio {c |}
+    n about {c |}
+     loans' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      3,624       57.11       57.11
+{txt}          1 {c |}{res}      2,722       42.89      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      6,346      100.00
+{txt}
+{com}. 
+. 
+. 
+. di "2024: how do you plan to pay for college"
+{res}2024: how do you plan to pay for college
+{txt}
+{com}. use `csac2024', clear 
+{txt}
+{com}. tab pay_plan_scholarship
+
+       {txt}Q54: {c |}
+scholarship {c |}
+          s {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      4,268       50.47       50.47
+{txt}          1 {c |}{res}      4,188       49.53      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,456      100.00
+{txt}
+{com}. tab pay_plan_grant
+
+{txt}Q54: grants {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      4,037       47.74       47.74
+{txt}          1 {c |}{res}      4,419       52.26      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,456      100.00
+{txt}
+{com}. tab pay_plan_saving
+
+{txt}Q54: my own {c |}
+    savings {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      5,568       65.85       65.85
+{txt}          1 {c |}{res}      2,888       34.15      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,456      100.00
+{txt}
+{com}. tab pay_plan_work
+
+       {txt}Q54: {c |}
+    working {c |}
+      while {c |}
+   enrolled {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      3,500       41.39       41.39
+{txt}          1 {c |}{res}      4,956       58.61      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,456      100.00
+{txt}
+{com}. tab pay_plan_otherppl
+
+ {txt}Q54: money {c |}
+ from other {c |}
+     people {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      4,984       58.94       58.94
+{txt}          1 {c |}{res}      3,472       41.06      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,456      100.00
+{txt}
+{com}. tab pay_plan_loan
+
+       {txt}Q54: {c |}
+    student {c |}
+      loans {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      5,770       68.24       68.24
+{txt}          1 {c |}{res}      2,686       31.76      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,456      100.00
+{txt}
+{com}. tab pay_plan_va
+
+       {txt}Q54: {c |}
+military/VA {c |}
+   benefits {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      8,232       97.35       97.35
+{txt}          1 {c |}{res}        224        2.65      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,456      100.00
+{txt}
+{com}. tab pay_plan_credit
+
+{txt}Q54: credit {c |}
+      cards {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      8,027       94.93       94.93
+{txt}          1 {c |}{res}        429        5.07      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,456      100.00
+{txt}
+{com}. 
+. di "2023: how do you plan to pay for college"
+{res}2023: how do you plan to pay for college
+{txt}
+{com}. use `csac2023', clear 
+{txt}(Fully cleaned CSAC 2023 HS senior survey data)
+
+{com}. tab pay_plan_ischolarships
+
+   {txt}selected {c |}
+'Scholarshi {c |}
+        ps' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      4,289       49.22       49.22
+{txt}          1 {c |}{res}      4,425       50.78      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,714      100.00
+{txt}
+{com}. tab pay_plan_igrants
+
+   {txt}selected {c |}
+    'Grants {c |}
+(e.g., Pell {c |}
+ Grant, Cal {c |}
+    Grant)' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      4,340       49.80       49.80
+{txt}          1 {c |}{res}      4,374       50.20      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,714      100.00
+{txt}
+{com}. tab pay_plan_isavings
+
+   {txt}selected {c |}
+    'My own {c |}
+   savings' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      5,650       64.84       64.84
+{txt}          1 {c |}{res}      3,064       35.16      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,714      100.00
+{txt}
+{com}. tab pay_plan_iworking
+
+   {txt}selected {c |}
+   'Working {c |}
+      while {c |}
+  enrolled' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      4,053       46.51       46.51
+{txt}          1 {c |}{res}      4,661       53.49      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,714      100.00
+{txt}
+{com}. tab pay_plan_ipeople
+
+   {txt}selected {c |}
+'Money from {c |}
+      other {c |}
+    people' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      4,897       56.20       56.20
+{txt}          1 {c |}{res}      3,817       43.80      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,714      100.00
+{txt}
+{com}. tab pay_plan_iloans
+
+   {txt}selected {c |}
+   'Student {c |}
+     loans' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      5,848       67.11       67.11
+{txt}          1 {c |}{res}      2,866       32.89      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,714      100.00
+{txt}
+{com}. tab pay_plan_imilitary
+
+   {txt}selected {c |}
+'Military/V {c |}
+A benefits' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      8,487       97.39       97.39
+{txt}          1 {c |}{res}        227        2.61      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,714      100.00
+{txt}
+{com}. tab pay_plan_icredit
+
+   {txt}selected {c |}
+    'Credit {c |}
+   card(s)' {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      8,325       95.54       95.54
+{txt}          1 {c |}{res}        389        4.46      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,714      100.00
+{txt}
+{com}. 
+. 
+. di "2024: what are you most likely to study in college"
+{res}2024: what are you most likely to study in college
+{txt}
+{com}. use `csac2024', clear 
+{txt}
+{com}. tab major_business
+
+       {txt}Q55: {c |}
+   Business {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      7,211       85.39       85.39
+{txt}          1 {c |}{res}      1,234       14.61      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,445      100.00
+{txt}
+{com}. tab major_engineering
+
+       {txt}Q55: {c |}
+Engineering {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      7,071       83.73       83.73
+{txt}          1 {c |}{res}      1,374       16.27      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,445      100.00
+{txt}
+{com}. tab major_science
+
+       {txt}Q55: {c |}
+    Natural {c |}
+    Scinces {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      6,733       79.73       79.73
+{txt}          1 {c |}{res}      1,712       20.27      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,445      100.00
+{txt}
+{com}. tab major_social
+
+{txt}Q55: Social {c |}
+   Sciences {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      7,146       84.62       84.62
+{txt}          1 {c |}{res}      1,299       15.38      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,445      100.00
+{txt}
+{com}. tab major_humanity
+
+       {txt}Q55: {c |}
+ Humanities {c |}
+   and Arts {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      7,319       86.67       86.67
+{txt}          1 {c |}{res}      1,126       13.33      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,445      100.00
+{txt}
+{com}. tab major_health
+
+{txt}Q55: Health {c |}
+   Sciences {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      6,607       78.24       78.24
+{txt}          1 {c |}{res}      1,838       21.76      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,445      100.00
+{txt}
+{com}. tab major_education
+
+       {txt}Q55: {c |}
+  Education {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      7,830       92.72       92.72
+{txt}          1 {c |}{res}        615        7.28      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,445      100.00
+{txt}
+{com}. tab major_applied
+
+       {txt}Q55: {c |}
+    Applied {c |}
+   Sciences {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      7,998       94.71       94.71
+{txt}          1 {c |}{res}        447        5.29      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,445      100.00
+{txt}
+{com}. tab major_service
+
+{txt}Q55: Public {c |}
+    Service {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      7,785       92.18       92.18
+{txt}          1 {c |}{res}        660        7.82      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,445      100.00
+{txt}
+{com}. tab major_undecided
+
+       {txt}Q55: {c |}
+  Undecided {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      7,735       91.59       91.59
+{txt}          1 {c |}{res}        710        8.41      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,445      100.00
+{txt}
+{com}. 
+. 
+. di "2023: what are you most likely to study in college"
+{res}2023: what are you most likely to study in college
+{txt}
+{com}. use `csac2023', clear 
+{txt}(Fully cleaned CSAC 2023 HS senior survey data)
+
+{com}. tab major 
+
+   {txt}what are you most likely to study in {c |}
+                                college {c |}      Freq.     Percent        Cum.
+{hline 40}{c +}{hline 35}
+                               Business {c |}{res}        908       10.30       10.30
+{txt}                            Engineering {c |}{res}      1,409       15.98       26.28
+{txt}Natural sciences (e.g., biology, chemis {c |}{res}      1,386       15.72       42.01
+{txt}Social sciences (e.g., psychology, soci {c |}{res}      1,083       12.29       54.29
+{txt}Humanities & Arts (e.g., English, Histo {c |}{res}        979       11.11       65.40
+{txt}                        Health sciences {c |}{res}      1,320       14.97       80.37
+{txt}                              Education {c |}{res}        322        3.65       84.03
+{txt}Applied sciences (e.g., automotive repa {c |}{res}        291        3.30       87.33
+{txt}Public service (e.g., criminal justice, {c |}{res}        420        4.76       92.09
+{txt}                              Undecided {c |}{res}        697        7.91      100.00
+{txt}{hline 40}{c +}{hline 35}
+                                  Total {c |}{res}      8,815      100.00
+{txt}
+{com}. 
+. 
+. di "2024: highest degree you hope to earn"
+{res}2024: highest degree you hope to earn
+{txt}
+{com}. use `csac2024', clear 
+{txt}
+{com}. tab highest_degree
+
+   {txt}Q56: highest degree you hope to earn {c |}      Freq.     Percent        Cum.
+{hline 40}{c +}{hline 35}
+Get a certificate in a vocational or te {c |}{res}        250        2.95        2.95
+{txt}          Associate degree  (AA/AS/ADT) {c |}{res}        614        7.23       10.18
+{txt}Doctoral Degree (Ph.D., M.D., J.D., etc {c |}{res}      1,684       19.84       30.02
+{txt}                             I'm unsure {c |}{res}      1,225       14.43       44.46
+{txt}            Bachelorâs Degree (BA/BS) {c |}{res}      2,600       30.64       75.09
+{txt}              Masterâs Degree (MA/MS) {c |}{res}      2,114       24.91      100.00
+{txt}{hline 40}{c +}{hline 35}
+                                  Total {c |}{res}      8,487      100.00
+{txt}
+{com}. 
+. di "2023: highest degree you hope to earn"
+{res}2023: highest degree you hope to earn
+{txt}
+{com}. use `csac2023', clear 
+{txt}(Fully cleaned CSAC 2023 HS senior survey data)
+
+{com}. tab highest_degree
+
+ {txt}what is the highest degree you hope to {c |}
+                               complete {c |}      Freq.     Percent        Cum.
+{hline 40}{c +}{hline 35}
+Get a certificate in a vocational or te {c |}{res}        284        3.48        3.48
+{txt}          Associate degree  (AA/AS/ADT) {c |}{res}        540        6.61       10.09
+{txt}              Bachelor’s Degree (BA/BS) {c |}{res}      2,860       35.02       45.11
+{txt}                Master’s Degree (MA/MS) {c |}{res}      2,659       32.56       77.68
+{txt}Doctoral Degree (Ph.D., M.D., J.D., etc {c |}{res}      1,823       22.32      100.00
+{txt}{hline 40}{c +}{hline 35}
+                                  Total {c |}{res}      8,166      100.00
+{txt}
+{com}. 
+. 
+. 
+. di "2024: when you think about college, how worried are you about the following"
+{res}2024: when you think about college, how worried are you about the following
+{txt}
+{com}. use `csac2024', clear 
+{txt}
+{com}. foreach q of local q58_subqs {c -(}
+{txt}  2{com}.     tab `q'
+{txt}  3{com}. {c )-}
+
+  {txt}Q58: worry about {c |}
+           college {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}        748        8.94        8.94
+{txt}  Somewhat worried {c |}{res}      3,659       43.72       52.65
+{txt}      Very worried {c |}{res}      3,963       47.35      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      8,370      100.00
+
+  {txt}Q58: worry about {c |}
+           college {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      1,385       16.57       16.57
+{txt}  Somewhat worried {c |}{res}      3,274       39.18       55.76
+{txt}      Very worried {c |}{res}      3,697       44.24      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      8,356      100.00
+
+  {txt}Q58: worry about {c |}
+           college {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      1,429       17.08       17.08
+{txt}  Somewhat worried {c |}{res}      4,146       49.55       66.62
+{txt}      Very worried {c |}{res}      2,793       33.38      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      8,368      100.00
+
+  {txt}Q58: worry about {c |}
+           college {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      1,140       13.63       13.63
+{txt}  Somewhat worried {c |}{res}      4,441       53.10       66.73
+{txt}      Very worried {c |}{res}      2,782       33.27      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      8,363      100.00
+
+  {txt}Q58: worry about {c |}
+           college {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      3,045       36.45       36.45
+{txt}  Somewhat worried {c |}{res}      3,792       45.39       81.83
+{txt}      Very worried {c |}{res}      1,518       18.17      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      8,355      100.00
+
+  {txt}Q58: worry about {c |}
+           college {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      2,391       28.63       28.63
+{txt}  Somewhat worried {c |}{res}      3,867       46.30       74.93
+{txt}      Very worried {c |}{res}      2,094       25.07      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      8,352      100.00
+
+  {txt}Q58: worry about {c |}
+           college {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      4,384       52.54       52.54
+{txt}  Somewhat worried {c |}{res}      2,805       33.62       86.16
+{txt}      Very worried {c |}{res}      1,155       13.84      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      8,344      100.00
+
+  {txt}Q58: worry about {c |}
+           college {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      2,859       34.30       34.30
+{txt}  Somewhat worried {c |}{res}      3,669       44.01       78.31
+{txt}      Very worried {c |}{res}      1,808       21.69      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      8,336      100.00
+{txt}
+{com}. 
+. di "2023: when you think about college, how worried are you about the following"
+{res}2023: when you think about college, how worried are you about the following
+{txt}
+{com}. use `csac2023', clear 
+{txt}(Fully cleaned CSAC 2023 HS senior survey data)
+
+{com}. tab worry_tuition 
+
+   {txt}how worried are {c |}
+         you about {c |}
+ affording tuition {c |}
+              fees {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}        895       11.25       11.25
+{txt}  Slightly worried {c |}{res}      2,067       25.98       37.23
+{txt}  Somewhat worried {c |}{res}      2,517       31.63       68.86
+{txt}      Very worried {c |}{res}      2,478       31.14      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      7,957      100.00
+{txt}
+{com}. tab worry_living 
+
+   {txt}how worried are {c |}
+  you about living {c |}
+          expenses {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      1,369       17.21       17.21
+{txt}  Slightly worried {c |}{res}      2,028       25.49       42.70
+{txt}  Somewhat worried {c |}{res}      2,367       29.75       72.45
+{txt}      Very worried {c |}{res}      2,192       27.55      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      7,956      100.00
+{txt}
+{com}. tab worry_academic
+
+   {txt}how worried are {c |}
+         you about {c |}
+   performing well {c |}
+      academically {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      1,342       16.86       16.86
+{txt}  Slightly worried {c |}{res}      2,784       34.98       51.85
+{txt}  Somewhat worried {c |}{res}      2,330       29.28       81.13
+{txt}      Very worried {c |}{res}      1,502       18.87      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      7,958      100.00
+{txt}
+{com}. tab worry_work 
+
+   {txt}how worried are {c |}
+         you about {c |}
+    balancing work {c |}
+       obligations {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      1,112       14.00       14.00
+{txt}  Slightly worried {c |}{res}      2,758       34.72       48.72
+{txt}  Somewhat worried {c |}{res}      2,613       32.90       81.62
+{txt}      Very worried {c |}{res}      1,460       18.38      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      7,943      100.00
+{txt}
+{com}. tab worry_family 
+
+   {txt}how worried are {c |}
+         you about {c |}
+  balancing family {c |}
+       obligations {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      2,913       36.68       36.68
+{txt}  Slightly worried {c |}{res}      2,519       31.72       68.40
+{txt}  Somewhat worried {c |}{res}      1,666       20.98       89.38
+{txt}      Very worried {c |}{res}        843       10.62      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      7,941      100.00
+{txt}
+{com}. tab worry_community 
+
+   {txt}how worried are {c |}
+ you about finding {c |}
+         community {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      2,123       26.76       26.76
+{txt}  Slightly worried {c |}{res}      2,477       31.22       57.98
+{txt}  Somewhat worried {c |}{res}      2,041       25.72       83.70
+{txt}      Very worried {c |}{res}      1,293       16.30      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      7,934      100.00
+{txt}
+{com}. tab worry_away 
+
+   {txt}how worried are {c |}
+  you about living {c |}
+    away from home {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      3,645       45.86       45.86
+{txt}  Slightly worried {c |}{res}      2,158       27.15       73.01
+{txt}  Somewhat worried {c |}{res}      1,374       17.29       90.30
+{txt}      Very worried {c |}{res}        771        9.70      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      7,948      100.00
+{txt}
+{com}. tab worry_support 
+
+ {txt}how worried about {c |}
+   having adequate {c |}
+       support for {c |}
+     emotional and {c |}
+     mental health {c |}
+             needs {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+Not at all worried {c |}{res}      2,620       32.98       32.98
+{txt}  Slightly worried {c |}{res}      2,619       32.97       65.95
+{txt}  Somewhat worried {c |}{res}      1,782       22.43       88.38
+{txt}      Very worried {c |}{res}        923       11.62      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}      7,944      100.00
+{txt}
+{com}. 
+. 
+. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/compare_2023.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}11 Dec 2024, 17:28:53
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

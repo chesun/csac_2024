@@ -3,7 +3,47 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_parent_edu.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 1 Oct 2024, 14:28:40
+ {txt}opened on:  {res}11 Dec 2024, 17:28:50
+hs_senior by parent_edu
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}    Q8:
+                      {c |} Graduated
+                      {c |}   HS in
+                      {c |} spring or
+                      {c |}   summer
+  Q73: highest parent {c |}    2024
+            education {c |}       Yes {c |}     Total
+{hline 22}{c +}{hline 11}{c +}{hline 10}
+           Don't know {c |}{res}       507 {txt}{c |}{res}       507 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+Did not complete high {c |}{res}     1,813 {txt}{c |}{res}     1,813 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+  High school diploma {c |}{res}     2,389 {txt}{c |}{res}     2,389 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+Some college, no coll {c |}{res}     1,133 {txt}{c |}{res}     1,133 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+     Associate degree {c |}{res}       452 {txt}{c |}{res}       452 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+    Bachelor's degree {c |}{res}     1,277 {txt}{c |}{res}     1,277 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+Graduate/Professional {c |}{res}     1,167 {txt}{c |}{res}     1,167 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+                Total {c |}{res}     8,738 {txt}{c |}{res}     8,738 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
 why_fafsa_requirement by parent_edu
 {txt}
 {c TLC}{hline 16}{c TRC}
@@ -13,9 +53,8 @@ why_fafsa_requirement by parent_edu
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                      {c |}      why fafsa:
-                      {c |}    requirement for
-  Q73: highest parent {c |}      graduation
+                      {c |} Q11: Requirement for
+  Q73: highest parent {c |}      Graduation
             education {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
            Don't know {c |}{res}       284        222 {txt}{c |}{res}       506 
@@ -50,8 +89,8 @@ why_fafsa_assignment by parent_edu
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                      {c |} why fafsa: assignment
-  Q73: highest parent {c |}       for class
+                      {c |}  Q11: Assignment for
+  Q73: highest parent {c |}         Class
             education {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
            Don't know {c |}{res}       467         39 {txt}{c |}{res}       506 
@@ -86,9 +125,9 @@ why_fafsa_eligible by parent_edu
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                      {c |}   why fafsa: check
-                      {c |}    eligibility for
-  Q73: highest parent {c |}     financial aid
+                      {c |}      Q11: Check
+                      {c |}    Eligibility for
+  Q73: highest parent {c |}     Financial Aid
             education {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
            Don't know {c |}{res}       208        298 {txt}{c |}{res}       506 
@@ -123,8 +162,8 @@ why_fafsa_expected by parent_edu
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                      {c |}  why fafsa: expected
-  Q73: highest parent {c |}       at school
+                      {c |}   Q11: Expected at
+  Q73: highest parent {c |}        School
             education {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
            Don't know {c |}{res}       395        111 {txt}{c |}{res}       506 
@@ -159,7 +198,7 @@ why_fafsa_other by parent_edu
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-  Q73: highest parent {c |}   why fafsa: other
+  Q73: highest parent {c |}      Q11: Other
             education {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
            Don't know {c |}{res}       462         44 {txt}{c |}{res}       506 
@@ -194,7 +233,7 @@ when_heard_fafsa by parent_edu
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                      {c |}   W12: When did you first hear
+                      {c |}   Q12: When did you first hear
   Q73: highest parent {c |}       about FAFSA or CADAA
             education {c |} Junior ye  Prior to   Senior ye {c |}     Total
 {hline 22}{c +}{hline 33}{c +}{hline 10}
@@ -5654,10 +5693,118 @@ Graduate/Professional {c |}{res}       326        252         39 {txt}{c |}{res}
 {txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
                 Total {c |}{res}     1,690      1,519        204 {txt}{c |}{res}     3,413 
                       {txt}{c |}{res}     49.52      44.51       5.98 {txt}{c |}{res}    100.00 
+home_lang_eng by parent_edu
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}    Q76: Is English
+                      {c |}  primary language at
+  Q73: highest parent {c |}         home
+            education {c |}        No        Yes {c |}     Total
+{hline 22}{c +}{hline 22}{c +}{hline 10}
+           Don't know {c |}{res}       298        209 {txt}{c |}{res}       507 
+                      {txt}{c |}{res}     58.78      41.22 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Did not complete high {c |}{res}     1,510        303 {txt}{c |}{res}     1,813 
+                      {txt}{c |}{res}     83.29      16.71 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+  High school diploma {c |}{res}     1,156      1,232 {txt}{c |}{res}     2,388 
+                      {txt}{c |}{res}     48.41      51.59 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Some college, no coll {c |}{res}       354        776 {txt}{c |}{res}     1,130 
+                      {txt}{c |}{res}     31.33      68.67 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+     Associate degree {c |}{res}       136        316 {txt}{c |}{res}       452 
+                      {txt}{c |}{res}     30.09      69.91 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+    Bachelor's degree {c |}{res}       293        982 {txt}{c |}{res}     1,275 
+                      {txt}{c |}{res}     22.98      77.02 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Graduate/Professional {c |}{res}       220        945 {txt}{c |}{res}     1,165 
+                      {txt}{c |}{res}     18.88      81.12 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Total {c |}{res}     3,967      4,763 {txt}{c |}{res}     8,730 
+                      {txt}{c |}{res}     45.44      54.56 {txt}{c |}{res}    100.00 
+has_job by parent_edu
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}  Q80: current has a
+  Q73: highest parent {c |}          job
+            education {c |}        No        Yes {c |}     Total
+{hline 22}{c +}{hline 22}{c +}{hline 10}
+           Don't know {c |}{res}       423         84 {txt}{c |}{res}       507 
+                      {txt}{c |}{res}     83.43      16.57 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Did not complete high {c |}{res}     1,423        389 {txt}{c |}{res}     1,812 
+                      {txt}{c |}{res}     78.53      21.47 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+  High school diploma {c |}{res}     1,816        569 {txt}{c |}{res}     2,385 
+                      {txt}{c |}{res}     76.14      23.86 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Some college, no coll {c |}{res}       846        285 {txt}{c |}{res}     1,131 
+                      {txt}{c |}{res}     74.80      25.20 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+     Associate degree {c |}{res}       328        124 {txt}{c |}{res}       452 
+                      {txt}{c |}{res}     72.57      27.43 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+    Bachelor's degree {c |}{res}       888        385 {txt}{c |}{res}     1,273 
+                      {txt}{c |}{res}     69.76      30.24 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Graduate/Professional {c |}{res}       763        401 {txt}{c |}{res}     1,164 
+                      {txt}{c |}{res}     65.55      34.45 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Total {c |}{res}     6,487      2,237 {txt}{c |}{res}     8,724 
+                      {txt}{c |}{res}     74.36      25.64 {txt}{c |}{res}    100.00 
+hours_perweek by parent_edu
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+  Q73: highest parent {c |}   Q81: how many hours a week do you work
+            education {c |}     10-19      20-30  Less than  More than {c |}     Total
+{hline 22}{c +}{hline 44}{c +}{hline 10}
+           Don't know {c |}{res}        28         22         31          2 {txt}{c |}{res}        83 
+                      {txt}{c |}{res}     33.73      26.51      37.35       2.41 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+Did not complete high {c |}{res}       145        104         99         39 {txt}{c |}{res}       387 
+                      {txt}{c |}{res}     37.47      26.87      25.58      10.08 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+  High school diploma {c |}{res}       230        143        141         55 {txt}{c |}{res}       569 
+                      {txt}{c |}{res}     40.42      25.13      24.78       9.67 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+Some college, no coll {c |}{res}       115         85         69         16 {txt}{c |}{res}       285 
+                      {txt}{c |}{res}     40.35      29.82      24.21       5.61 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+     Associate degree {c |}{res}        50         28         37          9 {txt}{c |}{res}       124 
+                      {txt}{c |}{res}     40.32      22.58      29.84       7.26 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+    Bachelor's degree {c |}{res}       159         77        128         20 {txt}{c |}{res}       384 
+                      {txt}{c |}{res}     41.41      20.05      33.33       5.21 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+Graduate/Professional {c |}{res}       157         55        160         29 {txt}{c |}{res}       401 
+                      {txt}{c |}{res}     39.15      13.72      39.90       7.23 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+                Total {c |}{res}       884        514        665        170 {txt}{c |}{res}     2,233 
+                      {txt}{c |}{res}     39.59      23.02      29.78       7.61 {txt}{c |}{res}    100.00 
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_parent_edu.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 1 Oct 2024, 14:28:40
+ {txt}closed on:  {res}11 Dec 2024, 17:28:50
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

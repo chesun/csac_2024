@@ -3,7 +3,50 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
 > questions_race_hrchy.smcl
   log type:  smcl
- opened on:   1 Oct 2024, 14:28:39
+ opened on:  11 Dec 2024, 17:28:49
+hs_senior by race_hrchy
+
++----------------+
+| Key            |
+|----------------|
+|   frequency    |
+| row percentage |
++----------------+
+
+                      |    Q8:
+                      | Graduated
+                      |   HS in
+                      | spring or
+   mutually exclusive |   summer
+    race based on URM |    2024
+            hierarchy |       Yes |     Total
+----------------------+-----------+----------
+American Indian/Alask |       204 |       204 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+                Black |       644 |       644 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+             Hispanic |     4,895 |     4,895 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+     Pacific Islander |        47 |        47 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+             Filipino |       291 |       291 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+                Asian |     1,109 |     1,109 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+           Other race |       211 |       211 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+   White/Non-Hispanic |     1,319 |     1,319 
+                      |    100.00 |    100.00 
+----------------------+-----------+----------
+                Total |     8,720 |     8,720 
+                      |    100.00 |    100.00 
 why_fafsa_requirement by race_hrchy
 
 +----------------+
@@ -13,9 +56,8 @@ why_fafsa_requirement by race_hrchy
 | row percentage |
 +----------------+
 
-                      |      why fafsa:
-   mutually exclusive |    requirement for
-    race based on URM |      graduation
+   mutually exclusive | Q11: Requirement for
+    race based on URM |      Graduation
             hierarchy |         0          1 |     Total
 ----------------------+----------------------+----------
 American Indian/Alask |       134         70 |       204 
@@ -53,8 +95,8 @@ why_fafsa_assignment by race_hrchy
 | row percentage |
 +----------------+
 
-   mutually exclusive | why fafsa: assignment
-    race based on URM |       for class
+   mutually exclusive |  Q11: Assignment for
+    race based on URM |         Class
             hierarchy |         0          1 |     Total
 ----------------------+----------------------+----------
 American Indian/Alask |       184         20 |       204 
@@ -92,9 +134,9 @@ why_fafsa_eligible by race_hrchy
 | row percentage |
 +----------------+
 
-                      |   why fafsa: check
-   mutually exclusive |    eligibility for
-    race based on URM |     financial aid
+                      |      Q11: Check
+   mutually exclusive |    Eligibility for
+    race based on URM |     Financial Aid
             hierarchy |         0          1 |     Total
 ----------------------+----------------------+----------
 American Indian/Alask |        71        133 |       204 
@@ -132,8 +174,8 @@ why_fafsa_expected by race_hrchy
 | row percentage |
 +----------------+
 
-   mutually exclusive |  why fafsa: expected
-    race based on URM |       at school
+   mutually exclusive |   Q11: Expected at
+    race based on URM |        School
             hierarchy |         0          1 |     Total
 ----------------------+----------------------+----------
 American Indian/Alask |       146         58 |       204 
@@ -172,7 +214,7 @@ why_fafsa_other by race_hrchy
 +----------------+
 
    mutually exclusive |
-    race based on URM |   why fafsa: other
+    race based on URM |      Q11: Other
             hierarchy |         0          1 |     Total
 ----------------------+----------------------+----------
 American Indian/Alask |       174         30 |       204 
@@ -210,7 +252,7 @@ when_heard_fafsa by race_hrchy
 | row percentage |
 +----------------+
 
-   mutually exclusive |   W12: When did you first hear
+   mutually exclusive |   Q12: When did you first hear
     race based on URM |       about FAFSA or CADAA
             hierarchy | Junior ye  Prior to   Senior ye |     Total
 ----------------------+---------------------------------+----------
@@ -6406,9 +6448,127 @@ American Indian/Alask |        37         36          7 |        80
 ----------------------+---------------------------------+----------
                 Total |     1,685      1,516        204 |     3,405 
                       |     49.49      44.52       5.99 |    100.00 
+home_lang_eng by race_hrchy
+
++----------------+
+| Key            |
+|----------------|
+|   frequency    |
+| row percentage |
++----------------+
+
+                      |    Q76: Is English
+   mutually exclusive |  primary language at
+    race based on URM |         home
+            hierarchy |        No        Yes |     Total
+----------------------+----------------------+----------
+American Indian/Alask |        22        180 |       202 
+                      |     10.89      89.11 |    100.00 
+----------------------+----------------------+----------
+                Black |        55        588 |       643 
+                      |      8.55      91.45 |    100.00 
+----------------------+----------------------+----------
+             Hispanic |     2,983      1,911 |     4,894 
+                      |     60.95      39.05 |    100.00 
+----------------------+----------------------+----------
+     Pacific Islander |         7         40 |        47 
+                      |     14.89      85.11 |    100.00 
+----------------------+----------------------+----------
+             Filipino |        81        210 |       291 
+                      |     27.84      72.16 |    100.00 
+----------------------+----------------------+----------
+                Asian |       604        503 |     1,107 
+                      |     54.56      45.44 |    100.00 
+----------------------+----------------------+----------
+           Other race |       104        106 |       210 
+                      |     49.52      50.48 |    100.00 
+----------------------+----------------------+----------
+   White/Non-Hispanic |       111      1,207 |     1,318 
+                      |      8.42      91.58 |    100.00 
+----------------------+----------------------+----------
+                Total |     3,967      4,745 |     8,712 
+                      |     45.53      54.47 |    100.00 
+has_job by race_hrchy
+
++----------------+
+| Key            |
+|----------------|
+|   frequency    |
+| row percentage |
++----------------+
+
+   mutually exclusive |  Q80: current has a
+    race based on URM |          job
+            hierarchy |        No        Yes |     Total
+----------------------+----------------------+----------
+American Indian/Alask |       135         67 |       202 
+                      |     66.83      33.17 |    100.00 
+----------------------+----------------------+----------
+                Black |       487        157 |       644 
+                      |     75.62      24.38 |    100.00 
+----------------------+----------------------+----------
+             Hispanic |     3,839      1,051 |     4,890 
+                      |     78.51      21.49 |    100.00 
+----------------------+----------------------+----------
+     Pacific Islander |        37         10 |        47 
+                      |     78.72      21.28 |    100.00 
+----------------------+----------------------+----------
+             Filipino |       220         71 |       291 
+                      |     75.60      24.40 |    100.00 
+----------------------+----------------------+----------
+                Asian |       847        259 |     1,106 
+                      |     76.58      23.42 |    100.00 
+----------------------+----------------------+----------
+           Other race |       150         59 |       209 
+                      |     71.77      28.23 |    100.00 
+----------------------+----------------------+----------
+   White/Non-Hispanic |       760        557 |     1,317 
+                      |     57.71      42.29 |    100.00 
+----------------------+----------------------+----------
+                Total |     6,475      2,231 |     8,706 
+                      |     74.37      25.63 |    100.00 
+hours_perweek by race_hrchy
+
++----------------+
+| Key            |
+|----------------|
+|   frequency    |
+| row percentage |
++----------------+
+
+   mutually exclusive |
+    race based on URM |   Q81: how many hours a week do you work
+            hierarchy |     10-19      20-30  Less than  More than |     Total
+----------------------+--------------------------------------------+----------
+American Indian/Alask |        23         22         15          7 |        67 
+                      |     34.33      32.84      22.39      10.45 |    100.00 
+----------------------+--------------------------------------------+----------
+                Black |        69         29         47         11 |       156 
+                      |     44.23      18.59      30.13       7.05 |    100.00 
+----------------------+--------------------------------------------+----------
+             Hispanic |       389        287        274         98 |     1,048 
+                      |     37.12      27.39      26.15       9.35 |    100.00 
+----------------------+--------------------------------------------+----------
+     Pacific Islander |         5          2          2          1 |        10 
+                      |     50.00      20.00      20.00      10.00 |    100.00 
+----------------------+--------------------------------------------+----------
+             Filipino |        30         16         23          2 |        71 
+                      |     42.25      22.54      32.39       2.82 |    100.00 
+----------------------+--------------------------------------------+----------
+                Asian |       111         36        104          8 |       259 
+                      |     42.86      13.90      40.15       3.09 |    100.00 
+----------------------+--------------------------------------------+----------
+           Other race |        20         12         23          4 |        59 
+                      |     33.90      20.34      38.98       6.78 |    100.00 
+----------------------+--------------------------------------------+----------
+   White/Non-Hispanic |       235        110        173         39 |       557 
+                      |     42.19      19.75      31.06       7.00 |    100.00 
+----------------------+--------------------------------------------+----------
+                Total |       882        514        661        170 |     2,227 
+                      |     39.60      23.08      29.68       7.63 |    100.00 
       name:  <unnamed>
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
 > questions_race_hrchy.smcl
   log type:  smcl
- closed on:   1 Oct 2024, 14:28:39
+ closed on:  11 Dec 2024, 17:28:49
 -------------------------------------------------------------------------------

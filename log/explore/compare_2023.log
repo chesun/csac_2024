@@ -1,0 +1,1361 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/comp
+> are_2023.smcl
+  log type:  smcl
+ opened on:  11 Dec 2024, 17:28:52
+
+. 
+. use $projdir/dta/csac_2024_initial_clean.dta, clear 
+
+. tempfile csac2024 
+
+. save `csac2024', replace 
+(file /home/tmp/St30105.000001 not found)
+file /home/tmp/St30105.000001 saved as .dta format
+
+. 
+. use "$csac2023projdir/dta/cln/csac_hs_senior_2023_brief.dta", clear 
+(Fully cleaned CSAC 2023 HS senior survey data)
+
+. tempfile csac2023
+
+. save `csac2023', replace 
+(file /home/tmp/St30105.000002 not found)
+file /home/tmp/St30105.000002 saved as .dta format
+
+. 
+. //why did you complete FAFSA
+. 
+. 
+. di "2024:why did you complete FAFSA"
+2024:why did you complete FAFSA
+
+. use `csac2024', clear 
+
+. tab why_fafsa_requirement
+
+       Q11: |
+Requirement |
+        for |
+ Graduation |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      6,760       60.15       60.15
+          1 |      4,478       39.85      100.00
+------------+-----------------------------------
+      Total |     11,238      100.00
+
+. tab why_fafsa_assignment
+
+       Q11: |
+ Assignment |
+  for Class |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,358       92.17       92.17
+          1 |        880        7.83      100.00
+------------+-----------------------------------
+      Total |     11,238      100.00
+
+. tab why_fafsa_eligible
+
+ Q11: Check |
+Eligibility |
+        for |
+  Financial |
+        Aid |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      4,229       37.63       37.63
+          1 |      7,009       62.37      100.00
+------------+-----------------------------------
+      Total |     11,238      100.00
+
+. tab why_fafsa_expected
+
+       Q11: |
+Expected at |
+     School |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,320       74.03       74.03
+          1 |      2,918       25.97      100.00
+------------+-----------------------------------
+      Total |     11,238      100.00
+
+. tab why_fafsa_other
+
+ Q11: Other |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,502       93.45       93.45
+          1 |        736        6.55      100.00
+------------+-----------------------------------
+      Total |     11,238      100.00
+
+. 
+. 
+. di "2023: were you required by your high school to fill out FAFSA"
+2023: were you required by your high school to fill out FAFSA
+
+. use `csac2023', clear 
+(Fully cleaned CSAC 2023 HS senior survey data)
+
+. tab hs_req_fafsa
+
+did your hs |
+    require |
+FAFSA/CADAA |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         No |      1,906       19.32       19.32
+        Yes |      7,957       80.68      100.00
+------------+-----------------------------------
+      Total |      9,863      100.00
+
+. 
+. 
+. // support for FAFSA
+. 
+. di "2024: support you received in completing FAFSA"
+2024: support you received in completing FAFSA
+
+. use `csac2024', clear 
+
+. tab support_received_counselor
+
+  Q16 FAFSA |
+support: HS |
+  counselor |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      5,845       54.46       54.46
+          1 |      4,888       45.54      100.00
+------------+-----------------------------------
+      Total |     10,733      100.00
+
+. tab support_received_teacher
+
+  Q16 FAFSA |
+   support: |
+    teacher |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,356       77.85       77.85
+          1 |      2,377       22.15      100.00
+------------+-----------------------------------
+      Total |     10,733      100.00
+
+. tab support_received_hsworkshop
+
+  Q16 FAFSA |
+support: HS |
+   workshop |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,908       73.68       73.68
+          1 |      2,825       26.32      100.00
+------------+-----------------------------------
+      Total |     10,733      100.00
+
+. tab support_received_cmworkshop
+
+  Q16 FAFSA |
+   support: |
+  community |
+   workshop |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     10,080       93.92       93.92
+          1 |        653        6.08      100.00
+------------+-----------------------------------
+      Total |     10,733      100.00
+
+. tab support_received_parent
+
+  Q16 FAFSA |
+   support: |
+     parent |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      6,081       56.66       56.66
+          1 |      4,652       43.34      100.00
+------------+-----------------------------------
+      Total |     10,733      100.00
+
+. tab support_received_family
+
+  Q16 FAFSA |
+   support: |
+     family |
+ other than |
+     parent |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,047       84.29       84.29
+          1 |      1,686       15.71      100.00
+------------+-----------------------------------
+      Total |     10,733      100.00
+
+. tab support_received_friend
+
+  Q16 FAFSA |
+   support: |
+     friend |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,591       89.36       89.36
+          1 |      1,142       10.64      100.00
+------------+-----------------------------------
+      Total |     10,733      100.00
+
+. tab support_received_online
+
+  Q16 FAFSA |
+   support: |
+     Online |
+  resources |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,374       87.34       87.34
+          1 |      1,359       12.66      100.00
+------------+-----------------------------------
+      Total |     10,733      100.00
+
+. tab support_received_nobody
+
+  Q16 FAFSA |
+   support: |
+    Nobody, |
+  completed |
+  on my own |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,869       91.95       91.95
+          1 |        864        8.05      100.00
+------------+-----------------------------------
+      Total |     10,733      100.00
+
+. 
+. di "2023: support you received in completin FAFSA"
+2023: support you received in completin FAFSA
+
+. use `csac2023', clear 
+(Fully cleaned CSAC 2023 HS senior survey data)
+
+. tab fafsa_support_icounselor
+
+   selected |
+      'High |
+     school |
+ counselor' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      5,380       55.44       55.44
+          1 |      4,324       44.56      100.00
+------------+-----------------------------------
+      Total |      9,704      100.00
+
+. tab fafsa_support_iteacher
+
+   selected |
+  'Teacher' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,541       77.71       77.71
+          1 |      2,163       22.29      100.00
+------------+-----------------------------------
+      Total |      9,704      100.00
+
+. tab fafsa_support_ihsworkshop
+
+   selected |
+     'FAFSA |
+workshop or |
+training at |
+  your high |
+    school' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      6,834       70.42       70.42
+          1 |      2,870       29.58      100.00
+------------+-----------------------------------
+      Total |      9,704      100.00
+
+. tab fafsa_support_icmworkshop
+
+   selected |
+     'FAFSA |
+training at |
+  community |
+   location |
+ outside of |
+  your high |
+    school' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      9,135       94.14       94.14
+          1 |        569        5.86      100.00
+------------+-----------------------------------
+      Total |      9,704      100.00
+
+. tab fafsa_support_iparent
+
+   selected |
+   'Parent' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      4,951       51.02       51.02
+          1 |      4,753       48.98      100.00
+------------+-----------------------------------
+      Total |      9,704      100.00
+
+. tab fafsa_support_ifamily
+
+   selected |
+    'Family |
+     member |
+ other than |
+    parent' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,350       86.05       86.05
+          1 |      1,354       13.95      100.00
+------------+-----------------------------------
+      Total |      9,704      100.00
+
+. tab fafsa_support_ifriend
+
+   selected |
+   'Friend' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,774       90.42       90.42
+          1 |        930        9.58      100.00
+------------+-----------------------------------
+      Total |      9,704      100.00
+
+. tab fafsa_support_inobody
+
+   selected |
+ 'Nobody (I |
+  completed |
+   it on my |
+      own)' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,691       89.56       89.56
+          1 |      1,013       10.44      100.00
+------------+-----------------------------------
+      Total |      9,704      100.00
+
+. 
+. // do you plan to attend college this fall
+. di "2024: do you plan to attend college this fall"
+2024: do you plan to attend college this fall
+
+. use `csac2024', clear 
+
+. tab attend_coll
+
+Q27: plan to |
+      attend |
+  college in |
+    the fall |      Freq.     Percent        Cum.
+-------------+-----------------------------------
+I don't know |        417        4.16        4.16
+          No |        164        1.64        5.79
+         Yes |      9,448       94.21      100.00
+-------------+-----------------------------------
+       Total |     10,029      100.00
+
+. 
+. di "2023: do you plan to attend college this fall"
+2023: do you plan to attend college this fall
+
+. use `csac2023', clear 
+(Fully cleaned CSAC 2023 HS senior survey data)
+
+. tab college_fall 
+
+ do you plan |
+   to attend |
+  college in |
+    the fall |      Freq.     Percent        Cum.
+-------------+-----------------------------------
+          No |        170        1.75        1.75
+         Yes |      9,230       95.21       96.97
+I don't know |        294        3.03      100.00
+-------------+-----------------------------------
+       Total |      9,694      100.00
+
+. 
+. // what do you think you will be doing this fall
+. di "2024: why do you think you will be doing this fall"
+2024: why do you think you will be doing this fall
+
+. use `csac2024', clear 
+
+. tab fall_plan_workpt
+
+  Q29: work |
+  part time |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |         72       49.32       49.32
+          1 |         74       50.68      100.00
+------------+-----------------------------------
+      Total |        146      100.00
+
+. tab fall_plan_workft
+
+  Q29: work |
+  full time |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |        109       74.66       74.66
+          1 |         37       25.34      100.00
+------------+-----------------------------------
+      Total |        146      100.00
+
+. tab fall_plan_family
+
+Q29: family |
+obligations |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |        125       85.62       85.62
+          1 |         21       14.38      100.00
+------------+-----------------------------------
+      Total |        146      100.00
+
+. tab fall_plan_military
+
+       Q29: |
+   military |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |        128       87.67       87.67
+          1 |         18       12.33      100.00
+------------+-----------------------------------
+      Total |        146      100.00
+
+. tab fall_plan_other
+
+ Q29: other |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |        111       76.03       76.03
+          1 |         35       23.97      100.00
+------------+-----------------------------------
+      Total |        146      100.00
+
+. 
+. di "2023: what do you think you will be doing this fall"
+2023: what do you think you will be doing this fall
+
+. use `csac2023', clear 
+(Fully cleaned CSAC 2023 HS senior survey data)
+
+. tab fall_plan_iworkpt
+
+   selected |
+      'Work |
+ part-time' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |         85       57.82       57.82
+          1 |         62       42.18      100.00
+------------+-----------------------------------
+      Total |        147      100.00
+
+. tab fall_plan_iworkft
+
+   selected |
+      'Work |
+ full-time' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |         93       63.27       63.27
+          1 |         54       36.73      100.00
+------------+-----------------------------------
+      Total |        147      100.00
+
+. tab fall_plan_ifamily
+
+   selected |
+    'Family |
+obligations |
+          ' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |        122       82.99       82.99
+          1 |         25       17.01      100.00
+------------+-----------------------------------
+      Total |        147      100.00
+
+. tab fall_plan_imilitary
+
+   selected |
+ 'Military' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |        119       80.95       80.95
+          1 |         28       19.05      100.00
+------------+-----------------------------------
+      Total |        147      100.00
+
+. 
+. 
+. 
+. 
+. 
+. 
+. di "2024: which of the following might influence your decision of whether or 
+> not to attend college"
+2024: which of the following might influence your decision of whether or not to
+>  attend college
+
+. use `csac2024', clear 
+
+. tab coll_decision_financial
+
+       Q32: |
+  financial |
+    support |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |         97       23.89       23.89
+          1 |        309       76.11      100.00
+------------+-----------------------------------
+      Total |        406      100.00
+
+. tab coll_decision_academic
+
+       Q32: |
+   academic |
+    support |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |        270       66.50       66.50
+          1 |        136       33.50      100.00
+------------+-----------------------------------
+      Total |        406      100.00
+
+. tab coll_decision_family
+
+Q32: family |
+   or other |
+    support |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |        238       58.62       58.62
+          1 |        168       41.38      100.00
+------------+-----------------------------------
+      Total |        406      100.00
+
+. 
+. di "2023: which of the following might influence your decision of whether or 
+> not to attend college"
+2023: which of the following might influence your decision of whether or not to
+>  attend college
+
+. use `csac2023', clear 
+(Fully cleaned CSAC 2023 HS senior survey data)
+
+. tab inf_no_college_ifinancial
+
+   selected |
+ 'Financial |
+   support' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |         69       24.21       24.21
+          1 |        216       75.79      100.00
+------------+-----------------------------------
+      Total |        285      100.00
+
+. tab inf_no_college_iacademic
+
+   selected |
+  'Academic |
+   support' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |        191       67.02       67.02
+          1 |         94       32.98      100.00
+------------+-----------------------------------
+      Total |        285      100.00
+
+. tab inf_no_college_ifam_other
+
+   selected |
+ 'Family or |
+      other |
+   support' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |        178       62.46       62.46
+          1 |        107       37.54      100.00
+------------+-----------------------------------
+      Total |        285      100.00
+
+. 
+. 
+. 
+. di "2024: where are you most likely to attend college"
+2024: where are you most likely to attend college
+
+. use `csac2024', clear 
+
+. tab where_attend_coll
+
+   Q34: where |
+      are you |
+mostly likely |
+    to attend |
+ college this |
+         fall |      Freq.     Percent        Cum.
+--------------+-----------------------------------
+          CCC |      4,325       45.93       45.93
+          CSU |      1,987       21.10       67.03
+           UC |        519        5.51       72.55
+     Priv 4yr |        318        3.38       75.92
+   Vocational |        159        1.69       77.61
+   Outside CA |        420        4.46       82.07
+None of these |      1,533       16.28       98.35
+     Not sure |        155        1.65      100.00
+--------------+-----------------------------------
+        Total |      9,416      100.00
+
+. 
+. di "2023: where do you plan to attend college this fall"
+2023: where do you plan to attend college this fall
+
+. use `csac2023', clear 
+(Fully cleaned CSAC 2023 HS senior survey data)
+
+. tab where_college 
+
+    where do you plan to attend college |
+                              this fall |      Freq.     Percent        Cum.
+----------------------------------------+-----------------------------------
+     California Community College (CCC) |      3,526       38.44       38.44
+      California State University (CSU) |      2,036       22.20       60.64
+          University of California (UC) |      1,973       21.51       82.15
+Private four-year college/university in |        514        5.60       87.76
+Vocational, technical, or career colleg |        193        2.10       89.86
+          College outside of California |        930       10.14      100.00
+----------------------------------------+-----------------------------------
+                                  Total |      9,172      100.00
+
+. 
+. 
+. 
+. di "2024: have any of the colleges contacted you about your financial aid"
+2024: have any of the colleges contacted you about your financial aid
+
+. use `csac2024', clear 
+
+. tab coll_contact
+
+   Q40: has |
+any college |
+  contacted |
+  you about |
+     finaid |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        All |      2,630       28.28       28.28
+       None |      2,806       30.18       58.46
+       Some |      3,863       41.54      100.00
+------------+-----------------------------------
+      Total |      9,299      100.00
+
+. 
+. di "2023: have any of the colleges contacted you about your financial aid"
+2023: have any of the colleges contacted you about your financial aid
+
+. use `csac2023', clear 
+(Fully cleaned CSAC 2023 HS senior survey data)
+
+. tab college_contact
+
+   has your |
+    college |
+  contacted |
+  you about |
+    fin aid |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         No |      2,363       25.91       25.91
+        Yes |      6,757       74.09      100.00
+------------+-----------------------------------
+      Total |      9,120      100.00
+
+. 
+. 
+. 
+. di "2024: what did the colleges contact you about regarding your financial ai
+> d offer"
+2024: what did the colleges contact you about regarding your financial aid offe
+> r
+
+. use `csac2024', clear 
+
+. tab coll_contact_subject_doc
+
+       Q42: |
+FAFSA/CADAA |
+verificatio |
+       n or |
+ additional |
+documentati |
+         on |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      2,494       39.43       39.43
+          1 |      3,831       60.57      100.00
+------------+-----------------------------------
+      Total |      6,325      100.00
+
+. tab coll_contact_subject_work
+
+       Q42: |
+eligibility |
+   for work |
+      study |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      4,522       71.49       71.49
+          1 |      1,803       28.51      100.00
+------------+-----------------------------------
+      Total |      6,325      100.00
+
+. tab coll_contact_subject_grant
+
+Q42: grants |
+         or |
+scholarship |
+          s |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      2,590       40.95       40.95
+          1 |      3,735       59.05      100.00
+------------+-----------------------------------
+      Total |      6,325      100.00
+
+. tab coll_contact_subject_loan
+
+       Q42: |
+information |
+about loans |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      3,610       57.08       57.08
+          1 |      2,715       42.92      100.00
+------------+-----------------------------------
+      Total |      6,325      100.00
+
+. 
+. di "2023: what did the colleges contact you about regarding your financial ai
+> d offer"
+2023: what did the colleges contact you about regarding your financial aid offe
+> r
+
+. use `csac2023', clear 
+(Fully cleaned CSAC 2023 HS senior survey data)
+
+. tab college_contact_iverification
+
+   selected |
+'FAFSA/CADA |
+          A |
+verificatio |
+          n |
+(additional |
+documentati |
+  on needed |
+ to process |
+          f |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      2,843       44.80       44.80
+          1 |      3,503       55.20      100.00
+------------+-----------------------------------
+      Total |      6,346      100.00
+
+. tab college_contact_ifaoffer
+
+   selected |
+ 'Financial |
+        aid |
+offer/award |
+    letter' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      1,811       28.54       28.54
+          1 |      4,535       71.46      100.00
+------------+-----------------------------------
+      Total |      6,346      100.00
+
+. tab college_contact_iworkstudy
+
+   selected |
+'Eligibilit |
+ y for work |
+     study' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      4,514       71.13       71.13
+          1 |      1,832       28.87      100.00
+------------+-----------------------------------
+      Total |      6,346      100.00
+
+. tab college_contact_iloans
+
+   selected |
+'Informatio |
+    n about |
+     loans' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      3,624       57.11       57.11
+          1 |      2,722       42.89      100.00
+------------+-----------------------------------
+      Total |      6,346      100.00
+
+. 
+. 
+. 
+. di "2024: how do you plan to pay for college"
+2024: how do you plan to pay for college
+
+. use `csac2024', clear 
+
+. tab pay_plan_scholarship
+
+       Q54: |
+scholarship |
+          s |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      4,268       50.47       50.47
+          1 |      4,188       49.53      100.00
+------------+-----------------------------------
+      Total |      8,456      100.00
+
+. tab pay_plan_grant
+
+Q54: grants |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      4,037       47.74       47.74
+          1 |      4,419       52.26      100.00
+------------+-----------------------------------
+      Total |      8,456      100.00
+
+. tab pay_plan_saving
+
+Q54: my own |
+    savings |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      5,568       65.85       65.85
+          1 |      2,888       34.15      100.00
+------------+-----------------------------------
+      Total |      8,456      100.00
+
+. tab pay_plan_work
+
+       Q54: |
+    working |
+      while |
+   enrolled |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      3,500       41.39       41.39
+          1 |      4,956       58.61      100.00
+------------+-----------------------------------
+      Total |      8,456      100.00
+
+. tab pay_plan_otherppl
+
+ Q54: money |
+ from other |
+     people |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      4,984       58.94       58.94
+          1 |      3,472       41.06      100.00
+------------+-----------------------------------
+      Total |      8,456      100.00
+
+. tab pay_plan_loan
+
+       Q54: |
+    student |
+      loans |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      5,770       68.24       68.24
+          1 |      2,686       31.76      100.00
+------------+-----------------------------------
+      Total |      8,456      100.00
+
+. tab pay_plan_va
+
+       Q54: |
+military/VA |
+   benefits |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,232       97.35       97.35
+          1 |        224        2.65      100.00
+------------+-----------------------------------
+      Total |      8,456      100.00
+
+. tab pay_plan_credit
+
+Q54: credit |
+      cards |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,027       94.93       94.93
+          1 |        429        5.07      100.00
+------------+-----------------------------------
+      Total |      8,456      100.00
+
+. 
+. di "2023: how do you plan to pay for college"
+2023: how do you plan to pay for college
+
+. use `csac2023', clear 
+(Fully cleaned CSAC 2023 HS senior survey data)
+
+. tab pay_plan_ischolarships
+
+   selected |
+'Scholarshi |
+        ps' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      4,289       49.22       49.22
+          1 |      4,425       50.78      100.00
+------------+-----------------------------------
+      Total |      8,714      100.00
+
+. tab pay_plan_igrants
+
+   selected |
+    'Grants |
+(e.g., Pell |
+ Grant, Cal |
+    Grant)' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      4,340       49.80       49.80
+          1 |      4,374       50.20      100.00
+------------+-----------------------------------
+      Total |      8,714      100.00
+
+. tab pay_plan_isavings
+
+   selected |
+    'My own |
+   savings' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      5,650       64.84       64.84
+          1 |      3,064       35.16      100.00
+------------+-----------------------------------
+      Total |      8,714      100.00
+
+. tab pay_plan_iworking
+
+   selected |
+   'Working |
+      while |
+  enrolled' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      4,053       46.51       46.51
+          1 |      4,661       53.49      100.00
+------------+-----------------------------------
+      Total |      8,714      100.00
+
+. tab pay_plan_ipeople
+
+   selected |
+'Money from |
+      other |
+    people' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      4,897       56.20       56.20
+          1 |      3,817       43.80      100.00
+------------+-----------------------------------
+      Total |      8,714      100.00
+
+. tab pay_plan_iloans
+
+   selected |
+   'Student |
+     loans' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      5,848       67.11       67.11
+          1 |      2,866       32.89      100.00
+------------+-----------------------------------
+      Total |      8,714      100.00
+
+. tab pay_plan_imilitary
+
+   selected |
+'Military/V |
+A benefits' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,487       97.39       97.39
+          1 |        227        2.61      100.00
+------------+-----------------------------------
+      Total |      8,714      100.00
+
+. tab pay_plan_icredit
+
+   selected |
+    'Credit |
+   card(s)' |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      8,325       95.54       95.54
+          1 |        389        4.46      100.00
+------------+-----------------------------------
+      Total |      8,714      100.00
+
+. 
+. 
+. di "2024: what are you most likely to study in college"
+2024: what are you most likely to study in college
+
+. use `csac2024', clear 
+
+. tab major_business
+
+       Q55: |
+   Business |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,211       85.39       85.39
+          1 |      1,234       14.61      100.00
+------------+-----------------------------------
+      Total |      8,445      100.00
+
+. tab major_engineering
+
+       Q55: |
+Engineering |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,071       83.73       83.73
+          1 |      1,374       16.27      100.00
+------------+-----------------------------------
+      Total |      8,445      100.00
+
+. tab major_science
+
+       Q55: |
+    Natural |
+    Scinces |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      6,733       79.73       79.73
+          1 |      1,712       20.27      100.00
+------------+-----------------------------------
+      Total |      8,445      100.00
+
+. tab major_social
+
+Q55: Social |
+   Sciences |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,146       84.62       84.62
+          1 |      1,299       15.38      100.00
+------------+-----------------------------------
+      Total |      8,445      100.00
+
+. tab major_humanity
+
+       Q55: |
+ Humanities |
+   and Arts |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,319       86.67       86.67
+          1 |      1,126       13.33      100.00
+------------+-----------------------------------
+      Total |      8,445      100.00
+
+. tab major_health
+
+Q55: Health |
+   Sciences |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      6,607       78.24       78.24
+          1 |      1,838       21.76      100.00
+------------+-----------------------------------
+      Total |      8,445      100.00
+
+. tab major_education
+
+       Q55: |
+  Education |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,830       92.72       92.72
+          1 |        615        7.28      100.00
+------------+-----------------------------------
+      Total |      8,445      100.00
+
+. tab major_applied
+
+       Q55: |
+    Applied |
+   Sciences |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,998       94.71       94.71
+          1 |        447        5.29      100.00
+------------+-----------------------------------
+      Total |      8,445      100.00
+
+. tab major_service
+
+Q55: Public |
+    Service |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,785       92.18       92.18
+          1 |        660        7.82      100.00
+------------+-----------------------------------
+      Total |      8,445      100.00
+
+. tab major_undecided
+
+       Q55: |
+  Undecided |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      7,735       91.59       91.59
+          1 |        710        8.41      100.00
+------------+-----------------------------------
+      Total |      8,445      100.00
+
+. 
+. 
+. di "2023: what are you most likely to study in college"
+2023: what are you most likely to study in college
+
+. use `csac2023', clear 
+(Fully cleaned CSAC 2023 HS senior survey data)
+
+. tab major 
+
+   what are you most likely to study in |
+                                college |      Freq.     Percent        Cum.
+----------------------------------------+-----------------------------------
+                               Business |        908       10.30       10.30
+                            Engineering |      1,409       15.98       26.28
+Natural sciences (e.g., biology, chemis |      1,386       15.72       42.01
+Social sciences (e.g., psychology, soci |      1,083       12.29       54.29
+Humanities & Arts (e.g., English, Histo |        979       11.11       65.40
+                        Health sciences |      1,320       14.97       80.37
+                              Education |        322        3.65       84.03
+Applied sciences (e.g., automotive repa |        291        3.30       87.33
+Public service (e.g., criminal justice, |        420        4.76       92.09
+                              Undecided |        697        7.91      100.00
+----------------------------------------+-----------------------------------
+                                  Total |      8,815      100.00
+
+. 
+. 
+. di "2024: highest degree you hope to earn"
+2024: highest degree you hope to earn
+
+. use `csac2024', clear 
+
+. tab highest_degree
+
+   Q56: highest degree you hope to earn |      Freq.     Percent        Cum.
+----------------------------------------+-----------------------------------
+Get a certificate in a vocational or te |        250        2.95        2.95
+          Associate degree  (AA/AS/ADT) |        614        7.23       10.18
+Doctoral Degree (Ph.D., M.D., J.D., etc |      1,684       19.84       30.02
+                             I'm unsure |      1,225       14.43       44.46
+            Bachelorâs Degree (BA/BS) |      2,600       30.64       75.09
+              Masterâs Degree (MA/MS) |      2,114       24.91      100.00
+----------------------------------------+-----------------------------------
+                                  Total |      8,487      100.00
+
+. 
+. di "2023: highest degree you hope to earn"
+2023: highest degree you hope to earn
+
+. use `csac2023', clear 
+(Fully cleaned CSAC 2023 HS senior survey data)
+
+. tab highest_degree
+
+ what is the highest degree you hope to |
+                               complete |      Freq.     Percent        Cum.
+----------------------------------------+-----------------------------------
+Get a certificate in a vocational or te |        284        3.48        3.48
+          Associate degree  (AA/AS/ADT) |        540        6.61       10.09
+              Bachelor’s Degree (BA/BS) |      2,860       35.02       45.11
+                Master’s Degree (MA/MS) |      2,659       32.56       77.68
+Doctoral Degree (Ph.D., M.D., J.D., etc |      1,823       22.32      100.00
+----------------------------------------+-----------------------------------
+                                  Total |      8,166      100.00
+
+. 
+. 
+. 
+. di "2024: when you think about college, how worried are you about the followi
+> ng"
+2024: when you think about college, how worried are you about the following
+
+. use `csac2024', clear 
+
+. foreach q of local q58_subqs {
+  2.     tab `q'
+  3. }
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |        748        8.94        8.94
+  Somewhat worried |      3,659       43.72       52.65
+      Very worried |      3,963       47.35      100.00
+-------------------+-----------------------------------
+             Total |      8,370      100.00
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      1,385       16.57       16.57
+  Somewhat worried |      3,274       39.18       55.76
+      Very worried |      3,697       44.24      100.00
+-------------------+-----------------------------------
+             Total |      8,356      100.00
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      1,429       17.08       17.08
+  Somewhat worried |      4,146       49.55       66.62
+      Very worried |      2,793       33.38      100.00
+-------------------+-----------------------------------
+             Total |      8,368      100.00
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      1,140       13.63       13.63
+  Somewhat worried |      4,441       53.10       66.73
+      Very worried |      2,782       33.27      100.00
+-------------------+-----------------------------------
+             Total |      8,363      100.00
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      3,045       36.45       36.45
+  Somewhat worried |      3,792       45.39       81.83
+      Very worried |      1,518       18.17      100.00
+-------------------+-----------------------------------
+             Total |      8,355      100.00
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      2,391       28.63       28.63
+  Somewhat worried |      3,867       46.30       74.93
+      Very worried |      2,094       25.07      100.00
+-------------------+-----------------------------------
+             Total |      8,352      100.00
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      4,384       52.54       52.54
+  Somewhat worried |      2,805       33.62       86.16
+      Very worried |      1,155       13.84      100.00
+-------------------+-----------------------------------
+             Total |      8,344      100.00
+
+  Q58: worry about |
+           college |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      2,859       34.30       34.30
+  Somewhat worried |      3,669       44.01       78.31
+      Very worried |      1,808       21.69      100.00
+-------------------+-----------------------------------
+             Total |      8,336      100.00
+
+. 
+. di "2023: when you think about college, how worried are you about the followi
+> ng"
+2023: when you think about college, how worried are you about the following
+
+. use `csac2023', clear 
+(Fully cleaned CSAC 2023 HS senior survey data)
+
+. tab worry_tuition 
+
+   how worried are |
+         you about |
+ affording tuition |
+              fees |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |        895       11.25       11.25
+  Slightly worried |      2,067       25.98       37.23
+  Somewhat worried |      2,517       31.63       68.86
+      Very worried |      2,478       31.14      100.00
+-------------------+-----------------------------------
+             Total |      7,957      100.00
+
+. tab worry_living 
+
+   how worried are |
+  you about living |
+          expenses |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      1,369       17.21       17.21
+  Slightly worried |      2,028       25.49       42.70
+  Somewhat worried |      2,367       29.75       72.45
+      Very worried |      2,192       27.55      100.00
+-------------------+-----------------------------------
+             Total |      7,956      100.00
+
+. tab worry_academic
+
+   how worried are |
+         you about |
+   performing well |
+      academically |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      1,342       16.86       16.86
+  Slightly worried |      2,784       34.98       51.85
+  Somewhat worried |      2,330       29.28       81.13
+      Very worried |      1,502       18.87      100.00
+-------------------+-----------------------------------
+             Total |      7,958      100.00
+
+. tab worry_work 
+
+   how worried are |
+         you about |
+    balancing work |
+       obligations |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      1,112       14.00       14.00
+  Slightly worried |      2,758       34.72       48.72
+  Somewhat worried |      2,613       32.90       81.62
+      Very worried |      1,460       18.38      100.00
+-------------------+-----------------------------------
+             Total |      7,943      100.00
+
+. tab worry_family 
+
+   how worried are |
+         you about |
+  balancing family |
+       obligations |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      2,913       36.68       36.68
+  Slightly worried |      2,519       31.72       68.40
+  Somewhat worried |      1,666       20.98       89.38
+      Very worried |        843       10.62      100.00
+-------------------+-----------------------------------
+             Total |      7,941      100.00
+
+. tab worry_community 
+
+   how worried are |
+ you about finding |
+         community |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      2,123       26.76       26.76
+  Slightly worried |      2,477       31.22       57.98
+  Somewhat worried |      2,041       25.72       83.70
+      Very worried |      1,293       16.30      100.00
+-------------------+-----------------------------------
+             Total |      7,934      100.00
+
+. tab worry_away 
+
+   how worried are |
+  you about living |
+    away from home |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      3,645       45.86       45.86
+  Slightly worried |      2,158       27.15       73.01
+  Somewhat worried |      1,374       17.29       90.30
+      Very worried |        771        9.70      100.00
+-------------------+-----------------------------------
+             Total |      7,948      100.00
+
+. tab worry_support 
+
+ how worried about |
+   having adequate |
+       support for |
+     emotional and |
+     mental health |
+             needs |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+Not at all worried |      2,620       32.98       32.98
+  Slightly worried |      2,619       32.97       65.95
+  Somewhat worried |      1,782       22.43       88.38
+      Very worried |        923       11.62      100.00
+-------------------+-----------------------------------
+             Total |      7,944      100.00
+
+. 
+. 
+. log close
+      name:  <unnamed>
+       log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/comp
+> are_2023.smcl
+  log type:  smcl
+ closed on:  11 Dec 2024, 17:28:53
+-------------------------------------------------------------------------------

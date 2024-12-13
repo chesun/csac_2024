@@ -1,0 +1,236 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/heard_back_by_applied_month.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}11 Dec 2024, 17:28:51
+{txt}
+{com}. 
+. bysort month: tab  coll_applied_coded_trunc coll_contact, row 
+
+{txt}{hline}
+-> month = 5
+
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}  Q40: has any college contacted
+Colleges applied with {c |}         you about finaid
+ truncated categories {c |}       All       None       Some {c |}     Total
+{hline 22}{c +}{hline 33}{c +}{hline 10}
+                  CCC {c |}{res}       317        809        439 {txt}{c |}{res}     1,565 
+                      {txt}{c |}{res}     20.26      51.69      28.05 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+                  CSU {c |}{res}       158         85        237 {txt}{c |}{res}       480 
+                      {txt}{c |}{res}     32.92      17.71      49.38 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+                   UC {c |}{res}        59         24         69 {txt}{c |}{res}       152 
+                      {txt}{c |}{res}     38.82      15.79      45.39 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+               CCC,UC {c |}{res}        25         21         26 {txt}{c |}{res}        72 
+                      {txt}{c |}{res}     34.72      29.17      36.11 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+              CCC,CSU {c |}{res}        81         76        142 {txt}{c |}{res}       299 
+                      {txt}{c |}{res}     27.09      25.42      47.49 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+               CSU,UC {c |}{res}       144         43        233 {txt}{c |}{res}       420 
+                      {txt}{c |}{res}     34.29      10.24      55.48 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+           CCC,CSU,UC {c |}{res}        76         47        157 {txt}{c |}{res}       280 
+                      {txt}{c |}{res}     27.14      16.79      56.07 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+       CCC,UC,PRIVATE {c |}{res}         4          1         11 {txt}{c |}{res}        16 
+                      {txt}{c |}{res}     25.00       6.25      68.75 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+      CCC,CSU,PRIVATE {c |}{res}         7          3         13 {txt}{c |}{res}        23 
+                      {txt}{c |}{res}     30.43      13.04      56.52 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+       CSU,UC,PRIVATE {c |}{res}        57         15         85 {txt}{c |}{res}       157 
+                      {txt}{c |}{res}     36.31       9.55      54.14 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+   CCC,CSU,UC,PRIVATE {c |}{res}        29         11         44 {txt}{c |}{res}        84 
+                      {txt}{c |}{res}     34.52      13.10      52.38 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+    CCC,UC,VOCATIONAL {c |}{res}         0          1          0 {txt}{c |}{res}         1 
+                      {txt}{c |}{res}      0.00     100.00       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+   CCC,CSU,VOCATIONAL {c |}{res}         0          4          5 {txt}{c |}{res}         9 
+                      {txt}{c |}{res}      0.00      44.44      55.56 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+CCC,CSU,UC,VOCATIONAL {c |}{res}         0          0          1 {txt}{c |}{res}         1 
+                      {txt}{c |}{res}      0.00       0.00     100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+       CCC,UC,OUTSIDE {c |}{res}         1          2          6 {txt}{c |}{res}         9 
+                      {txt}{c |}{res}     11.11      22.22      66.67 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+      CCC,CSU,OUTSIDE {c |}{res}         8          8         10 {txt}{c |}{res}        26 
+                      {txt}{c |}{res}     30.77      30.77      38.46 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+       CSU,UC,OUTSIDE {c |}{res}        47         10         84 {txt}{c |}{res}       141 
+                      {txt}{c |}{res}     33.33       7.09      59.57 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+   CCC,CSU,UC,OUTSIDE {c |}{res}        18          7         27 {txt}{c |}{res}        52 
+                      {txt}{c |}{res}     34.62      13.46      51.92 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+    OTHERCOMBINATIONS {c |}{res}       392        239        567 {txt}{c |}{res}     1,198 
+                      {txt}{c |}{res}     32.72      19.95      47.33 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+                Total {c |}{res}     1,423      1,406      2,156 {txt}{c |}{res}     4,985 
+                      {txt}{c |}{res}     28.55      28.20      43.25 {txt}{c |}{res}    100.00 
+
+{txt}{hline}
+-> month = 6
+
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}  Q40: has any college contacted
+Colleges applied with {c |}         you about finaid
+ truncated categories {c |}       All       None       Some {c |}     Total
+{hline 22}{c +}{hline 33}{c +}{hline 10}
+                  CCC {c |}{res}       283        761        406 {txt}{c |}{res}     1,450 
+                      {txt}{c |}{res}     19.52      52.48      28.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+                  CSU {c |}{res}       118         75        166 {txt}{c |}{res}       359 
+                      {txt}{c |}{res}     32.87      20.89      46.24 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+                   UC {c |}{res}        42         13         76 {txt}{c |}{res}       131 
+                      {txt}{c |}{res}     32.06       9.92      58.02 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+               CCC,UC {c |}{res}        14         23         22 {txt}{c |}{res}        59 
+                      {txt}{c |}{res}     23.73      38.98      37.29 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+              CCC,CSU {c |}{res}        73         67        109 {txt}{c |}{res}       249 
+                      {txt}{c |}{res}     29.32      26.91      43.78 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+               CSU,UC {c |}{res}       111         29        160 {txt}{c |}{res}       300 
+                      {txt}{c |}{res}     37.00       9.67      53.33 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+           CCC,CSU,UC {c |}{res}        68         43        102 {txt}{c |}{res}       213 
+                      {txt}{c |}{res}     31.92      20.19      47.89 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+       CCC,UC,PRIVATE {c |}{res}         3          0          1 {txt}{c |}{res}         4 
+                      {txt}{c |}{res}     75.00       0.00      25.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+      CCC,CSU,PRIVATE {c |}{res}         8          1          7 {txt}{c |}{res}        16 
+                      {txt}{c |}{res}     50.00       6.25      43.75 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+       CSU,UC,PRIVATE {c |}{res}        52         11         75 {txt}{c |}{res}       138 
+                      {txt}{c |}{res}     37.68       7.97      54.35 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+   CCC,CSU,UC,PRIVATE {c |}{res}        14          7         33 {txt}{c |}{res}        54 
+                      {txt}{c |}{res}     25.93      12.96      61.11 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+    CCC,UC,VOCATIONAL {c |}{res}         1          1          0 {txt}{c |}{res}         2 
+                      {txt}{c |}{res}     50.00      50.00       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+   CCC,CSU,VOCATIONAL {c |}{res}         1          1          4 {txt}{c |}{res}         6 
+                      {txt}{c |}{res}     16.67      16.67      66.67 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+    CSU,UC,VOCATIONAL {c |}{res}         1          2          1 {txt}{c |}{res}         4 
+                      {txt}{c |}{res}     25.00      50.00      25.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+CCC,CSU,UC,VOCATIONAL {c |}{res}         0          2          0 {txt}{c |}{res}         2 
+                      {txt}{c |}{res}      0.00     100.00       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+       CCC,UC,OUTSIDE {c |}{res}         3          2          7 {txt}{c |}{res}        12 
+                      {txt}{c |}{res}     25.00      16.67      58.33 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+      CCC,CSU,OUTSIDE {c |}{res}         3          3          9 {txt}{c |}{res}        15 
+                      {txt}{c |}{res}     20.00      20.00      60.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+       CSU,UC,OUTSIDE {c |}{res}        31          6         48 {txt}{c |}{res}        85 
+                      {txt}{c |}{res}     36.47       7.06      56.47 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+   CCC,CSU,UC,OUTSIDE {c |}{res}        10          2         14 {txt}{c |}{res}        26 
+                      {txt}{c |}{res}     38.46       7.69      53.85 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+    OTHERCOMBINATIONS {c |}{res}       308        233        350 {txt}{c |}{res}       891 
+                      {txt}{c |}{res}     34.57      26.15      39.28 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+                Total {c |}{res}     1,144      1,282      1,590 {txt}{c |}{res}     4,016 
+                      {txt}{c |}{res}     28.49      31.92      39.59 {txt}{c |}{res}    100.00 
+
+{txt}{hline}
+-> month = 7
+
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}  Q40: has any college contacted
+Colleges applied with {c |}         you about finaid
+ truncated categories {c |}       All       None       Some {c |}     Total
+{hline 22}{c +}{hline 33}{c +}{hline 10}
+                  CCC {c |}{res}        21         69         47 {txt}{c |}{res}       137 
+                      {txt}{c |}{res}     15.33      50.36      34.31 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+                  CSU {c |}{res}         6          6         10 {txt}{c |}{res}        22 
+                      {txt}{c |}{res}     27.27      27.27      45.45 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+                   UC {c |}{res}         2          2          4 {txt}{c |}{res}         8 
+                      {txt}{c |}{res}     25.00      25.00      50.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+               CCC,UC {c |}{res}         0          1          0 {txt}{c |}{res}         1 
+                      {txt}{c |}{res}      0.00     100.00       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+              CCC,CSU {c |}{res}         4          7          9 {txt}{c |}{res}        20 
+                      {txt}{c |}{res}     20.00      35.00      45.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+               CSU,UC {c |}{res}         1          0          7 {txt}{c |}{res}         8 
+                      {txt}{c |}{res}     12.50       0.00      87.50 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+           CCC,CSU,UC {c |}{res}         1          0          4 {txt}{c |}{res}         5 
+                      {txt}{c |}{res}     20.00       0.00      80.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+       CCC,UC,PRIVATE {c |}{res}         2          0          0 {txt}{c |}{res}         2 
+                      {txt}{c |}{res}    100.00       0.00       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+      CCC,CSU,PRIVATE {c |}{res}         2          1          0 {txt}{c |}{res}         3 
+                      {txt}{c |}{res}     66.67      33.33       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+       CSU,UC,PRIVATE {c |}{res}         1          0          2 {txt}{c |}{res}         3 
+                      {txt}{c |}{res}     33.33       0.00      66.67 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+   CCC,CSU,UC,PRIVATE {c |}{res}         1          1          3 {txt}{c |}{res}         5 
+                      {txt}{c |}{res}     20.00      20.00      60.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+   CCC,CSU,VOCATIONAL {c |}{res}         0          0          1 {txt}{c |}{res}         1 
+                      {txt}{c |}{res}      0.00       0.00     100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+CCC,CSU,UC,VOCATIONAL {c |}{res}         0          1          0 {txt}{c |}{res}         1 
+                      {txt}{c |}{res}      0.00     100.00       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+      CCC,CSU,OUTSIDE {c |}{res}         1          0          1 {txt}{c |}{res}         2 
+                      {txt}{c |}{res}     50.00       0.00      50.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+       CSU,UC,OUTSIDE {c |}{res}         2          0          2 {txt}{c |}{res}         4 
+                      {txt}{c |}{res}     50.00       0.00      50.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+    OTHERCOMBINATIONS {c |}{res}        14         16         23 {txt}{c |}{res}        53 
+                      {txt}{c |}{res}     26.42      30.19      43.40 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
+                Total {c |}{res}        58        104        113 {txt}{c |}{res}       275 
+                      {txt}{c |}{res}     21.09      37.82      41.09 {txt}{c |}{res}    100.00 
+
+{txt}
+{com}. 
+. log close 
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/heard_back_by_applied_month.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}11 Dec 2024, 17:28:51
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

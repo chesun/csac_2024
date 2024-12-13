@@ -3,7 +3,50 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_race_hrchy.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 1 Oct 2024, 14:28:39
+ {txt}opened on:  {res}11 Dec 2024, 17:28:49
+hs_senior by race_hrchy
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}    Q8:
+                      {c |} Graduated
+                      {c |}   HS in
+                      {c |} spring or
+   mutually exclusive {c |}   summer
+    race based on URM {c |}    2024
+            hierarchy {c |}       Yes {c |}     Total
+{hline 22}{c +}{hline 11}{c +}{hline 10}
+American Indian/Alask {c |}{res}       204 {txt}{c |}{res}       204 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+                Black {c |}{res}       644 {txt}{c |}{res}       644 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+             Hispanic {c |}{res}     4,895 {txt}{c |}{res}     4,895 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+     Pacific Islander {c |}{res}        47 {txt}{c |}{res}        47 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+             Filipino {c |}{res}       291 {txt}{c |}{res}       291 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+                Asian {c |}{res}     1,109 {txt}{c |}{res}     1,109 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+           Other race {c |}{res}       211 {txt}{c |}{res}       211 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+   White/Non-Hispanic {c |}{res}     1,319 {txt}{c |}{res}     1,319 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+                Total {c |}{res}     8,720 {txt}{c |}{res}     8,720 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
 why_fafsa_requirement by race_hrchy
 {txt}
 {c TLC}{hline 16}{c TRC}
@@ -13,9 +56,8 @@ why_fafsa_requirement by race_hrchy
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                      {c |}      why fafsa:
-   mutually exclusive {c |}    requirement for
-    race based on URM {c |}      graduation
+   mutually exclusive {c |} Q11: Requirement for
+    race based on URM {c |}      Graduation
             hierarchy {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
 American Indian/Alask {c |}{res}       134         70 {txt}{c |}{res}       204 
@@ -53,8 +95,8 @@ why_fafsa_assignment by race_hrchy
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-   mutually exclusive {c |} why fafsa: assignment
-    race based on URM {c |}       for class
+   mutually exclusive {c |}  Q11: Assignment for
+    race based on URM {c |}         Class
             hierarchy {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
 American Indian/Alask {c |}{res}       184         20 {txt}{c |}{res}       204 
@@ -92,9 +134,9 @@ why_fafsa_eligible by race_hrchy
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                      {c |}   why fafsa: check
-   mutually exclusive {c |}    eligibility for
-    race based on URM {c |}     financial aid
+                      {c |}      Q11: Check
+   mutually exclusive {c |}    Eligibility for
+    race based on URM {c |}     Financial Aid
             hierarchy {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
 American Indian/Alask {c |}{res}        71        133 {txt}{c |}{res}       204 
@@ -132,8 +174,8 @@ why_fafsa_expected by race_hrchy
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-   mutually exclusive {c |}  why fafsa: expected
-    race based on URM {c |}       at school
+   mutually exclusive {c |}   Q11: Expected at
+    race based on URM {c |}        School
             hierarchy {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
 American Indian/Alask {c |}{res}       146         58 {txt}{c |}{res}       204 
@@ -172,7 +214,7 @@ why_fafsa_other by race_hrchy
 {c BLC}{hline 16}{c BRC}
 
    mutually exclusive {c |}
-    race based on URM {c |}   why fafsa: other
+    race based on URM {c |}      Q11: Other
             hierarchy {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
 American Indian/Alask {c |}{res}       174         30 {txt}{c |}{res}       204 
@@ -210,7 +252,7 @@ when_heard_fafsa by race_hrchy
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-   mutually exclusive {c |}   W12: When did you first hear
+   mutually exclusive {c |}   Q12: When did you first hear
     race based on URM {c |}       about FAFSA or CADAA
             hierarchy {c |} Junior ye  Prior to   Senior ye {c |}     Total
 {hline 22}{c +}{hline 33}{c +}{hline 10}
@@ -6150,10 +6192,128 @@ American Indian/Alask {c |}{res}        37         36          7 {txt}{c |}{res}
 {txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
                 Total {c |}{res}     1,685      1,516        204 {txt}{c |}{res}     3,405 
                       {txt}{c |}{res}     49.49      44.52       5.99 {txt}{c |}{res}    100.00 
+home_lang_eng by race_hrchy
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}    Q76: Is English
+   mutually exclusive {c |}  primary language at
+    race based on URM {c |}         home
+            hierarchy {c |}        No        Yes {c |}     Total
+{hline 22}{c +}{hline 22}{c +}{hline 10}
+American Indian/Alask {c |}{res}        22        180 {txt}{c |}{res}       202 
+                      {txt}{c |}{res}     10.89      89.11 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Black {c |}{res}        55        588 {txt}{c |}{res}       643 
+                      {txt}{c |}{res}      8.55      91.45 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+             Hispanic {c |}{res}     2,983      1,911 {txt}{c |}{res}     4,894 
+                      {txt}{c |}{res}     60.95      39.05 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+     Pacific Islander {c |}{res}         7         40 {txt}{c |}{res}        47 
+                      {txt}{c |}{res}     14.89      85.11 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+             Filipino {c |}{res}        81        210 {txt}{c |}{res}       291 
+                      {txt}{c |}{res}     27.84      72.16 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Asian {c |}{res}       604        503 {txt}{c |}{res}     1,107 
+                      {txt}{c |}{res}     54.56      45.44 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+           Other race {c |}{res}       104        106 {txt}{c |}{res}       210 
+                      {txt}{c |}{res}     49.52      50.48 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+   White/Non-Hispanic {c |}{res}       111      1,207 {txt}{c |}{res}     1,318 
+                      {txt}{c |}{res}      8.42      91.58 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Total {c |}{res}     3,967      4,745 {txt}{c |}{res}     8,712 
+                      {txt}{c |}{res}     45.53      54.47 {txt}{c |}{res}    100.00 
+has_job by race_hrchy
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+   mutually exclusive {c |}  Q80: current has a
+    race based on URM {c |}          job
+            hierarchy {c |}        No        Yes {c |}     Total
+{hline 22}{c +}{hline 22}{c +}{hline 10}
+American Indian/Alask {c |}{res}       135         67 {txt}{c |}{res}       202 
+                      {txt}{c |}{res}     66.83      33.17 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Black {c |}{res}       487        157 {txt}{c |}{res}       644 
+                      {txt}{c |}{res}     75.62      24.38 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+             Hispanic {c |}{res}     3,839      1,051 {txt}{c |}{res}     4,890 
+                      {txt}{c |}{res}     78.51      21.49 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+     Pacific Islander {c |}{res}        37         10 {txt}{c |}{res}        47 
+                      {txt}{c |}{res}     78.72      21.28 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+             Filipino {c |}{res}       220         71 {txt}{c |}{res}       291 
+                      {txt}{c |}{res}     75.60      24.40 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Asian {c |}{res}       847        259 {txt}{c |}{res}     1,106 
+                      {txt}{c |}{res}     76.58      23.42 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+           Other race {c |}{res}       150         59 {txt}{c |}{res}       209 
+                      {txt}{c |}{res}     71.77      28.23 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+   White/Non-Hispanic {c |}{res}       760        557 {txt}{c |}{res}     1,317 
+                      {txt}{c |}{res}     57.71      42.29 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Total {c |}{res}     6,475      2,231 {txt}{c |}{res}     8,706 
+                      {txt}{c |}{res}     74.37      25.63 {txt}{c |}{res}    100.00 
+hours_perweek by race_hrchy
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+   mutually exclusive {c |}
+    race based on URM {c |}   Q81: how many hours a week do you work
+            hierarchy {c |}     10-19      20-30  Less than  More than {c |}     Total
+{hline 22}{c +}{hline 44}{c +}{hline 10}
+American Indian/Alask {c |}{res}        23         22         15          7 {txt}{c |}{res}        67 
+                      {txt}{c |}{res}     34.33      32.84      22.39      10.45 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+                Black {c |}{res}        69         29         47         11 {txt}{c |}{res}       156 
+                      {txt}{c |}{res}     44.23      18.59      30.13       7.05 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+             Hispanic {c |}{res}       389        287        274         98 {txt}{c |}{res}     1,048 
+                      {txt}{c |}{res}     37.12      27.39      26.15       9.35 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+     Pacific Islander {c |}{res}         5          2          2          1 {txt}{c |}{res}        10 
+                      {txt}{c |}{res}     50.00      20.00      20.00      10.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+             Filipino {c |}{res}        30         16         23          2 {txt}{c |}{res}        71 
+                      {txt}{c |}{res}     42.25      22.54      32.39       2.82 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+                Asian {c |}{res}       111         36        104          8 {txt}{c |}{res}       259 
+                      {txt}{c |}{res}     42.86      13.90      40.15       3.09 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+           Other race {c |}{res}        20         12         23          4 {txt}{c |}{res}        59 
+                      {txt}{c |}{res}     33.90      20.34      38.98       6.78 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+   White/Non-Hispanic {c |}{res}       235        110        173         39 {txt}{c |}{res}       557 
+                      {txt}{c |}{res}     42.19      19.75      31.06       7.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+                Total {c |}{res}       882        514        661        170 {txt}{c |}{res}     2,227 
+                      {txt}{c |}{res}     39.60      23.08      29.68       7.63 {txt}{c |}{res}    100.00 
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_race_hrchy.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 1 Oct 2024, 14:28:39
+ {txt}closed on:  {res}11 Dec 2024, 17:28:49
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

@@ -1,0 +1,373 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_why_fafsa.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}11 Dec 2024, 17:28:52
+{txt}
+{com}. 
+. di "simple tabulation"
+{res}simple tabulation
+{txt}
+{com}. 
+. tab why_fafsa_eligible
+
+ {txt}Q11: Check {c |}
+Eligibility {c |}
+        for {c |}
+  Financial {c |}
+        Aid {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      4,229       37.63       37.63
+{txt}          1 {c |}{res}      7,009       62.37      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     11,238      100.00
+{txt}
+{com}. 
+. tab why_fafsa_school
+
+{txt}why_fafsa_s {c |}
+      chool {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}     18,389       73.48       73.48
+{txt}          1 {c |}{res}      6,637       26.52      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     25,026      100.00
+{txt}
+{com}. 
+. foreach demog in race_simple_24 race_simple_23 race_hrchy parent_edu {c -(}
+{txt}  2{com}.     di "tabulation by `demog'"
+{txt}  3{com}.     tab `demog' why_fafsa_eligible, row 
+{txt}  4{com}. 
+.     tab `demog' why_fafsa_school, row
+{txt}  5{com}. {c )-}
+tabulation by race_simple_24
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+   race narrowly {c |}
+         defined {c |}      Q11: Check
+       (mutually {c |}    Eligibility for
+exclusive), 2024 {c |}     Financial Aid
+         version {c |}         0          1 {c |}     Total
+{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Black {c |}{res}       175        220 {txt}{c |}{res}       395 
+                 {txt}{c |}{res}     44.30      55.70 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+          Native {c |}{res}        16         15 {txt}{c |}{res}        31 
+                 {txt}{c |}{res}     51.61      48.39 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Asian {c |}{res}       287        714 {txt}{c |}{res}     1,001 
+                 {txt}{c |}{res}     28.67      71.33 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+        Filipino {c |}{res}        41         92 {txt}{c |}{res}       133 
+                 {txt}{c |}{res}     30.83      69.17 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+        Hispanic {c |}{res}     1,768      2,688 {txt}{c |}{res}     4,456 
+                 {txt}{c |}{res}     39.68      60.32 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+Pacific Islander {c |}{res}        11         13 {txt}{c |}{res}        24 
+                 {txt}{c |}{res}     45.83      54.17 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           White {c |}{res}       472        878 {txt}{c |}{res}     1,350 
+                 {txt}{c |}{res}     34.96      65.04 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+      Other Race {c |}{res}        67        113 {txt}{c |}{res}       180 
+                 {txt}{c |}{res}     37.22      62.78 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+     Multiracial {c |}{res}       377        770 {txt}{c |}{res}     1,147 
+                 {txt}{c |}{res}     32.87      67.13 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Total {c |}{res}     3,214      5,503 {txt}{c |}{res}     8,717 
+                 {txt}{c |}{res}     36.87      63.13 {txt}{c |}{res}    100.00 
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+   race narrowly {c |}
+         defined {c |}
+       (mutually {c |}
+exclusive), 2024 {c |}   why_fafsa_school
+         version {c |}         0          1 {c |}     Total
+{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Black {c |}{res}       141        255 {txt}{c |}{res}       396 
+                 {txt}{c |}{res}     35.61      64.39 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+          Native {c |}{res}        13         18 {txt}{c |}{res}        31 
+                 {txt}{c |}{res}     41.94      58.06 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Asian {c |}{res}       438        563 {txt}{c |}{res}     1,001 
+                 {txt}{c |}{res}     43.76      56.24 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+        Filipino {c |}{res}        49         84 {txt}{c |}{res}       133 
+                 {txt}{c |}{res}     36.84      63.16 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+        Hispanic {c |}{res}     1,728      2,730 {txt}{c |}{res}     4,458 
+                 {txt}{c |}{res}     38.76      61.24 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+Pacific Islander {c |}{res}         9         15 {txt}{c |}{res}        24 
+                 {txt}{c |}{res}     37.50      62.50 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           White {c |}{res}       625        725 {txt}{c |}{res}     1,350 
+                 {txt}{c |}{res}     46.30      53.70 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+      Other Race {c |}{res}        90         90 {txt}{c |}{res}       180 
+                 {txt}{c |}{res}     50.00      50.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+     Multiracial {c |}{res}       457        690 {txt}{c |}{res}     1,147 
+                 {txt}{c |}{res}     39.84      60.16 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Total {c |}{res}     3,550      5,170 {txt}{c |}{res}     8,720 
+                 {txt}{c |}{res}     40.71      59.29 {txt}{c |}{res}    100.00 
+tabulation by race_simple_23
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                 {c |}      Q11: Check
+        mutually {c |}    Eligibility for
+ exclusive race, {c |}     Financial Aid
+    2023 version {c |}         0          1 {c |}     Total
+{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Black {c |}{res}       172        215 {txt}{c |}{res}       387 
+                 {txt}{c |}{res}     44.44      55.56 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+          Native {c |}{res}        14         15 {txt}{c |}{res}        29 
+                 {txt}{c |}{res}     48.28      51.72 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Asian {c |}{res}       281        687 {txt}{c |}{res}       968 
+                 {txt}{c |}{res}     29.03      70.97 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+        Filipino {c |}{res}        41         91 {txt}{c |}{res}       132 
+                 {txt}{c |}{res}     31.06      68.94 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+        Hispanic {c |}{res}     1,757      2,671 {txt}{c |}{res}     4,428 
+                 {txt}{c |}{res}     39.68      60.32 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+Pacific Islander {c |}{res}        11         13 {txt}{c |}{res}        24 
+                 {txt}{c |}{res}     45.83      54.17 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           White {c |}{res}       462        857 {txt}{c |}{res}     1,319 
+                 {txt}{c |}{res}     35.03      64.97 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+      Other Race {c |}{res}        67        113 {txt}{c |}{res}       180 
+                 {txt}{c |}{res}     37.22      62.78 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+     Multiracial {c |}{res}       409        841 {txt}{c |}{res}     1,250 
+                 {txt}{c |}{res}     32.72      67.28 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Total {c |}{res}     3,214      5,503 {txt}{c |}{res}     8,717 
+                 {txt}{c |}{res}     36.87      63.13 {txt}{c |}{res}    100.00 
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+        mutually {c |}
+ exclusive race, {c |}   why_fafsa_school
+    2023 version {c |}         0          1 {c |}     Total
+{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Black {c |}{res}       138        250 {txt}{c |}{res}       388 
+                 {txt}{c |}{res}     35.57      64.43 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+          Native {c |}{res}        12         17 {txt}{c |}{res}        29 
+                 {txt}{c |}{res}     41.38      58.62 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Asian {c |}{res}       418        550 {txt}{c |}{res}       968 
+                 {txt}{c |}{res}     43.18      56.82 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+        Filipino {c |}{res}        48         84 {txt}{c |}{res}       132 
+                 {txt}{c |}{res}     36.36      63.64 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+        Hispanic {c |}{res}     1,714      2,716 {txt}{c |}{res}     4,430 
+                 {txt}{c |}{res}     38.69      61.31 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+Pacific Islander {c |}{res}         9         15 {txt}{c |}{res}        24 
+                 {txt}{c |}{res}     37.50      62.50 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           White {c |}{res}       611        708 {txt}{c |}{res}     1,319 
+                 {txt}{c |}{res}     46.32      53.68 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+      Other Race {c |}{res}        90         90 {txt}{c |}{res}       180 
+                 {txt}{c |}{res}     50.00      50.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+     Multiracial {c |}{res}       510        740 {txt}{c |}{res}     1,250 
+                 {txt}{c |}{res}     40.80      59.20 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Total {c |}{res}     3,550      5,170 {txt}{c |}{res}     8,720 
+                 {txt}{c |}{res}     40.71      59.29 {txt}{c |}{res}    100.00 
+tabulation by race_hrchy
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}      Q11: Check
+   mutually exclusive {c |}    Eligibility for
+    race based on URM {c |}     Financial Aid
+            hierarchy {c |}         0          1 {c |}     Total
+{hline 22}{c +}{hline 22}{c +}{hline 10}
+American Indian/Alask {c |}{res}        71        133 {txt}{c |}{res}       204 
+                      {txt}{c |}{res}     34.80      65.20 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Black {c |}{res}       276        367 {txt}{c |}{res}       643 
+                      {txt}{c |}{res}     42.92      57.08 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+             Hispanic {c |}{res}     1,911      2,982 {txt}{c |}{res}     4,893 
+                      {txt}{c |}{res}     39.06      60.94 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+     Pacific Islander {c |}{res}        17         30 {txt}{c |}{res}        47 
+                      {txt}{c |}{res}     36.17      63.83 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+             Filipino {c |}{res}        86        205 {txt}{c |}{res}       291 
+                      {txt}{c |}{res}     29.55      70.45 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Asian {c |}{res}       314        795 {txt}{c |}{res}     1,109 
+                      {txt}{c |}{res}     28.31      71.69 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+           Other race {c |}{res}        77        134 {txt}{c |}{res}       211 
+                      {txt}{c |}{res}     36.49      63.51 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+   White/Non-Hispanic {c |}{res}       462        857 {txt}{c |}{res}     1,319 
+                      {txt}{c |}{res}     35.03      64.97 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Total {c |}{res}     3,214      5,503 {txt}{c |}{res}     8,717 
+                      {txt}{c |}{res}     36.87      63.13 {txt}{c |}{res}    100.00 
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+   mutually exclusive {c |}
+    race based on URM {c |}   why_fafsa_school
+            hierarchy {c |}         0          1 {c |}     Total
+{hline 22}{c +}{hline 22}{c +}{hline 10}
+American Indian/Alask {c |}{res}        90        114 {txt}{c |}{res}       204 
+                      {txt}{c |}{res}     44.12      55.88 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Black {c |}{res}       221        423 {txt}{c |}{res}       644 
+                      {txt}{c |}{res}     34.32      65.68 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+             Hispanic {c |}{res}     1,903      2,992 {txt}{c |}{res}     4,895 
+                      {txt}{c |}{res}     38.88      61.12 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+     Pacific Islander {c |}{res}        19         28 {txt}{c |}{res}        47 
+                      {txt}{c |}{res}     40.43      59.57 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+             Filipino {c |}{res}       113        178 {txt}{c |}{res}       291 
+                      {txt}{c |}{res}     38.83      61.17 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Asian {c |}{res}       489        620 {txt}{c |}{res}     1,109 
+                      {txt}{c |}{res}     44.09      55.91 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+           Other race {c |}{res}       104        107 {txt}{c |}{res}       211 
+                      {txt}{c |}{res}     49.29      50.71 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+   White/Non-Hispanic {c |}{res}       611        708 {txt}{c |}{res}     1,319 
+                      {txt}{c |}{res}     46.32      53.68 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Total {c |}{res}     3,550      5,170 {txt}{c |}{res}     8,720 
+                      {txt}{c |}{res}     40.71      59.29 {txt}{c |}{res}    100.00 
+tabulation by parent_edu
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}      Q11: Check
+                      {c |}    Eligibility for
+  Q73: highest parent {c |}     Financial Aid
+            education {c |}         0          1 {c |}     Total
+{hline 22}{c +}{hline 22}{c +}{hline 10}
+           Don't know {c |}{res}       208        298 {txt}{c |}{res}       506 
+                      {txt}{c |}{res}     41.11      58.89 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Did not complete high {c |}{res}       701      1,112 {txt}{c |}{res}     1,813 
+                      {txt}{c |}{res}     38.67      61.33 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+  High school diploma {c |}{res}       986      1,402 {txt}{c |}{res}     2,388 
+                      {txt}{c |}{res}     41.29      58.71 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Some college, no coll {c |}{res}       435        697 {txt}{c |}{res}     1,132 
+                      {txt}{c |}{res}     38.43      61.57 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+     Associate degree {c |}{res}       152        300 {txt}{c |}{res}       452 
+                      {txt}{c |}{res}     33.63      66.37 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+    Bachelor's degree {c |}{res}       363        914 {txt}{c |}{res}     1,277 
+                      {txt}{c |}{res}     28.43      71.57 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Graduate/Professional {c |}{res}       376        790 {txt}{c |}{res}     1,166 
+                      {txt}{c |}{res}     32.25      67.75 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Total {c |}{res}     3,221      5,513 {txt}{c |}{res}     8,734 
+                      {txt}{c |}{res}     36.88      63.12 {txt}{c |}{res}    100.00 
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+  Q73: highest parent {c |}   why_fafsa_school
+            education {c |}         0          1 {c |}     Total
+{hline 22}{c +}{hline 22}{c +}{hline 10}
+           Don't know {c |}{res}       206        301 {txt}{c |}{res}       507 
+                      {txt}{c |}{res}     40.63      59.37 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Did not complete high {c |}{res}       711      1,102 {txt}{c |}{res}     1,813 
+                      {txt}{c |}{res}     39.22      60.78 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+  High school diploma {c |}{res}       934      1,455 {txt}{c |}{res}     2,389 
+                      {txt}{c |}{res}     39.10      60.90 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Some college, no coll {c |}{res}       432        701 {txt}{c |}{res}     1,133 
+                      {txt}{c |}{res}     38.13      61.87 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+     Associate degree {c |}{res}       178        274 {txt}{c |}{res}       452 
+                      {txt}{c |}{res}     39.38      60.62 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+    Bachelor's degree {c |}{res}       567        710 {txt}{c |}{res}     1,277 
+                      {txt}{c |}{res}     44.40      55.60 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Graduate/Professional {c |}{res}       532        635 {txt}{c |}{res}     1,167 
+                      {txt}{c |}{res}     45.59      54.41 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Total {c |}{res}     3,560      5,178 {txt}{c |}{res}     8,738 
+                      {txt}{c |}{res}     40.74      59.26 {txt}{c |}{res}    100.00 
+{txt}
+{com}. 
+. log close 
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_why_fafsa.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}11 Dec 2024, 17:28:52
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

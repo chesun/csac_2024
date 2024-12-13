@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_simple.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 1 Oct 2024, 14:28:41
+ {txt}opened on:  {res}11 Dec 2024, 17:28:50
 {txt}
 {com}. 
 . foreach var of local all_qs {c -(}
@@ -12,12 +12,23 @@
 .     tab `var' if hs_senior==1
 {txt}  4{com}. 
 . {c )-}
+tabulation of hs_senior
+
+        {txt}Q8: {c |}
+  Graduated {c |}
+      HS in {c |}
+  spring or {c |}
+summer 2024 {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+        Yes {c |}{res}     11,642      100.00      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     11,642      100.00
 tabulation of why_fafsa_requirement
 
- {txt}why fafsa: {c |}
-requirement {c |}
+       {txt}Q11: {c |}
+Requirement {c |}
         for {c |}
- graduation {c |}      Freq.     Percent        Cum.
+ Graduation {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
           0 {c |}{res}      6,760       60.15       60.15
 {txt}          1 {c |}{res}      4,478       39.85      100.00
@@ -25,9 +36,9 @@ requirement {c |}
       Total {c |}{res}     11,238      100.00
 tabulation of why_fafsa_assignment
 
- {txt}why fafsa: {c |}
- assignment {c |}
-  for class {c |}      Freq.     Percent        Cum.
+       {txt}Q11: {c |}
+ Assignment {c |}
+  for Class {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
           0 {c |}{res}     10,358       92.17       92.17
 {txt}          1 {c |}{res}        880        7.83      100.00
@@ -35,12 +46,11 @@ tabulation of why_fafsa_assignment
       Total {c |}{res}     11,238      100.00
 tabulation of why_fafsa_eligible
 
- {txt}why fafsa: {c |}
-      check {c |}
-eligibility {c |}
+ {txt}Q11: Check {c |}
+Eligibility {c |}
         for {c |}
-  financial {c |}
-        aid {c |}      Freq.     Percent        Cum.
+  Financial {c |}
+        Aid {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
           0 {c |}{res}      4,229       37.63       37.63
 {txt}          1 {c |}{res}      7,009       62.37      100.00
@@ -48,9 +58,9 @@ eligibility {c |}
       Total {c |}{res}     11,238      100.00
 tabulation of why_fafsa_expected
 
- {txt}why fafsa: {c |}
-expected at {c |}
-     school {c |}      Freq.     Percent        Cum.
+       {txt}Q11: {c |}
+Expected at {c |}
+     School {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
           0 {c |}{res}      8,320       74.03       74.03
 {txt}          1 {c |}{res}      2,918       25.97      100.00
@@ -58,8 +68,7 @@ expected at {c |}
       Total {c |}{res}     11,238      100.00
 tabulation of why_fafsa_other
 
- {txt}why fafsa: {c |}
-      other {c |}      Freq.     Percent        Cum.
+ {txt}Q11: Other {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
           0 {c |}{res}     10,502       93.45       93.45
 {txt}          1 {c |}{res}        736        6.55      100.00
@@ -67,7 +76,7 @@ tabulation of why_fafsa_other
       Total {c |}{res}     11,238      100.00
 tabulation of when_heard_fafsa
 
-{txt}W12: When did you first {c |}
+{txt}Q12: When did you first {c |}
     hear about FAFSA or {c |}
                   CADAA {c |}      Freq.     Percent        Cum.
 {hline 24}{c +}{hline 35}
@@ -1723,13 +1732,48 @@ tabulation of transcript_atog
 {txt}    Very Difficult {c |}{res}        206        5.98      100.00
 {txt}{hline 19}{c +}{hline 35}
              Total {c |}{res}      3,442      100.00
+tabulation of home_lang_eng
+
+    {txt}Q76: Is {c |}
+    English {c |}
+    primary {c |}
+language at {c |}
+       home {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}      3,979       45.48       45.48
+{txt}        Yes {c |}{res}      4,769       54.52      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,748      100.00
+tabulation of has_job
+
+       {txt}Q80: {c |}
+current has {c |}
+      a job {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+         No {c |}{res}      6,510       74.39       74.39
+{txt}        Yes {c |}{res}      2,241       25.61      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      8,751      100.00
+tabulation of hours_perweek
+
+    {txt}Q81: how {c |}
+many hours a {c |}
+ week do you {c |}
+        work {c |}      Freq.     Percent        Cum.
+{hline 13}{c +}{hline 35}
+       10-19 {c |}{res}        885       39.58       39.58
+{txt}       20-30 {c |}{res}        515       23.03       62.61
+{txt}Less than 10 {c |}{res}        666       29.79       92.40
+{txt}More than 30 {c |}{res}        170        7.60      100.00
+{txt}{hline 13}{c +}{hline 35}
+       Total {c |}{res}      2,236      100.00
 {txt}
 {com}. 
 . log close 
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_simple.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 1 Oct 2024, 14:28:41
+ {txt}closed on:  {res}11 Dec 2024, 17:28:51
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

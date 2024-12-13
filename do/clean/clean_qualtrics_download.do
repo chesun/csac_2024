@@ -16,7 +16,7 @@ set scheme s1color
 set seed 1984
 
 // this is the correct file, the older file has line breaks in text response which results in incorrect import
-import delimited "$rawdtadir/CSAC_2024_Senior_Survey_August 2, 2024_12.04.csv", varnames(1) clear 
+import delimited "$rawdtadir/CSAC_2024_Senior_Survey_August 2, 2024_12.04.csv", varnames(1) rowrange(4) clear 
 
 //-------------------- -------------------------------------------
 // initial cleaning
@@ -29,6 +29,16 @@ drop recipient*name recipientemail externalreference
 
 drop distributionchannel  
 drop *click* *pagesubmit
+
+    // code the date time variables as stata datetime format
+    foreach var of varlist startdate enddate recordeddate {
+        gen num`var' = clock(`var', "YMD hms")
+        format num`var' %tc
+    }
+
+    //create a month variable
+    gen month =  month(dofc(numenddate))
+    lab var month "Month of response"
 
 // rename and recode variables 
 encode q4, generate(ready_to_start) label(ready_to_start_lab)
@@ -856,6 +866,7 @@ label define parent_edu_lab 1 "Don't know" 2 "Did not complete high school" ///
 encode q73, g(parent_edu) l(parent_edu_lab)
 label var parent_edu "Q73: highest parent education"
 drop q73 
+
 
 label define home_lang_eng_lab 0 "No" 1 "Yes"
 encode q76, g(home_lang_eng) l(home_lang_eng_lab)

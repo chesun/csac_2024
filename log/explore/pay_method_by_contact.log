@@ -1,0 +1,491 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/pay_
+> method_by_contact.smcl
+  log type:  smcl
+ opened on:  11 Dec 2024, 17:28:53
+
+. 
+. use `csac2024', clear 
+
+. 
+. foreach q of local q54_subqs {
+  2.     di "payment plan: `q' crosstab by q40: has any college contacted you a
+> bout finaid"
+  3.     tab `q' coll_contact
+  4. 
+.     foreach j of local q42_subqs {
+  5.         di "payment plan: `q' crosstab by q42: subject of contact `j'"
+  6. 
+.         tab `q' `j'
+  7.     }
+  8. }
+payment plan: pay_plan_scholarship crosstab by q40: has any college contacted y
+> ou about finaid
+
+      Q54: |  Q40: has any college contacted
+scholarshi |         you about finaid
+        ps |       All       None       Some |     Total
+-----------+---------------------------------+----------
+         0 |     1,021      1,609      1,623 |     4,253 
+         1 |     1,376        897      1,908 |     4,181 
+-----------+---------------------------------+----------
+     Total |     2,397      2,506      3,531 |     8,434 
+payment plan: pay_plan_scholarship crosstab by q42: subject of contact coll_con
+> tact_subject_doc
+
+           |   Q42: FAFSA/CADAA
+           |    verification or
+      Q54: |      additional
+scholarshi |     documentation
+        ps |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,025      1,571 |     2,596 
+         1 |     1,307      1,948 |     3,255 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_scholarship crosstab by q42: subject of contact coll_con
+> tact_subject_work
+
+      Q54: | Q42: eligibility for
+scholarshi |      work study
+        ps |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     2,056        540 |     2,596 
+         1 |     2,090      1,165 |     3,255 
+-----------+----------------------+----------
+     Total |     4,146      1,705 |     5,851 
+payment plan: pay_plan_scholarship crosstab by q42: subject of contact coll_con
+> tact_subject_grant
+
+      Q54: |    Q42: grants or
+scholarshi |     scholarships
+        ps |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,392      1,204 |     2,596 
+         1 |       940      2,315 |     3,255 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_scholarship crosstab by q42: subject of contact coll_con
+> tact_subject_loan
+
+      Q54: |   Q42: information
+scholarshi |      about loans
+        ps |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,629        967 |     2,596 
+         1 |     1,679      1,576 |     3,255 
+-----------+----------------------+----------
+     Total |     3,308      2,543 |     5,851 
+payment plan: pay_plan_grant crosstab by q40: has any college contacted you abo
+> ut finaid
+
+           |  Q40: has any college contacted
+      Q54: |         you about finaid
+    grants |       All       None       Some |     Total
+-----------+---------------------------------+----------
+         0 |       993      1,383      1,647 |     4,023 
+         1 |     1,404      1,123      1,884 |     4,411 
+-----------+---------------------------------+----------
+     Total |     2,397      2,506      3,531 |     8,434 
+payment plan: pay_plan_grant crosstab by q42: subject of contact coll_contact_s
+> ubject_doc
+
+           |   Q42: FAFSA/CADAA
+           |    verification or
+           |      additional
+      Q54: |     documentation
+    grants |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,081      1,506 |     2,587 
+         1 |     1,251      2,013 |     3,264 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_grant crosstab by q42: subject of contact coll_contact_s
+> ubject_work
+
+           | Q42: eligibility for
+      Q54: |      work study
+    grants |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     2,066        521 |     2,587 
+         1 |     2,080      1,184 |     3,264 
+-----------+----------------------+----------
+     Total |     4,146      1,705 |     5,851 
+payment plan: pay_plan_grant crosstab by q42: subject of contact coll_contact_s
+> ubject_grant
+
+           |    Q42: grants or
+      Q54: |     scholarships
+    grants |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,429      1,158 |     2,587 
+         1 |       903      2,361 |     3,264 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_grant crosstab by q42: subject of contact coll_contact_s
+> ubject_loan
+
+           |   Q42: information
+      Q54: |      about loans
+    grants |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,441      1,146 |     2,587 
+         1 |     1,867      1,397 |     3,264 
+-----------+----------------------+----------
+     Total |     3,308      2,543 |     5,851 
+payment plan: pay_plan_saving crosstab by q40: has any college contacted you ab
+> out finaid
+
+   Q54: my |  Q40: has any college contacted
+       own |         you about finaid
+   savings |       All       None       Some |     Total
+-----------+---------------------------------+----------
+         0 |     1,583      1,668      2,298 |     5,549 
+         1 |       814        838      1,233 |     2,885 
+-----------+---------------------------------+----------
+     Total |     2,397      2,506      3,531 |     8,434 
+payment plan: pay_plan_saving crosstab by q42: subject of contact coll_contact_
+> subject_doc
+
+           |   Q42: FAFSA/CADAA
+           |    verification or
+   Q54: my |      additional
+       own |     documentation
+   savings |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,553      2,279 |     3,832 
+         1 |       779      1,240 |     2,019 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_saving crosstab by q42: subject of contact coll_contact_
+> subject_work
+
+   Q54: my | Q42: eligibility for
+       own |      work study
+   savings |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     2,768      1,064 |     3,832 
+         1 |     1,378        641 |     2,019 
+-----------+----------------------+----------
+     Total |     4,146      1,705 |     5,851 
+payment plan: pay_plan_saving crosstab by q42: subject of contact coll_contact_
+> subject_grant
+
+   Q54: my |    Q42: grants or
+       own |     scholarships
+   savings |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,549      2,283 |     3,832 
+         1 |       783      1,236 |     2,019 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_saving crosstab by q42: subject of contact coll_contact_
+> subject_loan
+
+   Q54: my |   Q42: information
+       own |      about loans
+   savings |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     2,275      1,557 |     3,832 
+         1 |     1,033        986 |     2,019 
+-----------+----------------------+----------
+     Total |     3,308      2,543 |     5,851 
+payment plan: pay_plan_work crosstab by q40: has any college contacted you abou
+> t finaid
+
+      Q54: |
+   working |  Q40: has any college contacted
+     while |         you about finaid
+  enrolled |       All       None       Some |     Total
+-----------+---------------------------------+----------
+         0 |       958      1,094      1,437 |     3,489 
+         1 |     1,439      1,412      2,094 |     4,945 
+-----------+---------------------------------+----------
+     Total |     2,397      2,506      3,531 |     8,434 
+payment plan: pay_plan_work crosstab by q42: subject of contact coll_contact_su
+> bject_doc
+
+           |   Q42: FAFSA/CADAA
+      Q54: |    verification or
+   working |      additional
+     while |     documentation
+  enrolled |         0          1 |     Total
+-----------+----------------------+----------
+         0 |       980      1,377 |     2,357 
+         1 |     1,352      2,142 |     3,494 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_work crosstab by q42: subject of contact coll_contact_su
+> bject_work
+
+      Q54: |
+   working | Q42: eligibility for
+     while |      work study
+  enrolled |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,821        536 |     2,357 
+         1 |     2,325      1,169 |     3,494 
+-----------+----------------------+----------
+     Total |     4,146      1,705 |     5,851 
+payment plan: pay_plan_work crosstab by q42: subject of contact coll_contact_su
+> bject_grant
+
+      Q54: |
+   working |    Q42: grants or
+     while |     scholarships
+  enrolled |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,028      1,329 |     2,357 
+         1 |     1,304      2,190 |     3,494 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_work crosstab by q42: subject of contact coll_contact_su
+> bject_loan
+
+      Q54: |
+   working |   Q42: information
+     while |      about loans
+  enrolled |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,435        922 |     2,357 
+         1 |     1,873      1,621 |     3,494 
+-----------+----------------------+----------
+     Total |     3,308      2,543 |     5,851 
+payment plan: pay_plan_otherppl crosstab by q40: has any college contacted you 
+> about finaid
+
+Q54: money |  Q40: has any college contacted
+from other |         you about finaid
+    people |       All       None       Some |     Total
+-----------+---------------------------------+----------
+         0 |     1,301      1,702      1,968 |     4,971 
+         1 |     1,096        804      1,563 |     3,463 
+-----------+---------------------------------+----------
+     Total |     2,397      2,506      3,531 |     8,434 
+payment plan: pay_plan_otherppl crosstab by q42: subject of contact coll_contac
+> t_subject_doc
+
+           |   Q42: FAFSA/CADAA
+           |    verification or
+Q54: money |      additional
+from other |     documentation
+    people |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,257      1,967 |     3,224 
+         1 |     1,075      1,552 |     2,627 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_otherppl crosstab by q42: subject of contact coll_contac
+> t_subject_work
+
+Q54: money | Q42: eligibility for
+from other |      work study
+    people |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     2,310        914 |     3,224 
+         1 |     1,836        791 |     2,627 
+-----------+----------------------+----------
+     Total |     4,146      1,705 |     5,851 
+payment plan: pay_plan_otherppl crosstab by q42: subject of contact coll_contac
+> t_subject_grant
+
+Q54: money |    Q42: grants or
+from other |     scholarships
+    people |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,361      1,863 |     3,224 
+         1 |       971      1,656 |     2,627 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_otherppl crosstab by q42: subject of contact coll_contac
+> t_subject_loan
+
+Q54: money |   Q42: information
+from other |      about loans
+    people |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     2,074      1,150 |     3,224 
+         1 |     1,234      1,393 |     2,627 
+-----------+----------------------+----------
+     Total |     3,308      2,543 |     5,851 
+payment plan: pay_plan_loan crosstab by q40: has any college contacted you abou
+> t finaid
+
+      Q54: |  Q40: has any college contacted
+   student |         you about finaid
+     loans |       All       None       Some |     Total
+-----------+---------------------------------+----------
+         0 |     1,549      1,872      2,332 |     5,753 
+         1 |       848        634      1,199 |     2,681 
+-----------+---------------------------------+----------
+     Total |     2,397      2,506      3,531 |     8,434 
+payment plan: pay_plan_loan crosstab by q42: subject of contact coll_contact_su
+> bject_doc
+
+           |   Q42: FAFSA/CADAA
+           |    verification or
+      Q54: |      additional
+   student |     documentation
+     loans |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,466      2,354 |     3,820 
+         1 |       866      1,165 |     2,031 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_loan crosstab by q42: subject of contact coll_contact_su
+> bject_work
+
+      Q54: | Q42: eligibility for
+   student |      work study
+     loans |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     2,749      1,071 |     3,820 
+         1 |     1,397        634 |     2,031 
+-----------+----------------------+----------
+     Total |     4,146      1,705 |     5,851 
+payment plan: pay_plan_loan crosstab by q42: subject of contact coll_contact_su
+> bject_grant
+
+      Q54: |    Q42: grants or
+   student |     scholarships
+     loans |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     1,553      2,267 |     3,820 
+         1 |       779      1,252 |     2,031 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_loan crosstab by q42: subject of contact coll_contact_su
+> bject_loan
+
+      Q54: |   Q42: information
+   student |      about loans
+     loans |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     2,406      1,414 |     3,820 
+         1 |       902      1,129 |     2,031 
+-----------+----------------------+----------
+     Total |     3,308      2,543 |     5,851 
+payment plan: pay_plan_va crosstab by q40: has any college contacted you about 
+> finaid
+
+      Q54: |  Q40: has any college contacted
+military/V |         you about finaid
+A benefits |       All       None       Some |     Total
+-----------+---------------------------------+----------
+         0 |     2,330      2,457      3,424 |     8,211 
+         1 |        67         49        107 |       223 
+-----------+---------------------------------+----------
+     Total |     2,397      2,506      3,531 |     8,434 
+payment plan: pay_plan_va crosstab by q42: subject of contact coll_contact_subj
+> ect_doc
+
+           |   Q42: FAFSA/CADAA
+           |    verification or
+      Q54: |      additional
+military/V |     documentation
+A benefits |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     2,258      3,419 |     5,677 
+         1 |        74        100 |       174 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_va crosstab by q42: subject of contact coll_contact_subj
+> ect_work
+
+      Q54: | Q42: eligibility for
+military/V |      work study
+A benefits |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     4,022      1,655 |     5,677 
+         1 |       124         50 |       174 
+-----------+----------------------+----------
+     Total |     4,146      1,705 |     5,851 
+payment plan: pay_plan_va crosstab by q42: subject of contact coll_contact_subj
+> ect_grant
+
+      Q54: |    Q42: grants or
+military/V |     scholarships
+A benefits |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     2,257      3,420 |     5,677 
+         1 |        75         99 |       174 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_va crosstab by q42: subject of contact coll_contact_subj
+> ect_loan
+
+      Q54: |   Q42: information
+military/V |      about loans
+A benefits |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     3,214      2,463 |     5,677 
+         1 |        94         80 |       174 
+-----------+----------------------+----------
+     Total |     3,308      2,543 |     5,851 
+payment plan: pay_plan_credit crosstab by q40: has any college contacted you ab
+> out finaid
+
+      Q54: |  Q40: has any college contacted
+    credit |         you about finaid
+     cards |       All       None       Some |     Total
+-----------+---------------------------------+----------
+         0 |     2,270      2,402      3,334 |     8,006 
+         1 |       127        104        197 |       428 
+-----------+---------------------------------+----------
+     Total |     2,397      2,506      3,531 |     8,434 
+payment plan: pay_plan_credit crosstab by q42: subject of contact coll_contact_
+> subject_doc
+
+           |   Q42: FAFSA/CADAA
+           |    verification or
+      Q54: |      additional
+    credit |     documentation
+     cards |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     2,215      3,315 |     5,530 
+         1 |       117        204 |       321 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_credit crosstab by q42: subject of contact coll_contact_
+> subject_work
+
+      Q54: | Q42: eligibility for
+    credit |      work study
+     cards |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     3,925      1,605 |     5,530 
+         1 |       221        100 |       321 
+-----------+----------------------+----------
+     Total |     4,146      1,705 |     5,851 
+payment plan: pay_plan_credit crosstab by q42: subject of contact coll_contact_
+> subject_grant
+
+      Q54: |    Q42: grants or
+    credit |     scholarships
+     cards |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     2,211      3,319 |     5,530 
+         1 |       121        200 |       321 
+-----------+----------------------+----------
+     Total |     2,332      3,519 |     5,851 
+payment plan: pay_plan_credit crosstab by q42: subject of contact coll_contact_
+> subject_loan
+
+      Q54: |   Q42: information
+    credit |      about loans
+     cards |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     3,146      2,384 |     5,530 
+         1 |       162        159 |       321 
+-----------+----------------------+----------
+     Total |     3,308      2,543 |     5,851 
+
+. 
+. log close 
+      name:  <unnamed>
+       log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/pay_
+> method_by_contact.smcl
+  log type:  smcl
+ closed on:  11 Dec 2024, 17:28:54
+-------------------------------------------------------------------------------

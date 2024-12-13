@@ -3,7 +3,41 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_gender.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 1 Oct 2024, 14:28:40
+ {txt}opened on:  {res}11 Dec 2024, 17:28:49
+hs_senior by gender
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}    Q8:
+                      {c |} Graduated
+                      {c |}   HS in
+                      {c |} spring or
+                      {c |}   summer
+                      {c |}    2024
+                  Q83 {c |}       Yes {c |}     Total
+{hline 22}{c +}{hline 11}{c +}{hline 10}
+                  Man {c |}{res}     3,169 {txt}{c |}{res}     3,169 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+                Woman {c |}{res}     5,162 {txt}{c |}{res}     5,162 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+           Non-binary {c |}{res}       193 {txt}{c |}{res}       193 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+    Prefer not to say {c |}{res}       180 {txt}{c |}{res}       180 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+Other (please feel fr {c |}{res}        36 {txt}{c |}{res}        36 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 11}{c +}{hline 10}
+                Total {c |}{res}     8,740 {txt}{c |}{res}     8,740 
+                      {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
 why_fafsa_requirement by gender
 {txt}
 {c TLC}{hline 16}{c TRC}
@@ -13,9 +47,8 @@ why_fafsa_requirement by gender
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                      {c |}      why fafsa:
-                      {c |}    requirement for
-                      {c |}      graduation
+                      {c |} Q11: Requirement for
+                      {c |}      Graduation
                   Q83 {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
                   Man {c |}{res}     1,917      1,251 {txt}{c |}{res}     3,168 
@@ -44,8 +77,8 @@ why_fafsa_assignment by gender
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                      {c |} why fafsa: assignment
-                      {c |}       for class
+                      {c |}  Q11: Assignment for
+                      {c |}         Class
                   Q83 {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
                   Man {c |}{res}     2,916        252 {txt}{c |}{res}     3,168 
@@ -74,9 +107,9 @@ why_fafsa_eligible by gender
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                      {c |}   why fafsa: check
-                      {c |}    eligibility for
-                      {c |}     financial aid
+                      {c |}      Q11: Check
+                      {c |}    Eligibility for
+                      {c |}     Financial Aid
                   Q83 {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
                   Man {c |}{res}     1,190      1,978 {txt}{c |}{res}     3,168 
@@ -105,8 +138,8 @@ why_fafsa_expected by gender
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                      {c |}  why fafsa: expected
-                      {c |}       at school
+                      {c |}   Q11: Expected at
+                      {c |}        School
                   Q83 {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
                   Man {c |}{res}     2,373        795 {txt}{c |}{res}     3,168 
@@ -135,7 +168,7 @@ why_fafsa_other by gender
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                      {c |}   why fafsa: other
+                      {c |}      Q11: Other
                   Q83 {c |}         0          1 {c |}     Total
 {hline 22}{c +}{hline 22}{c +}{hline 10}
                   Man {c |}{res}     2,941        227 {txt}{c |}{res}     3,168 
@@ -164,7 +197,7 @@ when_heard_fafsa by gender
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                      {c |}   W12: When did you first hear
+                      {c |}   Q12: When did you first hear
                       {c |}       about FAFSA or CADAA
                   Q83 {c |} Junior ye  Prior to   Senior ye {c |}     Total
 {hline 22}{c +}{hline 33}{c +}{hline 10}
@@ -4706,10 +4739,100 @@ Other (please feel fr {c |}{res}         8          4          4 {txt}{c |}{res}
 {txt}{hline 22}{c +}{hline 33}{c +}{hline 10}
                 Total {c |}{res}     1,689      1,517        205 {txt}{c |}{res}     3,411 
                       {txt}{c |}{res}     49.52      44.47       6.01 {txt}{c |}{res}    100.00 
+home_lang_eng by gender
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}    Q76: Is English
+                      {c |}  primary language at
+                      {c |}         home
+                  Q83 {c |}        No        Yes {c |}     Total
+{hline 22}{c +}{hline 22}{c +}{hline 10}
+                  Man {c |}{res}     1,406      1,760 {txt}{c |}{res}     3,166 
+                      {txt}{c |}{res}     44.41      55.59 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Woman {c |}{res}     2,452      2,706 {txt}{c |}{res}     5,158 
+                      {txt}{c |}{res}     47.54      52.46 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+           Non-binary {c |}{res}        45        148 {txt}{c |}{res}       193 
+                      {txt}{c |}{res}     23.32      76.68 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+    Prefer not to say {c |}{res}        56        120 {txt}{c |}{res}       176 
+                      {txt}{c |}{res}     31.82      68.18 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Other (please feel fr {c |}{res}        10         26 {txt}{c |}{res}        36 
+                      {txt}{c |}{res}     27.78      72.22 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Total {c |}{res}     3,969      4,760 {txt}{c |}{res}     8,729 
+                      {txt}{c |}{res}     45.47      54.53 {txt}{c |}{res}    100.00 
+has_job by gender
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}  Q80: current has a
+                      {c |}          job
+                  Q83 {c |}        No        Yes {c |}     Total
+{hline 22}{c +}{hline 22}{c +}{hline 10}
+                  Man {c |}{res}     2,377        790 {txt}{c |}{res}     3,167 
+                      {txt}{c |}{res}     75.06      24.94 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Woman {c |}{res}     3,803      1,356 {txt}{c |}{res}     5,159 
+                      {txt}{c |}{res}     73.72      26.28 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+           Non-binary {c |}{res}       149         44 {txt}{c |}{res}       193 
+                      {txt}{c |}{res}     77.20      22.80 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+    Prefer not to say {c |}{res}       136         40 {txt}{c |}{res}       176 
+                      {txt}{c |}{res}     77.27      22.73 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+Other (please feel fr {c |}{res}        29          7 {txt}{c |}{res}        36 
+                      {txt}{c |}{res}     80.56      19.44 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 22}{c +}{hline 10}
+                Total {c |}{res}     6,494      2,237 {txt}{c |}{res}     8,731 
+                      {txt}{c |}{res}     74.38      25.62 {txt}{c |}{res}    100.00 
+hours_perweek by gender
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                      {c |}   Q81: how many hours a week do you work
+                  Q83 {c |}     10-19      20-30  Less than  More than {c |}     Total
+{hline 22}{c +}{hline 44}{c +}{hline 10}
+                  Man {c |}{res}       311        182        222         74 {txt}{c |}{res}       789 
+                      {txt}{c |}{res}     39.42      23.07      28.14       9.38 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+                Woman {c |}{res}       535        326        405         89 {txt}{c |}{res}     1,355 
+                      {txt}{c |}{res}     39.48      24.06      29.89       6.57 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+           Non-binary {c |}{res}        23          2         18          1 {txt}{c |}{res}        44 
+                      {txt}{c |}{res}     52.27       4.55      40.91       2.27 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+    Prefer not to say {c |}{res}        12          4         19          5 {txt}{c |}{res}        40 
+                      {txt}{c |}{res}     30.00      10.00      47.50      12.50 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+Other (please feel fr {c |}{res}         3          1          2          1 {txt}{c |}{res}         7 
+                      {txt}{c |}{res}     42.86      14.29      28.57      14.29 {txt}{c |}{res}    100.00 
+{txt}{hline 22}{c +}{hline 44}{c +}{hline 10}
+                Total {c |}{res}       884        515        666        170 {txt}{c |}{res}     2,235 
+                      {txt}{c |}{res}     39.55      23.04      29.80       7.61 {txt}{c |}{res}    100.00 
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_gender.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 1 Oct 2024, 14:28:40
+ {txt}closed on:  {res}11 Dec 2024, 17:28:50
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

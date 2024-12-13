@@ -3,7 +3,53 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_race_simple_23.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 1 Oct 2024, 14:28:38
+ {txt}opened on:  {res}11 Dec 2024, 17:28:48
+hs_senior by race_simple_23
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                 {c |}    Q8:
+                 {c |} Graduated
+                 {c |}   HS in
+                 {c |} spring or
+        mutually {c |}   summer
+ exclusive race, {c |}    2024
+    2023 version {c |}       Yes {c |}     Total
+{hline 17}{c +}{hline 11}{c +}{hline 10}
+           Black {c |}{res}       388 {txt}{c |}{res}       388 
+                 {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 11}{c +}{hline 10}
+          Native {c |}{res}        29 {txt}{c |}{res}        29 
+                 {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 11}{c +}{hline 10}
+           Asian {c |}{res}       968 {txt}{c |}{res}       968 
+                 {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 11}{c +}{hline 10}
+        Filipino {c |}{res}       132 {txt}{c |}{res}       132 
+                 {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 11}{c +}{hline 10}
+        Hispanic {c |}{res}     4,430 {txt}{c |}{res}     4,430 
+                 {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 11}{c +}{hline 10}
+Pacific Islander {c |}{res}        24 {txt}{c |}{res}        24 
+                 {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 11}{c +}{hline 10}
+           White {c |}{res}     1,319 {txt}{c |}{res}     1,319 
+                 {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 11}{c +}{hline 10}
+      Other Race {c |}{res}       180 {txt}{c |}{res}       180 
+                 {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 11}{c +}{hline 10}
+     Multiracial {c |}{res}     1,250 {txt}{c |}{res}     1,250 
+                 {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 11}{c +}{hline 10}
+           Total {c |}{res}     8,720 {txt}{c |}{res}     8,720 
+                 {txt}{c |}{res}    100.00 {txt}{c |}{res}    100.00 
 why_fafsa_requirement by race_simple_23
 {txt}
 {c TLC}{hline 16}{c TRC}
@@ -13,9 +59,8 @@ why_fafsa_requirement by race_simple_23
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                 {c |}      why fafsa:
-        mutually {c |}    requirement for
- exclusive race, {c |}      graduation
+        mutually {c |} Q11: Requirement for
+ exclusive race, {c |}      Graduation
     2023 version {c |}         0          1 {c |}     Total
 {hline 17}{c +}{hline 22}{c +}{hline 10}
            Black {c |}{res}       210        177 {txt}{c |}{res}       387 
@@ -56,8 +101,8 @@ why_fafsa_assignment by race_simple_23
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-        mutually {c |} why fafsa: assignment
- exclusive race, {c |}       for class
+        mutually {c |}  Q11: Assignment for
+ exclusive race, {c |}         Class
     2023 version {c |}         0          1 {c |}     Total
 {hline 17}{c +}{hline 22}{c +}{hline 10}
            Black {c |}{res}       357         30 {txt}{c |}{res}       387 
@@ -98,9 +143,9 @@ why_fafsa_eligible by race_simple_23
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-                 {c |}   why fafsa: check
-        mutually {c |}    eligibility for
- exclusive race, {c |}     financial aid
+                 {c |}      Q11: Check
+        mutually {c |}    Eligibility for
+ exclusive race, {c |}     Financial Aid
     2023 version {c |}         0          1 {c |}     Total
 {hline 17}{c +}{hline 22}{c +}{hline 10}
            Black {c |}{res}       172        215 {txt}{c |}{res}       387 
@@ -141,8 +186,8 @@ why_fafsa_expected by race_simple_23
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-        mutually {c |}  why fafsa: expected
- exclusive race, {c |}       at school
+        mutually {c |}   Q11: Expected at
+ exclusive race, {c |}        School
     2023 version {c |}         0          1 {c |}     Total
 {hline 17}{c +}{hline 22}{c +}{hline 10}
            Black {c |}{res}       277        110 {txt}{c |}{res}       387 
@@ -184,7 +229,7 @@ why_fafsa_other by race_simple_23
 {c BLC}{hline 16}{c BRC}
 
         mutually {c |}
- exclusive race, {c |}   why fafsa: other
+ exclusive race, {c |}      Q11: Other
     2023 version {c |}         0          1 {c |}     Total
 {hline 17}{c +}{hline 22}{c +}{hline 10}
            Black {c |}{res}       358         29 {txt}{c |}{res}       387 
@@ -225,7 +270,7 @@ when_heard_fafsa by race_simple_23
 {c |}{space 1}{it:row percentage}{col 18}{c |}
 {c BLC}{hline 16}{c BRC}
 
-        mutually {c |}   W12: When did you first hear
+        mutually {c |}   Q12: When did you first hear
  exclusive race, {c |}       about FAFSA or CADAA
     2023 version {c |} Junior ye  Prior to   Senior ye {c |}     Total
 {hline 17}{c +}{hline 33}{c +}{hline 10}
@@ -6624,10 +6669,137 @@ Pacific Islander {c |}{res}         1          1          0 {txt}{c |}{res}     
 {txt}{hline 17}{c +}{hline 33}{c +}{hline 10}
            Total {c |}{res}     1,685      1,516        204 {txt}{c |}{res}     3,405 
                  {txt}{c |}{res}     49.49      44.52       5.99 {txt}{c |}{res}    100.00 
+home_lang_eng by race_simple_23
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+                 {c |}    Q76: Is English
+        mutually {c |}  primary language at
+ exclusive race, {c |}         home
+    2023 version {c |}        No        Yes {c |}     Total
+{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Black {c |}{res}        34        353 {txt}{c |}{res}       387 
+                 {txt}{c |}{res}      8.79      91.21 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+          Native {c |}{res}         5         22 {txt}{c |}{res}        27 
+                 {txt}{c |}{res}     18.52      81.48 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Asian {c |}{res}       580        386 {txt}{c |}{res}       966 
+                 {txt}{c |}{res}     60.04      39.96 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+        Filipino {c |}{res}        48         84 {txt}{c |}{res}       132 
+                 {txt}{c |}{res}     36.36      63.64 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+        Hispanic {c |}{res}     2,920      1,509 {txt}{c |}{res}     4,429 
+                 {txt}{c |}{res}     65.93      34.07 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+Pacific Islander {c |}{res}         5         19 {txt}{c |}{res}        24 
+                 {txt}{c |}{res}     20.83      79.17 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           White {c |}{res}       111      1,207 {txt}{c |}{res}     1,318 
+                 {txt}{c |}{res}      8.42      91.58 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+      Other Race {c |}{res}        94         85 {txt}{c |}{res}       179 
+                 {txt}{c |}{res}     52.51      47.49 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+     Multiracial {c |}{res}       170      1,080 {txt}{c |}{res}     1,250 
+                 {txt}{c |}{res}     13.60      86.40 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Total {c |}{res}     3,967      4,745 {txt}{c |}{res}     8,712 
+                 {txt}{c |}{res}     45.53      54.47 {txt}{c |}{res}    100.00 
+has_job by race_simple_23
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+        mutually {c |}  Q80: current has a
+ exclusive race, {c |}          job
+    2023 version {c |}        No        Yes {c |}     Total
+{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Black {c |}{res}       301         87 {txt}{c |}{res}       388 
+                 {txt}{c |}{res}     77.58      22.42 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+          Native {c |}{res}        18          9 {txt}{c |}{res}        27 
+                 {txt}{c |}{res}     66.67      33.33 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Asian {c |}{res}       755        210 {txt}{c |}{res}       965 
+                 {txt}{c |}{res}     78.24      21.76 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+        Filipino {c |}{res}       102         30 {txt}{c |}{res}       132 
+                 {txt}{c |}{res}     77.27      22.73 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+        Hispanic {c |}{res}     3,519        906 {txt}{c |}{res}     4,425 
+                 {txt}{c |}{res}     79.53      20.47 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+Pacific Islander {c |}{res}        18          6 {txt}{c |}{res}        24 
+                 {txt}{c |}{res}     75.00      25.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           White {c |}{res}       760        557 {txt}{c |}{res}     1,317 
+                 {txt}{c |}{res}     57.71      42.29 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+      Other Race {c |}{res}       130         48 {txt}{c |}{res}       178 
+                 {txt}{c |}{res}     73.03      26.97 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+     Multiracial {c |}{res}       872        378 {txt}{c |}{res}     1,250 
+                 {txt}{c |}{res}     69.76      30.24 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 22}{c +}{hline 10}
+           Total {c |}{res}     6,475      2,231 {txt}{c |}{res}     8,706 
+                 {txt}{c |}{res}     74.37      25.63 {txt}{c |}{res}    100.00 
+hours_perweek by race_simple_23
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+        mutually {c |}
+ exclusive race, {c |}   Q81: how many hours a week do you work
+    2023 version {c |}     10-19      20-30  Less than  More than {c |}     Total
+{hline 17}{c +}{hline 44}{c +}{hline 10}
+           Black {c |}{res}        37         17         30          3 {txt}{c |}{res}        87 
+                 {txt}{c |}{res}     42.53      19.54      34.48       3.45 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 44}{c +}{hline 10}
+          Native {c |}{res}         2          3          3          1 {txt}{c |}{res}         9 
+                 {txt}{c |}{res}     22.22      33.33      33.33      11.11 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 44}{c +}{hline 10}
+           Asian {c |}{res}        92         25         87          6 {txt}{c |}{res}       210 
+                 {txt}{c |}{res}     43.81      11.90      41.43       2.86 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 44}{c +}{hline 10}
+        Filipino {c |}{res}        15          6          8          1 {txt}{c |}{res}        30 
+                 {txt}{c |}{res}     50.00      20.00      26.67       3.33 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 44}{c +}{hline 10}
+        Hispanic {c |}{res}       343        251        226         83 {txt}{c |}{res}       903 
+                 {txt}{c |}{res}     37.98      27.80      25.03       9.19 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 44}{c +}{hline 10}
+Pacific Islander {c |}{res}         4          1          1          0 {txt}{c |}{res}         6 
+                 {txt}{c |}{res}     66.67      16.67      16.67       0.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 44}{c +}{hline 10}
+           White {c |}{res}       235        110        173         39 {txt}{c |}{res}       557 
+                 {txt}{c |}{res}     42.19      19.75      31.06       7.00 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 44}{c +}{hline 10}
+      Other Race {c |}{res}        16         10         19          3 {txt}{c |}{res}        48 
+                 {txt}{c |}{res}     33.33      20.83      39.58       6.25 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 44}{c +}{hline 10}
+     Multiracial {c |}{res}       138         91        114         34 {txt}{c |}{res}       377 
+                 {txt}{c |}{res}     36.60      24.14      30.24       9.02 {txt}{c |}{res}    100.00 
+{txt}{hline 17}{c +}{hline 44}{c +}{hline 10}
+           Total {c |}{res}       882        514        661        170 {txt}{c |}{res}     2,227 
+                 {txt}{c |}{res}     39.60      23.08      29.68       7.63 {txt}{c |}{res}    100.00 
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_questions_race_simple_23.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 1 Oct 2024, 14:28:39
+ {txt}closed on:  {res}11 Dec 2024, 17:28:49
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

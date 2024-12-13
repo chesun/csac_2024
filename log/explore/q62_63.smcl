@@ -1,0 +1,48 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/q62_63.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}11 Dec 2024, 17:28:51
+{txt}
+{com}. 
+. tab complete_atog if hs_senior==1, missing
+
+   {txt}Q62: are {c |}
+     you on {c |}
+   track to {c |}
+   complete {c |}
+        a-g {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+   Not sure {c |}{res}      1,467       12.60       12.60
+{txt}         No {c |}{res}        635        5.45       18.06
+{txt}        Yes {c |}{res}      6,742       57.91       75.97
+{txt}          . {c |}{res}      2,798       24.03      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}     11,642      100.00
+{txt}
+{com}. 
+. tab track_atog if hs_senior==1, missing 
+
+{txt}Q63: how difficult {c |}
+    was it to keep {c |}
+      track of a-g {c |}
+          progress {c |}      Freq.     Percent        Cum.
+{hline 19}{c +}{hline 35}
+       It was easy {c |}{res}      4,495       38.61       38.61
+{txt}          Not sure {c |}{res}      1,342       11.53       50.14
+{txt}Somewhat difficult {c |}{res}      2,561       22.00       72.14
+{txt}    Very difficult {c |}{res}        430        3.69       75.83
+{txt}                 . {c |}{res}      2,814       24.17      100.00
+{txt}{hline 19}{c +}{hline 35}
+             Total {c |}{res}     11,642      100.00
+{txt}
+{com}. 
+. log close 
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/q62_63.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}11 Dec 2024, 17:28:51
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
