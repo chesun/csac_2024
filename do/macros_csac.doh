@@ -428,7 +428,7 @@ local all_qs
     ;
 
 local demo_qs
-    race_hrchy parent_edu gender 
+    race_hrchy parent_edu  
     ;
 
 
