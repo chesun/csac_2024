@@ -34,13 +34,15 @@ keep     coll_att_3pt_important coll_att_3pt_worth coll_att_3pt_ready
     attend_coll
 
         fall_plan_workpt fall_plan_workft fall_plan_family
-    fall_plan_military fall_plan_other
+    fall_plan_military fall_plan_other fall_plan_other_text
 
         why_no_coll_notforme why_no_coll_expensive why_no_coll_notworth
     why_no_coll_gapyear why_no_coll_military why_no_coll_health
     why_no_coll_work why_no_coll_training why_no_coll_other
 
         coll_decision_financial coll_decision_academic coll_decision_family
+
+        race_hrchy gender parent_edu 
     ;
 
 
