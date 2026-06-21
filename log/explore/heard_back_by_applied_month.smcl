@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/heard_back_by_applied_month.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}11 Dec 2024, 17:28:51
+ {txt}opened on:  {res}21 Jun 2026, 16:40:37
 {txt}
 {com}. 
 . bysort month: tab  coll_applied_coded_trunc coll_contact, row 
@@ -230,7 +230,7 @@ CCC,CSU,UC,VOCATIONAL {c |}{res}         0          1          0 {txt}{c |}{res}
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/heard_back_by_applied_month.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}11 Dec 2024, 17:28:51
+ {txt}closed on:  {res}21 Jun 2026, 16:40:37
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

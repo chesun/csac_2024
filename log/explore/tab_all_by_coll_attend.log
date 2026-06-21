@@ -3,7 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
 > all_by_coll_attend.smcl
   log type:  smcl
- opened on:  11 Dec 2024, 17:28:51
+ opened on:  21 Jun 2026, 16:40:37
 
 . 
 .     foreach var of local all_qs {
@@ -6241,5 +6241,5 @@ None of these |       166         82        145         22 |       415
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
 > all_by_coll_attend.smcl
   log type:  smcl
- closed on:  11 Dec 2024, 17:28:51
+ closed on:  21 Jun 2026, 16:40:37
 -------------------------------------------------------------------------------

@@ -8,7 +8,7 @@ This is the 2024 iteration of the 2023 survey (project `csac_survey2023`; local 
 
 **Code author:** Christina Sun (CS, `che.sun.1996@gmail.com`).
 
-**CS offboarding (in progress, as of 2026-06-21):** README drafted. Remaining: complete `do/main.do` as the full end-to-end pipeline, run it on the Scribe server, and verify it runs without error.
+**CS offboarding complete (2026-06-21):** README and the full `do/main.do` pipeline finalized. The pipeline ran end to end on the Scribe server with no errors; logs and the appendix tables were synced back to this repo.
 
 ---
 
@@ -28,7 +28,7 @@ The report PDFs are written and assembled outside this repo. This repo's shipped
 - **2024-08** — Repo created (2024-08-01). The raw Qualtrics export (2024-08-02) is cleaned into the analysis dataset; initial sample-characteristics and question tabulations written.
 - **2025-01** — Appendix tabulation tables built for the CSAC and C2C reports; non-college-going subsample (`no_idk_col_sample.do`) created (2025-01-29).
 - **2025-02 / 2025-04** — C2C and CSAC reports published.
-- **2026-06** — Offboarding: README, full `main.do` pipeline, and end-to-end verification on Scribe.
+- **2026-06-21** — Offboarding: README and full `main.do` pipeline (clean → explore → sample → share) finalized; pipeline verified end to end on Scribe with no errors. `main.do` switched to `ssc install asdoc`.
 
 ---
 
@@ -48,13 +48,13 @@ global csac2023projdir "/home/research/ca_ed_lab/projects/csac_survey2023"
 
 ### Running the full pipeline
 
-`do/main.do` is the master file: it `cd`s to the project directory, sources `do/settings.do`, (re)installs `asdoc`, and runs the do files in order:
+`do/main.do` is the master file: it `cd`s to the project directory, sources `do/settings.do`, installs `asdoc` from SSC, and runs the do files in order:
 
 ```stata
 do do/main.do
 ```
 
-> **Note:** `main.do` is mid-buildout. As of this README it runs the cleaning step and the two `explore/` scripts, but not yet `do/sample/no_idk_col_sample.do` or `do/share/appendix_tab.do`. Completing it as the full end-to-end pipeline (clean → explore → sample → share) is an open offboarding task.
+> **Note:** `main.do` runs the full pipeline (clean → explore → sample → share) and was verified end to end on Scribe (2026-06-21). On a fresh checkout, set `local mkdir 1` near the top of the file for the first run to create the output folders.
 
 ---
 
@@ -64,7 +64,7 @@ Local repo (code + synced-back outputs):
 
 ```
 do/                                  Stata do files (all executable code)
-  main.do                              Master pipeline (mid-buildout)
+  main.do                              Master pipeline (clean -> explore -> sample -> share)
   settings.do                          Global path macros (Scribe server paths)
   macros_csac.doh                      Per-question variable-lists & label strings; include AFTER loading data
   clean/                               Data cleaning
@@ -141,10 +141,9 @@ Paths use the `do/settings.do` globals. Inputs marked **[external]** are not pro
 
 ## Gotchas for the next person
 
-- **`main.do` is incomplete.** It does not yet call `do/sample/` or `do/share/`. Finish it as clean → explore → sample → share before treating it as the full pipeline.
 - **`macros_csac.doh` needs data loaded first.** `include` it only after a `use`; it builds macros from the loaded variables and errors on an empty dataset.
 - **One cleaned dataset feeds everything.** Every analysis script reads `csac_2024_initial_clean.dta`, so `clean_qualtrics_download.do` must run before anything else.
 - **Use the August 2, 2024 Qualtrics export.** An earlier export imports incorrectly (line breaks in text responses).
 - **`tab_questions.do` reaches into the 2023 project.** Its comparison section (`tab_questions.do:178`) reads `$csac2023projdir/dta/cln/csac_hs_senior_2023_brief.dta`; that file must exist on Scribe or the comparison errors.
-- **Network install.** `main.do` reinstalls `asdoc` from `fintechprofessor.com`; the server needs internet access on first run.
+- **Network install.** `main.do` installs `asdoc` from SSC (`ssc install asdoc, replace`); the server needs internet access on first run.
 - **Stata version.** No `version` is set in the do files; run on Scribe (the project's standard Stata install) to match the authoring environment.

@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/explore_sample_char.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}16 Sep 2024, 15:14:17
+ {txt}opened on:  {res}21 Jun 2026, 16:40:33
 {txt}
 {com}. 
 . graph drop _all
@@ -28,16 +28,16 @@
 . 
 . tab hs_senior 
 
-        {txt}W8: {c |}
+        {txt}Q8: {c |}
   Graduated {c |}
       HS in {c |}
   spring or {c |}
 summer 2024 {c |}      Freq.     Percent        Cum.
 {hline 12}{c +}{hline 35}
-         No {c |}{res}      2,431       17.27       17.27
-{txt}        Yes {c |}{res}     11,642       82.73      100.00
+         No {c |}{res}      2,429       17.26       17.26
+{txt}        Yes {c |}{res}     11,642       82.74      100.00
 {txt}{hline 12}{c +}{hline 35}
-      Total {c |}{res}     14,073      100.00
+      Total {c |}{res}     14,071      100.00
 {txt}
 {com}. 
 . tab attend_coll if hs_senior == 1
@@ -386,7 +386,7 @@ resrc_essa~l {c |}{res}      8,337    .1418976     .348966          0          1
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/explore_sample_char.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}16 Sep 2024, 15:14:17
+ {txt}closed on:  {res}21 Jun 2026, 16:40:33
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

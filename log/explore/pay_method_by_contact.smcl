@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/pay_method_by_contact.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}11 Dec 2024, 17:28:53
+ {txt}opened on:  {res}21 Jun 2026, 16:40:40
 {txt}
 {com}. 
 . use `csac2024', clear 
@@ -445,7 +445,7 @@ payment plan: pay_plan_credit crosstab by q42: subject of contact coll_contact_s
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/pay_method_by_contact.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}11 Dec 2024, 17:28:54
+ {txt}closed on:  {res}21 Jun 2026, 16:40:40
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

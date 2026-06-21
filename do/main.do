@@ -26,9 +26,7 @@ set scheme s1color
 set seed 1984
 
 // asdoc is required by do/share/appendix_tab.do; reinstall a clean copy
-net install uninstall_asdoc, from(http://fintechprofessor.com) replace
-uninstall_asdoc
-net install asdoc, from(http://fintechprofessor.com) replace
+ssc install asdoc, replace
 
 // First run on a fresh checkout? set to 1 to create the output folders
 local mkdir 0

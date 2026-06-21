@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/select_all_denom.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}11 Dec 2024, 17:28:51
+ {txt}opened on:  {res}21 Jun 2026, 16:40:37
 {txt}
 {com}. 
 . foreach var of local select_all_raw_qs {c -(}
@@ -129,7 +129,7 @@ number of nonmissing responses for why_de_raw
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/select_all_denom.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}11 Dec 2024, 17:28:51
+ {txt}closed on:  {res}21 Jun 2026, 16:40:37
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

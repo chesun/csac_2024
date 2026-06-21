@@ -3,7 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/clean/clean_
 > qualtrics_download.smcl
   log type:  smcl
- opened on:   4 Dec 2024, 17:57:50
+ opened on:  21 Jun 2026, 16:40:23
 
 . 
 . graph drop _all
@@ -1833,6 +1833,7 @@
 . drop q73 
 
 . 
+. 
 . label define home_lang_eng_lab 0 "No" 1 "Yes"
 
 . encode q76, g(home_lang_eng) l(home_lang_eng_lab)
@@ -2158,11 +2159,12 @@
   why_no_atog_other_text is strL now coalesced
   why_de_raw is strL now coalesced
   why_de_other_text is strL now coalesced
+  race_raw is strL now coalesced
   other_race_text is strL now coalesced
   gender_other_text is strL now coalesced
   coll_excite is strL now coalesced
   coll_challenge is strL now coalesced
-  (46,406,730 bytes saved)
+  (47,049,331 bytes saved)
 
 . save $projdir/dta/csac_2024_initial_clean.dta, replace 
 file
@@ -2176,5 +2178,5 @@ file
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/clean/clean_
 > qualtrics_download.smcl
   log type:  smcl
- closed on:   4 Dec 2024, 17:58:07
+ closed on:  21 Jun 2026, 16:40:33
 -------------------------------------------------------------------------------

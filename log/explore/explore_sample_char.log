@@ -3,7 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/expl
 > ore_sample_char.smcl
   log type:  smcl
- opened on:  16 Sep 2024, 15:14:17
+ opened on:  21 Jun 2026, 16:40:33
 
 . 
 . graph drop _all
@@ -28,16 +28,16 @@
 . 
 . tab hs_senior 
 
-        W8: |
+        Q8: |
   Graduated |
       HS in |
   spring or |
 summer 2024 |      Freq.     Percent        Cum.
 ------------+-----------------------------------
-         No |      2,431       17.27       17.27
-        Yes |     11,642       82.73      100.00
+         No |      2,429       17.26       17.26
+        Yes |     11,642       82.74      100.00
 ------------+-----------------------------------
-      Total |     14,073      100.00
+      Total |     14,071      100.00
 
 . 
 . tab attend_coll if hs_senior == 1
@@ -387,5 +387,5 @@ resrc_coun~r |      8,337    .0870817    .2819716          0          1
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/expl
 > ore_sample_char.smcl
   log type:  smcl
- closed on:  16 Sep 2024, 15:14:17
+ closed on:  21 Jun 2026, 16:40:33
 -------------------------------------------------------------------------------

@@ -3,7 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/pay_
 > method_by_contact.smcl
   log type:  smcl
- opened on:  11 Dec 2024, 17:28:53
+ opened on:  21 Jun 2026, 16:40:40
 
 . 
 . use `csac2024', clear 
@@ -487,5 +487,5 @@ payment plan: pay_plan_credit crosstab by q42: subject of contact coll_contact_
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/pay_
 > method_by_contact.smcl
   log type:  smcl
- closed on:  11 Dec 2024, 17:28:54
+ closed on:  21 Jun 2026, 16:40:40
 -------------------------------------------------------------------------------

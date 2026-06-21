@@ -3,7 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/comp
 > are_2023.smcl
   log type:  smcl
- opened on:  11 Dec 2024, 17:28:52
+ opened on:  21 Jun 2026, 16:40:38
 
 . 
 . use $projdir/dta/csac_2024_initial_clean.dta, clear 
@@ -11,8 +11,8 @@
 . tempfile csac2024 
 
 . save `csac2024', replace 
-(file /home/tmp/St30105.000001 not found)
-file /home/tmp/St30105.000001 saved as .dta format
+(file /home/tmp/St164492.000001 not found)
+file /home/tmp/St164492.000001 saved as .dta format
 
 . 
 . use "$csac2023projdir/dta/cln/csac_hs_senior_2023_brief.dta", clear 
@@ -21,8 +21,8 @@ file /home/tmp/St30105.000001 saved as .dta format
 . tempfile csac2023
 
 . save `csac2023', replace 
-(file /home/tmp/St30105.000002 not found)
-file /home/tmp/St30105.000002 saved as .dta format
+(file /home/tmp/St164492.000002 not found)
+file /home/tmp/St164492.000002 saved as .dta format
 
 . 
 . //why did you complete FAFSA
@@ -1241,7 +1241,7 @@ Not at all worried |      2,859       34.30       34.30
 
 . tab worry_tuition 
 
-   how worried are |
+   How worried are |
          you about |
  affording tuition |
               fees |      Freq.     Percent        Cum.
@@ -1255,7 +1255,7 @@ Not at all worried |        895       11.25       11.25
 
 . tab worry_living 
 
-   how worried are |
+   How worried are |
   you about living |
           expenses |      Freq.     Percent        Cum.
 -------------------+-----------------------------------
@@ -1268,7 +1268,7 @@ Not at all worried |      1,369       17.21       17.21
 
 . tab worry_academic
 
-   how worried are |
+   How worried are |
          you about |
    performing well |
       academically |      Freq.     Percent        Cum.
@@ -1282,7 +1282,7 @@ Not at all worried |      1,342       16.86       16.86
 
 . tab worry_work 
 
-   how worried are |
+   How worried are |
          you about |
     balancing work |
        obligations |      Freq.     Percent        Cum.
@@ -1296,7 +1296,7 @@ Not at all worried |      1,112       14.00       14.00
 
 . tab worry_family 
 
-   how worried are |
+   How worried are |
          you about |
   balancing family |
        obligations |      Freq.     Percent        Cum.
@@ -1310,7 +1310,7 @@ Not at all worried |      2,913       36.68       36.68
 
 . tab worry_community 
 
-   how worried are |
+   How worried are |
  you about finding |
          community |      Freq.     Percent        Cum.
 -------------------+-----------------------------------
@@ -1323,7 +1323,7 @@ Not at all worried |      2,123       26.76       26.76
 
 . tab worry_away 
 
-   how worried are |
+   How worried are |
   you about living |
     away from home |      Freq.     Percent        Cum.
 -------------------+-----------------------------------
@@ -1336,7 +1336,7 @@ Not at all worried |      3,645       45.86       45.86
 
 . tab worry_support 
 
- how worried about |
+ How worried about |
    having adequate |
        support for |
      emotional and |
@@ -1357,5 +1357,5 @@ Not at all worried |      2,620       32.98       32.98
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/comp
 > are_2023.smcl
   log type:  smcl
- closed on:  11 Dec 2024, 17:28:53
+ closed on:  21 Jun 2026, 16:40:40
 -------------------------------------------------------------------------------

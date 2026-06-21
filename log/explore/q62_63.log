@@ -3,7 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/q62_
 > 63.smcl
   log type:  smcl
- opened on:  11 Dec 2024, 17:28:51
+ opened on:  21 Jun 2026, 16:40:37
 
 . 
 . tab complete_atog if hs_senior==1, missing
@@ -43,5 +43,5 @@ Somewhat difficult |      2,561       22.00       72.14
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/q62_
 > 63.smcl
   log type:  smcl
- closed on:  11 Dec 2024, 17:28:51
+ closed on:  21 Jun 2026, 16:40:37
 -------------------------------------------------------------------------------

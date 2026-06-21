@@ -9,16 +9,9 @@ Guidance for Claude Code (claude.ai/code) working in this repository. Kept lean 
 
 ---
 
-## Offboarding status (CS, 2026)
+## Offboarding status (CS)
 
-CS is offboarding from CEL and wrapping up this project. Open tasks, in order:
-
-1. Draft `README.md` (handoff doc for the next maintainer).
-2. Fill in `do/main.do` to run the full pipeline start to finish, with a one-line description of each do file.
-3. Run the entire pipeline end to end on the **Scribe** server and verify it runs without error.
-4. Record the input and output of each do file in the README.
-
-Track this in `TODO.md` / the `.claude/` workflow as it progresses.
+Offboarding **complete (2026-06-21)**. The full pipeline (`clean → explore → sample → share`) ran end to end on the **Scribe** server with no errors; logs and appendix tables were synced back. See `README.md` for the per-file input/output reference, external inputs, and gotchas.
 
 ---
 
@@ -49,19 +42,19 @@ global csac2023projdir "/home/research/ca_ed_lab/projects/csac_survey2023"
 
 ## Running the pipeline
 
-`do/main.do` is the master file: it `cd`s to the project dir, sources `do/settings.do`, (re)installs `asdoc`, then runs the do files in order. Run with:
+`do/main.do` is the master file: it `cd`s to the project dir, sources `do/settings.do`, installs `asdoc` from SSC, then runs the do files in order. Run with:
 
 ```stata
 do do/main.do
 ```
 
-`main.do` is **mid-buildout** for offboarding — it currently runs cleaning plus the two `explore/` scripts but does not yet call `do/sample/` or `do/share/`. Completing it end to end is the open task above.
+`main.do` runs the full pipeline (`clean → explore → sample → share`), verified end to end on Scribe (2026-06-21). On a fresh checkout, set `local mkdir 1` near the top for the first run to create output folders.
 
 ## Repository structure
 
 ```
 do/                                  Stata do files (all executable code)
-  main.do                              Master pipeline (mid-buildout)
+  main.do                              Master pipeline (clean -> explore -> sample -> share)
   settings.do                          Global path macros (Scribe server paths)
   macros_csac.doh                      Question variable-lists & label strings; include AFTER loading data
   clean/clean_qualtrics_download.do    Raw Qualtrics CSV -> cleaned dataset
