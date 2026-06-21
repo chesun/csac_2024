@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/compare_2023.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}11 Dec 2024, 17:28:52
+ {txt}opened on:  {res}21 Jun 2026, 16:40:38
 {txt}
 {com}. 
 . use $projdir/dta/csac_2024_initial_clean.dta, clear 
@@ -13,12 +13,12 @@
 {com}. save `csac2024', replace 
 {txt}{p 0 4 2}
 (file {bf}
-/home/tmp/St30105.000001{rm}
+/home/tmp/St164492.000001{rm}
 not found)
 {p_end}
 {p 0 4 2}
 file {bf}
-/home/tmp/St30105.000001{rm}
+/home/tmp/St164492.000001{rm}
 saved
 as .dta format
 {p_end}
@@ -32,12 +32,12 @@ as .dta format
 {com}. save `csac2023', replace 
 {txt}{p 0 4 2}
 (file {bf}
-/home/tmp/St30105.000002{rm}
+/home/tmp/St164492.000002{rm}
 not found)
 {p_end}
 {p 0 4 2}
 file {bf}
-/home/tmp/St30105.000002{rm}
+/home/tmp/St164492.000002{rm}
 saved
 as .dta format
 {p_end}
@@ -1249,7 +1249,7 @@ Not at all worried {c |}{res}      2,859       34.30       34.30
 
 {com}. tab worry_tuition 
 
-   {txt}how worried are {c |}
+   {txt}How worried are {c |}
          you about {c |}
  affording tuition {c |}
               fees {c |}      Freq.     Percent        Cum.
@@ -1263,7 +1263,7 @@ Not at all worried {c |}{res}        895       11.25       11.25
 {txt}
 {com}. tab worry_living 
 
-   {txt}how worried are {c |}
+   {txt}How worried are {c |}
   you about living {c |}
           expenses {c |}      Freq.     Percent        Cum.
 {hline 19}{c +}{hline 35}
@@ -1276,7 +1276,7 @@ Not at all worried {c |}{res}      1,369       17.21       17.21
 {txt}
 {com}. tab worry_academic
 
-   {txt}how worried are {c |}
+   {txt}How worried are {c |}
          you about {c |}
    performing well {c |}
       academically {c |}      Freq.     Percent        Cum.
@@ -1290,7 +1290,7 @@ Not at all worried {c |}{res}      1,342       16.86       16.86
 {txt}
 {com}. tab worry_work 
 
-   {txt}how worried are {c |}
+   {txt}How worried are {c |}
          you about {c |}
     balancing work {c |}
        obligations {c |}      Freq.     Percent        Cum.
@@ -1304,7 +1304,7 @@ Not at all worried {c |}{res}      1,112       14.00       14.00
 {txt}
 {com}. tab worry_family 
 
-   {txt}how worried are {c |}
+   {txt}How worried are {c |}
          you about {c |}
   balancing family {c |}
        obligations {c |}      Freq.     Percent        Cum.
@@ -1318,7 +1318,7 @@ Not at all worried {c |}{res}      2,913       36.68       36.68
 {txt}
 {com}. tab worry_community 
 
-   {txt}how worried are {c |}
+   {txt}How worried are {c |}
  you about finding {c |}
          community {c |}      Freq.     Percent        Cum.
 {hline 19}{c +}{hline 35}
@@ -1331,7 +1331,7 @@ Not at all worried {c |}{res}      2,123       26.76       26.76
 {txt}
 {com}. tab worry_away 
 
-   {txt}how worried are {c |}
+   {txt}How worried are {c |}
   you about living {c |}
     away from home {c |}      Freq.     Percent        Cum.
 {hline 19}{c +}{hline 35}
@@ -1344,7 +1344,7 @@ Not at all worried {c |}{res}      3,645       45.86       45.86
 {txt}
 {com}. tab worry_support 
 
- {txt}how worried about {c |}
+ {txt}How worried about {c |}
    having adequate {c |}
        support for {c |}
      emotional and {c |}
@@ -1364,7 +1364,7 @@ Not at all worried {c |}{res}      2,620       32.98       32.98
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/compare_2023.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}11 Dec 2024, 17:28:53
+ {txt}closed on:  {res}21 Jun 2026, 16:40:40
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

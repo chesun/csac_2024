@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_why_fafsa.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}11 Dec 2024, 17:28:52
+ {txt}opened on:  {res}21 Jun 2026, 16:40:38
 {txt}
 {com}. 
 . di "simple tabulation"
@@ -367,7 +367,7 @@ Graduate/Professional {c |}{res}       532        635 {txt}{c |}{res}     1,167
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_why_fafsa.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}11 Dec 2024, 17:28:52
+ {txt}closed on:  {res}21 Jun 2026, 16:40:38
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

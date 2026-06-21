@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_all_by_coll_attend.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}11 Dec 2024, 17:28:51
+ {txt}opened on:  {res}21 Jun 2026, 16:40:37
 {txt}
 {com}. 
 .     foreach var of local all_qs {c -(}
@@ -6068,7 +6068,7 @@ None of these {c |}{res}       166         82        145         22 {txt}{c |}{r
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_all_by_coll_attend.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}11 Dec 2024, 17:28:51
+ {txt}closed on:  {res}21 Jun 2026, 16:40:37
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

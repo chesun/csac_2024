@@ -3,7 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
 > questions_simple.smcl
   log type:  smcl
- opened on:  11 Dec 2024, 17:28:50
+ opened on:  21 Jun 2026, 16:40:36
 
 . 
 . foreach var of local all_qs {
@@ -1774,5 +1774,5 @@ More than 30 |        170        7.60      100.00
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/tab_
 > questions_simple.smcl
   log type:  smcl
- closed on:  11 Dec 2024, 17:28:51
+ closed on:  21 Jun 2026, 16:40:37
 -------------------------------------------------------------------------------

@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/clean/clean_qualtrics_download.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res} 4 Dec 2024, 17:57:50
+ {txt}opened on:  {res}21 Jun 2026, 16:40:23
 {txt}
 {com}. 
 . graph drop _all
@@ -1653,6 +1653,7 @@
 {com}. drop q73 
 {txt}
 {com}. 
+. 
 . label define home_lang_eng_lab 0 "No" 1 "Yes"
 {txt}
 {com}. encode q76, g(home_lang_eng) l(home_lang_eng_lab)
@@ -1976,11 +1977,12 @@
   {bf}{res}why_no_atog_other_text{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}why_de_raw{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}why_de_other_text{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
+  {bf}{res}race_raw{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}other_race_text{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}gender_other_text{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}coll_excite{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
   {bf}{res}coll_challenge{sf}{txt} is {bf}{res}strL{sf}{txt} now coalesced
-  (46,406,730 bytes saved)
+  (47,049,331 bytes saved)
 
 {com}. save $projdir/dta/csac_2024_initial_clean.dta, replace 
 {txt}{p 0 4 2}
@@ -1995,7 +1997,7 @@ saved
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}/home/research/ca_ed_lab/projects/csac_survey2024/log/clean/clean_qualtrics_download.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res} 4 Dec 2024, 17:58:07
+ {txt}closed on:  {res}21 Jun 2026, 16:40:33
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

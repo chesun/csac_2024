@@ -3,7 +3,7 @@
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/hear
 > d_back_by_applied_month.smcl
   log type:  smcl
- opened on:  11 Dec 2024, 17:28:51
+ opened on:  21 Jun 2026, 16:40:37
 
 . 
 . bysort month: tab  coll_applied_coded_trunc coll_contact, row 
@@ -231,5 +231,5 @@ CCC,CSU,UC,VOCATIONAL |         0          1          0 |         1
        log:  /home/research/ca_ed_lab/projects/csac_survey2024/log/explore/hear
 > d_back_by_applied_month.smcl
   log type:  smcl
- closed on:  11 Dec 2024, 17:28:51
+ closed on:  21 Jun 2026, 16:40:37
 -------------------------------------------------------------------------------
