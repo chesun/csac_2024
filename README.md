@@ -1,5 +1,7 @@
 # CSAC / C2C 2024 High School Graduating Senior Survey
 
+> **Part of the [CEL Resource Hub](https://christinasun.net/cel_resource_hub/)** — Christina Sun's index of CEL code handoffs plus setup and workflow guides for inheriting them. Hub page for this repo: <https://christinasun.net/cel_resource_hub/repositories/csac-2024/>.
+
 Code, outputs, and documentation for the **2024 California high school graduating senior survey**, a collaboration between the California Education Lab (CEL, UC Davis), the California Student Aid Commission (CSAC), and the California Cradle-to-Career Data System (C2C).
 
 A single survey wave was fielded to graduating California high school seniors in 2024; the raw Qualtrics export used here is dated **August 2, 2024**. This repo cleans that survey, explores it, and produces the tabulations that back the two published 2024 reports.
